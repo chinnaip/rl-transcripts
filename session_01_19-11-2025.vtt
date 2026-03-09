@@ -1,0 +1,4809 @@
+WEBVTT
+
+NOTE
+Video URL: https://vimeo.com/1138544008
+Reinforcement Learning Live Session 1 - 19-11-2025
+
+1
+00:09:25.315 --> 00:09:25.665
+Hello?
+
+2
+00:09:26.195 --> 00:09:29.655
+Hello? Hello.
+
+3
+00:09:30.435 --> 00:09:34.615
+Hi, sir. Good? Yeah. Hi. Yeah, hi.
+
+4
+00:09:37.035 --> 00:09:41.725
+Yeah. Good afternoon. Uh, good evening everyone, sir.
+
+5
+00:09:41.795 --> 00:09:43.085
+Good evening, Sir. Now I see
+
+6
+00:09:43.965 --> 00:09:45.205
+19 participants has joined.
+
+7
+00:09:47.815 --> 00:09:50.375
+I have not got that information at total.
+
+8
+00:09:50.475 --> 00:09:55.445
+How many people have opted for this course? Okay.
+
+9
+00:09:55.545 --> 00:09:59.275
+So all of you belong
+
+10
+00:09:59.275 --> 00:10:01.155
+to Gen AI specialization, right?
+
+11
+00:10:01.695 --> 00:10:02.915
+Yes, sir. Yes, sir.
+
+12
+00:10:04.075 --> 00:10:08.165
+Okay. Most of the people I think as I,
+
+13
+00:10:08.505 --> 00:10:11.605
+as I have heard, are joined unit.
+
+14
+00:10:13.475 --> 00:10:16.645
+Okay, fine. So there should be at least 50
+
+15
+00:10:16.645 --> 00:10:17.845
+plus people in this box?
+
+16
+00:10:18.835 --> 00:10:20.495
+Yeah. Yeah. Okay.
+
+17
+00:10:20.495 --> 00:10:22.895
+Till now, 21 people have joined in. Yeah.
+
+18
+00:10:22.955 --> 00:10:25.255
+Better to wait for five minutes. Uh, we'll see.
+
+19
+00:10:25.405 --> 00:10:28.175
+Yeah. Better to wait for five minutes, eh,
+
+20
+00:10:28.635 --> 00:10:31.455
+So most of you belong to software industry
+
+21
+00:10:31.555 --> 00:10:33.215
+or any other industry out there?
+
+22
+00:10:33.885 --> 00:10:37.255
+Yeah, there is, uh, various, uh, group things.
+
+23
+00:10:37.925 --> 00:10:40.735
+Okay. What kind of My is
+
+24
+00:10:40.935 --> 00:10:41.975
+relative supply chain management.
+
+25
+00:10:43.415 --> 00:10:46.465
+Okay. Fine Banking, sir.
+
+26
+00:10:47.745 --> 00:10:51.105
+In banking. Okay. So what kind of, like,
+
+27
+00:10:51.395 --> 00:10:53.865
+apart from software industry, what kind of, I mean,
+
+28
+00:10:54.495 --> 00:10:58.225
+application do you come across from your project
+
+29
+00:10:58.535 --> 00:11:00.105
+requirement in general?
+
+30
+00:11:01.565 --> 00:11:04.825
+No. Same, uh, things we are using there also,
+
+31
+00:11:06.115 --> 00:11:07.655
+it is not like that same python
+
+32
+00:11:07.835 --> 00:11:09.615
+and all things we are using there.
+
+33
+00:11:10.435 --> 00:11:15.175
+Gen ai, uh, it is coming up as it is for me,
+
+34
+00:11:15.275 --> 00:11:19.255
+as it is bank things take time to, you know, uh,
+
+35
+00:11:20.435 --> 00:11:22.655
+get processed and get updated.
+
+36
+00:11:22.955 --> 00:11:27.585
+And, uh, the thing is that I'm seeing a lot of, uh, internal
+
+37
+00:11:28.215 --> 00:11:32.975
+GPTs are coming, but we're not HandsOn.
+
+38
+00:11:33.035 --> 00:11:36.695
+Uh, right now we are mostly working on ML models and all.
+
+39
+00:11:36.835 --> 00:11:41.195
+Mm-hmm. But we are not HandsOn on in our team.
+
+40
+00:11:41.615 --> 00:11:43.275
+Implementation is not,
+
+41
+00:11:44.815 --> 00:11:46.635
+but in organization it is there.
+
+42
+00:11:47.855 --> 00:11:51.855
+Okay. So you get a tool from your, uh, internal,
+
+43
+00:11:52.075 --> 00:11:53.365
+uh, procurement team.
+
+44
+00:11:53.555 --> 00:11:55.445
+They'll tell you what are the use cases.
+
+45
+00:11:57.435 --> 00:11:59.805
+Yeah. But it is a little bit difficult.
+
+46
+00:12:00.915 --> 00:12:02.565
+It's not as straightforward.
+
+47
+00:12:04.865 --> 00:12:07.835
+What is the requirement of the job? We get that only sir.
+
+48
+00:12:08.585 --> 00:12:11.605
+And apart from that, it is little bit difficult
+
+49
+00:12:11.605 --> 00:12:14.125
+to get the access and all kind of stuff
+
+50
+00:12:15.065 --> 00:12:17.155
+because multiple, multiple level
+
+51
+00:12:17.215 --> 00:12:19.075
+of approval is required for that.
+
+52
+00:12:20.525 --> 00:12:22.625
+And justification needs to be provided.
+
+53
+00:12:22.805 --> 00:12:24.705
+Why we required those things actually
+
+54
+00:12:26.505 --> 00:12:28.655
+until the proper justification is not
+
+55
+00:12:28.655 --> 00:12:30.295
+there, no one will approve. So like,
+
+56
+00:12:30.435 --> 00:12:34.775
+Uh, do you have any requirement, like you have
+
+57
+00:12:34.775 --> 00:12:39.015
+to generate a, a response based on a given query
+
+58
+00:12:39.195 --> 00:12:42.095
+of a user automatically?
+
+59
+00:12:44.315 --> 00:12:45.775
+Uh, no. It is not there,
+
+60
+00:12:45.915 --> 00:12:48.175
+but, uh, presently it is not there,
+
+61
+00:12:48.195 --> 00:12:51.495
+but it's, it is part, uh, reinforcement, uh, learning is,
+
+62
+00:12:52.195 --> 00:12:55.415
+it is part of my project, uh, for it.
+
+63
+00:12:55.485 --> 00:12:58.015
+That it is one of the part of it.
+
+64
+00:12:59.885 --> 00:13:01.505
+So yeah. Reinforcement learning is part
+
+65
+00:13:01.505 --> 00:13:02.745
+of your project from your company?
+
+66
+00:13:03.445 --> 00:13:07.465
+No, no, from, uh, it, that project for mtech project.
+
+67
+00:13:07.965 --> 00:13:09.785
+Oh, for Mtech project. Oh, okay.
+
+68
+00:13:10.645 --> 00:13:11.985
+I'm not talking about Mtech project.
+
+69
+00:13:12.225 --> 00:13:15.305
+I am asking about your daily requirement in your job. No,
+
+70
+00:13:15.305 --> 00:13:16.545
+No, it is not there, sir.
+
+71
+00:13:16.565 --> 00:13:17.625
+It is for my team.
+
+72
+00:13:17.645 --> 00:13:19.745
+It is not there for other teams might be
+
+73
+00:13:19.745 --> 00:13:20.905
+there, but for my team.
+
+74
+00:13:21.135 --> 00:13:24.985
+Okay. No, actually what happens is, while teaching to the
+
+75
+00:13:25.975 --> 00:13:29.585
+diversified group, like this online mtech, they have a very
+
+76
+00:13:30.465 --> 00:13:32.025
+specific requirement of learning.
+
+77
+00:13:33.245 --> 00:13:36.065
+Uh, like if they want to learn something, learn something,
+
+78
+00:13:36.135 --> 00:13:37.745
+they have a specific requirement.
+
+79
+00:13:37.805 --> 00:13:39.305
+And if that is not matching,
+
+80
+00:13:40.045 --> 00:13:41.975
+then the internet will start falling in.
+
+81
+00:13:43.655 --> 00:13:47.155
+So that is why I wanted to know about what is your, uh,
+
+82
+00:13:47.455 --> 00:13:49.115
+job requirement in your company.
+
+83
+00:13:50.015 --> 00:13:54.075
+And if you have a pre predefined mindset about, we want
+
+84
+00:13:54.075 --> 00:13:57.435
+to know about only that thing, so I need to know whether
+
+85
+00:13:57.545 --> 00:13:59.315
+that will be covered in my course or not.
+
+86
+00:13:59.315 --> 00:14:03.915
+Because we teach for a classical, uh,
+
+87
+00:14:03.965 --> 00:14:08.035
+model, classical dynamics problem, which may not be used
+
+88
+00:14:08.095 --> 00:14:09.995
+by your job requirement.
+
+89
+00:14:11.055 --> 00:14:13.915
+As a result, you may feel that these are of no use for me.
+
+90
+00:14:18.805 --> 00:14:21.225
+Yes. Other people can comment on this.
+
+91
+00:14:21.705 --> 00:14:25.185
+Hmm. One use case, uh, being discussed, uh,
+
+92
+00:14:25.565 --> 00:14:29.225
+in our form was, uh, you know, uh, if, uh, a business, uh,
+
+93
+00:14:29.675 --> 00:14:31.425
+folks comes and they should be able
+
+94
+00:14:31.425 --> 00:14:33.185
+to sit in some natural language query,
+
+95
+00:14:33.245 --> 00:14:37.065
+and that should leverage a graph based rack to, you know,
+
+96
+00:14:37.065 --> 00:14:38.585
+connect to different data sources
+
+97
+00:14:38.765 --> 00:14:41.345
+and, uh, return the data they're looking for.
+
+98
+00:14:41.445 --> 00:14:42.865
+So that's something they were asking.
+
+99
+00:14:42.965 --> 00:14:44.585
+So that, I think that's across there.
+
+100
+00:14:44.585 --> 00:14:47.465
+Everywhere, uh, the whole in industry is looking to do that.
+
+101
+00:14:47.465 --> 00:14:50.585
+That's a very basic scenarios. So that's one of the case.
+
+102
+00:14:50.585 --> 00:14:52.565
+They were, they have been discussing, so.
+
+103
+00:14:54.185 --> 00:14:56.755
+Okay. Very good. What is your name?
+
+104
+00:15:00.015 --> 00:15:02.355
+And this is a use case in like, uh,
+
+105
+00:15:03.615 --> 00:15:06.555
+across all the domain, right?
+
+106
+00:15:07.785 --> 00:15:10.955
+Yeah, I think a lot of people attempting do that.
+
+107
+00:15:11.475 --> 00:15:14.195
+I mean, my, some of my friends form as well.
+
+108
+00:15:14.295 --> 00:15:17.795
+So I mean, that's the, uh, basic use case they're trying
+
+109
+00:15:17.795 --> 00:15:21.355
+to do, uh, wherever, uh, they can apply alarm sites.
+
+110
+00:15:21.455 --> 00:15:25.955
+So they look at some, you know, data warehouse tools, uh,
+
+111
+00:15:26.055 --> 00:15:30.315
+uh, they try to use whatever they provide, uh, as sort
+
+112
+00:15:30.315 --> 00:15:34.075
+of a engine, uh, along, uh, they try to leverage it
+
+113
+00:15:34.575 --> 00:15:36.395
+to connect to some sort of, uh, uh,
+
+114
+00:15:37.595 --> 00:15:38.595
+Rag. So that is basically
+
+115
+00:15:38.595 --> 00:15:40.915
+rag, uh, pipeline,
+
+116
+00:15:42.005 --> 00:15:46.435
+which is covered in, uh, rag is covered in another codes of,
+
+117
+00:15:47.505 --> 00:15:49.675
+yeah, I think LLM or NLP.
+
+118
+00:15:50.925 --> 00:15:53.135
+Okay. Yeah. True. I mean, if, uh, yeah,
+
+119
+00:15:53.255 --> 00:15:56.855
+I mean this not directly, I'm just talking in general about
+
+120
+00:15:57.635 --> 00:16:00.055
+not specific to inforce, uh, reinforcement learning
+
+121
+00:16:00.115 --> 00:16:01.175
+as such, actually, but,
+
+122
+00:16:03.125 --> 00:16:04.125
+Okay. So let me start
+
+123
+00:16:04.125 --> 00:16:06.855
+with course today.
+
+124
+00:16:12.755 --> 00:16:17.105
+Lemme show you the, before getting into P pt.
+
+125
+00:16:17.105 --> 00:16:21.475
+Uh, lemme show you the course plan,
+
+126
+00:16:22.325 --> 00:16:24.115
+which you have already seen in the video.
+
+127
+00:16:27.015 --> 00:16:29.965
+Okay. Okay.
+
+128
+00:16:29.965 --> 00:16:32.325
+So this course is splitted in three units.
+
+129
+00:16:32.675 --> 00:16:33.805
+It's a two credit course,
+
+130
+00:16:35.635 --> 00:16:39.415
+and it has the basic, uh, in the unit.
+
+131
+00:16:39.515 --> 00:16:43.135
+One is introduction, uh, basic definition
+
+132
+00:16:43.155 --> 00:16:47.415
+of different component of reinforcement learning, which is,
+
+133
+00:16:48.275 --> 00:16:49.855
+uh, consisting of agent
+
+134
+00:16:49.855 --> 00:16:53.095
+and environment interaction interaction.
+
+135
+00:16:53.095 --> 00:16:57.735
+And there is application into robotics and games, AI games.
+
+136
+00:16:58.755 --> 00:17:02.535
+And what are the, uh, common problem for any AI algorithm
+
+137
+00:17:02.565 --> 00:17:05.255
+that we face That is called exploration
+
+138
+00:17:05.255 --> 00:17:06.335
+and exploitation problem.
+
+139
+00:17:07.365 --> 00:17:10.295
+This is part of your introduction in second unit.
+
+140
+00:17:10.515 --> 00:17:13.975
+It is a mark of decision process.
+
+141
+00:17:14.035 --> 00:17:16.175
+The title of the unit is basically mark
+
+142
+00:17:16.175 --> 00:17:18.215
+of decision process is one method
+
+143
+00:17:18.275 --> 00:17:20.215
+of solving the problems belonging
+
+144
+00:17:20.215 --> 00:17:23.045
+to the enforcement learning, okay.
+
+145
+00:17:23.145 --> 00:17:28.005
+And it has various, uh, constituent element in that, how
+
+146
+00:17:28.005 --> 00:17:30.165
+to define a state, how to define action and all.
+
+147
+00:17:30.365 --> 00:17:33.165
+I will get into them after I think, um,
+
+148
+00:17:34.425 --> 00:17:37.565
+se seventh lecture, sixth or seventh lecture.
+
+149
+00:17:39.095 --> 00:17:42.195
+And then unit three is about another class
+
+150
+00:17:42.255 --> 00:17:45.195
+or another way of solving the enforcement learning problem
+
+151
+00:17:45.225 --> 00:17:47.635
+that is called model three, prediction
+
+152
+00:17:47.715 --> 00:17:49.565
+and control, which is consisting
+
+153
+00:17:49.565 --> 00:17:52.445
+of many other subtopics like Monte Carlo estimation,
+
+154
+00:17:53.045 --> 00:17:56.405
+temporal difference learning, and q learning.
+
+155
+00:17:57.425 --> 00:18:00.045
+Beyond that, there are a lot of terminology like sar sandal,
+
+156
+00:18:00.045 --> 00:18:02.605
+which I will take you through on those topic
+
+157
+00:18:02.925 --> 00:18:04.445
+whenever we are getting into a new three.
+
+158
+00:18:05.905 --> 00:18:10.555
+Okay. And a textbook I have already, uh, mailed to my ta,
+
+159
+00:18:10.665 --> 00:18:14.115
+they'll be uploading them into your LMS module, the textbook
+
+160
+00:18:14.115 --> 00:18:15.755
+that we're worldwide.
+
+161
+00:18:15.775 --> 00:18:17.955
+The one of the most famous book
+
+162
+00:18:17.955 --> 00:18:22.195
+that you follow is called Richard Suan and Bra Book.
+
+163
+00:18:23.145 --> 00:18:27.115
+They are the person who have, uh, enormous amount of, uh,
+
+164
+00:18:27.355 --> 00:18:29.035
+contribution in reinforcement learning died from
+
+165
+00:18:29.235 --> 00:18:30.755
+1968 and all.
+
+166
+00:18:31.815 --> 00:18:35.035
+And this, uh, Suan is still alive. Okay?
+
+167
+00:18:37.645 --> 00:18:40.335
+Next one is, uh, your evaluation component.
+
+168
+00:18:43.165 --> 00:18:46.135
+Your evaluation component is there is going
+
+169
+00:18:46.135 --> 00:18:49.295
+to be 15 quizzes held every Saturday.
+
+170
+00:18:50.315 --> 00:18:54.615
+Uh, so it is like your, uh, quiz will be held on Sunday.
+
+171
+00:18:54.725 --> 00:18:59.055
+Okay? It'll be, the window will open till night, 9:00 PM
+
+172
+00:19:00.275 --> 00:19:02.375
+So the course, uh, I mean for the top topics
+
+173
+00:19:02.375 --> 00:19:04.335
+that I'm teaching in witness day
+
+174
+00:19:04.495 --> 00:19:08.255
+and Saturday, they'll be part of your quiz, which has
+
+175
+00:19:08.255 --> 00:19:12.175
+to be attended by you by 9:00 PM for every Sunday.
+
+176
+00:19:12.715 --> 00:19:14.975
+So a total, we're going to have 14 weeks of class.
+
+177
+00:19:15.065 --> 00:19:17.895
+We'll have 15 quizzes, which will be accounting
+
+178
+00:19:17.895 --> 00:19:19.295
+for 45% marks.
+
+179
+00:19:19.635 --> 00:19:22.055
+So there'll be three question in every day basis. Okay?
+
+180
+00:19:23.645 --> 00:19:25.645
+MCQ question in summary
+
+181
+00:19:25.645 --> 00:19:28.845
+with 30 percentage classroom notes will be 10 percentage,
+
+182
+00:19:29.015 --> 00:19:31.645
+attendance is five percentage,
+
+183
+00:19:32.215 --> 00:19:34.045
+assignment is 10 percentage.
+
+184
+00:19:34.115 --> 00:19:38.705
+Okay? I'll be providing you two assignment maximum. Okay?
+
+185
+00:19:38.705 --> 00:19:40.625
+This is the course, uh, evaluation plan,
+
+186
+00:19:41.935 --> 00:19:42.935
+Sir. Classroom
+
+187
+00:19:42.935 --> 00:19:44.995
+notes means, uh, uh, do we need
+
+188
+00:19:44.995 --> 00:19:46.075
+to submit on portal
+
+189
+00:19:46.295 --> 00:19:50.595
+Or Yes, you need to submit to portal, uh, you need
+
+190
+00:19:50.595 --> 00:19:52.035
+to submit everyday basis.
+
+191
+00:19:52.335 --> 00:19:55.475
+So days you may not do that. But next class on what?
+
+192
+00:19:56.195 --> 00:19:59.155
+Everyday basis, whatever you take the note of, we submit it
+
+193
+00:19:59.295 --> 00:20:02.435
+by 11:00 PM on the same day.
+
+194
+00:20:03.925 --> 00:20:06.175
+Yeah. LMS portal will be opened up for that.
+
+195
+00:20:06.555 --> 00:20:09.335
+So it's kind of a summary of the class, correct? Yes.
+
+196
+00:20:09.335 --> 00:20:11.255
+Summary of the class. Whatever you understood
+
+197
+00:20:11.275 --> 00:20:13.575
+of the class today, you take a note,
+
+198
+00:20:13.575 --> 00:20:15.055
+you upload it into LMS portal.
+
+199
+00:20:15.835 --> 00:20:17.815
+Uh, we can do it what? Typing, right?
+
+200
+00:20:18.775 --> 00:20:21.265
+Yeah, typing and scan it. And upload it.
+
+201
+00:20:26.305 --> 00:20:30.955
+Okay. So let us get into the topic. Reinforcement learning.
+
+202
+00:20:31.585 --> 00:20:34.555
+Okay. By the way, I give you my introduction. My name is Dr.
+
+203
+00:20:36.435 --> 00:20:40.435
+I did, uh, BTech, Mtech and PhD after doing ptech.
+
+204
+00:20:40.475 --> 00:20:41.635
+I work for software industry
+
+205
+00:20:41.635 --> 00:20:43.075
+for nearly five and a half years.
+
+206
+00:20:43.835 --> 00:20:45.235
+I was in HCL Cisco
+
+207
+00:20:45.235 --> 00:20:47.725
+after development center in hai, followed
+
+208
+00:20:47.745 --> 00:20:48.885
+by, I work for Cisco.
+
+209
+00:20:48.925 --> 00:20:52.805
+I was working in computer network domain network security,
+
+210
+00:20:54.005 --> 00:20:57.045
+transport layer protocol, uh, TLS, transport layer,
+
+211
+00:20:57.325 --> 00:20:58.485
+security protocol and all.
+
+212
+00:20:59.285 --> 00:21:01.085
+I got dissolution from software industry.
+
+213
+00:21:01.085 --> 00:21:03.525
+Then I joined for intake, followed by PhD.
+
+214
+00:21:03.845 --> 00:21:06.645
+I also did post-doctoral fellowship at National
+
+215
+00:21:06.645 --> 00:21:07.685
+University of Singapore.
+
+216
+00:21:09.345 --> 00:21:11.715
+Okay, so that is about my introduction.
+
+217
+00:21:14.165 --> 00:21:17.935
+So I also belong to most of you people.
+
+218
+00:21:18.765 --> 00:21:21.415
+Only thing I did not continue in software industry.
+
+219
+00:21:22.355 --> 00:21:24.705
+So let me show you a figure
+
+220
+00:21:25.165 --> 00:21:28.105
+before I start talking about what is reinforcement learning.
+
+221
+00:21:33.385 --> 00:21:36.665
+You're able to see my screen, right? Yes, sir.
+
+222
+00:21:36.665 --> 00:21:38.145
+Should I increase the Yes, sir.
+
+223
+00:21:38.245 --> 00:21:42.105
+Should I increase the Yes, sir. Okay. I have increased it.
+
+224
+00:21:42.575 --> 00:21:44.485
+Okay. Okay.
+
+225
+00:21:44.505 --> 00:21:48.625
+So, um, the landscape of
+
+226
+00:21:49.755 --> 00:21:51.995
+reinforcement learning, where it is sitting basically
+
+227
+00:21:53.495 --> 00:21:57.675
+in the AI domain, we have, uh, machine learning,
+
+228
+00:21:57.895 --> 00:21:59.475
+and then we have deep learning,
+
+229
+00:22:00.785 --> 00:22:02.275
+then we have reinforcement learning.
+
+230
+00:22:03.015 --> 00:22:05.115
+Inside machine learning, we have two kind of learning.
+
+231
+00:22:05.375 --> 00:22:06.915
+See, machine learning is this, this,
+
+232
+00:22:06.915 --> 00:22:09.035
+this is the overall shape, okay?
+
+233
+00:22:09.055 --> 00:22:11.195
+The white color under machine learning,
+
+234
+00:22:11.335 --> 00:22:12.515
+we have supervised learning.
+
+235
+00:22:12.515 --> 00:22:13.715
+We have unsupervised learning.
+
+236
+00:22:15.705 --> 00:22:19.795
+Deep learning is a subset of, uh, like it is specifically,
+
+237
+00:22:19.795 --> 00:22:21.875
+it is containing most of the supervised learning algorithm.
+
+238
+00:22:21.905 --> 00:22:25.555
+Only deep learning, very few deep learning algorithms are
+
+239
+00:22:25.555 --> 00:22:27.075
+there, which are unsupervised.
+
+240
+00:22:29.055 --> 00:22:30.835
+And reinforcement learning is,
+
+241
+00:22:31.175 --> 00:22:34.835
+it is different from machine learning, uh, algorithms.
+
+242
+00:22:35.775 --> 00:22:36.995
+In what way? It is different.
+
+243
+00:22:37.855 --> 00:22:40.315
+So the difference is lying in this way.
+
+244
+00:22:41.485 --> 00:22:43.095
+That is, uh,
+
+245
+00:22:43.575 --> 00:22:47.855
+whenever we are into a real world, we interact
+
+246
+00:22:47.855 --> 00:22:49.455
+with the environment outside.
+
+247
+00:22:50.815 --> 00:22:52.265
+When we interact with the environment,
+
+248
+00:22:52.325 --> 00:22:53.705
+we gain some experience.
+
+249
+00:22:53.755 --> 00:22:56.265
+Experience can be good, experience can be bad,
+
+250
+00:22:56.685 --> 00:22:59.385
+and experience will be differ from individual to individual.
+
+251
+00:23:00.365 --> 00:23:02.745
+So reinforcement learning is all about how do you
+
+252
+00:23:03.675 --> 00:23:05.505
+learn from your experience?
+
+253
+00:23:05.805 --> 00:23:09.065
+How do you gather knowledge from your experience?
+
+254
+00:23:10.695 --> 00:23:13.435
+It is not something like in case of machine learning
+
+255
+00:23:13.435 --> 00:23:15.115
+that you provide you all the time.
+
+256
+00:23:15.115 --> 00:23:19.355
+Your dataset and dataset is already labeled by
+
+257
+00:23:20.095 --> 00:23:21.475
+expert human being.
+
+258
+00:23:23.645 --> 00:23:26.105
+If the dataset is not labeled by expert human being,
+
+259
+00:23:26.605 --> 00:23:29.185
+if any normal human being is going
+
+260
+00:23:29.185 --> 00:23:30.825
+to learn something from the dataset.
+
+261
+00:23:31.925 --> 00:23:34.065
+In that case, he does lot of trial.
+
+262
+00:23:34.285 --> 00:23:37.745
+He does lot of, he takes a lot of action into the
+
+263
+00:23:38.735 --> 00:23:40.465
+environment in which he is living in.
+
+264
+00:23:40.685 --> 00:23:44.705
+And every time, uh, he does some action, he gets some
+
+265
+00:23:45.305 --> 00:23:46.645
+reward from the environment.
+
+266
+00:23:46.785 --> 00:23:51.205
+Reward can be positive, it can be negative, okay?
+
+267
+00:23:51.225 --> 00:23:52.365
+It can be zero also.
+
+268
+00:23:53.185 --> 00:23:57.415
+So by the help of reward, he can understand,
+
+269
+00:23:57.435 --> 00:23:58.495
+he can gather more
+
+270
+00:23:58.495 --> 00:24:00.895
+and more data from the, uh,
+
+271
+00:24:00.925 --> 00:24:02.855
+from the environment in which he is living in.
+
+272
+00:24:03.695 --> 00:24:06.155
+So, reinforcement learning will help you in one thing.
+
+273
+00:24:06.155 --> 00:24:10.715
+That is, it is called artificial general intelligence.
+
+274
+00:24:10.855 --> 00:24:14.235
+So normally ai, artificial intelligence,
+
+275
+00:24:15.255 --> 00:24:16.635
+and the difference between AI
+
+276
+00:24:16.635 --> 00:24:17.875
+and agi I is nowadays,
+
+277
+00:24:17.875 --> 00:24:21.115
+we might be hearing this term call a GI, which is basically
+
+278
+00:24:21.115 --> 00:24:22.675
+because of chat, GPT
+
+279
+00:24:23.055 --> 00:24:25.235
+and, uh, followed by so many,
+
+280
+00:24:26.535 --> 00:24:28.675
+so many invention in the modeling perspective.
+
+281
+00:24:29.485 --> 00:24:31.995
+After Chad g PT came up, there are many modeling
+
+282
+00:24:32.145 --> 00:24:34.795
+that has come up, which has beaten
+
+283
+00:24:36.095 --> 00:24:39.315
+the basic model from which Chad g PT started chat started
+
+284
+00:24:39.315 --> 00:24:42.435
+basic model called auto aggressive model.
+
+285
+00:24:42.725 --> 00:24:43.955
+There are many other type
+
+286
+00:24:43.955 --> 00:24:46.595
+of model which have already built an auto aggressive model
+
+287
+00:24:46.625 --> 00:24:50.275
+like diffusion model, and all of them are part of ai.
+
+288
+00:24:50.575 --> 00:24:52.875
+No one is part of a GI that is
+
+289
+00:24:53.595 --> 00:24:54.875
+artificial general intelligence.
+
+290
+00:24:56.115 --> 00:24:57.875
+Artificial general intelligence is enabled
+
+291
+00:24:57.895 --> 00:24:59.115
+by reinforcement learning.
+
+292
+00:25:00.335 --> 00:25:05.075
+And specific example is if you have reinforcement learning,
+
+293
+00:25:05.495 --> 00:25:07.355
+you can go into the environment.
+
+294
+00:25:07.425 --> 00:25:09.315
+Your model, your model is called agent.
+
+295
+00:25:09.855 --> 00:25:12.875
+It can go into the environment, it can collect its own data,
+
+296
+00:25:13.335 --> 00:25:16.075
+it can reject data based on its experience.
+
+297
+00:25:17.115 --> 00:25:20.395
+Whatever reward he gets in a long term basis based on
+
+298
+00:25:20.395 --> 00:25:24.955
+that he can do, uh, uh, like whether
+
+299
+00:25:24.975 --> 00:25:26.195
+to keep the data or whether
+
+300
+00:25:26.195 --> 00:25:28.235
+or not to keep the data, whether, uh,
+
+301
+00:25:28.265 --> 00:25:31.995
+that data will be accepted for his, uh, training agent.
+
+302
+00:25:31.995 --> 00:25:34.555
+And for long time or not, all those decision are taken care
+
+303
+00:25:34.555 --> 00:25:36.115
+by reinforcement learning.
+
+304
+00:25:36.855 --> 00:25:38.475
+So that is the main difference.
+
+305
+00:25:40.535 --> 00:25:45.075
+Now, uh, how does it happen?
+
+306
+00:25:47.325 --> 00:25:50.985
+So it is like this in this, uh, in this figure,
+
+307
+00:25:51.085 --> 00:25:53.385
+you can see the learning cycle
+
+308
+00:25:53.445 --> 00:25:54.585
+of the reinforcement learning.
+
+309
+00:25:57.205 --> 00:25:59.305
+So first one is there is a agent here,
+
+310
+00:25:59.725 --> 00:26:02.785
+and the agent is living inside an environment, okay?
+
+311
+00:26:03.565 --> 00:26:07.425
+And environment is ha uh, is having states,
+
+312
+00:26:08.205 --> 00:26:12.755
+states means, I will take you one example.
+
+313
+00:26:12.865 --> 00:26:17.075
+Like a robot is walking on a slippery floor. Floor, okay?
+
+314
+00:26:18.215 --> 00:26:21.795
+So the float is basically divided into equal grid,
+
+315
+00:26:22.885 --> 00:26:23.995
+equal size, g grided,
+
+316
+00:26:25.215 --> 00:26:28.155
+and every grid are, uh, denoted
+
+317
+00:26:28.215 --> 00:26:31.475
+by their coordinate position in the floor.
+
+318
+00:26:32.765 --> 00:26:36.705
+So every greed position, this coordinate position is known
+
+319
+00:26:36.705 --> 00:26:40.835
+as state, and the agent is basically moving
+
+320
+00:26:41.055 --> 00:26:42.795
+across the floor.
+
+321
+00:26:43.305 --> 00:26:46.085
+He is jumping from one grid to another G grid.
+
+322
+00:26:46.945 --> 00:26:49.485
+So he, he will go to it.
+
+323
+00:26:49.695 --> 00:26:52.125
+He'll take a transition from one grid to another grid
+
+324
+00:26:52.775 --> 00:26:57.285
+based on the reward that he is getting from the environment.
+
+325
+00:26:57.285 --> 00:27:01.525
+Environment is providing reward to the agent as
+
+326
+00:27:01.525 --> 00:27:03.325
+and when he do some transition.
+
+327
+00:27:05.355 --> 00:27:07.615
+So that is what is basically operation of
+
+328
+00:27:08.545 --> 00:27:09.735
+agent based learning.
+
+329
+00:27:10.755 --> 00:27:12.015
+So there are,
+
+330
+00:27:13.025 --> 00:27:15.255
+there are four components here that you can see.
+
+331
+00:27:15.355 --> 00:27:18.215
+The first one is there is a agent here,
+
+332
+00:27:18.795 --> 00:27:21.215
+and the cycle begins now.
+
+333
+00:27:21.355 --> 00:27:24.295
+So the cycle is basically agent is taking an
+
+334
+00:27:24.295 --> 00:27:25.575
+action, is taking an action.
+
+335
+00:27:25.575 --> 00:27:28.455
+Look at this curve is taking an action.
+
+336
+00:27:29.605 --> 00:27:32.615
+That action is imposed on the environment,
+
+337
+00:27:32.835 --> 00:27:34.495
+and environment is responding
+
+338
+00:27:34.995 --> 00:27:37.575
+by transitioning from one step to another state.
+
+339
+00:27:38.395 --> 00:27:40.175
+And when the environment is conditioning,
+
+340
+00:27:40.845 --> 00:27:44.095
+environment will emit a reward to the agent.
+
+341
+00:27:45.435 --> 00:27:50.215
+So this is what is the reward that you see this card, okay?
+
+342
+00:27:50.395 --> 00:27:53.895
+And then environment, uh, that agent will try
+
+343
+00:27:53.895 --> 00:27:58.015
+to make a guess about how good is the reward, whether it was
+
+344
+00:27:58.235 --> 00:28:00.175
+before or better than before or not.
+
+345
+00:28:00.915 --> 00:28:02.775
+So it'll take a decision.
+
+346
+00:28:04.035 --> 00:28:06.015
+So it is basically called improving loop.
+
+347
+00:28:06.435 --> 00:28:07.695
+So it'll do some update.
+
+348
+00:28:07.785 --> 00:28:09.255
+After doing some update again,
+
+349
+00:28:09.255 --> 00:28:11.815
+the agent will take another action as a result,
+
+350
+00:28:11.815 --> 00:28:13.455
+environment will move to another state,
+
+351
+00:28:15.045 --> 00:28:16.865
+and then it'll emit a reward.
+
+352
+00:28:17.635 --> 00:28:19.965
+Okay? So this is what goes on every time.
+
+353
+00:28:20.185 --> 00:28:24.965
+So again, takes an action. There is a, there's a, a car.
+
+354
+00:28:24.985 --> 00:28:26.405
+You see here, it is called transition.
+
+355
+00:28:27.295 --> 00:28:30.325
+After transitioning, the state to state,
+
+356
+00:28:30.325 --> 00:28:32.365
+change is happening, the environment,
+
+357
+00:28:32.425 --> 00:28:35.085
+and then it is environment is emitting a
+
+358
+00:28:35.085 --> 00:28:36.365
+reward to that agent.
+
+359
+00:28:36.895 --> 00:28:38.485
+Agent will evaluate the reward,
+
+360
+00:28:38.865 --> 00:28:40.245
+and then it'll take another action.
+
+361
+00:28:40.275 --> 00:28:43.525
+This will go on until the agent is able to maximize
+
+362
+00:28:44.745 --> 00:28:47.925
+the expected reward that he has gained over the period
+
+363
+00:28:47.985 --> 00:28:49.565
+of all the action, okay?
+
+364
+00:28:50.045 --> 00:28:52.365
+Expected reward. So by this time, you might,
+
+365
+00:28:52.745 --> 00:28:54.045
+you are already familiar with
+
+366
+00:28:54.045 --> 00:28:56.765
+what is called expected thing, okay?
+
+367
+00:28:56.765 --> 00:29:00.565
+Expectation means it is a average of all of your, um,
+
+368
+00:29:00.905 --> 00:29:02.085
+uh, value that you have.
+
+369
+00:29:02.105 --> 00:29:02.525
+Got it.
+
+370
+00:29:09.065 --> 00:29:12.235
+Okay. So here is the same thing described here, agent
+
+371
+00:29:13.285 --> 00:29:16.865
+and then environment, the left hand side column, okay?
+
+372
+00:29:17.005 --> 00:29:20.225
+And then right hand sides, state versus observation
+
+373
+00:29:20.795 --> 00:29:23.865
+state is basically the environment is residing in which
+
+374
+00:29:23.865 --> 00:29:27.305
+state, once it receives the action from the agent,
+
+375
+00:29:27.355 --> 00:29:31.195
+it'll do a transition from one state to another state, okay?
+
+376
+00:29:31.195 --> 00:29:33.115
+And every time it'll emit some reward.
+
+377
+00:29:33.115 --> 00:29:34.275
+That is called observation.
+
+378
+00:29:37.975 --> 00:29:39.065
+This is what goes on.
+
+379
+00:29:42.275 --> 00:29:45.835
+So you see that this is the experience
+
+380
+00:29:46.465 --> 00:29:49.075
+that is gained over the period of time by the agent.
+
+381
+00:29:49.615 --> 00:29:53.595
+So agent is look at this direction of the arrow mark.
+
+382
+00:29:53.735 --> 00:29:55.275
+So agent is taking an action.
+
+383
+00:29:56.505 --> 00:29:59.275
+This action is imposed on the not imposed.
+
+384
+00:29:59.275 --> 00:30:03.695
+This action is, um, taken on the environment,
+
+385
+00:30:04.755 --> 00:30:08.705
+and then environment was residing in the state of ace.
+
+386
+00:30:09.295 --> 00:30:11.345
+Okay? Here you see, state of ace
+
+387
+00:30:12.755 --> 00:30:14.485
+environment will emit a reward.
+
+388
+00:30:14.915 --> 00:30:17.045
+That reward will be given to the agent.
+
+389
+00:30:18.105 --> 00:30:22.015
+And then ace, I mean, environment will move from state of A
+
+390
+00:30:22.015 --> 00:30:25.415
+to sdes, okay?
+
+391
+00:30:25.595 --> 00:30:28.855
+And that point of time of, upon receiving the reward,
+
+392
+00:30:28.995 --> 00:30:32.855
+the agent will evaluate the, uh, expected reward,
+
+393
+00:30:32.875 --> 00:30:35.535
+and then it'll take another action that is action.
+
+394
+00:30:35.735 --> 00:30:40.245
+A ds. This, A DS is taken on the state of SD.
+
+395
+00:30:41.305 --> 00:30:44.845
+As a result, environmental will emit the reward of rde,
+
+396
+00:30:45.465 --> 00:30:47.405
+and then environment will move into the next step.
+
+397
+00:30:47.405 --> 00:30:49.605
+Called is double prime, okay?
+
+398
+00:30:50.825 --> 00:30:53.885
+And again, the action will be taken by the agent,
+
+399
+00:30:53.885 --> 00:30:55.205
+which is called a double prime.
+
+400
+00:30:55.585 --> 00:30:56.805
+And this cycle goes on.
+
+401
+00:30:57.745 --> 00:31:00.525
+So all of these actions are taken at every timestamp,
+
+402
+00:31:00.965 --> 00:31:03.805
+T TT plus one, T plus two, T plus three.
+
+403
+00:31:04.055 --> 00:31:07.005
+It'll go on until the episode ends.
+
+404
+00:31:07.395 --> 00:31:09.485
+Episode means it is called finite horizon.
+
+405
+00:31:10.425 --> 00:31:13.005
+So you are not allowed to take actions forever.
+
+406
+00:31:13.785 --> 00:31:15.125
+You are going to take action only
+
+407
+00:31:15.125 --> 00:31:16.245
+for limited amount of time.
+
+408
+00:31:16.755 --> 00:31:19.365
+Okay? So that is called a horizon,
+
+409
+00:31:19.585 --> 00:31:21.405
+or we can call it as a episode.
+
+410
+00:31:25.915 --> 00:31:29.335
+One of the similar, uh, thing with episode,
+
+411
+00:31:29.335 --> 00:31:30.375
+you can consider, like
+
+412
+00:31:30.695 --> 00:31:32.855
+whenever you do a, you are doing a training of your
+
+413
+00:31:33.405 --> 00:31:36.375
+machine learning models, okay?
+
+414
+00:31:36.715 --> 00:31:38.735
+You have been provided a whole data set.
+
+415
+00:31:38.735 --> 00:31:42.455
+Let's, your data set is containing 10,000 samples, okay?
+
+416
+00:31:42.995 --> 00:31:47.105
+And you are doing a batch, uh,
+
+417
+00:31:47.245 --> 00:31:48.945
+you are doing a training using the batch.
+
+418
+00:31:49.475 --> 00:31:52.145
+Let's say your batch size is 20, okay?
+
+419
+00:31:52.365 --> 00:31:55.625
+So that means randomly you take 20 samples from a 10,000
+
+420
+00:31:55.625 --> 00:31:59.465
+sample, you form a batch, you send the batch to your input
+
+421
+00:31:59.525 --> 00:32:01.145
+of your machine learning model.
+
+422
+00:32:03.025 --> 00:32:04.635
+That means 20 samples are feed
+
+423
+00:32:04.635 --> 00:32:05.715
+into your machine learning model.
+
+424
+00:32:06.365 --> 00:32:09.675
+After the, after the model has seen all
+
+425
+00:32:09.675 --> 00:32:10.795
+of those tier 20 sample,
+
+426
+00:32:10.925 --> 00:32:13.355
+it'll do a batch gradient and update.
+
+427
+00:32:14.265 --> 00:32:15.355
+Okay? And then
+
+428
+00:32:16.045 --> 00:32:18.355
+after updating the weights of the model,
+
+429
+00:32:18.925 --> 00:32:21.555
+it'll take the next batch, even the next batch,
+
+430
+00:32:21.555 --> 00:32:22.915
+we'll be having 20 samples.
+
+431
+00:32:23.935 --> 00:32:27.355
+So like that, if you count how many batches to we feed in,
+
+432
+00:32:27.355 --> 00:32:29.755
+that is 10,000 divided by 20.
+
+433
+00:32:31.095 --> 00:32:35.065
+Okay? So that many batches you are sending to your model,
+
+434
+00:32:35.605 --> 00:32:38.865
+and every batch is causing us batch gradient descent.
+
+435
+00:32:38.865 --> 00:32:41.375
+Update onto your model. Okay?
+
+436
+00:32:41.835 --> 00:32:44.215
+Now, if you want to compare this with your
+
+437
+00:32:45.015 --> 00:32:49.975
+reinforcement learning technique here, you take a action,
+
+438
+00:32:50.435 --> 00:32:53.415
+you do a transition, you get a reward, okay?
+
+439
+00:32:53.955 --> 00:32:58.375
+So this is called one simple example
+
+440
+00:32:58.405 --> 00:32:59.815
+that you are feeding to your model.
+
+441
+00:33:00.235 --> 00:33:02.815
+You take action, you get a reward.
+
+442
+00:33:03.035 --> 00:33:05.895
+You, your environment is understanding from a state
+
+443
+00:33:05.895 --> 00:33:06.975
+called S two S desk.
+
+444
+00:33:07.205 --> 00:33:09.215
+This is called one example, okay?
+
+445
+00:33:10.075 --> 00:33:11.655
+So like that, if you take multiple
+
+446
+00:33:11.655 --> 00:33:12.895
+example, that will become a batch.
+
+447
+00:33:13.965 --> 00:33:16.135
+That means multiple action you take,
+
+448
+00:33:16.525 --> 00:33:17.575
+that will become a batch.
+
+449
+00:33:18.565 --> 00:33:21.035
+Okay? Then what is called your,
+
+450
+00:33:22.055 --> 00:33:23.675
+uh, epoch.
+
+451
+00:33:24.855 --> 00:33:26.395
+In case of machine learning algorithm,
+
+452
+00:33:27.895 --> 00:33:29.795
+you have a concept called epoch.
+
+453
+00:33:29.865 --> 00:33:32.955
+Okay? EPOCH means the whole data set
+
+454
+00:33:32.955 --> 00:33:34.515
+that is containing 10,000 samples.
+
+455
+00:33:35.575 --> 00:33:38.555
+You have seen all of those 20 thou, all
+
+456
+00:33:38.555 --> 00:33:42.115
+of those 10,000 samples for
+
+457
+00:33:43.295 --> 00:33:45.355
+one time, that is called one epoch.
+
+458
+00:33:45.505 --> 00:33:50.035
+Okay? Second, OC means all of those 10, 10,000 samples,
+
+459
+00:33:50.215 --> 00:33:52.515
+you have seen them for two times.
+
+460
+00:33:53.535 --> 00:33:55.835
+So like that, if you have training with a hundred epoch,
+
+461
+00:33:55.835 --> 00:33:57.675
+that means each and every sample you are going
+
+462
+00:33:57.675 --> 00:34:00.395
+to see 400 times that is called epoch.
+
+463
+00:34:00.545 --> 00:34:04.115
+Okay? After completion of epoch, your training is gonna end.
+
+464
+00:34:05.095 --> 00:34:07.795
+So if I want to say there is a counterpart
+
+465
+00:34:07.795 --> 00:34:09.795
+of EPOCH into reinforcement learning,
+
+466
+00:34:10.225 --> 00:34:12.155
+that is called your episode.
+
+467
+00:34:13.065 --> 00:34:16.555
+Okay? So episode is basically you need this time horizon.
+
+468
+00:34:16.775 --> 00:34:19.115
+So you can do all of these action.
+
+469
+00:34:19.665 --> 00:34:22.515
+This action A is taken at a time of p action.
+
+470
+00:34:22.715 --> 00:34:26.195
+A D is taken at a time of p plus one. Okay? Action.
+
+471
+00:34:26.355 --> 00:34:29.795
+A double prime is taken at a time of p plus two like
+
+472
+00:34:29.795 --> 00:34:33.275
+that if you, let's say wait for thousand timestamp.
+
+473
+00:34:34.175 --> 00:34:35.795
+So that is consisting of your
+
+474
+00:34:36.415 --> 00:34:39.495
+one episode, okay?
+
+475
+00:34:39.495 --> 00:34:42.485
+So these are all definition, purpose, how
+
+476
+00:34:42.485 --> 00:34:43.805
+to connect your definition
+
+477
+00:34:43.825 --> 00:34:45.605
+and all slowly will get into them.
+
+478
+00:34:51.595 --> 00:34:56.455
+So this is what is a, a diagrammatic, uh, explanation
+
+479
+00:34:56.675 --> 00:34:59.735
+of your agent and environment interaction.
+
+480
+00:35:01.575 --> 00:35:04.315
+So you see there is a image over here, okay?
+
+481
+00:35:04.945 --> 00:35:06.395
+This image is from the
+
+482
+00:35:07.585 --> 00:35:10.075
+very famous researcher in reinforcement learning.
+
+483
+00:35:10.175 --> 00:35:14.235
+His name is called Peter, PTER.
+
+484
+00:35:15.465 --> 00:35:17.815
+Peter Abel, I will show you his face
+
+485
+00:35:17.815 --> 00:35:21.375
+because I follow his work very, very much.
+
+486
+00:35:21.915 --> 00:35:25.055
+So I'll show you in addition, those who have time,
+
+487
+00:35:25.395 --> 00:35:28.975
+if you want to gain more knowledge on the subject, yeah.
+
+488
+00:35:35.365 --> 00:35:39.165
+So yeah, so this is is what he has six lectures
+
+489
+00:35:40.115 --> 00:35:41.895
+for the deep reinforcement learning.
+
+490
+00:35:42.375 --> 00:35:43.895
+Although you do not, your course is
+
+491
+00:35:43.895 --> 00:35:44.935
+not on deep reinforcement.
+
+492
+00:35:44.935 --> 00:35:49.075
+Your courses are only simple reinforcement learning. Okay?
+
+493
+00:35:49.135 --> 00:35:53.195
+So I'm going to cover this L one lecture for
+
+494
+00:35:54.085 --> 00:35:56.155
+about like two
+
+495
+00:35:56.375 --> 00:35:59.115
+or three lecture session, okay?
+
+496
+00:36:00.605 --> 00:36:02.745
+Had it been a class I would have, I mean,
+
+497
+00:36:02.805 --> 00:36:04.265
+had it been direct contact
+
+498
+00:36:04.335 --> 00:36:05.745
+with me in the physical classroom,
+
+499
+00:36:05.825 --> 00:36:07.985
+I would've completed this in one class itself.
+
+500
+00:36:08.005 --> 00:36:11.405
+But in online mode, it'll take some time. Okay?
+
+501
+00:36:11.665 --> 00:36:13.645
+So you can very well go
+
+502
+00:36:13.645 --> 00:36:16.645
+through his profile is very famous person Peter Abel.
+
+503
+00:36:16.835 --> 00:36:21.365
+Okay? One of the biggest, uh, model that has, uh,
+
+504
+00:36:21.795 --> 00:36:24.325
+made a big breakthrough result in, um,
+
+505
+00:36:26.045 --> 00:36:29.255
+deep reinforcement learning, that is called solving the game
+
+506
+00:36:29.255 --> 00:36:33.175
+of Atari, A-T-A-R-I, which is, uh,
+
+507
+00:36:33.655 --> 00:36:34.975
+a subpart of the problem.
+
+508
+00:36:35.215 --> 00:36:38.095
+I will show you, we, I'll produce a code to you,
+
+509
+00:36:38.175 --> 00:36:41.575
+I will show you how does it work also, that has been solved
+
+510
+00:36:41.575 --> 00:36:43.175
+by using deep reinforcement learning.
+
+511
+00:36:43.495 --> 00:36:44.775
+Specifically the algorithm is called
+
+512
+00:36:45.295 --> 00:36:46.815
+Q learning algorithm, okay?
+
+513
+00:36:46.815 --> 00:36:49.255
+They did not use the advanced algorithm.
+
+514
+00:36:49.255 --> 00:36:50.495
+What Chad GP is using,
+
+515
+00:36:51.655 --> 00:36:54.895
+although this Peter is part of open AI company,
+
+516
+00:36:55.955 --> 00:36:58.495
+he is a pioneer of one of the algorithm
+
+517
+00:36:58.675 --> 00:37:00.215
+by which Chad GPT is trained.
+
+518
+00:37:00.235 --> 00:37:03.875
+It is called proximal policy optimization. Okay?
+
+519
+00:37:04.145 --> 00:37:07.515
+I'll show you when the lecture almost
+
+520
+00:37:07.625 --> 00:37:08.675
+gets into advanced stage.
+
+521
+00:37:08.675 --> 00:37:10.355
+I will show you what is it actually.
+
+522
+00:37:14.215 --> 00:37:18.225
+Okay? So this is a diagrammatic example, uh,
+
+523
+00:37:18.245 --> 00:37:21.425
+not example diagrammatic view of the mark
+
+524
+00:37:21.445 --> 00:37:24.815
+of tuition process called, okay?
+
+525
+00:37:24.875 --> 00:37:27.095
+So you see that there is an agent here
+
+526
+00:37:28.855 --> 00:37:30.035
+and there's an environment here.
+
+527
+00:37:30.085 --> 00:37:32.355
+Agent is taking an action, a
+
+528
+00:37:32.465 --> 00:37:34.355
+that means action taken at time T
+
+529
+00:37:35.375 --> 00:37:38.795
+and environment is transitioning from ace to st plus one,
+
+530
+00:37:39.445 --> 00:37:40.905
+and it is emitting a reward.
+
+531
+00:37:41.225 --> 00:37:42.945
+A reward is coming to agent,
+
+532
+00:37:43.685 --> 00:37:46.985
+and agent can observe on which state the
+
+533
+00:37:46.985 --> 00:37:48.225
+environment has moved in.
+
+534
+00:37:48.295 --> 00:37:50.905
+Okay? So these are the two feedback he gets from the
+
+535
+00:37:50.905 --> 00:37:54.245
+environment by the
+
+536
+00:37:54.995 --> 00:37:56.725
+probabilistic definition.
+
+537
+00:37:58.145 --> 00:38:01.925
+So to define a markup process, we have several component.
+
+538
+00:38:02.905 --> 00:38:07.825
+So this one is the set of state called capital S, set
+
+539
+00:38:07.825 --> 00:38:08.905
+of action called capital.
+
+540
+00:38:09.225 --> 00:38:11.265
+A set of action is taken by the agent
+
+541
+00:38:11.405 --> 00:38:15.375
+and set of states belong to the environment, okay?
+
+542
+00:38:16.675 --> 00:38:17.935
+Uh, transition function.
+
+543
+00:38:17.935 --> 00:38:22.505
+Transition function is you look at,
+
+544
+00:38:22.505 --> 00:38:24.065
+this is a conditional probability.
+
+545
+00:38:26.175 --> 00:38:31.075
+So conditional probability, this term might be known to you
+
+546
+00:38:31.215 --> 00:38:33.035
+for few, it may not be known to you.
+
+547
+00:38:33.775 --> 00:38:37.325
+So conditional means, given a condition has already offered,
+
+548
+00:38:37.355 --> 00:38:39.925
+what is the probability that the thing
+
+549
+00:38:39.925 --> 00:38:42.325
+that we're specifying on the left hand side here, right?
+
+550
+00:38:42.355 --> 00:38:44.685
+Probability of a given ace.
+
+551
+00:38:45.165 --> 00:38:48.765
+A that means given that you are into the state of ace,
+
+552
+00:38:48.765 --> 00:38:51.285
+that means your environment is living in the state of ace
+
+553
+00:38:51.665 --> 00:38:53.885
+and the agent has taken action called a,
+
+554
+00:38:54.395 --> 00:38:57.365
+what is the priority that your environment will move into
+
+555
+00:38:57.365 --> 00:38:58.685
+the next step call is desk.
+
+556
+00:38:58.875 --> 00:39:00.725
+Okay? So that is called conditional probability.
+
+557
+00:39:00.725 --> 00:39:02.085
+This is called transition function.
+
+558
+00:39:03.035 --> 00:39:05.565
+I'll show you all of the example. You don't worry about it.
+
+559
+00:39:05.715 --> 00:39:07.765
+This is only about, I'm telling you the definitions
+
+560
+00:39:07.765 --> 00:39:11.045
+because all of this nomenclature needs to be told
+
+561
+00:39:11.045 --> 00:39:13.365
+before I start giving a concrete example.
+
+562
+00:39:15.295 --> 00:39:16.465
+Then the reward function.
+
+563
+00:39:16.485 --> 00:39:19.825
+So reward function is a three double information.
+
+564
+00:39:20.485 --> 00:39:21.585
+So reward is
+
+565
+00:39:21.905 --> 00:39:23.025
+provided by the environment,
+
+566
+00:39:23.175 --> 00:39:24.625
+it's emitted by the environment.
+
+567
+00:39:25.115 --> 00:39:29.145
+Given that the environment was in the state called is,
+
+568
+00:39:29.445 --> 00:39:31.465
+it has taken action called small.
+
+569
+00:39:32.225 --> 00:39:34.705
+I mean environment has not taken the action.
+
+570
+00:39:35.245 --> 00:39:37.505
+The agent has taken action called small a,
+
+571
+00:39:38.325 --> 00:39:40.705
+and the environment is conditioning into a
+
+572
+00:39:40.735 --> 00:39:41.945
+desk at that position.
+
+573
+00:39:42.435 --> 00:39:44.545
+Based on these three argument, what is a reward?
+
+574
+00:39:44.685 --> 00:39:45.825
+The environment is provided
+
+575
+00:39:48.385 --> 00:39:51.525
+and then, uh, start state, start state is basically
+
+576
+00:39:52.065 --> 00:39:55.205
+the agent, uh, whenever he's starting the interaction
+
+577
+00:39:55.205 --> 00:39:58.005
+with the environment, the environment was initialized at a
+
+578
+00:39:58.005 --> 00:39:59.805
+state call is not okay.
+
+579
+00:40:00.505 --> 00:40:02.765
+And every time a reward is
+
+580
+00:40:02.965 --> 00:40:06.165
+provided by the environment, the reward is discounted
+
+581
+00:40:06.185 --> 00:40:07.325
+by a factor called gamma.
+
+582
+00:40:08.555 --> 00:40:11.925
+Okay? So what is the pH? Philosophical is discounted factor.
+
+583
+00:40:14.075 --> 00:40:17.215
+So that philosophical reason is a very live, live example.
+
+584
+00:40:17.285 --> 00:40:20.415
+Like, I mean, it is a, it happens all the time.
+
+585
+00:40:20.515 --> 00:40:23.655
+The human being, uh, is interacting
+
+586
+00:40:23.655 --> 00:40:26.455
+with the not only human being, even for animal being also.
+
+587
+00:40:27.555 --> 00:40:31.955
+So let's say you, um, you
+
+588
+00:40:32.475 --> 00:40:35.625
+invested some amount of money, okay?
+
+589
+00:40:36.205 --> 00:40:39.265
+Uh, if you keep it in a longer amount of time, you are going
+
+590
+00:40:39.265 --> 00:40:41.105
+to get a good return, okay?
+
+591
+00:40:42.245 --> 00:40:45.145
+So that is for the people who have a, uh,
+
+592
+00:40:45.445 --> 00:40:46.665
+who have a long term vision,
+
+593
+00:40:47.085 --> 00:40:49.665
+but for those people who want a very short term
+
+594
+00:40:49.685 --> 00:40:50.865
+return, okay?
+
+595
+00:40:51.245 --> 00:40:55.745
+So for them like a, any greedy kind of, um,
+
+596
+00:40:56.315 --> 00:41:01.145
+philosophy, so for them, whatever action I'm taking now
+
+597
+00:41:01.645 --> 00:41:05.705
+and the reward that I'm receiving, the longer I wait
+
+598
+00:41:06.885 --> 00:41:09.625
+for the reward to happen, okay?
+
+599
+00:41:10.165 --> 00:41:12.345
+The less reward I'm going to get
+
+600
+00:41:12.345 --> 00:41:13.865
+that is called discounted reward.
+
+601
+00:41:15.125 --> 00:41:19.265
+So today I'm texting some action, I will get a reward
+
+602
+00:41:19.905 --> 00:41:23.625
+tomorrow if I wait that, if I say that, no, I don't want
+
+603
+00:41:23.625 --> 00:41:26.105
+to receive the reward tomorrow, I want to wait for
+
+604
+00:41:26.695 --> 00:41:29.905
+some more amount of time to get the reward, then
+
+605
+00:41:30.535 --> 00:41:33.525
+this model defines that your reward is going to be
+
+606
+00:41:34.205 --> 00:41:35.805
+diminishing by a factor called comma.
+
+607
+00:41:36.915 --> 00:41:40.835
+Okay? We'll show you the example in a
+
+608
+00:41:41.745 --> 00:41:45.515
+example of a like robot is moving in the flow itself.
+
+609
+00:41:45.595 --> 00:41:47.715
+I will show you the example and then the horizon.
+
+610
+00:41:47.715 --> 00:41:51.355
+Horizon is call how many decision you are going to take.
+
+611
+00:41:51.575 --> 00:41:54.075
+The agent is allowed to take a finite amount
+
+612
+00:41:54.075 --> 00:41:58.875
+of decision that is called horizon. So good evening,
+
+613
+00:41:58.895 --> 00:41:59.895
+Sir.
+
+614
+00:42:00.015 --> 00:42:01.915
+So I have one small, uh, query on this thing.
+
+615
+00:42:02.335 --> 00:42:04.395
+Uh, so when you're saying the discounted factor,
+
+616
+00:42:04.665 --> 00:42:07.215
+suppose I have a task where I have
+
+617
+00:42:07.215 --> 00:42:10.055
+to move my drone system in space from point A to point B.
+
+618
+00:42:10.475 --> 00:42:12.335
+So in this, what will be by discounted factors?
+
+619
+00:42:14.965 --> 00:42:18.705
+So discount factor is basically I will give you example
+
+620
+00:42:18.765 --> 00:42:21.305
+of your, uh, chase game.
+
+621
+00:42:22.525 --> 00:42:26.935
+So you are playing a chase game, you make your movement,
+
+622
+00:42:27.635 --> 00:42:31.275
+you don't get the reward at that instant
+
+623
+00:42:31.275 --> 00:42:33.275
+of your movement itself, okay?
+
+624
+00:42:34.255 --> 00:42:35.955
+You wait till the game ends.
+
+625
+00:42:36.955 --> 00:42:40.515
+Whenever you have win, you are going to get reward, okay?
+
+626
+00:42:40.695 --> 00:42:42.795
+So you're not going to get the reward till the
+
+627
+00:42:42.795 --> 00:42:43.835
+time of game has finished.
+
+628
+00:42:44.735 --> 00:42:48.275
+So this is called a kind of, um,
+
+629
+00:42:49.375 --> 00:42:53.235
+it is called uh, mm a delay.
+
+630
+00:42:53.255 --> 00:42:54.435
+It is not a delayed reward.
+
+631
+00:42:54.435 --> 00:42:56.555
+It is basically it is bound to happen like this only.
+
+632
+00:42:57.295 --> 00:43:00.395
+So what we do is for every action
+
+633
+00:43:00.395 --> 00:43:03.195
+that immediately we have taken, it is basically
+
+634
+00:43:04.235 --> 00:43:06.235
+a sequential decision making process, okay?
+
+635
+00:43:06.695 --> 00:43:08.435
+It is not like one action we take
+
+636
+00:43:08.535 --> 00:43:11.435
+and immediately we get a reward from the environment.
+
+637
+00:43:12.055 --> 00:43:14.315
+We finish one particular chain of action,
+
+638
+00:43:14.385 --> 00:43:18.035
+then we see whether we have received, whether we have, uh,
+
+639
+00:43:18.145 --> 00:43:21.165
+reached the final destination or not.
+
+640
+00:43:21.185 --> 00:43:22.645
+If we have not received financial,
+
+641
+00:43:22.645 --> 00:43:25.125
+we'll get a minus one reward or negative reward.
+
+642
+00:43:25.265 --> 00:43:27.325
+If we have got a final destination,
+
+643
+00:43:27.325 --> 00:43:28.925
+then we get a positive reward,
+
+644
+00:43:29.195 --> 00:43:32.125
+then we'll redo the same thing so that we try
+
+645
+00:43:32.125 --> 00:43:34.485
+to reinforce those path.
+
+646
+00:43:35.035 --> 00:43:37.045
+That path has led to your success.
+
+647
+00:43:37.045 --> 00:43:40.405
+That is your final destination is a desired destination.
+
+648
+00:43:40.995 --> 00:43:44.125
+Okay? So this is called delayed reward.
+
+649
+00:43:44.145 --> 00:43:48.085
+So every time we take action, even for your drone movement,
+
+650
+00:43:48.195 --> 00:43:52.615
+also, every time you take an action, okay, you are trying
+
+651
+00:43:52.615 --> 00:43:56.455
+to find some particular object, you make a movement,
+
+652
+00:43:56.595 --> 00:44:00.495
+you may not, you are away from your final destination.
+
+653
+00:44:00.795 --> 00:44:02.615
+You will not get reward at that moment itself.
+
+654
+00:44:03.085 --> 00:44:05.415
+Then you take sequence of decisions.
+
+655
+00:44:05.445 --> 00:44:09.335
+Then you finally end up with total number of decision,
+
+656
+00:44:09.465 --> 00:44:11.495
+let's say capital N, okay?
+
+657
+00:44:12.395 --> 00:44:14.055
+If at the end of capital Anderson,
+
+658
+00:44:14.055 --> 00:44:15.815
+if you have reached the final destination,
+
+659
+00:44:15.815 --> 00:44:18.455
+then you'll get a positive score, okay?
+
+660
+00:44:18.675 --> 00:44:21.415
+And that score will be divided to all the states
+
+661
+00:44:22.005 --> 00:44:25.055
+that you have taken some action on all of those states.
+
+662
+00:44:25.075 --> 00:44:26.535
+How to distribute the score.
+
+663
+00:44:26.965 --> 00:44:30.775
+That is a important thing to be decided
+
+664
+00:44:30.795 --> 00:44:32.445
+by the reinforcement learning algorithm.
+
+665
+00:44:33.075 --> 00:44:35.005
+Okay? So your score,
+
+666
+00:44:35.035 --> 00:44:37.045
+your return value is not gonna be coming
+
+667
+00:44:37.045 --> 00:44:38.205
+from the environment immediate,
+
+668
+00:44:41.075 --> 00:44:42.075
+Yes. So then you mean
+
+669
+00:44:42.075 --> 00:44:42.375
+to say
+
+670
+00:44:42.375 --> 00:44:45.135
+that when the object moves from one place here to point A
+
+671
+00:44:45.135 --> 00:44:47.175
+to point B, there'll be in between, there'll be
+
+672
+00:44:47.175 --> 00:44:48.255
+so many way points will be there.
+
+673
+00:44:48.595 --> 00:44:51.855
+So each, every way point will have an individual score
+
+674
+00:44:52.045 --> 00:44:54.695
+finally contributing to the final destination.
+
+675
+00:44:55.315 --> 00:44:57.455
+So that what you mean to say a discounted factor for
+
+676
+00:44:58.245 --> 00:44:59.455
+Yeah, discounted factor.
+
+677
+00:44:59.645 --> 00:45:02.255
+I'll show you, I'll show you example, okay? Okay.
+
+678
+00:45:02.255 --> 00:45:03.535
+Your, your, uh, reward is
+
+679
+00:45:03.735 --> 00:45:07.255
+provided from the last action that is your end
+
+680
+00:45:07.255 --> 00:45:08.335
+of action, correct?
+
+681
+00:45:08.395 --> 00:45:10.175
+The goal which you reached. Yeah, well,
+
+682
+00:45:10.235 --> 00:45:11.375
+you may not reach the goal,
+
+683
+00:45:11.755 --> 00:45:14.735
+but you have a time limit of taking action, okay?
+
+684
+00:45:14.735 --> 00:45:18.105
+Okay. So when the limit has expired, at that point of time,
+
+685
+00:45:18.125 --> 00:45:20.185
+you are going to get a reward from the environment.
+
+686
+00:45:20.555 --> 00:45:24.225
+Based on that, whether you have meet your desired objective
+
+687
+00:45:24.225 --> 00:45:25.745
+or not, if you have not meet there,
+
+688
+00:45:25.745 --> 00:45:26.865
+you will get a negative reward.
+
+689
+00:45:27.645 --> 00:45:30.905
+Now you distribute your reward in a backward manner.
+
+690
+00:45:30.905 --> 00:45:34.025
+Understood? So last state, the reward will be coming back
+
+691
+00:45:34.025 --> 00:45:35.025
+to the initial state.
+
+692
+00:45:35.325 --> 00:45:39.025
+At every time you pass on one step back to your source,
+
+693
+00:45:39.525 --> 00:45:42.385
+you have to do a diminishing of reward by a gamma factor.
+
+694
+00:45:43.165 --> 00:45:45.775
+Okay? So we is similar to some kind of, uh,
+
+695
+00:45:45.845 --> 00:45:48.095
+back propagation algorithm you use in neural networks,
+
+696
+00:45:48.505 --> 00:45:51.215
+where we see that, uh, bates correction again,
+
+697
+00:45:51.265 --> 00:45:52.295
+we'll go back,
+
+698
+00:45:53.825 --> 00:45:55.995
+Yeah, it is, uh, not similar,
+
+699
+00:45:57.115 --> 00:46:00.035
+Somewhat, Uh, the, that, this, yeah, no, actually
+
+700
+00:46:00.625 --> 00:46:02.555
+this reinforcement learning why they have gone
+
+701
+00:46:02.555 --> 00:46:05.675
+for discounted data is a very real requirement.
+
+702
+00:46:05.975 --> 00:46:09.115
+It is a, it is happens all the time in the real life itself.
+
+703
+00:46:10.015 --> 00:46:12.195
+In case of back propagation, uh,
+
+704
+00:46:12.195 --> 00:46:16.915
+back propagation is basically a method of solving your, uh,
+
+705
+00:46:18.155 --> 00:46:20.415
+uh, your, uh, classification problem,
+
+706
+00:46:20.695 --> 00:46:22.735
+whatever problem you are working on, okay?
+
+707
+00:46:23.115 --> 00:46:25.535
+It is a method of solving without back propagation.
+
+708
+00:46:25.605 --> 00:46:28.535
+Also, you can solve many problems
+
+709
+00:46:28.535 --> 00:46:30.295
+of machine learning if it's not too complex.
+
+710
+00:46:30.955 --> 00:46:32.815
+But in case of reinforcement learning,
+
+711
+00:46:33.555 --> 00:46:35.615
+you cannot avoid this discounted return
+
+712
+00:46:36.605 --> 00:46:38.495
+because actually the reinforcement learning,
+
+713
+00:46:38.555 --> 00:46:41.455
+it has originated from a real cause of we are trying
+
+714
+00:46:41.455 --> 00:46:44.615
+to learn like not only human being,
+
+715
+00:46:44.825 --> 00:46:47.855
+every animal being also, um,
+
+716
+00:46:49.065 --> 00:46:51.335
+there was a famous dog called Pablo Dog,
+
+717
+00:46:52.755 --> 00:46:55.415
+by which actually this, uh, uh, reinforcement learning,
+
+718
+00:46:57.035 --> 00:46:59.095
+the authorized that I have already given the name, right,
+
+719
+00:46:59.325 --> 00:47:00.335
+Richard Suan
+
+720
+00:47:00.335 --> 00:47:03.695
+and Bra, they have observed that there was a dog,
+
+721
+00:47:03.695 --> 00:47:07.885
+which has been trained that by hearing a bell,
+
+722
+00:47:08.695 --> 00:47:11.125
+he'll be provide the he'll provided the food
+
+723
+00:47:11.305 --> 00:47:12.365
+before giving the food,
+
+724
+00:47:12.385 --> 00:47:15.125
+he will be hearing a bell at a particular time.
+
+725
+00:47:15.995 --> 00:47:18.965
+Okay? Now, if the food is not
+
+726
+00:47:19.365 --> 00:47:21.005
+provided, then the
+
+727
+00:47:21.335 --> 00:47:24.605
+after hearing the bill, the dog starts salvaging,
+
+728
+00:47:25.585 --> 00:47:28.965
+the salvation is coming not by seeing the food,
+
+729
+00:47:29.145 --> 00:47:33.525
+but by expectation of a food, by hearing a bill action.
+
+730
+00:47:34.235 --> 00:47:38.565
+Okay? So from this, uh, they have got the idea that
+
+731
+00:47:40.465 --> 00:47:43.545
+reinforcement learning is something, a real time
+
+732
+00:47:43.645 --> 00:47:48.145
+and real time interaction of agent with the environment
+
+733
+00:47:48.365 --> 00:47:50.305
+by the help of past experience.
+
+734
+00:47:50.845 --> 00:47:52.625
+So you have already trained the dog
+
+735
+00:47:52.885 --> 00:47:54.705
+by using the ringing bell.
+
+736
+00:47:55.355 --> 00:47:57.465
+After ringing the bell, you are giving him the food.
+
+737
+00:47:57.845 --> 00:47:59.305
+So he is accustom to that.
+
+738
+00:47:59.365 --> 00:48:01.145
+Now, if you don't provide the food, you will see
+
+739
+00:48:01.145 --> 00:48:03.865
+that the dog starts salvation, okay?
+
+740
+00:48:03.865 --> 00:48:06.665
+So they wanted to imitate that into the
+
+741
+00:48:07.285 --> 00:48:11.065
+way a agent can interact with the world, not human being,
+
+742
+00:48:11.445 --> 00:48:13.745
+but any robot if it is interacting with the world.
+
+743
+00:48:14.285 --> 00:48:18.105
+In that case, he has to gather many past experience,
+
+744
+00:48:18.955 --> 00:48:20.815
+and every experience is going to be
+
+745
+00:48:21.325 --> 00:48:23.215
+meeting a certain outcome.
+
+746
+00:48:23.475 --> 00:48:26.615
+At that end of taking so many sequential decision,
+
+747
+00:48:27.405 --> 00:48:28.995
+after that, he will distribute
+
+748
+00:48:28.995 --> 00:48:30.515
+that reward in a backward manner
+
+749
+00:48:30.815 --> 00:48:32.475
+by doing a diminishing return.
+
+750
+00:48:33.425 --> 00:48:36.675
+Okay? And once he makes a learning out of this
+
+751
+00:48:36.675 --> 00:48:38.555
+for long amount of time, and next time,
+
+752
+00:48:38.755 --> 00:48:41.435
+whenever he is getting any kind of, uh,
+
+753
+00:48:42.175 --> 00:48:43.635
+signal from the environment,
+
+754
+00:48:43.775 --> 00:48:46.315
+he can do some action based on his past experience.
+
+755
+00:48:47.365 --> 00:48:49.585
+So this is unavoidable in reinforcement learning,
+
+756
+00:48:49.585 --> 00:48:53.025
+whereas back prop is something you can avoid if
+
+757
+00:48:53.025 --> 00:48:54.105
+you don't use neural network.
+
+758
+00:48:55.285 --> 00:48:56.345
+Yes, sir. Understood, sir.
+
+759
+00:48:56.405 --> 00:48:58.945
+So basically similar like we are amortization the entire
+
+760
+00:48:59.045 --> 00:49:00.785
+reward across various states.
+
+761
+00:49:01.855 --> 00:49:05.545
+Yeah, you are going to maximize your expected reward,
+
+762
+00:49:05.845 --> 00:49:08.145
+not the total reward, but it's called expected.
+
+763
+00:49:08.505 --> 00:49:11.465
+Expected means average. You are going to take sequence
+
+764
+00:49:11.465 --> 00:49:13.185
+of action at every action.
+
+765
+00:49:14.005 --> 00:49:17.505
+It is meeting some final, uh, hit point.
+
+766
+00:49:17.885 --> 00:49:21.185
+And from there you are estimate your, uh, return.
+
+767
+00:49:22.165 --> 00:49:26.225
+Now you take, you, uh, restart your series
+
+768
+00:49:26.245 --> 00:49:27.385
+of action, okay?
+
+769
+00:49:27.385 --> 00:49:29.105
+When you restart, your series of you are going
+
+770
+00:49:29.105 --> 00:49:32.065
+to take a finite amount of attempt, you are going
+
+771
+00:49:32.065 --> 00:49:34.065
+to hit the wall again, you receive the reward.
+
+772
+00:49:34.725 --> 00:49:36.105
+Now, when you do the submission,
+
+773
+00:49:36.105 --> 00:49:37.425
+you should not do the flat submission.
+
+774
+00:49:37.425 --> 00:49:39.185
+You should do the submission with the help
+
+775
+00:49:39.205 --> 00:49:41.705
+of multiplication, of the probability
+
+776
+00:49:41.845 --> 00:49:44.065
+of taking this action at that state.
+
+777
+00:49:44.445 --> 00:49:46.945
+The moment to take an into account of probabilistic,
+
+778
+00:49:47.385 --> 00:49:50.985
+it becomes expected, done it, it's not a
+
+779
+00:49:51.755 --> 00:49:52.785
+exact value, okay?
+
+780
+00:49:58.495 --> 00:50:01.825
+Okay? I will tell you in the next class is, uh, notice, sir.
+
+781
+00:50:01.895 --> 00:50:06.685
+Okay, lemme, lemme show you. Just gimme a moment.
+
+782
+00:50:06.795 --> 00:50:08.085
+I'll attach my stylus.
+
+783
+00:50:11.805 --> 00:50:16.345
+So all of you are familiar with basic thing like, uh,
+
+784
+00:50:16.415 --> 00:50:18.305
+average variance and all.
+
+785
+00:50:20.365 --> 00:50:23.975
+Yes, sir. Okay, good.
+
+786
+00:50:33.915 --> 00:50:36.125
+Because we're gonna maximize our
+
+787
+00:50:36.405 --> 00:50:37.485
+expected reward all the time.
+
+788
+00:50:38.635 --> 00:50:42.305
+We're not going maximize our total difference.
+
+789
+00:50:46.725 --> 00:50:50.705
+So, uh, lemme connect my status.
+
+790
+00:51:00.735 --> 00:51:04.735
+So this course has a lot of
+
+791
+00:51:05.425 --> 00:51:06.655
+maths, which are unheard,
+
+792
+00:51:07.575 --> 00:51:11.845
+but I will handhold your journey so that, uh,
+
+793
+00:51:12.425 --> 00:51:15.715
+you do not feel it is a troublesome journey.
+
+794
+00:51:18.115 --> 00:51:22.375
+You are able to see this, uh, screen of north shift, Tys.
+
+795
+00:51:22.445 --> 00:51:24.855
+Yeah. Yes, sir. Yes, sir. Okay.
+
+796
+00:51:25.595 --> 00:51:28.135
+Let write down your expression.
+
+797
+00:51:28.135 --> 00:51:32.375
+For what,
+
+798
+00:51:32.845 --> 00:51:35.935
+what is the objective that we try to solve here?
+
+799
+00:51:36.125 --> 00:51:37.695
+I'll just write that part alone.
+
+800
+00:52:19.195 --> 00:52:21.975
+Okay? Okay.
+
+801
+00:52:21.995 --> 00:52:26.485
+So every time the agent is taking some action,
+
+802
+00:52:28.065 --> 00:52:28.535
+let's say
+
+803
+00:52:33.045 --> 00:52:37.925
+action a At
+
+804
+00:52:37.925 --> 00:52:39.325
+the time of st.
+
+805
+00:52:39.385 --> 00:52:43.645
+So this is a pair the agent has taken action at, at the time
+
+806
+00:52:43.645 --> 00:52:46.085
+of t when the environment was in state T.
+
+807
+00:52:47.115 --> 00:52:51.145
+Okay? So it is receiving a reward
+
+808
+00:52:51.685 --> 00:52:52.785
+called rt.
+
+809
+00:52:54.135 --> 00:52:58.785
+Then, uh, your
+
+810
+00:52:58.785 --> 00:53:01.305
+environment has done st two, st plus one.
+
+811
+00:53:01.365 --> 00:53:05.145
+At that point of time, you're gonna take 80 plus one
+
+812
+00:53:06.845 --> 00:53:10.515
+agent is gonna take this action again, it is going
+
+813
+00:53:10.515 --> 00:53:13.795
+to receive a reward at that time, RT plus
+
+814
+00:53:15.605 --> 00:53:16.785
+one, okay?
+
+815
+00:53:17.755 --> 00:53:21.525
+Like that. This will go on for let's say
+
+816
+00:53:22.065 --> 00:53:24.645
+st plus of capital T
+
+817
+00:53:25.585 --> 00:53:29.205
+and A is the action he has taken at the time, instead
+
+818
+00:53:29.205 --> 00:53:30.965
+of t plus capital T, okay?
+
+819
+00:53:31.425 --> 00:53:33.445
+The final action after that, he cannot
+
+820
+00:53:33.445 --> 00:53:34.765
+because time has expired.
+
+821
+00:53:35.265 --> 00:53:36.885
+So he has taken total how many action
+
+822
+00:53:36.915 --> 00:53:38.365
+capital t number of action.
+
+823
+00:53:38.385 --> 00:53:39.925
+The moment last action is ending,
+
+824
+00:53:40.025 --> 00:53:45.025
+he is receiving a reward or T word.
+
+825
+00:53:45.265 --> 00:53:47.635
+Okay? So the objective here is
+
+826
+00:53:50.935 --> 00:53:55.185
+objective here is to maximize the expected return.
+
+827
+00:53:56.325 --> 00:53:59.805
+So your return is basically what?
+
+828
+00:54:00.425 --> 00:54:03.195
+RT plus
+
+829
+00:54:06.525 --> 00:54:10.525
+gamma RT plus one plus
+
+830
+00:54:11.575 --> 00:54:15.365
+gamma square RP plus
+
+831
+00:54:15.545 --> 00:54:17.295
+two, like that.
+
+832
+00:54:17.295 --> 00:54:19.375
+It'll go on. This gamma is basically
+
+833
+00:54:19.405 --> 00:54:22.105
+your discount factor, okay?
+
+834
+00:54:23.255 --> 00:54:25.505
+This gamma is basically your discount factor.
+
+835
+00:54:29.135 --> 00:54:31.705
+This is gamma times
+
+836
+00:54:37.055 --> 00:54:40.715
+gamma alone Here, yes, gamma square.
+
+837
+00:54:40.865 --> 00:54:45.675
+Okay? So you are doing a, you are doing a
+
+838
+00:54:46.875 --> 00:54:48.875
+multiplication every time by gamma as
+
+839
+00:54:48.875 --> 00:54:51.275
+and when you are moving into the future.
+
+840
+00:54:51.775 --> 00:54:54.355
+So it'll be ending up at gamma power
+
+841
+00:54:55.075 --> 00:54:59.285
+TRT plus, okay?
+
+842
+00:54:59.915 --> 00:55:04.565
+It means that this is called R,
+
+843
+00:55:04.595 --> 00:55:05.645
+this is gamma, okay?
+
+844
+00:55:05.755 --> 00:55:08.285
+This is gamma, and this one is R.
+
+845
+00:55:08.665 --> 00:55:11.205
+The reward given it is called instantaneous reward.
+
+846
+00:55:11.205 --> 00:55:15.235
+This R is called instant
+
+847
+00:55:18.565 --> 00:55:20.265
+is instantaneous reward,
+
+848
+00:55:21.485 --> 00:55:24.225
+and this instantaneous reward is multiplied by the gamma
+
+849
+00:55:24.605 --> 00:55:25.905
+to the power, the time instant
+
+850
+00:55:25.905 --> 00:55:29.305
+that it has the agent has moved into the future, okay?
+
+851
+00:55:29.305 --> 00:55:32.545
+It has moved into the T time in the future.
+
+852
+00:55:33.225 --> 00:55:36.225
+Starting from there, at the time of T, he has taken
+
+853
+00:55:36.815 --> 00:55:38.585
+capital T number of steps.
+
+854
+00:55:38.815 --> 00:55:40.025
+That is what this is called.
+
+855
+00:55:41.185 --> 00:55:45.445
+Some of all the rewards had started from the state
+
+856
+00:55:45.445 --> 00:55:47.125
+of st, okay?
+
+857
+00:55:48.655 --> 00:55:52.745
+This ST means at the time of T, the environment is in
+
+858
+00:55:53.595 --> 00:55:54.745
+state of st.
+
+859
+00:55:54.885 --> 00:55:57.785
+So now, if I give you a concrete example like this,
+
+860
+00:55:59.115 --> 00:56:03.775
+I say this is a floor, a three cross,
+
+861
+00:56:03.775 --> 00:56:08.215
+three floor, you can consider this is
+
+862
+00:56:08.585 --> 00:56:09.775
+three plus three floor.
+
+863
+00:56:14.115 --> 00:56:17.345
+Every grid has its own coordinate position starting from
+
+864
+00:56:17.345 --> 00:56:19.795
+here, zero, zero.
+
+865
+00:56:20.775 --> 00:56:23.605
+You'll have here zero one, this position left,
+
+866
+00:56:24.155 --> 00:56:28.245
+left index zero comma two, uh, 0 1, 0 1, 2, 0 4, like that.
+
+867
+00:56:28.245 --> 00:56:30.125
+Okay? So this will not be required
+
+868
+00:56:30.125 --> 00:56:31.285
+because we are ending in here.
+
+869
+00:56:31.385 --> 00:56:33.805
+So this is required, this is required.
+
+870
+00:56:34.025 --> 00:56:36.445
+And again, for this, this is required. This is required.
+
+871
+00:56:36.445 --> 00:56:40.565
+So this will be just, if you take this as zero, I mean this,
+
+872
+00:56:40.745 --> 00:56:43.085
+so it'll be one comma zero here,
+
+873
+00:56:43.935 --> 00:56:45.365
+there will be two comma zero,
+
+874
+00:56:45.505 --> 00:56:48.585
+and here it'll be zero comma one.
+
+875
+00:56:49.055 --> 00:56:51.145
+This are the coordinate position.
+
+876
+00:56:51.165 --> 00:56:52.385
+Now, what is your st
+
+877
+00:56:52.385 --> 00:56:56.745
+and all st basically at time t you are starting from this
+
+878
+00:56:56.745 --> 00:56:57.905
+state of st okay?
+
+879
+00:56:57.925 --> 00:57:00.865
+At time t you may start from anywhere in this,
+
+880
+00:57:01.075 --> 00:57:04.425
+let's say your desired place to go here is there is a,
+
+881
+00:57:05.195 --> 00:57:07.625
+there is a cake cape to here.
+
+882
+00:57:07.965 --> 00:57:11.705
+The robot is moving and there is a hole over here.
+
+883
+00:57:12.805 --> 00:57:16.305
+The robot is standing here at this initial phase. Okay?
+
+884
+00:57:16.685 --> 00:57:19.785
+So now your st at is basically ace of zero.
+
+885
+00:57:20.735 --> 00:57:24.615
+Your ace of zero is in this, that is zero comm,
+
+886
+00:57:24.685 --> 00:57:27.375
+zero this position, okay?
+
+887
+00:57:27.375 --> 00:57:30.335
+And then he's gonna take capital T number of transition.
+
+888
+00:57:30.875 --> 00:57:32.695
+So capital t, let's say you're taking,
+
+889
+00:57:32.745 --> 00:57:34.695
+let's say 10 steps, okay?
+
+890
+00:57:35.155 --> 00:57:37.735
+So you may go from here to here. That is one step.
+
+891
+00:57:38.755 --> 00:57:42.815
+So you go from here to here and from here you go here
+
+892
+00:57:43.435 --> 00:57:44.535
+and it is a random walk.
+
+893
+00:57:44.555 --> 00:57:47.555
+You do it just like a flipping a coin.
+
+894
+00:57:48.295 --> 00:57:49.995
+If it is a head, you move this side.
+
+895
+00:57:50.015 --> 00:57:52.635
+If it is a tail, you move this side, okay? Like that.
+
+896
+00:57:53.925 --> 00:57:58.665
+Now, if that is a movement, okay?
+
+897
+00:57:59.045 --> 00:58:02.665
+So if you do another day, uh, another time tossing,
+
+898
+00:58:02.665 --> 00:58:03.785
+you may be hitting the wall.
+
+899
+00:58:04.495 --> 00:58:06.515
+If you keep on moving here, the movement,
+
+900
+00:58:06.515 --> 00:58:08.365
+you hit the wall, okay?
+
+901
+00:58:08.365 --> 00:58:10.685
+There is a policy that means the movement policy,
+
+902
+00:58:11.125 --> 00:58:12.285
+movement policy is defined by call
+
+903
+00:58:13.015 --> 00:58:14.285
+trion probability metrics.
+
+904
+00:58:15.885 --> 00:58:18.585
+So what does it say? Basically, if you hit the wall,
+
+905
+00:58:19.245 --> 00:58:22.425
+you may go downside, you may go upside.
+
+906
+00:58:22.605 --> 00:58:25.185
+So this all defined by your, if you don't hit the wall,
+
+907
+00:58:25.185 --> 00:58:28.785
+you'll be moving to your desired action itself, okay?
+
+908
+00:58:28.785 --> 00:58:30.465
+Like that. If you take a left movement here,
+
+909
+00:58:30.465 --> 00:58:33.065
+you'll be hitting the wall, and as a result
+
+910
+00:58:33.065 --> 00:58:35.305
+of hitting the wall, you may be going this side
+
+911
+00:58:35.365 --> 00:58:36.625
+or you may be going this side.
+
+912
+00:58:36.855 --> 00:58:41.635
+Okay? So these are various possible of your is not,
+
+913
+00:58:41.785 --> 00:58:42.995
+it's not meant at times zero.
+
+914
+00:58:43.175 --> 00:58:45.555
+You may be starting from either zero, zero,
+
+915
+00:58:45.615 --> 00:58:47.235
+you may start from here, you may start from here.
+
+916
+00:58:47.525 --> 00:58:49.315
+There is no bound on it, okay?
+
+917
+00:58:50.735 --> 00:58:53.785
+If you, let's say you start from here, in that case,
+
+918
+00:58:53.975 --> 00:58:56.185
+your reward is going to be very certain.
+
+919
+00:58:56.525 --> 00:58:59.025
+If you take a right hand side movement, you are going
+
+920
+00:58:59.025 --> 00:59:00.185
+to get a reward immediately.
+
+921
+00:59:00.815 --> 00:59:02.665
+Okay? If you start from here,
+
+922
+00:59:02.665 --> 00:59:04.305
+if you take a movement on this side,
+
+923
+00:59:05.045 --> 00:59:06.945
+you are going away from your reward.
+
+924
+00:59:07.215 --> 00:59:09.625
+Okay? So that is why they say that we have
+
+925
+00:59:09.645 --> 00:59:14.445
+to take into account of this diminishing factor, okay?
+
+926
+00:59:14.905 --> 00:59:16.205
+And then do the sum. And this is
+
+927
+00:59:16.205 --> 00:59:18.565
+for one calculation of your reward.
+
+928
+00:59:19.145 --> 00:59:21.325
+The moment we say expected reward,
+
+929
+00:59:21.435 --> 00:59:23.725
+that means this is for my one trial.
+
+930
+00:59:24.895 --> 00:59:26.485
+Let's say this is my first trial.
+
+931
+00:59:30.125 --> 00:59:32.825
+I'm going to start another second trial at that position,
+
+932
+00:59:32.995 --> 00:59:35.905
+let's say this is for my first trial, okay?
+
+933
+00:59:36.195 --> 00:59:37.945
+Let's say I'm starting my second trial,
+
+934
+00:59:37.945 --> 00:59:39.185
+which is indexed by two here.
+
+935
+00:59:39.185 --> 00:59:42.805
+This is indexed by one. This is superscript index.
+
+936
+00:59:42.805 --> 00:59:44.845
+That means this is my trial index value.
+
+937
+00:59:45.145 --> 00:59:47.565
+One means first, all two means second trial.
+
+938
+00:59:48.145 --> 00:59:52.365
+So let's say I'm starting from this state called 1.0.
+
+939
+00:59:53.065 --> 00:59:54.285
+If I start from this state
+
+940
+00:59:55.025 --> 00:59:58.295
+and I take, I just do it to coin tossing
+
+941
+00:59:58.825 --> 01:00:00.215
+based on that, I make a movement.
+
+942
+01:00:00.215 --> 01:00:01.495
+It's a random of movement.
+
+943
+01:00:02.155 --> 01:00:05.715
+So every movement I am getting into some next state.
+
+944
+01:00:05.775 --> 01:00:07.595
+And then again, I do point tossing.
+
+945
+01:00:08.595 --> 01:00:10.155
+I will not get any reward in
+
+946
+01:00:10.155 --> 01:00:12.595
+between till the time I hit either here,
+
+947
+01:00:12.605 --> 01:00:16.475
+let's say move into a hole, I get a negative reward, okay?
+
+948
+01:00:17.895 --> 01:00:21.115
+So it's fortunately if I move from here to here with this
+
+949
+01:00:21.415 --> 01:00:23.355
+and then go here, then I will get into,
+
+950
+01:00:23.575 --> 01:00:26.035
+so all these are basically a probabilistic,
+
+951
+01:00:26.215 --> 01:00:27.275
+it is called random work.
+
+952
+01:00:27.935 --> 01:00:31.635
+So you take all of the reward into account, okay?
+
+953
+01:00:32.135 --> 01:00:34.075
+Do a discount factor,
+
+954
+01:00:35.695 --> 01:00:40.185
+and then for all of the trial, you need to account them
+
+955
+01:00:40.255 --> 01:00:43.015
+with, uh, the probability
+
+956
+01:00:43.015 --> 01:00:45.095
+that you have taken action of this.
+
+957
+01:00:45.475 --> 01:00:49.175
+So there'll be something like pi, PI called probability
+
+958
+01:00:49.175 --> 01:00:53.315
+of taking action at given st,
+
+959
+01:00:54.355 --> 01:00:57.555
+multiplied by reward, instantaneous reward disregard this
+
+960
+01:00:58.465 --> 01:01:02.945
+plus again, probability of do not get frightened
+
+961
+01:01:02.945 --> 01:01:06.375
+by all these things because these are not going to be, um,
+
+962
+01:01:07.115 --> 01:01:09.855
+coming to your real life work, okay?
+
+963
+01:01:09.995 --> 01:01:11.575
+Unless you are into research domain,
+
+964
+01:01:12.355 --> 01:01:13.735
+do not get frightened, okay?
+
+965
+01:01:13.795 --> 01:01:17.745
+So, because every time we see, uh, students,
+
+966
+01:01:18.375 --> 01:01:19.385
+they get frightened.
+
+967
+01:01:19.385 --> 01:01:21.185
+That's right. So you take another
+
+968
+01:01:22.165 --> 01:01:25.425
+action at the next state called st plus one.
+
+969
+01:01:26.325 --> 01:01:29.215
+This will be provided by the reward, okay?
+
+970
+01:01:29.755 --> 01:01:34.015
+And every time this you are making this prob stick movement,
+
+971
+01:01:34.675 --> 01:01:37.255
+you have to multiply this with gamma,
+
+972
+01:01:37.875 --> 01:01:40.765
+then plus gamma square here.
+
+973
+01:01:41.395 --> 01:01:43.125
+Next, you take another action,
+
+974
+01:01:44.105 --> 01:01:47.645
+80 plus one, two plus two.
+
+975
+01:01:48.675 --> 01:01:53.405
+This is vertical bar conditional taking as an 80 plus,
+
+976
+01:01:53.405 --> 01:01:56.285
+given that you are into state call st plus one,
+
+977
+01:01:56.405 --> 01:01:58.885
+this multiplied by the instantaneous rewarded here.
+
+978
+01:01:59.795 --> 01:02:02.685
+When you do this, you'll get into call expected reward.
+
+979
+01:02:02.685 --> 01:02:02.965
+Okay?
+
+980
+01:02:08.595 --> 01:02:09.415
+You have any question?
+
+981
+01:02:16.475 --> 01:02:18.775
+So like in our, uh, machine learning
+
+982
+01:02:18.885 --> 01:02:20.285
+Algorithms and surrounding deep link,
+
+983
+01:02:20.285 --> 01:02:22.645
+we have this loss function that is objective function
+
+984
+01:02:23.095 --> 01:02:25.565
+where we try to minimize the loss the same way.
+
+985
+01:02:25.565 --> 01:02:27.045
+Here, our objective will be
+
+986
+01:02:27.045 --> 01:02:28.645
+to maximize the expert return, right,
+
+987
+01:02:28.665 --> 01:02:29.665
+Sir? Yes, yes, yes.
+
+988
+01:02:29.665 --> 01:02:30.445
+Okay.
+
+989
+01:02:34.765 --> 01:02:37.535
+Okay. So I already
+
+990
+01:02:38.115 --> 01:02:39.775
+shared this lecture notes.
+
+991
+01:02:42.395 --> 01:02:45.305
+These are just for PPT, the chapter one, PDF.
+
+992
+01:02:46.135 --> 01:02:47.505
+Already I have shared with
+
+993
+01:02:48.065 --> 01:02:49.265
+material they'll be providing you.
+
+994
+01:02:52.915 --> 01:02:55.335
+So there is a problem for every learning algorithm.
+
+995
+01:02:56.475 --> 01:02:59.645
+That problem is called, uh, exploitation
+
+996
+01:02:59.665 --> 01:03:00.725
+and exploration problem.
+
+997
+01:03:00.955 --> 01:03:04.245
+Okay? So it is like this exploitation means,
+
+998
+01:03:06.055 --> 01:03:08.645
+let's say you have hired a new employee in your office
+
+999
+01:03:09.625 --> 01:03:11.645
+and while taking interview, you know
+
+1000
+01:03:11.645 --> 01:03:13.365
+what he's good at, okay?
+
+1001
+01:03:13.785 --> 01:03:16.405
+Now you are going to give him the project you are assigning
+
+1002
+01:03:16.405 --> 01:03:20.125
+the project to him in the area in which he's strong is
+
+1003
+01:03:20.125 --> 01:03:21.405
+called exploitation of the skill
+
+1004
+01:03:21.405 --> 01:03:22.605
+that the person is already having.
+
+1005
+01:03:24.035 --> 01:03:26.435
+Consider that the person who has come to you is a agent.
+
+1006
+01:03:27.165 --> 01:03:28.475
+Agent means he is a human being.
+
+1007
+01:03:28.475 --> 01:03:30.555
+He is upgrading his skill again and again, okay?
+
+1008
+01:03:31.095 --> 01:03:32.635
+He may have his own desire.
+
+1009
+01:03:33.175 --> 01:03:34.835
+So he may do the job for with you
+
+1010
+01:03:34.855 --> 01:03:37.235
+for let's say one year and one and a half years.
+
+1011
+01:03:38.175 --> 01:03:39.995
+The moment he gets some amount of skill,
+
+1012
+01:03:40.135 --> 01:03:41.595
+he will try to upgrade his skill.
+
+1013
+01:03:41.935 --> 01:03:44.275
+So for him, it is something,
+
+1014
+01:03:44.865 --> 01:03:47.865
+it's called exploration, okay?
+
+1015
+01:03:48.685 --> 01:03:52.845
+And exploration means basically he is trying
+
+1016
+01:03:52.845 --> 01:03:56.565
+to explore something new action by which he wants
+
+1017
+01:03:56.565 --> 01:03:58.085
+to gather more and more knowledge.
+
+1018
+01:03:59.005 --> 01:04:03.525
+Exploitation means the person who is getting exploited,
+
+1019
+01:04:04.145 --> 01:04:08.035
+he may not learn any new knowledge out of the action
+
+1020
+01:04:08.035 --> 01:04:09.315
+that he's taking on.
+
+1021
+01:04:10.405 --> 01:04:12.615
+Okay? So we have a trade off.
+
+1022
+01:04:12.615 --> 01:04:14.615
+These are all very real life problem.
+
+1023
+01:04:14.615 --> 01:04:16.055
+That is where reinforcement learning
+
+1024
+01:04:16.055 --> 01:04:17.255
+deals with this kind of problem.
+
+1025
+01:04:18.395 --> 01:04:21.895
+So whenever we take any action by any agent, okay,
+
+1026
+01:04:22.225 --> 01:04:26.905
+based on the previous experience, we try to give
+
+1027
+01:04:28.225 --> 01:04:31.705
+priority to the action, which has earned
+
+1028
+01:04:33.285 --> 01:04:38.005
+a positive reward in the previous cycle of, uh, action,
+
+1029
+01:04:38.015 --> 01:04:39.125
+state action sequence.
+
+1030
+01:04:39.355 --> 01:04:43.405
+Okay? We don't try to take any action,
+
+1031
+01:04:43.415 --> 01:04:45.885
+which has given negative feedback, that is
+
+1032
+01:04:45.885 --> 01:04:46.965
+what is called exploitation.
+
+1033
+01:04:47.585 --> 01:04:49.485
+But as and when the learning progress,
+
+1034
+01:04:49.745 --> 01:04:51.805
+it has progressed quite a mature amount of time.
+
+1035
+01:04:51.995 --> 01:04:55.605
+Then what we do is we don't exploit the action
+
+1036
+01:04:55.605 --> 01:04:58.765
+that has given me a higher amount of reward.
+
+1037
+01:04:59.285 --> 01:05:02.325
+I will take some action, which has given me lesser amount of
+
+1038
+01:05:03.025 --> 01:05:05.925
+reward in my previous cycle of knowledge gathering.
+
+1039
+01:05:07.495 --> 01:05:11.825
+Then after taking that risky path, then again,
+
+1040
+01:05:11.905 --> 01:05:14.065
+I will try to, uh,
+
+1041
+01:05:14.525 --> 01:05:17.565
+do this exploit exploitation, okay?
+
+1042
+01:05:17.685 --> 01:05:19.285
+I will take into some risky zone,
+
+1043
+01:05:19.285 --> 01:05:22.085
+then I'll just do some few cycles of exploitation.
+
+1044
+01:05:22.515 --> 01:05:25.765
+Then again, I'll go into one mode of exploitation.
+
+1045
+01:05:25.765 --> 01:05:27.995
+So this will go on, okay?
+
+1046
+01:05:28.215 --> 01:05:30.515
+So you always call it as this, the way
+
+1047
+01:05:30.515 --> 01:05:32.795
+to solve this problem is called if silent, greedy.
+
+1048
+01:05:33.525 --> 01:05:38.305
+If silent means a very less, probably like 0.05 probability
+
+1049
+01:05:38.975 --> 01:05:43.145
+with LA 0.05 probability, we do exploration of new action
+
+1050
+01:05:43.685 --> 01:05:47.185
+and 0.95 probability we exploit the earlier
+
+1051
+01:05:47.775 --> 01:05:48.985
+actions, okay?
+
+1052
+01:05:48.985 --> 01:05:50.105
+That is called salability.
+
+1053
+01:05:50.165 --> 01:05:55.025
+So we try to, uh, make a trade, uh, trade off
+
+1054
+01:05:55.025 --> 01:05:58.885
+between greedy and non greedy.
+
+1055
+01:05:59.115 --> 01:06:03.005
+That is called exploitation and exploitation, all of them.
+
+1056
+01:06:03.165 --> 01:06:04.405
+I will show you the examples.
+
+1057
+01:06:04.405 --> 01:06:07.725
+These are the various things that I told I wanted
+
+1058
+01:06:07.745 --> 01:06:10.645
+to tell you before the formal class begins.
+
+1059
+01:06:11.545 --> 01:06:15.965
+So these are the some, uh, successful application
+
+1060
+01:06:15.965 --> 01:06:17.005
+of reinforcement learning.
+
+1061
+01:06:17.665 --> 01:06:20.525
+As I told you, this 2013 and 15
+
+1062
+01:06:20.935 --> 01:06:24.645
+after game was solved by DQ Network.
+
+1063
+01:06:25.385 --> 01:06:29.925
+And the person who who's YouTube lecturer to shown you,
+
+1064
+01:06:29.925 --> 01:06:34.685
+right, Peter, he is into this, uh, team
+
+1065
+01:06:35.145 --> 01:06:38.285
+who has, which has solved already 2015 this problem.
+
+1066
+01:06:38.745 --> 01:06:43.365
+And the same team has proposed one mode, level of algorithm,
+
+1067
+01:06:43.495 --> 01:06:47.965
+which is the very, very, um, heart of your chat,
+
+1068
+01:06:48.165 --> 01:06:49.405
+GPT repeatable,
+
+1069
+01:06:50.225 --> 01:06:52.245
+and then, uh, David Silva,
+
+1070
+01:06:52.695 --> 01:06:54.845
+these names you might be hearing first time,
+
+1071
+01:06:54.985 --> 01:06:57.525
+but from me, you'll keep on encountering this name.
+
+1072
+01:07:00.015 --> 01:07:01.945
+Then AlphaGo again, AlphaGo was
+
+1073
+01:07:02.125 --> 01:07:05.425
+so deep Q Network is was solved by Google DeepMind.
+
+1074
+01:07:06.885 --> 01:07:09.895
+AlphaGo, also also solved by Google DeepMind. Okay?
+
+1075
+01:07:10.915 --> 01:07:13.335
+So then these people, again, these AlphaGo people,
+
+1076
+01:07:13.365 --> 01:07:15.975
+they have come up with this algorithm called tpo,
+
+1077
+01:07:15.975 --> 01:07:17.495
+OA three C-T-R-P-O.
+
+1078
+01:07:17.495 --> 01:07:18.495
+These are the algorithms
+
+1079
+01:07:19.885 --> 01:07:23.775
+because of whom chat GBT has made the success over Google
+
+1080
+01:07:23.895 --> 01:07:27.175
+DeepMind, uh, model called BRT model.
+
+1081
+01:07:27.555 --> 01:07:29.935
+By this time, you all of you know, this call model,
+
+1082
+01:07:30.005 --> 01:07:31.135
+like DRT model.
+
+1083
+01:07:33.215 --> 01:07:36.955
+DRT model is the first model which has implemented, uh,
+
+1084
+01:07:36.955 --> 01:07:38.875
+which has implemented transformer technology,
+
+1085
+01:07:39.655 --> 01:07:44.155
+but they are not the people who have implemented PPO.
+
+1086
+01:07:44.625 --> 01:07:46.155
+Because this PPO is standing
+
+1087
+01:07:46.155 --> 01:07:47.555
+under reinforcement learning algorithm.
+
+1088
+01:07:48.075 --> 01:07:50.155
+PPO has been implemented by open AI people
+
+1089
+01:07:50.535 --> 01:07:52.515
+and these people like this, Peter Abel
+
+1090
+01:07:52.515 --> 01:07:55.435
+and all those who have worked in DQ network in Google mine,
+
+1091
+01:07:55.435 --> 01:07:57.755
+they shifted to open AI company.
+
+1092
+01:07:57.945 --> 01:08:00.835
+They come up with this algorithm, they made chat GBT.
+
+1093
+01:08:04.835 --> 01:08:07.055
+So the people remain same product is different.
+
+1094
+01:08:07.765 --> 01:08:10.395
+This is a very, very huge battle going on in the
+
+1095
+01:08:10.395 --> 01:08:11.875
+world and the AI space.
+
+1096
+01:08:12.455 --> 01:08:15.035
+So I take spec specific interest to this domain
+
+1097
+01:08:15.220 --> 01:08:18.045
+of learning these algorithms, which will not be part
+
+1098
+01:08:18.045 --> 01:08:19.085
+of your topic.
+
+1099
+01:08:19.235 --> 01:08:21.725
+This is part of deep reinforcement learning thing. Okay?
+
+1100
+01:08:23.535 --> 01:08:26.675
+So today I end up the class over here 7 29 time.
+
+1101
+01:08:26.735 --> 01:08:28.755
+Now, if you have any question you can ask me.
+
+1102
+01:08:29.305 --> 01:08:30.955
+This is brought over. You have provided to you.
+
+1103
+01:08:36.795 --> 01:08:38.335
+So do not be frightened.
+
+1104
+01:08:38.535 --> 01:08:40.495
+I will be handholding you in this journey
+
+1105
+01:08:41.435 --> 01:08:45.935
+and, um, I'm sure very few of them will be useful for your
+
+1106
+01:08:46.895 --> 01:08:50.065
+company, uh, project and work,
+
+1107
+01:08:50.245 --> 01:08:53.425
+unless you are into robotics or yeah,
+
+1108
+01:08:53.425 --> 01:08:56.115
+unless you into robotics, then
+
+1109
+01:08:56.865 --> 01:08:59.355
+otherwise it'll not be so much useful for you.
+
+1110
+01:08:59.565 --> 01:09:01.955
+Those who are working in software
+
+1111
+01:09:02.675 --> 01:09:04.755
+training LLM is not happening in India.
+
+1112
+01:09:05.505 --> 01:09:08.595
+This is only useful for training of LLM. Okay?
+
+1113
+01:09:08.695 --> 01:09:12.675
+So pretty much, I think
+
+1114
+01:09:13.975 --> 01:09:17.585
+only 20% of the thing of this codes will be useful
+
+1115
+01:09:17.805 --> 01:09:21.855
+for you in terms of daily deliverable in your projects,
+
+1116
+01:09:21.855 --> 01:09:22.855
+in your company, okay?
+
+1117
+01:09:22.995 --> 01:09:26.535
+But as a, uh, as a learning thing, this is a very good thing
+
+1118
+01:09:26.535 --> 01:09:29.375
+because this is one of the most important thing
+
+1119
+01:09:29.375 --> 01:09:30.935
+that has enabled GPT.
+
+1120
+01:09:34.965 --> 01:09:36.825
+How relevant is this course for this, uh,
+
+1121
+01:09:36.845 --> 01:09:38.105
+domain of computer visions?
+
+1122
+01:09:39.205 --> 01:09:40.615
+Yeah, it has a lot of relevance
+
+1123
+01:09:40.615 --> 01:09:44.005
+because robot see,
+
+1124
+01:09:44.685 --> 01:09:46.565
+reinforcement learning comes into advanced robotics.
+
+1125
+01:09:47.235 --> 01:09:50.085
+Okay? So all those, uh, multimodal information
+
+1126
+01:09:50.085 --> 01:09:54.405
+that you gain from your various sensors, then you, uh,
+
+1127
+01:09:55.785 --> 01:10:00.005
+you keep on taking sequential actions, okay?
+
+1128
+01:10:00.005 --> 01:10:02.325
+Every action will not be providing some reward,
+
+1129
+01:10:02.345 --> 01:10:03.525
+but at the end, you are going
+
+1130
+01:10:03.525 --> 01:10:05.445
+to get some reward based on that.
+
+1131
+01:10:05.465 --> 01:10:09.125
+You have to, um, come up with estimation
+
+1132
+01:10:09.125 --> 01:10:10.325
+of sequence of action.
+
+1133
+01:10:10.515 --> 01:10:12.085
+What sequence of action might have
+
+1134
+01:10:12.085 --> 01:10:13.205
+given you a positive reward.
+
+1135
+01:10:13.425 --> 01:10:15.605
+So for that reinforcement learning will help you.
+
+1136
+01:10:19.035 --> 01:10:22.275
+Okay? So like in case of machine learning,
+
+1137
+01:10:23.135 --> 01:10:24.515
+you start training, okay?
+
+1138
+01:10:24.695 --> 01:10:27.635
+You have no idea which neuron is learning more,
+
+1139
+01:10:27.635 --> 01:10:29.275
+which neuron is not learning more.
+
+1140
+01:10:29.275 --> 01:10:32.395
+You'll have no idea. But in case of reinforcement learning,
+
+1141
+01:10:33.125 --> 01:10:35.915
+after training a long time, you'll come to conclusion
+
+1142
+01:10:35.915 --> 01:10:38.035
+that which set of action has given you
+
+1143
+01:10:38.795 --> 01:10:40.195
+a final positive reward.
+
+1144
+01:10:40.195 --> 01:10:41.595
+Which set of action has given you
+
+1145
+01:10:41.595 --> 01:10:43.195
+a negative reward like that?
+
+1146
+01:10:46.635 --> 01:10:51.095
+So maybe you can go for optimization by, yeah, okay.
+
+1147
+01:10:51.355 --> 01:10:53.975
+You know, it is standing on optimization.
+
+1148
+01:10:54.535 --> 01:10:56.255
+Optimization is not your objective.
+
+1149
+01:10:56.255 --> 01:11:00.055
+Your ob your objectives to ex uh, uh,
+
+1150
+01:11:00.695 --> 01:11:01.775
+maximize your expected reward.
+
+1151
+01:11:01.995 --> 01:11:04.175
+To do that, you need the help of optimization.
+
+1152
+01:11:04.175 --> 01:11:08.005
+Your optimization is a tool for you. It's not an objective.
+
+1153
+01:11:10.475 --> 01:11:14.605
+Okay? Okay. So, uh, next class, we'll catch up on Saturday.
+
+1154
+01:11:15.605 --> 01:11:19.005
+Saturday, uh, so Sunday night we're going to have a quiz.
+
+1155
+01:11:19.155 --> 01:11:22.405
+Okay, fine. Yes. Yeah.
+
+1156
+01:11:22.945 --> 01:11:24.085
+The timing of the quiz
+
+1157
+01:11:24.795 --> 01:11:28.365
+Quiz will be open till Sunday, eight, uh, I think, uh,
+
+1158
+01:11:29.305 --> 01:11:31.525
+10:00 PM till 10:00 PM We'll keep it open.
+
+1159
+01:11:31.575 --> 01:11:33.005
+It'll open for only six minutes.
+
+1160
+01:11:33.115 --> 01:11:36.005
+Once you enter by six minute, it'll close it up
+
+1161
+01:11:36.005 --> 01:11:38.365
+because only three question will be there, all our,
+
+1162
+01:11:39.265 --> 01:11:40.405
+uh, MCQ question.
+
+1163
+01:11:40.435 --> 01:11:42.285
+Okay? So when it start, so from what time
+
+1164
+01:11:42.335 --> 01:11:45.445
+It'll start, sir, The moment you log in, if you,
+
+1165
+01:11:45.445 --> 01:11:46.685
+let's say you make up your mind,
+
+1166
+01:11:46.695 --> 01:11:48.205
+it'll give you only six minute time
+
+1167
+01:11:49.235 --> 01:11:50.805
+From what time the quiz will be
+
+1168
+01:11:50.805 --> 01:11:51.805
+Open. It'll open
+
+1169
+01:11:51.805 --> 01:11:53.325
+throughout the, the, I mean
+
+1170
+01:11:53.625 --> 01:11:55.645
+Sunday, whole Sunday, yeah, through Sunday.
+
+1171
+01:11:55.955 --> 01:11:58.445
+Okay. Sunday also, you can go and do that, no problem.
+
+1172
+01:11:58.855 --> 01:12:00.805
+We'll be opening it up from Saturday itself, okay?
+
+1173
+01:12:01.315 --> 01:12:03.125
+Okay, sir. Thank you. Yeah.
+
+1174
+01:12:03.295 --> 01:12:05.965
+Every, every week there will be quizzes, right?
+
+1175
+01:12:08.845 --> 01:12:10.215
+Yeah, yeah. Every week I write
+
+1176
+01:12:11.985 --> 01:12:14.535
+Those logistics are all are discussed.
+
+1177
+01:12:14.535 --> 01:12:17.975
+Sir, like, can you give some details as to, uh, how we,
+
+1178
+01:12:18.235 --> 01:12:20.855
+how you are conducting, uh, the midem
+
+1179
+01:12:21.195 --> 01:12:23.335
+and all these things, those logistics?
+
+1180
+01:12:23.805 --> 01:12:25.135
+Yeah. I'll provide you next class.
+
+1181
+01:12:26.535 --> 01:12:28.615
+I have another class coming up that side. Okay.
+
+1182
+01:12:29.085 --> 01:12:31.055
+Yeah, because in the last semester we had a lot
+
+1183
+01:12:31.055 --> 01:12:33.775
+of confusion around some of the subjects. So like
+
+1184
+01:12:33.835 --> 01:12:35.535
+We don't have, uh, I'll not be conducting any
+
+1185
+01:12:35.625 --> 01:12:36.695
+midem directly.
+
+1186
+01:12:36.715 --> 01:12:37.815
+You have nem.
+
+1187
+01:12:38.955 --> 01:12:40.245
+Okay? Okay. Yeah. Those things
+
+1188
+01:12:40.265 --> 01:12:42.085
+we, we would like to know initially. So, um,
+
+1189
+01:12:42.435 --> 01:12:43.435
+Yeah. So I'll provide
+
+1190
+01:12:43.435 --> 01:12:44.845
+you them, okay? Okay. Thank
+
+1191
+01:12:44.845 --> 01:12:45.885
+You. So I had a doubt.
+
+1192
+01:12:46.265 --> 01:12:49.645
+So this Saturday you'll, you'll be having one quiz, right?
+
+1193
+01:12:49.655 --> 01:12:50.685
+Conducting one quiz?
+
+1194
+01:12:50.825 --> 01:12:53.325
+No, you can add him the quiz in the Sunday night,
+
+1195
+01:12:55.825 --> 01:12:56.825
+Sir. I had a doubt regarding,
+
+1196
+01:12:56.825 --> 01:12:58.965
+uh, even in this topic,
+
+1197
+01:12:58.965 --> 01:13:00.325
+that is reinforcement learning.
+
+1198
+01:13:00.325 --> 01:13:02.525
+We'll have be, we'll be having code Python.
+
+1199
+01:13:03.395 --> 01:13:06.585
+Yeah, Python, yeah. We'll be doing practically also.
+
+1200
+01:13:07.005 --> 01:13:11.295
+Yes. Yes, yes. Okay.
+
+1201
+01:13:12.305 --> 01:13:12.775
+Thank you.

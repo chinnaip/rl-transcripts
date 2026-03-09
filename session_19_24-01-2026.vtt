@@ -1,0 +1,4272 @@
+WEBVTT
+
+NOTE
+Video URL: https://vimeo.com/1157841269
+Reinforcement Learning Live Session 19 - 24-01-2026
+
+1
+00:15:20.315 --> 00:15:20.665
+Hello.
+
+2
+00:15:22.155 --> 00:15:25.205
+Good afternoon, sir. Good afternoon, sir. Good afternoon.
+
+3
+00:15:26.755 --> 00:15:29.525
+Good afternoon, sir. Good afternoon. Good afternoon.
+
+4
+00:15:38.875 --> 00:15:41.015
+So 25 participants joined.
+
+5
+00:15:46.355 --> 00:15:48.255
+So this is the last unit.
+
+6
+00:15:48.285 --> 00:15:51.735
+Okay, so that is on policy gradient. Good afternoon, sir.
+
+7
+00:15:52.605 --> 00:15:55.015
+Good afternoon, sir.
+
+8
+00:15:55.155 --> 00:15:57.055
+Had you checked that quiz question, sir?
+
+9
+00:15:59.475 --> 00:16:00.855
+Uh, I didn't get time.
+
+10
+00:16:02.095 --> 00:16:05.585
+Okay, I will ask, uh, here to look at it.
+
+11
+00:16:28.375 --> 00:16:31.305
+Okay, so today I'm not going to derive anything.
+
+12
+00:16:32.105 --> 00:16:35.675
+I will go over the same thing again.
+
+13
+00:16:37.885 --> 00:16:40.695
+Next class. I will show you one example using Python
+
+14
+00:16:41.095 --> 00:16:42.255
+notebook today.
+
+15
+00:16:42.275 --> 00:16:45.975
+I'm not going to show you anything on Python notebook. Okay?
+
+16
+00:16:45.995 --> 00:16:49.255
+So policy gradient, uh,
+
+17
+00:16:49.875 --> 00:16:54.445
+as I said there last week, we have
+
+18
+00:16:55.055 --> 00:16:58.665
+under model three, we have completed
+
+19
+00:17:00.095 --> 00:17:03.965
+Montecarlo TT learning, Q learning and DQ learning.
+
+20
+00:17:03.965 --> 00:17:05.765
+These four things we call completed,
+
+21
+00:17:05.815 --> 00:17:07.805
+these are all model free.
+
+22
+00:17:07.895 --> 00:17:11.765
+Hello waste method for, uh, solving the
+
+23
+00:17:12.445 --> 00:17:15.925
+reinforcement learning problems policy gradient.
+
+24
+00:17:16.585 --> 00:17:20.325
+It comes under appro approximation method of solution.
+
+25
+00:17:21.385 --> 00:17:23.725
+We are not going to find out anything by the help
+
+26
+00:17:23.745 --> 00:17:27.805
+of some kind of tabular method so that we can get
+
+27
+00:17:28.755 --> 00:17:30.125
+alternatively result.
+
+28
+00:17:30.375 --> 00:17:31.445
+We're not going to do it.
+
+29
+00:17:31.505 --> 00:17:35.875
+We are gonna take the help of neural network to approximate,
+
+30
+00:17:36.455 --> 00:17:40.675
+uh, the policy that we're going to do, the policy evaluation
+
+31
+00:17:40.675 --> 00:17:43.155
+and policy improvement for both of them.
+
+32
+00:17:44.915 --> 00:17:48.685
+Okay? So for that, we have shown what is
+
+33
+00:17:49.695 --> 00:17:53.905
+basic, uh, uh, I mean
+
+34
+00:17:53.905 --> 00:17:56.785
+for every new network you're going to find out some kind of
+
+35
+00:17:57.765 --> 00:18:00.325
+optimization, some kind of objective function.
+
+36
+00:18:00.465 --> 00:18:03.285
+And through, uh, back propagation, you are going
+
+37
+00:18:03.285 --> 00:18:05.245
+to find out the parameter which will
+
+38
+00:18:05.915 --> 00:18:08.285
+make your estimation close to your real value.
+
+39
+00:18:09.875 --> 00:18:13.415
+In the case of policy gradient, we are going to
+
+40
+00:18:14.695 --> 00:18:17.295
+maximize the expected sum of discounted reward.
+
+41
+00:18:18.575 --> 00:18:22.495
+I mean, for that, we are not going to take any help
+
+42
+00:18:22.515 --> 00:18:25.015
+of any kind of real value so
+
+43
+00:18:25.015 --> 00:18:28.335
+that we can estimate some function that will be close
+
+44
+00:18:28.355 --> 00:18:30.215
+to the, uh, real value.
+
+45
+00:18:30.315 --> 00:18:32.495
+We don't have any real value, okay?
+
+46
+00:18:33.075 --> 00:18:36.285
+So policy in gradient, uh, method,
+
+47
+00:18:37.725 --> 00:18:40.985
+we are maximizing some expected sum of discounted reward.
+
+48
+00:18:40.985 --> 00:18:42.545
+That's it. We don't have any target value
+
+49
+00:18:42.545 --> 00:18:43.745
+through which we can do that.
+
+50
+00:18:44.525 --> 00:18:47.945
+Uh, approximations, okay?
+
+51
+00:18:47.945 --> 00:18:51.785
+That, that is one big difference between deep Q learning
+
+52
+00:18:51.845 --> 00:18:53.785
+and policy gradient based estimation.
+
+53
+00:18:53.975 --> 00:18:55.385
+Okay? In case of deep Q learning,
+
+54
+00:18:55.485 --> 00:18:59.665
+you have already seen we are maintaining two neural network.
+
+55
+00:19:00.795 --> 00:19:02.215
+One is the policy neural network
+
+56
+00:19:02.215 --> 00:19:03.615
+that you are keep on learning,
+
+57
+00:19:04.235 --> 00:19:06.335
+and the other one is a target network
+
+58
+00:19:07.075 --> 00:19:10.575
+for which you are getting the value by some kind of
+
+59
+00:19:11.145 --> 00:19:12.695
+estimation of the true value.
+
+60
+00:19:13.615 --> 00:19:16.475
+And that estimation is happening by the help of
+
+61
+00:19:17.085 --> 00:19:18.595
+Monte Carlo or TD learning.
+
+62
+00:19:19.265 --> 00:19:22.355
+Okay? So in this case, we are not going to take
+
+63
+00:19:23.755 --> 00:19:27.015
+any help of any true ha estimation.
+
+64
+00:19:27.555 --> 00:19:29.335
+We just have one policy
+
+65
+00:19:30.235 --> 00:19:33.815
+and we are going to update the policy based on this policy
+
+66
+00:19:33.815 --> 00:19:34.855
+gradient theod them,
+
+67
+00:19:35.975 --> 00:19:40.575
+but we don't have any true palu with whom we are going
+
+68
+00:19:40.575 --> 00:19:42.735
+to compare and estimate our ha.
+
+69
+00:19:43.935 --> 00:19:46.415
+Okay? So that is one big difference.
+
+70
+00:19:51.305 --> 00:19:54.125
+So in the last class I have shown you this derivation.
+
+71
+00:19:54.225 --> 00:19:57.425
+It is written in the PDF form here.
+
+72
+00:19:58.205 --> 00:20:01.925
+So we are going to do the objective function.
+
+73
+00:20:02.225 --> 00:20:04.445
+We have to find out the objective function, the function
+
+74
+00:20:04.445 --> 00:20:05.605
+that we're going to maximize.
+
+75
+00:20:06.225 --> 00:20:09.565
+Object objective function remains the same, that we have
+
+76
+00:20:09.565 --> 00:20:12.565
+to find out the expected sum of discounted reward.
+
+77
+00:20:12.585 --> 00:20:16.575
+So this is the, this is called sum of discounted reward.
+
+78
+00:20:16.955 --> 00:20:18.455
+The reward and the state
+
+79
+00:20:18.455 --> 00:20:21.945
+of ST when you have taken the action ut, okay,
+
+80
+00:20:22.655 --> 00:20:24.825
+this is called sum of discounted reward.
+
+81
+00:20:26.625 --> 00:20:29.725
+And if we apply expectation operator on this sum
+
+82
+00:20:29.725 --> 00:20:32.365
+of discount, it becomes a expected sum of discounted
+
+83
+00:20:32.585 --> 00:20:36.045
+and this expectation is happening over all the
+
+84
+00:20:36.615 --> 00:20:39.705
+projectile inside the policy.
+
+85
+00:20:40.455 --> 00:20:45.155
+Okay? So projectile means we are going
+
+86
+00:20:45.155 --> 00:20:50.085
+to take state of state action, state action sequence.
+
+87
+00:20:50.085 --> 00:20:53.525
+So this is a tral, let au denote the state action sequence.
+
+88
+00:20:54.255 --> 00:20:58.185
+Okay? So for the tau, what is your reward?
+
+89
+00:20:58.185 --> 00:21:01.445
+You are going to get for every state action period,
+
+90
+00:21:01.885 --> 00:21:03.965
+whatever reward is there, if just keep on summation,
+
+91
+00:21:04.595 --> 00:21:09.165
+that is your au and this au is this thing.
+
+92
+00:21:10.555 --> 00:21:13.255
+And what is the probability of choosing a particular towel?
+
+93
+00:21:13.575 --> 00:21:17.215
+Tau means it's a projectile. That probability is given here.
+
+94
+00:21:17.675 --> 00:21:21.525
+So the expectation is take this quantity multiplied
+
+95
+00:21:21.525 --> 00:21:23.885
+by the probability and take some of all probability
+
+96
+00:21:24.035 --> 00:21:25.285
+that is the expectation.
+
+97
+00:21:26.345 --> 00:21:29.805
+So in order to find the maximization of, so this,
+
+98
+00:21:29.805 --> 00:21:33.045
+this one is basically parameter dependent on this theater.
+
+99
+00:21:34.215 --> 00:21:37.355
+It is a policy, okay? So you're going to maximize this.
+
+100
+00:21:37.895 --> 00:21:41.595
+So find out any maximization, you have to find the faster
+
+101
+00:21:42.115 --> 00:21:45.675
+derivative and save the faster delivery to J so
+
+102
+00:21:45.675 --> 00:21:47.195
+that you can find out the parameters.
+
+103
+00:21:47.625 --> 00:21:50.155
+However, this is not a explicit,
+
+104
+00:21:50.795 --> 00:21:51.995
+explicit function of theater.
+
+105
+00:21:53.105 --> 00:21:55.645
+So you cannot set this to zero
+
+106
+00:21:55.745 --> 00:21:57.885
+and find out the value the, like in case of
+
+107
+00:21:58.705 --> 00:22:01.765
+all other optimization in if you have remembered your
+
+108
+00:22:03.265 --> 00:22:06.615
+class 12 level mathematics for which we use that technique.
+
+109
+00:22:08.515 --> 00:22:09.845
+Okay? So that is not possible
+
+110
+00:22:09.845 --> 00:22:13.765
+because this function EU is a implicit function of the,
+
+111
+00:22:13.765 --> 00:22:15.325
+is not explicit function of theta.
+
+112
+00:22:15.965 --> 00:22:18.765
+Explicit function means you can write EU two B,
+
+113
+00:22:18.765 --> 00:22:21.845
+something like X one multiplied by theta one squared,
+
+114
+00:22:22.515 --> 00:22:26.285
+then plus X two multiplied by theta two cube like that,
+
+115
+00:22:26.395 --> 00:22:28.205
+that is called explicit function.
+
+116
+00:22:29.175 --> 00:22:30.845
+Those are not the case in case
+
+117
+00:22:30.845 --> 00:22:33.325
+of this neural network based function.
+
+118
+00:22:34.385 --> 00:22:38.435
+Okay? So then what we do is we have a
+
+119
+00:22:38.955 --> 00:22:42.605
+gradient descent method in case
+
+120
+00:22:42.605 --> 00:22:44.245
+of solving the maximizing problem
+
+121
+00:22:44.385 --> 00:22:46.005
+and to use gradient ascent method.
+
+122
+00:22:47.295 --> 00:22:51.375
+Okay? So do you guys
+
+123
+00:22:52.375 --> 00:22:54.655
+remember what is or why do we require
+
+124
+00:22:55.295 --> 00:22:56.415
+gradient descent method?
+
+125
+00:22:59.075 --> 00:23:00.655
+The gradient descent is to require
+
+126
+00:23:00.795 --> 00:23:03.575
+to find the global minimums of any, uh, function.
+
+127
+00:23:07.505 --> 00:23:10.635
+Hmm, anybody else minimize the loss
+
+128
+00:23:12.715 --> 00:23:14.295
+To adjust the weights
+
+129
+00:23:14.315 --> 00:23:17.855
+and on that so that to minimize the loss,
+
+130
+00:23:19.895 --> 00:23:20.895
+Hmm?
+
+131
+00:23:21.035 --> 00:23:22.175
+So that minimize that,
+
+132
+00:23:25.565 --> 00:23:29.545
+Minimize the gap between the, uh, no, the current
+
+133
+00:23:30.535 --> 00:23:34.985
+loss, whatever the loss we have currently to,
+
+134
+00:23:35.325 --> 00:23:38.185
+we need to minimize the gap actually to, we need
+
+135
+00:23:38.185 --> 00:23:41.385
+to access the weights so that uh, the
+
+136
+00:23:42.575 --> 00:23:44.465
+loss outcome is minimized. That's
+
+137
+00:23:44.845 --> 00:23:48.485
+Mm mm Okay, so that is a algebra meaning.
+
+138
+00:23:49.515 --> 00:23:51.695
+Now what is the geometric meaning
+
+139
+00:23:53.505 --> 00:23:54.505
+Optimization.
+
+140
+00:23:56.845 --> 00:24:00.625
+Mm, Fastest way to reach, uh, the global minimum,
+
+141
+00:24:01.685 --> 00:24:04.345
+the optimal way to reach the,
+
+142
+00:24:06.235 --> 00:24:07.255
+The geometrically.
+
+143
+00:24:07.435 --> 00:24:11.215
+Can we say that the prediction line on the graph should
+
+144
+00:24:11.305 --> 00:24:15.175
+cover most of the points so such that, you know,
+
+145
+00:24:15.475 --> 00:24:17.495
+the prediction can be done more accurately.
+
+146
+00:24:20.935 --> 00:24:25.095
+Coverage, sir? The
+
+147
+00:24:25.295 --> 00:24:27.455
+Direction the, Of the steepest
+
+148
+00:24:27.615 --> 00:24:28.615
+Optimal direction.
+
+149
+00:24:28.755 --> 00:24:32.405
+Huh? Direction of the
+
+150
+00:24:32.405 --> 00:24:35.805
+Steep, you're saying steepest something you said
+
+151
+00:24:35.955 --> 00:24:36.955
+Descent. Ah,
+
+152
+00:24:36.955 --> 00:24:39.235
+so the optimal direction
+
+153
+00:24:39.235 --> 00:24:41.715
+or the, the direction of the steepest descent.
+
+154
+00:24:43.215 --> 00:24:46.025
+Okay, good. So what do you mean by that
+
+155
+00:24:46.735 --> 00:24:48.305
+direction of CPS dissent,
+
+156
+00:24:49.785 --> 00:24:52.485
+Sir, when we plot the loss, Mm, slope.
+
+157
+00:24:52.855 --> 00:24:53.925
+Slope of the curve.
+
+158
+00:24:54.015 --> 00:24:56.595
+Slope, yeah. Mm.
+
+159
+00:24:58.325 --> 00:25:00.055
+Okay, go ahead
+
+160
+00:25:02.745 --> 00:25:03.745
+Sir. One side, we
+
+161
+00:25:03.745 --> 00:25:05.685
+plot the lo
+
+162
+00:25:06.545 --> 00:25:09.975
+the loss and then
+
+163
+00:25:12.065 --> 00:25:16.165
+The other said we have the weight parameters, uh, theta
+
+164
+00:25:18.695 --> 00:25:22.435
+and then while we plot it, uh, we get a convex, uh, curve.
+
+165
+00:25:23.015 --> 00:25:25.795
+And then release point is the global minimum.
+
+166
+00:25:26.715 --> 00:25:27.715
+I mean that
+
+167
+00:25:27.715 --> 00:25:29.475
+Would be a ConX card.
+
+168
+00:25:29.475 --> 00:25:30.715
+That is not the correct statement.
+
+169
+00:25:34.715 --> 00:25:35.735
+The idea, uh, okay.
+
+170
+00:25:35.975 --> 00:25:37.935
+Whatever you have said so far is correct.
+
+171
+00:25:38.595 --> 00:25:42.735
+Um, most of you, whatever you have said,
+
+172
+00:25:43.235 --> 00:25:44.735
+you have said part, part, part.
+
+173
+00:25:44.795 --> 00:25:48.495
+All of them are correct. Some problem was there.
+
+174
+00:25:48.525 --> 00:25:53.185
+That is, uh, someone of you have said, uh,
+
+175
+00:25:53.895 --> 00:25:55.905
+when we plot, we get a convex curve.
+
+176
+00:25:56.655 --> 00:25:57.945
+That is not the correct thing.
+
+177
+00:26:00.355 --> 00:26:02.425
+The if the function
+
+178
+00:26:02.425 --> 00:26:05.225
+that you're optimizing the function is not a convex,
+
+179
+00:26:05.975 --> 00:26:09.655
+then you cannot apply, uh, this kind
+
+180
+00:26:09.655 --> 00:26:10.935
+of gradient design method.
+
+181
+00:26:12.315 --> 00:26:14.485
+Okay? So the function has
+
+182
+00:26:14.485 --> 00:26:17.355
+to be convex function, okay?
+
+183
+00:26:17.355 --> 00:26:20.475
+Then, then the next thing, uh, some
+
+184
+00:26:20.475 --> 00:26:22.475
+of you said global minimum,
+
+185
+00:26:23.325 --> 00:26:24.475
+Local minimum, sir,
+
+186
+00:26:26.605 --> 00:26:28.475
+Local minimum, but some
+
+187
+00:26:28.475 --> 00:26:32.765
+of you said global minimum also. Okay?
+
+188
+00:26:33.325 --> 00:26:36.285
+I only said sir, I only said sir that I am
+
+189
+00:26:37.205 --> 00:26:38.565
+updating my statement to local
+
+190
+00:26:38.565 --> 00:26:39.565
+Minimum. Okay?
+
+191
+00:26:39.565 --> 00:26:40.325
+Okay.
+
+192
+00:26:41.425 --> 00:26:44.885
+So this, uh, gradient descent method, it is a method for
+
+193
+00:26:45.775 --> 00:26:48.645
+local optimization, not a global optimization
+
+194
+00:26:49.615 --> 00:26:53.465
+because we don't have the, uh, whole knowledge of the global
+
+195
+00:26:54.835 --> 00:26:57.405
+variation of the parameters, okay?
+
+196
+00:26:57.745 --> 00:27:02.445
+Yes sir. And uh, the other thing is someone who have said,
+
+197
+00:27:02.585 --> 00:27:05.805
+uh, so other than that, everything is correct.
+
+198
+00:27:07.225 --> 00:27:11.045
+So yeah, Ruby had said something optimal descent,
+
+199
+00:27:11.445 --> 00:27:13.325
+optimal direction of, uh, steepest.
+
+200
+00:27:13.325 --> 00:27:14.535
+Descent, right?
+
+201
+00:27:15.075 --> 00:27:17.095
+At the same time, another person also said the same thing,
+
+202
+00:27:17.375 --> 00:27:20.365
+I think his name, okay?
+
+203
+00:27:20.705 --> 00:27:24.645
+So another natural question is
+
+204
+00:27:24.675 --> 00:27:26.605
+what is called optimal direction?
+
+205
+00:27:28.855 --> 00:27:30.715
+The optimal in case of
+
+206
+00:27:31.985 --> 00:27:34.115
+loss minimization, okay?
+
+207
+00:27:34.975 --> 00:27:37.115
+We are going to find out the steepest descent,
+
+208
+00:27:38.485 --> 00:27:42.695
+but what is called uh, descent?
+
+209
+00:27:47.165 --> 00:27:50.235
+The descent means going down, okay?
+
+210
+00:27:51.655 --> 00:27:54.375
+And ascent means going up, okay?
+
+211
+00:27:54.875 --> 00:27:58.375
+Is a very English meaning it is attached
+
+212
+00:27:58.375 --> 00:28:00.655
+to these problems also ion problem also.
+
+213
+00:28:00.995 --> 00:28:03.655
+So when you're going to find out a function
+
+214
+00:28:03.655 --> 00:28:05.895
+that you wanna minimize, so you're going
+
+215
+00:28:06.055 --> 00:28:07.215
+to use gradient descent
+
+216
+00:28:08.375 --> 00:28:11.015
+whenever you want to maximize this function,
+
+217
+00:28:11.085 --> 00:28:12.895
+then you're going to use gradient ascent.
+
+218
+00:28:12.955 --> 00:28:17.255
+Ascent, okay? So what is gradient means then?
+
+219
+00:28:17.615 --> 00:28:20.015
+Gradient algebraically it means
+
+220
+00:28:20.015 --> 00:28:22.375
+that it is a delivery deal, okay?
+
+221
+00:28:22.435 --> 00:28:24.015
+But geometrically it means
+
+222
+00:28:24.255 --> 00:28:27.445
+that slope.
+
+223
+00:28:28.415 --> 00:28:30.565
+Slope, ah, slope, yes.
+
+224
+00:28:32.285 --> 00:28:36.065
+So slope means if you draw a tangent at
+
+225
+00:28:36.065 --> 00:28:38.265
+that particular point, a tangent
+
+226
+00:28:38.365 --> 00:28:40.265
+of the curve is called slope.
+
+227
+00:28:40.405 --> 00:28:43.345
+You, you function that one, minimizing the function can be
+
+228
+00:28:44.305 --> 00:28:47.425
+a kind of bowel, it can be a function like
+
+229
+00:28:48.155 --> 00:28:50.185
+sinusoidal function, okay?
+
+230
+00:28:50.925 --> 00:28:52.465
+In case of sinusoidal function,
+
+231
+00:28:52.685 --> 00:28:54.705
+you cannot apply gradient descent method
+
+232
+00:28:55.175 --> 00:28:58.065
+because it is a non convex function.
+
+233
+00:28:58.325 --> 00:29:00.425
+It is not avex thing, okay?
+
+234
+00:29:01.805 --> 00:29:05.765
+So gradient descent means the direction
+
+235
+00:29:07.625 --> 00:29:09.125
+in which you should move
+
+236
+00:29:10.595 --> 00:29:14.015
+if the direction in which you are moving, if it is
+
+237
+00:29:14.895 --> 00:29:17.055
+reducing the value of the function, that is called
+
+238
+00:29:19.195 --> 00:29:20.965
+descent direction, okay?
+
+239
+00:29:21.965 --> 00:29:26.905
+Gradient descent means it is a particular
+
+240
+00:29:26.905 --> 00:29:28.985
+direction in which if you move
+
+241
+00:29:29.695 --> 00:29:32.425
+your descent will be highest, okay?
+
+242
+00:29:32.845 --> 00:29:34.585
+So you may move in some direction,
+
+243
+00:29:35.245 --> 00:29:37.145
+you can observe your function is reducing.
+
+244
+00:29:37.505 --> 00:29:40.415
+Reducing, okay? That is a descent direction.
+
+245
+00:29:40.415 --> 00:29:42.380
+That doesn't mean mean it is a gradient. Descent.
+
+246
+00:29:42.965 --> 00:29:46.245
+Gradient means the direction in which
+
+247
+00:29:47.705 --> 00:29:49.165
+the rate of change
+
+248
+00:29:49.165 --> 00:29:53.495
+of the function is the maximum, okay?
+
+249
+00:29:54.845 --> 00:29:57.265
+So if the rate of change of function is maximum,
+
+250
+00:29:58.985 --> 00:30:00.565
+and if you move in that direction,
+
+251
+00:30:00.565 --> 00:30:03.955
+then your increase in the function, okay?
+
+252
+00:30:04.035 --> 00:30:08.715
+Gradient means that is why you do, you always do this theta,
+
+253
+00:30:09.255 --> 00:30:11.515
+you are assigning to old value of theta minus
+
+254
+00:30:11.655 --> 00:30:13.515
+of gradient of the function.
+
+255
+00:30:13.785 --> 00:30:15.035
+This minus why we do,
+
+256
+00:30:15.035 --> 00:30:18.075
+because we want to move on the opposite side
+
+257
+00:30:18.075 --> 00:30:21.605
+of the gradient direction so
+
+258
+00:30:21.645 --> 00:30:23.205
+that we can minimize the function.
+
+259
+00:30:24.195 --> 00:30:27.545
+Okay? Here we are going to use gradient ascent.
+
+260
+00:30:27.635 --> 00:30:29.305
+We're not going to use gradient descent
+
+261
+00:30:31.575 --> 00:30:35.835
+and uh, the yoga had said, uh,
+
+262
+00:30:36.305 --> 00:30:37.435
+what, what did you say?
+
+263
+00:30:37.435 --> 00:30:42.055
+Something that all the directions are maximizing that. Uh,
+
+264
+00:30:42.325 --> 00:30:45.255
+What I said was the tangent
+
+265
+00:30:45.435 --> 00:30:48.055
+or the line which we plot that should cover most
+
+266
+00:30:48.055 --> 00:30:51.375
+of the points such that the slope should be such that,
+
+267
+00:30:51.875 --> 00:30:53.095
+so that is what I said,
+
+268
+00:30:53.395 --> 00:30:54.395
+No, no slope. The
+
+269
+00:30:54.395 --> 00:30:56.375
+def, the definition of slope is always,
+
+270
+00:30:56.395 --> 00:30:59.775
+it is the tangent of the curve at that point.
+
+271
+00:31:00.515 --> 00:31:04.755
+So you cannot put any condition on slope, okay?
+
+272
+00:31:06.525 --> 00:31:10.705
+So whatever, so whatever is your car at every point,
+
+273
+00:31:10.725 --> 00:31:14.485
+you can draw a slope at every point, okay?
+
+274
+00:31:15.305 --> 00:31:18.965
+So one slope will not cover all the points,
+
+275
+00:31:20.755 --> 00:31:25.135
+but if the graph is a wellbe behaved graph like convex carb,
+
+276
+00:31:25.515 --> 00:31:29.645
+in that case, most of the points will be above the tangent
+
+277
+00:31:30.065 --> 00:31:32.205
+and that point is called the minimum point.
+
+278
+00:31:36.365 --> 00:31:38.505
+Okay? Okay.
+
+279
+00:31:38.565 --> 00:31:41.785
+So we have this one that is this expression,
+
+280
+00:31:41.785 --> 00:31:45.785
+you have got it last week if and witness this class itself.
+
+281
+00:31:46.415 --> 00:31:50.325
+This is called, this expression is called,
+
+282
+00:31:53.635 --> 00:31:54.565
+this is called
+
+283
+00:31:57.035 --> 00:31:58.765
+expectation of this quantity.
+
+284
+00:31:59.475 --> 00:32:03.015
+Okay? Grad. This grad grad, okay?
+
+285
+00:32:03.045 --> 00:32:07.385
+Grad log probability tau multiplied by,
+
+286
+00:32:08.815 --> 00:32:10.985
+okay, take this expectation.
+
+287
+00:32:11.295 --> 00:32:12.785
+That is what is the whole thing here.
+
+288
+00:32:13.665 --> 00:32:16.205
+And for this expectation, actually we don't have access
+
+289
+00:32:16.205 --> 00:32:19.165
+to this probability density function of
+
+290
+00:32:19.765 --> 00:32:21.605
+choosing a particular projectile.
+
+291
+00:32:21.625 --> 00:32:22.645
+We don't have that access.
+
+292
+00:32:22.785 --> 00:32:25.085
+So what they said is you considered all the
+
+293
+00:32:25.085 --> 00:32:27.185
+projectile projectile.
+
+294
+00:32:27.265 --> 00:32:28.945
+I last class I have drawn that, uh,
+
+295
+00:32:31.255 --> 00:32:33.095
+I think I have shared it to you, right?
+
+296
+00:32:33.125 --> 00:32:34.735
+That PDF of class note.
+
+297
+00:32:38.795 --> 00:32:39.865
+This is the last note.
+
+298
+00:32:55.875 --> 00:32:58.655
+So we have a policy like this, okay?
+
+299
+00:32:59.035 --> 00:33:00.855
+In a frozen lake environment
+
+300
+00:33:01.745 --> 00:33:04.175
+you can see this thing, right?
+
+301
+00:33:05.385 --> 00:33:09.575
+So we have a policy like this projectiles,
+
+302
+00:33:09.805 --> 00:33:13.015
+this is the projectile state action.
+
+303
+00:33:13.525 --> 00:33:16.295
+Next date action. Next date action Like that.
+
+304
+00:33:16.405 --> 00:33:19.815
+Okay, so what projectile you are going to choose,
+
+305
+00:33:19.995 --> 00:33:23.695
+we don't have the exact access to its probability.
+
+306
+00:33:23.845 --> 00:33:25.535
+This probability is unknown to us.
+
+307
+00:33:26.555 --> 00:33:29.655
+So what the first level approximation is consider
+
+308
+00:33:29.655 --> 00:33:31.895
+that all projectile are equal probability.
+
+309
+00:33:33.085 --> 00:33:37.145
+So we have total aim number of projectile, okay?
+
+310
+00:33:38.365 --> 00:33:39.595
+Projectile means you are
+
+311
+00:33:39.595 --> 00:33:41.355
+basically sampling from this policy.
+
+312
+00:33:43.755 --> 00:33:46.335
+You are taking one sample from this whole
+
+313
+00:33:46.745 --> 00:33:47.975
+state action pair, okay?
+
+314
+00:33:47.975 --> 00:33:49.015
+That is one projectile.
+
+315
+00:33:49.915 --> 00:33:52.175
+So you consider all of this tower one, tau two
+
+316
+00:33:52.175 --> 00:33:53.775
+and everything, uh, equally probability.
+
+317
+00:33:54.475 --> 00:33:58.285
+So you compute this gradient
+
+318
+00:33:59.105 --> 00:34:03.365
+of log P multiplied by au compute that probability,
+
+319
+00:34:03.605 --> 00:34:05.725
+I mean compute this quantity mul
+
+320
+00:34:06.465 --> 00:34:08.165
+and then take the sum for all
+
+321
+00:34:08.165 --> 00:34:10.555
+of them for each and every project.
+
+322
+00:34:10.745 --> 00:34:12.595
+This is for each and every project you are taking.
+
+323
+00:34:13.775 --> 00:34:16.995
+Do the submission for all the divide that by aim.
+
+324
+00:34:17.215 --> 00:34:20.145
+So that becomes your this thing, okay?
+
+325
+00:34:20.565 --> 00:34:23.705
+So now the next next problem is
+
+326
+00:34:24.285 --> 00:34:25.585
+how can we find out this?
+
+327
+00:34:25.655 --> 00:34:27.865
+Because this is exactly the same thing.
+
+328
+00:34:28.755 --> 00:34:30.815
+We don't have access to probability of Tao.
+
+329
+00:34:31.675 --> 00:34:33.055
+So actually we don't have access.
+
+330
+00:34:33.595 --> 00:34:34.815
+So that is what we're going
+
+331
+00:34:34.815 --> 00:34:37.335
+to find out the approximation, okay?
+
+332
+00:34:37.925 --> 00:34:42.135
+Here we're considering all the equally likely so
+
+333
+00:34:42.135 --> 00:34:44.615
+that we don't have to multiply these two unknown quantity,
+
+334
+00:34:45.555 --> 00:34:47.685
+this two unknown quantity multiplied form
+
+335
+00:34:48.345 --> 00:34:51.085
+and then optimizing that is going to be daunting task.
+
+336
+00:34:51.465 --> 00:34:54.605
+So first you would just consider this is equal priority,
+
+337
+00:34:54.625 --> 00:34:57.685
+forget about it Now, now demanding part is this one.
+
+338
+00:34:57.865 --> 00:34:59.005
+For this we have a,
+
+339
+00:35:02.825 --> 00:35:05.445
+for the approximation things that we have to apply.
+
+340
+00:35:07.015 --> 00:35:09.755
+So this is our objective function and this is our gradient.
+
+341
+00:35:10.605 --> 00:35:13.415
+This gradient we have to calculate so that we can
+
+342
+00:35:13.925 --> 00:35:18.805
+make the update of theta will be set from the old
+
+343
+00:35:18.805 --> 00:35:21.005
+value of theta plus this part.
+
+344
+00:35:22.195 --> 00:35:25.865
+Okay? So this gradient actually the meaning
+
+345
+00:35:25.865 --> 00:35:28.465
+of gradient is it'll increase the probability of pathway
+
+346
+00:35:28.895 --> 00:35:30.025
+with positive reward.
+
+347
+00:35:30.565 --> 00:35:34.625
+So this gradient will rise if
+
+348
+00:35:35.895 --> 00:35:38.775
+R is rising, this reward is rising
+
+349
+00:35:39.515 --> 00:35:43.495
+and gradient will fall, reward is falling, okay?
+
+350
+00:35:44.475 --> 00:35:47.015
+So basically following means it is a negative reward.
+
+351
+00:35:49.245 --> 00:35:53.455
+Okay? So since this is a multiplication R multiplied
+
+352
+00:35:53.455 --> 00:35:56.215
+by this quantity, this quantity is again unknown to us.
+
+353
+00:35:56.275 --> 00:35:57.415
+We have to approximate it.
+
+354
+00:35:58.785 --> 00:36:02.325
+So uh, we are taking platform.
+
+355
+00:36:02.985 --> 00:36:05.125
+So some positive reward
+
+356
+00:36:05.125 --> 00:36:08.325
+and negative reward will help us to find out that, okay,
+
+357
+00:36:08.585 --> 00:36:10.805
+so we are going to increase the probability of the
+
+358
+00:36:11.425 --> 00:36:12.565
+TR time that is path.
+
+359
+00:36:13.225 --> 00:36:16.245
+If the reward that we're getting at the end of completion
+
+360
+00:36:16.245 --> 00:36:18.205
+of the projectile, if the reward is positive,
+
+361
+00:36:18.635 --> 00:36:20.805
+then we'll increase that particular projectile.
+
+362
+00:36:21.345 --> 00:36:23.085
+If the reward is negative,
+
+363
+00:36:23.085 --> 00:36:24.685
+then we'll decrease the probability.
+
+364
+00:36:24.795 --> 00:36:29.575
+That is the main objective here. The policy gradient.
+
+365
+00:36:30.155 --> 00:36:32.295
+We need to increase the probability for projectile,
+
+366
+00:36:32.295 --> 00:36:33.975
+we decrease the projectile
+
+367
+00:36:34.435 --> 00:36:36.095
+and that is the main objective here.
+
+368
+00:36:36.485 --> 00:36:36.775
+Okay?
+
+369
+00:36:41.265 --> 00:36:44.195
+Then there are further appro that we apply.
+
+370
+00:36:44.225 --> 00:36:46.195
+That is, this is the highest projectile.
+
+371
+00:36:46.425 --> 00:36:50.905
+This one probability of tau I given theta.
+
+372
+00:36:50.955 --> 00:36:53.865
+Theta is the neural networks weight. Okay?
+
+373
+00:36:54.675 --> 00:36:58.135
+So this one we had to take this probability, uh, gradient
+
+374
+00:36:58.135 --> 00:37:01.655
+of this as I told, this is a unknown thing for us.
+
+375
+00:37:01.655 --> 00:37:04.615
+We need to approximate this so that there are a lot
+
+376
+00:37:04.615 --> 00:37:06.015
+of levels of approximation.
+
+377
+00:37:07.145 --> 00:37:09.125
+The first one is, so tawa means what?
+
+378
+00:37:09.595 --> 00:37:11.845
+This is a state action pair. This Tao,
+
+379
+00:37:12.065 --> 00:37:13.065
+Sir? Uh,
+
+380
+00:37:13.065 --> 00:37:15.085
+uh, sheet number five one.
+
+381
+00:37:16.005 --> 00:37:18.565
+I was writing some things one
+
+382
+00:37:18.665 --> 00:37:21.245
+for one second one previous slide.
+
+383
+00:37:22.405 --> 00:37:22.885
+Previous slide?
+
+384
+00:37:26.415 --> 00:37:30.075
+Mm hmm.
+
+385
+00:37:31.645 --> 00:37:33.985
+Yes sir. Thank you sir. Yes.
+
+386
+00:37:35.315 --> 00:37:38.625
+Okay, I'll share this slide to you.
+
+387
+00:37:40.465 --> 00:37:42.595
+Just was taking notes sir. Ah,
+
+388
+00:37:42.825 --> 00:37:43.995
+Fine, Thank
+
+389
+00:37:43.995 --> 00:37:44.995
+You. Okay, so
+
+390
+00:37:44.995 --> 00:37:48.195
+this tau tau is a state and pair.
+
+391
+00:37:48.895 --> 00:37:50.475
+The tau is expression like this.
+
+392
+00:37:51.805 --> 00:37:53.815
+This is multiplication of two probability.
+
+393
+00:37:54.555 --> 00:37:59.355
+The first probability is given, you are in the state of ST.
+
+394
+00:38:00.475 --> 00:38:03.805
+Here I stands for I eighth projectile.
+
+395
+00:38:04.585 --> 00:38:07.245
+You have many projectile as I told I have shown you here.
+
+396
+00:38:09.775 --> 00:38:13.945
+You have many projectile with state action payer, okay?
+
+397
+00:38:14.045 --> 00:38:18.545
+For every projectile it is a state action payer. Okay?
+
+398
+00:38:18.685 --> 00:38:22.065
+So for the, I projectile this,
+
+399
+00:38:22.135 --> 00:38:24.945
+this super script I stands for the IS projectile.
+
+400
+00:38:25.725 --> 00:38:28.265
+It is consisting of multiplication of two probability.
+
+401
+00:38:28.355 --> 00:38:31.625
+First probability is what is the action you are going
+
+402
+00:38:31.625 --> 00:38:33.705
+to take at the state of st.
+
+403
+00:38:33.895 --> 00:38:35.250
+This is your current state.
+
+404
+00:38:35.715 --> 00:38:39.445
+What is the action you are taking? That is called ut. Okay?
+
+405
+00:38:40.465 --> 00:38:42.045
+So this probability, you going to find out
+
+406
+00:38:42.045 --> 00:38:45.445
+after that, given that you are in the state of st,
+
+407
+00:38:45.465 --> 00:38:48.405
+you are taking the action ut your next state is
+
+408
+00:38:48.405 --> 00:38:49.485
+going to be ST plus one.
+
+409
+00:38:49.665 --> 00:38:51.285
+So what is the probability for that?
+
+410
+00:38:51.355 --> 00:38:54.365
+This two multiplication is going to be
+
+411
+00:38:54.365 --> 00:38:56.845
+for one particular state like that you have many states.
+
+412
+00:38:56.985 --> 00:38:58.685
+So this T stands for
+
+413
+00:38:59.625 --> 00:39:01.725
+how many states are possible within a projectal.
+
+414
+00:39:01.875 --> 00:39:04.765
+This H stands for total number of states within a projectal.
+
+415
+00:39:05.595 --> 00:39:08.915
+So all of these states action, state action,
+
+416
+00:39:08.915 --> 00:39:10.115
+this is going to be multiplied.
+
+417
+00:39:11.065 --> 00:39:13.475
+Okay? So this one, this is multiplication.
+
+418
+00:39:14.175 --> 00:39:16.515
+Uh, excuse me sir. Sir,
+
+419
+00:39:16.515 --> 00:39:20.035
+this is this probability is PMF or PDF, sir,
+
+420
+00:39:21.875 --> 00:39:26.175
+This is, this is, this is going.
+
+421
+00:39:26.515 --> 00:39:28.975
+So you do you know the difference in PMF and PDF?
+
+422
+00:39:29.935 --> 00:39:33.155
+Yes sir. PMF is just the probability of
+
+423
+00:39:33.155 --> 00:39:34.395
+that particular instance.
+
+424
+00:39:34.825 --> 00:39:37.275
+Probability density function is some kind
+
+425
+00:39:37.275 --> 00:39:40.235
+of cumulative aspects where we take into consideration
+
+426
+00:39:40.255 --> 00:39:42.075
+of the previous probabilities
+
+427
+00:39:42.255 --> 00:39:45.915
+and add it on top of it. So no, no
+
+428
+00:39:45.975 --> 00:39:47.155
+To me, no, no.
+
+429
+00:39:49.045 --> 00:39:51.625
+Uh, you have said it. Just say it again.
+
+430
+00:39:51.735 --> 00:39:56.265
+Prob PMF is accumulation of pro density did that right?
+
+431
+00:39:57.975 --> 00:40:01.195
+No sir. Uh, probability mass function is basically the
+
+432
+00:40:02.035 --> 00:40:05.635
+distribution whereas the probability density function is uh,
+
+433
+00:40:06.215 --> 00:40:10.315
+the summation of probability until that particular uh,
+
+434
+00:40:10.895 --> 00:40:13.755
+aspect where we are uh, focusing on
+
+435
+00:40:13.875 --> 00:40:15.635
+Discrete and continuous location.
+
+436
+00:40:15.785 --> 00:40:20.395
+When remember we had for discrete, uh,
+
+437
+00:40:21.035 --> 00:40:23.155
+variables of, for continuous variables, we had these
+
+438
+00:40:24.625 --> 00:40:25.635
+mass was I think,
+
+439
+00:40:26.935 --> 00:40:30.485
+Sorry, uh, in that case actually probability mass function
+
+440
+00:40:30.485 --> 00:40:32.925
+and cumulative probability function.
+
+441
+00:40:33.505 --> 00:40:36.805
+So here we are focusing on which ones that,
+
+442
+00:40:36.915 --> 00:40:38.165
+that was my doubts.
+
+443
+00:40:40.225 --> 00:40:44.775
+Okay, so basically the difference between PMF
+
+444
+00:40:44.775 --> 00:40:48.995
+and PDF is PDF stands for pro density function.
+
+445
+00:40:50.155 --> 00:40:53.855
+Pro density function is applicable to continuous variable
+
+446
+00:40:54.605 --> 00:40:57.865
+and sir PMF stands for provide mass, mass function.
+
+447
+00:40:57.885 --> 00:41:01.665
+It is applicable to discrete variable, okay? Yes sir.
+
+448
+00:41:01.845 --> 00:41:03.705
+And you have said cumulative
+
+449
+00:41:04.445 --> 00:41:07.265
+Or cumulative probability mass function, sir
+
+450
+00:41:07.405 --> 00:41:09.345
+or cumulative probability density function,
+
+451
+00:41:11.445 --> 00:41:14.035
+Cumulative provided density function is a wrong
+
+452
+00:41:14.035 --> 00:41:16.725
+term or cumulative.
+
+453
+00:41:17.075 --> 00:41:18.925
+Another term that you said cumulative,
+
+454
+00:41:19.925 --> 00:41:20.925
+Uh, no sir. The,
+
+455
+00:41:20.925 --> 00:41:23.465
+I don't remember the exact terminology for it,
+
+456
+00:41:23.885 --> 00:41:27.945
+but it is the capital if where we integrate the values from
+
+457
+00:41:28.525 --> 00:41:29.905
+Yes, yes, yes. Right.
+
+458
+00:41:30.565 --> 00:41:32.185
+Pardon me. So C, D, F,
+
+459
+00:41:32.205 --> 00:41:35.165
+it is called CDF cumulative distribution function.
+
+460
+00:41:35.585 --> 00:41:37.965
+It is not density function, it is distribution function.
+
+461
+00:41:38.515 --> 00:41:41.965
+Okay? So cumulative distribution function is basically
+
+462
+00:41:42.725 --> 00:41:45.295
+a integration of probability
+
+463
+00:41:45.295 --> 00:41:47.055
+density function within an interval.
+
+464
+00:41:48.555 --> 00:41:50.205
+That interval is called that.
+
+465
+00:41:50.275 --> 00:41:54.035
+What is there value that you are aiming for?
+
+466
+00:41:54.785 --> 00:41:59.435
+Okay, so actually I don't have that stylist
+
+467
+00:41:59.505 --> 00:42:02.515
+with me because I left it in my office, uh,
+
+468
+00:42:02.515 --> 00:42:06.115
+because last, uh, two days I had online classes.
+
+469
+00:42:07.055 --> 00:42:11.075
+Yes sir. Okay, so uh, the
+
+470
+00:42:11.715 --> 00:42:15.005
+physical meaning is probability density function.
+
+471
+00:42:16.625 --> 00:42:17.725
+You can consider that.
+
+472
+00:42:17.775 --> 00:42:19.565
+Let's say you have a continuous variable.
+
+473
+00:42:19.985 --> 00:42:22.565
+The continuous variable means you are
+
+474
+00:42:23.275 --> 00:42:24.845
+measuring temperature of a room.
+
+475
+00:42:25.035 --> 00:42:27.565
+Yeah, okay. Temperature of a room.
+
+476
+00:42:29.825 --> 00:42:32.085
+You can measure throughout the day
+
+477
+00:42:33.715 --> 00:42:36.895
+for every time moment you have a measurement
+
+478
+00:42:37.215 --> 00:42:39.385
+possible, okay?
+
+479
+00:42:39.385 --> 00:42:40.465
+It is possible. However,
+
+480
+00:42:41.095 --> 00:42:42.505
+because of lack of memory,
+
+481
+00:42:43.125 --> 00:42:45.865
+you cannot store all the valves, okay?
+
+482
+00:42:46.095 --> 00:42:49.785
+Because 24 hours you can divide into uh, one hour.
+
+483
+00:42:49.925 --> 00:42:51.985
+One hour can divide a second, second, you can like that
+
+484
+00:42:52.525 --> 00:42:54.505
+so much small interval I can find out
+
+485
+00:42:54.525 --> 00:42:55.905
+for every interval you are going
+
+486
+00:42:55.905 --> 00:42:58.545
+to have some value only for the case.
+
+487
+00:42:58.765 --> 00:43:00.145
+Our lack of memory,
+
+488
+00:43:00.325 --> 00:43:02.625
+we stored it in a particular discrete interval.
+
+489
+00:43:03.615 --> 00:43:07.195
+So if the same measurement you're storing in a particular
+
+490
+00:43:07.435 --> 00:43:11.395
+interval, that is called discrete variable, okay?
+
+491
+00:43:12.335 --> 00:43:14.555
+So in case of discrete variable,
+
+492
+00:43:14.615 --> 00:43:16.995
+we cannot find out probability density function.
+
+493
+00:43:17.175 --> 00:43:21.075
+We can find out probability, mass function, okay?
+
+494
+00:43:21.895 --> 00:43:25.585
+Okay. So the only difference is discrete
+
+495
+00:43:25.585 --> 00:43:29.095
+and continuous is for case of continuous,
+
+496
+00:43:29.925 --> 00:43:34.215
+your faster ative is F of X plus H minus F of X
+
+497
+00:43:35.145 --> 00:43:38.355
+divided by H, where H will be very near to zero.
+
+498
+00:43:39.545 --> 00:43:43.265
+Okay? So that is your concept of derivative, okay?
+
+499
+00:43:43.845 --> 00:43:47.345
+If X is itself a discrete variable, in that case,
+
+500
+00:43:47.345 --> 00:43:49.705
+what will happen is value
+
+501
+00:43:49.725 --> 00:43:52.225
+of X is possible only at some discrete interval,
+
+502
+00:43:52.405 --> 00:43:54.105
+not in every point possible.
+
+503
+00:43:54.805 --> 00:43:58.185
+Mm-hmm. So we call that priority mass function is
+
+504
+00:43:58.995 --> 00:44:01.965
+available at only some particular points.
+
+505
+00:44:02.155 --> 00:44:04.585
+That is what it's called mass. Okay?
+
+506
+00:44:04.845 --> 00:44:07.985
+And density means it is throughout the,
+
+507
+00:44:08.155 --> 00:44:10.425
+throughout the space available.
+
+508
+00:44:10.575 --> 00:44:15.065
+Okay? Okay. And a CDF means suppose I want
+
+509
+00:44:15.065 --> 00:44:17.415
+to find out that,
+
+510
+00:44:22.965 --> 00:44:26.865
+um, what is going to be my probability
+
+511
+00:44:28.325 --> 00:44:32.195
+if I am interested to know my temperature
+
+512
+00:44:32.195 --> 00:44:34.395
+of the room will not exceed 30 degree.
+
+513
+00:44:34.715 --> 00:44:37.115
+I mean it'll be always less than equal to 30 degree.
+
+514
+00:44:38.135 --> 00:44:41.795
+So what you do, you integrate all the temperature value,
+
+515
+00:44:41.885 --> 00:44:45.915
+right from zero to 30 zero is a low considering, okay?
+
+516
+00:44:46.335 --> 00:44:49.875
+So you integrate all the provide density available
+
+517
+00:44:50.655 --> 00:44:53.275
+for all the temperature, which is less than equal to 30.
+
+518
+00:44:53.865 --> 00:44:55.035
+When you do this integrated,
+
+519
+00:44:55.305 --> 00:44:58.235
+that becomes a cumulative distribution function.
+
+520
+00:44:58.255 --> 00:45:00.635
+It is called capital C, capital D, capital L.
+
+521
+00:45:00.895 --> 00:45:03.475
+It is an integration here, in this case,
+
+522
+00:45:03.475 --> 00:45:06.075
+we're using probability density function.
+
+523
+00:45:07.665 --> 00:45:12.445
+If the action state action space is a continuous,
+
+524
+00:45:13.005 --> 00:45:15.885
+hmm, if the state action is a discrete, in
+
+525
+00:45:15.885 --> 00:45:17.765
+that case it'll look probably to mass function.
+
+526
+00:45:18.395 --> 00:45:21.245
+Okay? Okay, thanks sir.
+
+527
+00:45:23.615 --> 00:45:24.825
+Okay, so this becomes
+
+528
+00:45:24.825 --> 00:45:29.355
+your platform.
+
+529
+00:45:30.095 --> 00:45:33.075
+Now log operator applied on the multiplication,
+
+530
+00:45:33.335 --> 00:45:35.075
+you'll get a summation of log.
+
+531
+00:45:35.465 --> 00:45:37.355
+Okay? So log will go inside
+
+532
+00:45:38.315 --> 00:45:41.775
+and then some of all the logs, okay, so log is going inside.
+
+533
+00:45:41.775 --> 00:45:44.615
+So you have some of all the log. Now this,
+
+534
+00:45:44.875 --> 00:45:46.935
+Can you please repeat the previous step in all this?
+
+535
+00:45:46.935 --> 00:45:49.175
+We lost this one,
+
+536
+00:45:49.245 --> 00:45:50.245
+This step? Yes
+
+537
+00:45:50.245 --> 00:45:54.695
+sir. The, Okay, okay, so this step meaning is
+
+538
+00:45:55.355 --> 00:45:56.655
+the, ultimately we have
+
+539
+00:45:56.655 --> 00:45:59.055
+to find out this gradient which is unknown to us.
+
+540
+00:45:59.355 --> 00:46:02.375
+So we are going to make much more approximation of this.
+
+541
+00:46:02.755 --> 00:46:06.495
+The first step of appro approximation, what is tawa?
+
+542
+00:46:06.605 --> 00:46:10.735
+What is tay? Tawa is basically your state action sequence.
+
+543
+00:46:11.915 --> 00:46:16.355
+State action. Hmm? Projectile. So it is state action pair.
+
+544
+00:46:17.335 --> 00:46:20.515
+So for one projectile, that is I projectile,
+
+545
+00:46:21.105 --> 00:46:22.915
+this is a I projectile, okay?
+
+546
+00:46:23.615 --> 00:46:26.195
+It has cap, totally H number
+
+547
+00:46:26.195 --> 00:46:28.715
+of states possible capital H.
+
+548
+00:46:29.525 --> 00:46:33.705
+Okay? So
+
+549
+00:46:34.445 --> 00:46:38.335
+you take one particular action at the
+
+550
+00:46:38.425 --> 00:46:39.575
+state of st.
+
+551
+00:46:39.925 --> 00:46:44.345
+This is a ST at timestamp
+
+552
+00:46:44.985 --> 00:46:46.985
+T, you are in the state called st.
+
+553
+00:46:47.055 --> 00:46:50.305
+Okay, you are taking action called ut.
+
+554
+00:46:51.825 --> 00:46:54.115
+Once you have taken action naturally you are going
+
+555
+00:46:54.115 --> 00:46:55.955
+to transition to a new state.
+
+556
+00:46:55.985 --> 00:46:58.035
+That new state is called ST plus one.
+
+557
+00:46:58.735 --> 00:47:00.795
+So first one is coming from policy,
+
+558
+00:47:01.545 --> 00:47:02.875
+this one is coming from policy.
+
+559
+00:47:02.905 --> 00:47:04.115
+Look at this is coming from policy.
+
+560
+00:47:04.115 --> 00:47:07.355
+Policy means given a state, what is the action you are going
+
+561
+00:47:07.355 --> 00:47:09.225
+to choose, okay?
+
+562
+00:47:09.955 --> 00:47:12.455
+Under a particular state
+
+563
+00:47:12.475 --> 00:47:14.375
+and action payer, you are now going
+
+564
+00:47:14.395 --> 00:47:15.695
+to transition to a new state.
+
+565
+00:47:15.715 --> 00:47:17.175
+So this is called dynamics.
+
+566
+00:47:18.535 --> 00:47:21.745
+This dynamics is coming from your transition probability
+
+567
+00:47:21.745 --> 00:47:24.845
+model, but which action you are going to choose
+
+568
+00:47:24.845 --> 00:47:26.485
+that is coming from your policy model.
+
+569
+00:47:27.285 --> 00:47:31.005
+Okay? So now in order to express
+
+570
+00:47:32.225 --> 00:47:34.805
+IH projectile, you are going to take
+
+571
+00:47:35.935 --> 00:47:38.505
+this state action pair for all the state.
+
+572
+00:47:39.265 --> 00:47:42.365
+So this will go on this, this multiplication will go on
+
+573
+00:47:42.545 --> 00:47:44.565
+for capital H number of times.
+
+574
+00:47:46.455 --> 00:47:51.085
+This one, okay? This multiplication is
+
+575
+00:47:51.385 --> 00:47:53.885
+to happen over each number of times,
+
+576
+00:47:53.915 --> 00:47:55.365
+capital H number of times.
+
+577
+00:47:56.145 --> 00:47:58.605
+And this age number of times is basically indexed
+
+578
+00:47:58.605 --> 00:48:01.125
+by timestamps, small T, this small T,
+
+579
+00:48:01.695 --> 00:48:04.145
+this small T here it is small, T here, all this.
+
+580
+00:48:04.495 --> 00:48:05.625
+Okay? So
+
+581
+00:48:06.795 --> 00:48:08.115
+Once that T you can write.
+
+582
+00:48:08.975 --> 00:48:11.115
+So you have a log operator applied
+
+583
+00:48:11.335 --> 00:48:12.795
+before this, all these things.
+
+584
+00:48:12.975 --> 00:48:17.915
+So multiplication, so log of multiplication means some
+
+585
+00:48:17.915 --> 00:48:21.075
+of log, so log of AB means log A plus log B.
+
+586
+00:48:21.785 --> 00:48:23.725
+So this multiplication will become now some,
+
+587
+00:48:25.375 --> 00:48:28.265
+this multiplication will become some and log will go inside.
+
+588
+00:48:30.105 --> 00:48:33.715
+Okay? Now we are changing the policy parameter.
+
+589
+00:48:33.715 --> 00:48:36.875
+Policy means at a state what action you are going to choose.
+
+590
+00:48:38.675 --> 00:48:41.955
+So you are changing UT given st.
+
+591
+00:48:42.175 --> 00:48:44.355
+So this part only you are changing by the change
+
+592
+00:48:44.355 --> 00:48:45.795
+of your neural network parameters.
+
+593
+00:48:46.445 --> 00:48:49.635
+It'll not make change into your
+
+594
+00:48:50.575 --> 00:48:52.285
+state transition prob model.
+
+595
+00:48:53.925 --> 00:48:55.985
+Okay? So this is
+
+596
+00:48:57.645 --> 00:49:00.065
+not dependent on the parameter theater.
+
+597
+00:49:01.585 --> 00:49:04.525
+So gradient with respect to this thing is going to vanish
+
+598
+00:49:04.525 --> 00:49:06.445
+because it is not dependent on parameter theater.
+
+599
+00:49:06.875 --> 00:49:08.605
+Only thing is this will be demanding.
+
+600
+00:49:09.065 --> 00:49:11.645
+So gradient with respect to theater, this is some
+
+601
+00:49:12.645 --> 00:49:14.045
+valuable quantity that will be there.
+
+602
+00:49:14.045 --> 00:49:18.705
+However, this will, so it'll come down to this stage now.
+
+603
+00:49:19.525 --> 00:49:23.565
+So gradient of gradient with respect to the, for
+
+604
+00:49:24.385 --> 00:49:27.765
+sum of log action,
+
+605
+00:49:27.765 --> 00:49:29.885
+given state action given state,
+
+606
+00:49:30.655 --> 00:49:35.415
+Okay, So this gradient applied on
+
+607
+00:49:35.555 --> 00:49:36.735
+sum of variable.
+
+608
+00:49:36.735 --> 00:49:40.655
+So gradient of function, x plus function of Y,
+
+609
+00:49:41.315 --> 00:49:44.055
+it means that gradient of function,
+
+610
+00:49:44.175 --> 00:49:45.775
+x plus gradient of function of Y.
+
+611
+00:49:45.775 --> 00:49:47.575
+Okay? So this gradient will go inside,
+
+612
+00:49:48.085 --> 00:49:49.455
+summation will go outside.
+
+613
+00:49:49.515 --> 00:49:54.395
+It means that gradient of sum of two function is equal
+
+614
+00:49:54.455 --> 00:49:57.915
+to gradient of function, one plus gradient
+
+615
+00:49:57.915 --> 00:49:59.195
+of function two like that.
+
+616
+00:50:00.695 --> 00:50:03.955
+Okay? So this will come down to here now,
+
+617
+00:50:05.345 --> 00:50:07.915
+Okay, So this means
+
+618
+00:50:07.935 --> 00:50:10.475
+to increase the probability a trajectory, you need
+
+619
+00:50:10.475 --> 00:50:12.515
+to increase the log probability
+
+620
+00:50:12.575 --> 00:50:14.395
+of the action along the trajectory.
+
+621
+00:50:18.185 --> 00:50:20.845
+So if you want to increase the probability of a trajectory,
+
+622
+00:50:22.055 --> 00:50:24.755
+so you need to increase the log probability
+
+623
+00:50:24.755 --> 00:50:26.995
+of action along the trajectory.
+
+624
+00:50:29.725 --> 00:50:33.745
+Sir, one question. Um, the transition probability model,
+
+625
+00:50:34.325 --> 00:50:38.865
+how is this different from the state action or
+
+626
+00:50:42.175 --> 00:50:44.785
+Hmm, The policy?
+
+627
+00:50:45.405 --> 00:50:48.385
+How is this transition probability model different from the
+
+628
+00:50:48.385 --> 00:50:52.385
+policy and this word we are getting I think in this lecture,
+
+629
+00:50:54.385 --> 00:50:58.655
+uh, in the past, uh, I don't recall.
+
+630
+00:51:00.015 --> 00:51:02.275
+Hmm. Okay, so
+
+631
+00:51:03.985 --> 00:51:08.245
+this transition probably if you look at this one.
+
+632
+00:51:09.105 --> 00:51:10.805
+So it is transition probability
+
+633
+00:51:10.905 --> 00:51:12.205
+or conditional probability,
+
+634
+00:51:12.385 --> 00:51:13.485
+No transition Probability,
+
+635
+00:51:13.485 --> 00:51:14.725
+transitional, yes, it's, yes,
+
+636
+00:51:14.785 --> 00:51:16.485
+It is not con, it's written
+
+637
+00:51:16.585 --> 00:51:18.205
+as conditional probability also
+
+638
+00:51:18.315 --> 00:51:23.185
+because st plus one given, given ST
+
+639
+00:51:23.205 --> 00:51:25.025
+and ut, okay, this is conditional,
+
+640
+00:51:25.725 --> 00:51:29.585
+but this is also known as transition probability transition.
+
+641
+00:51:29.805 --> 00:51:33.025
+Why? It is basically under a particular state
+
+642
+00:51:33.045 --> 00:51:36.225
+and action pair, you are transitioning to a new state, okay?
+
+643
+00:51:37.565 --> 00:51:39.855
+Once you have been committed to a particular action,
+
+644
+00:51:41.395 --> 00:51:43.365
+then the next state that you are going to get
+
+645
+00:51:44.155 --> 00:51:46.925
+that is not going to be influenced by your policy.
+
+646
+00:51:47.175 --> 00:51:50.325
+Again, your policy says what? What is the meaning of policy?
+
+647
+00:51:51.295 --> 00:51:54.035
+Policy says at a particular state what
+
+648
+00:51:54.815 --> 00:51:58.475
+action you should take out of all possible action.
+
+649
+00:51:59.565 --> 00:52:02.625
+So that probability is called policy.
+
+650
+00:52:02.735 --> 00:52:07.275
+Suppose at a particular state here at a particular state,
+
+651
+00:52:08.105 --> 00:52:11.365
+you can take any one of these four action, okay?
+
+652
+00:52:11.785 --> 00:52:14.365
+Now, if you assign probability to each one of them,
+
+653
+00:52:14.755 --> 00:52:15.925
+that is called your policy,
+
+654
+00:52:17.805 --> 00:52:18.535
+Okay? Mm-hmm.
+
+655
+00:52:19.525 --> 00:52:22.895
+Once you have been committed to a particular PO action,
+
+656
+00:52:23.055 --> 00:52:24.055
+I mean once you're committed
+
+657
+00:52:24.055 --> 00:52:27.535
+to a particular state action period, naturally you are going
+
+658
+00:52:27.535 --> 00:52:29.775
+to do a transition to a next state, right?
+
+659
+00:52:30.125 --> 00:52:33.775
+Suppose you are here and this state, you have been committed
+
+660
+00:52:33.775 --> 00:52:35.335
+to this action, down action.
+
+661
+00:52:35.875 --> 00:52:37.895
+So your next state can be either this
+
+662
+00:52:38.555 --> 00:52:40.615
+or it can be this or it can be this.
+
+663
+00:52:40.675 --> 00:52:41.815
+So three, five,
+
+664
+00:52:41.875 --> 00:52:44.815
+and seven out of this, this is your next state.
+
+665
+00:52:45.655 --> 00:52:48.115
+So that next state is not going to be influenced
+
+666
+00:52:48.215 --> 00:52:51.515
+by the action again because the action is already fixed now.
+
+667
+00:52:52.945 --> 00:52:55.085
+So that is why it is independent of your policy,
+
+668
+00:52:55.195 --> 00:52:59.315
+this transition and probability transition st plus one,
+
+669
+00:52:59.465 --> 00:53:01.435
+that choice is independent of your policy
+
+670
+00:53:06.385 --> 00:53:09.255
+and the next thing is
+
+671
+00:53:11.835 --> 00:53:14.775
+now naturally we have, we have come down to this stage now,
+
+672
+00:53:14.775 --> 00:53:16.535
+okay, this is our, this thing.
+
+673
+00:53:17.575 --> 00:53:21.685
+So for that we are using multi estimation method
+
+674
+00:53:21.875 --> 00:53:24.925
+because we have to take I number, I mean
+
+675
+00:53:26.225 --> 00:53:28.015
+projectile are going to be indexed
+
+676
+00:53:28.015 --> 00:53:30.375
+by I you can take aim number of projectile.
+
+677
+00:53:30.925 --> 00:53:32.735
+Each projectile are equally probability.
+
+678
+00:53:33.755 --> 00:53:36.615
+So you compute this term for each projectile
+
+679
+00:53:36.955 --> 00:53:40.655
+and this is now reduced to this term, okay?
+
+680
+00:53:41.125 --> 00:53:45.315
+This part alone, that this part alone has been reduced
+
+681
+00:53:45.415 --> 00:53:46.965
+to this much.
+
+682
+00:53:47.395 --> 00:53:50.865
+Okay? Now look at this art tower also,
+
+683
+00:53:50.885 --> 00:53:54.015
+we can do a decomposition till now we have been doing
+
+684
+00:53:54.015 --> 00:53:58.015
+decomposition of this part, which has come down to here.
+
+685
+00:53:58.795 --> 00:54:00.975
+Sir, how did this come in the past? We read about this.
+
+686
+00:54:00.975 --> 00:54:03.795
+Is it this equation?
+
+687
+00:54:04.515 --> 00:54:07.635
+I mean just now you said this is equal to this.
+
+688
+00:54:08.275 --> 00:54:09.575
+Mm-hmm This one. So,
+
+689
+00:54:11.315 --> 00:54:14.725
+Okay, so now we are decomposing this one.
+
+690
+00:54:14.865 --> 00:54:16.205
+Ah, yes. One
+
+691
+00:54:16.205 --> 00:54:17.685
+By one arm we're decomposing.
+
+692
+00:54:18.385 --> 00:54:21.925
+Ah, so RHSR Hs. When you're talking about, yeah,
+
+693
+00:54:22.265 --> 00:54:25.925
+No here, RHS there this becomes LHS. So
+
+694
+00:54:26.515 --> 00:54:30.045
+Okay, so basically as I told you, this is an unknown term.
+
+695
+00:54:30.505 --> 00:54:32.005
+Ah, this part is unknown.
+
+696
+00:54:32.265 --> 00:54:34.365
+So one by one we are decomposing, right?
+
+697
+00:54:34.365 --> 00:54:36.365
+That is why this becomes now LHS,
+
+698
+00:54:36.695 --> 00:54:37.695
+Right? Because we
+
+699
+00:54:37.695 --> 00:54:38.845
+are far that it is like this.
+
+700
+00:54:39.315 --> 00:54:42.165
+That is why I'm telling this is a learning world.
+
+701
+00:54:43.525 --> 00:54:48.125
+You want to uh, decrypt something, okay?
+
+702
+00:54:48.125 --> 00:54:50.245
+Suppose you are roaming in a unknown world,
+
+703
+00:54:50.985 --> 00:54:52.445
+you want to decrypt something.
+
+704
+00:54:52.505 --> 00:54:55.405
+So you take a particular target, you want to know that.
+
+705
+00:54:56.585 --> 00:54:59.005
+So to know that what are things you need to know?
+
+706
+00:54:59.505 --> 00:55:01.765
+One by one you need to know them, okay?
+
+707
+00:55:03.415 --> 00:55:05.645
+Right sir. Right sir. So that's understood.
+
+708
+00:55:05.945 --> 00:55:09.005
+How did we decompose to that value you showed on that slide.
+
+709
+00:55:09.345 --> 00:55:12.865
+Uh, here is all this thing. Uh,
+
+710
+00:55:13.445 --> 00:55:17.145
+Now this part were decomposing, so this will reduce
+
+711
+00:55:17.165 --> 00:55:18.305
+to this much, okay?
+
+712
+00:55:18.305 --> 00:55:19.625
+Okay, Okay.
+
+713
+00:55:23.235 --> 00:55:27.885
+Okay. So for this part, we have got a,
+
+714
+00:55:28.395 --> 00:55:30.365
+some kind of approximation till now we
+
+715
+00:55:30.365 --> 00:55:31.405
+have not been able to solve it.
+
+716
+00:55:31.435 --> 00:55:33.605
+Okay? Now this is remaining.
+
+717
+00:55:34.835 --> 00:55:35.845
+This part is remaining
+
+718
+00:55:35.845 --> 00:55:39.515
+because this is what is your you theater, I mean gradient
+
+719
+00:55:39.515 --> 00:55:41.595
+of you, theater you is your objective, okay?
+
+720
+00:55:42.335 --> 00:55:44.675
+But this part art tower, that is the reward
+
+721
+00:55:45.095 --> 00:55:47.755
+for the is projectal that is remaining.
+
+722
+00:55:50.005 --> 00:55:52.505
+So for that, now this rau,
+
+723
+00:55:53.735 --> 00:55:55.395
+we have a expression.
+
+724
+00:55:57.785 --> 00:55:59.315
+This one I'll tell you later this,
+
+725
+00:55:59.315 --> 00:56:00.955
+this called baseline subtraction.
+
+726
+00:56:01.155 --> 00:56:01.915
+I will tell you later,
+
+727
+00:56:08.255 --> 00:56:11.815
+actually, many of you'll feel trouble in this quo in this,
+
+728
+00:56:11.935 --> 00:56:13.495
+this particular stage of the course.
+
+729
+00:56:15.025 --> 00:56:17.945
+But I will tell you one thing, the science
+
+730
+00:56:17.965 --> 00:56:21.155
+of AI is reinforcement learning, okay?
+
+731
+00:56:22.375 --> 00:56:24.325
+The deep learning, and they're not science,
+
+732
+00:56:24.875 --> 00:56:26.645
+they're something tool technology.
+
+733
+00:56:26.905 --> 00:56:29.445
+You don't know anything, any logic behind them
+
+734
+00:56:32.335 --> 00:56:34.505
+here, everything, what I'm teaching is based on logic.
+
+735
+00:56:34.825 --> 00:56:39.135
+I don't give you tool and use run it, see the effect.
+
+736
+00:56:39.285 --> 00:56:40.495
+That is not the thing. Okay?
+
+737
+00:56:45.095 --> 00:56:49.825
+Okay. So I have not shown the decomposition for art au
+
+738
+00:56:49.825 --> 00:56:53.065
+because arto is what your reward
+
+739
+00:56:53.365 --> 00:56:55.385
+for the projectal called Tao.
+
+740
+00:56:56.855 --> 00:57:01.375
+Okay? So as I told you, if you finish your projectal,
+
+741
+00:57:01.375 --> 00:57:03.135
+then only you are going to get your reward.
+
+742
+00:57:03.275 --> 00:57:06.895
+In case of most of the games you're playing chase game,
+
+743
+00:57:06.915 --> 00:57:08.375
+you do not receive any reward
+
+744
+00:57:08.435 --> 00:57:09.935
+for your intermediate movement.
+
+745
+00:57:10.125 --> 00:57:11.575
+Only when you finish the game,
+
+746
+00:57:11.875 --> 00:57:13.815
+either you are defeated or you are winning.
+
+747
+00:57:15.005 --> 00:57:16.385
+In that case you get a reward.
+
+748
+00:57:16.615 --> 00:57:20.985
+That reward will be getting, uh, propagated back
+
+749
+00:57:20.985 --> 00:57:23.465
+to all the states depending on the
+
+750
+00:57:24.705 --> 00:57:25.785
+movement that you have made.
+
+751
+00:57:26.725 --> 00:57:28.265
+The propagation, I'm not talking about,
+
+752
+00:57:28.685 --> 00:57:33.125
+I'm talking about the reward received for the, uh,
+
+753
+00:57:33.765 --> 00:57:36.315
+projectile called, okay,
+
+754
+00:57:37.745 --> 00:57:39.475
+this beam is basically constant
+
+755
+00:57:39.475 --> 00:57:42.265
+that I will tell you later what is the meaning of it.
+
+756
+00:57:42.345 --> 00:57:45.975
+I will tell you later, and it's called baseline subtraction.
+
+757
+00:57:47.265 --> 00:57:49.475
+Okay? So what is au i?
+
+758
+00:57:49.735 --> 00:57:53.115
+So AU is basically your reward optin for the
+
+759
+00:57:53.695 --> 00:57:55.285
+tower projectile.
+
+760
+00:57:55.485 --> 00:57:58.025
+I mean I projectile that reward.
+
+761
+00:57:58.025 --> 00:58:00.945
+You can decompose it for every state action
+
+762
+00:58:02.015 --> 00:58:04.355
+if you get a your in the intermediate step.
+
+763
+00:58:04.415 --> 00:58:06.035
+In that case, however,
+
+764
+00:58:06.815 --> 00:58:08.955
+we can still write even though it is zero
+
+765
+00:58:09.815 --> 00:58:12.595
+for every state action pair in the intermediate level
+
+766
+00:58:13.255 --> 00:58:17.415
+it may be zero, but still you can write it logically, okay?
+
+767
+00:58:17.415 --> 00:58:20.495
+Because as and when your itemization goes on,
+
+768
+00:58:20.875 --> 00:58:25.535
+you have already seen your um, uh, expected reward
+
+769
+00:58:26.325 --> 00:58:28.295
+that will start growing for every state.
+
+770
+00:58:29.165 --> 00:58:31.345
+So as in when your iation is going on,
+
+771
+00:58:31.415 --> 00:58:34.825
+some values will be coming up for every pair of this
+
+772
+00:58:35.945 --> 00:58:37.705
+STN ut, okay?
+
+773
+00:58:37.705 --> 00:58:38.945
+Initial stage will zero.
+
+774
+00:58:40.615 --> 00:58:44.635
+So the sum of this reward, basically
+
+775
+00:58:45.985 --> 00:58:48.725
+reward opt in for every state and action pair.
+
+776
+00:58:49.805 --> 00:58:50.815
+Okay? So every state
+
+777
+00:58:50.815 --> 00:58:53.375
+and action pair means how many states you have capital H,
+
+778
+00:58:53.375 --> 00:58:55.835
+number of states, okay?
+
+779
+00:58:56.535 --> 00:58:58.675
+So you are going to write this summation.
+
+780
+00:58:58.675 --> 00:59:00.235
+Now for every state and action pair,
+
+781
+00:59:00.265 --> 00:59:01.795
+just sum of all the rewards.
+
+782
+00:59:03.175 --> 00:59:06.355
+Now here in this case it says that I am
+
+783
+00:59:07.605 --> 00:59:09.305
+and the state of ST
+
+784
+00:59:10.395 --> 00:59:13.735
+and the state of st T can be anything between zero two H
+
+785
+00:59:15.005 --> 00:59:18.925
+and this reward is state of ST,
+
+786
+00:59:18.935 --> 00:59:20.645
+where T is zero two H.
+
+787
+00:59:20.985 --> 00:59:23.485
+So here you have this, uh, repeated sum.
+
+788
+00:59:23.485 --> 00:59:24.805
+This T is called zero two H.
+
+789
+00:59:24.805 --> 00:59:26.645
+Here again, T is called zero two H.
+
+790
+00:59:27.665 --> 00:59:31.685
+So the, the people who have been working in domain, those
+
+791
+00:59:31.685 --> 00:59:33.205
+who have proposed so many methods,
+
+792
+00:59:33.995 --> 00:59:35.085
+they said this submission,
+
+793
+00:59:35.115 --> 00:59:36.485
+this much submission not required.
+
+794
+00:59:36.625 --> 00:59:39.935
+You just need to do the submission for
+
+795
+00:59:40.945 --> 00:59:42.285
+the reward obtained.
+
+796
+00:59:43.765 --> 00:59:46.385
+So you can decompose this reward into two space.
+
+797
+00:59:46.645 --> 00:59:51.555
+One is K to zero, two T minus one, another one is K
+
+798
+00:59:51.695 --> 00:59:53.925
+to T, two H, okay?
+
+799
+00:59:55.155 --> 00:59:56.655
+So this is called past reward
+
+800
+00:59:57.205 --> 01:00:01.975
+because the state number SK is before T minus on.
+
+801
+01:00:01.975 --> 01:00:06.965
+So this past reward and this one is future reward T on word.
+
+802
+01:00:07.905 --> 01:00:12.325
+So this uh, past reward is not a headache for us.
+
+803
+01:00:12.425 --> 01:00:13.565
+So we can forget about it
+
+804
+01:00:13.565 --> 01:00:15.285
+because we are going to maximize our reward
+
+805
+01:00:15.285 --> 01:00:16.405
+for the future actions.
+
+806
+01:00:17.465 --> 01:00:20.525
+The past, whatever has happened, we can forget about it.
+
+807
+01:00:20.985 --> 01:00:24.865
+So this will be removed and now only this part is remaining.
+
+808
+01:00:25.735 --> 01:00:27.945
+This will greatly reduce the variance
+
+809
+01:00:27.945 --> 01:00:29.745
+of the objective function.
+
+810
+01:00:29.745 --> 01:00:31.745
+That is why they're fine tuning again and again.
+
+811
+01:00:32.575 --> 01:00:34.795
+So then the, they're keeping this submission.
+
+812
+01:00:34.795 --> 01:00:38.555
+Now that T is too, I mean the state that you're going
+
+813
+01:00:38.555 --> 01:00:39.715
+to consider is from the current
+
+814
+01:00:39.815 --> 01:00:41.795
+and the futures not the past.
+
+815
+01:00:42.695 --> 01:00:45.075
+So we have these three submission to platform
+
+816
+01:00:45.135 --> 01:00:46.515
+for this multi-platform.
+
+817
+01:00:48.695 --> 01:00:51.705
+Okay? Now what is this B?
+
+818
+01:00:52.335 --> 01:00:53.905
+This B that we're subtracting here.
+
+819
+01:00:54.665 --> 01:00:59.025
+The reason for B coming up is called we don't have B,
+
+820
+01:00:59.565 --> 01:01:01.425
+we are doing only everything with this part.
+
+821
+01:01:02.325 --> 01:01:03.865
+We are going to do everything with this part.
+
+822
+01:01:04.645 --> 01:01:09.625
+So we have to wait till the point of completion of your
+
+823
+01:01:10.435 --> 01:01:13.675
+uh, episode when your iation
+
+824
+01:01:13.735 --> 01:01:15.435
+has gone for many times.
+
+825
+01:01:16.095 --> 01:01:17.635
+Now, what will happen in most of the states,
+
+826
+01:01:17.635 --> 01:01:19.195
+you'll get some kind of reward.
+
+827
+01:01:20.855 --> 01:01:23.085
+So for updating their
+
+828
+01:01:25.305 --> 01:01:28.385
+updating the gradient, you don't have to wait for completion
+
+829
+01:01:28.385 --> 01:01:29.945
+of this tower, okay?
+
+830
+01:01:29.945 --> 01:01:33.265
+What you can do is for every state, you can consider
+
+831
+01:01:33.265 --> 01:01:36.345
+that there is some kind of value function available to me
+
+832
+01:01:37.725 --> 01:01:40.785
+and I will do the subtraction of this RI
+
+833
+01:01:41.885 --> 01:01:44.865
+for every state basis I'm talking about minus
+
+834
+01:01:45.425 --> 01:01:47.625
+I will take the quantity call value function.
+
+835
+01:01:48.045 --> 01:01:51.785
+So it'll help me in one thing that see in every case,
+
+836
+01:01:51.785 --> 01:01:53.665
+we are going to make this uh,
+
+837
+01:01:56.615 --> 01:01:59.085
+broad, I mean broadly, we're going
+
+838
+01:01:59.085 --> 01:02:00.565
+to take this decision again
+
+839
+01:02:00.565 --> 01:02:02.845
+and again, increase the probability of path
+
+840
+01:02:02.845 --> 01:02:05.365
+with positive reward, decrease the probability
+
+841
+01:02:05.365 --> 01:02:06.885
+of the pathway, negative reward.
+
+842
+01:02:07.535 --> 01:02:10.755
+So if somehow we can make this quantity
+
+843
+01:02:12.125 --> 01:02:14.465
+to be positive or negative, that is going to be
+
+844
+01:02:15.615 --> 01:02:17.005
+doing my job perfectly.
+
+845
+01:02:17.475 --> 01:02:19.465
+Okay? So I will take this
+
+846
+01:02:19.465 --> 01:02:21.025
+subtraction with the average value.
+
+847
+01:02:21.565 --> 01:02:23.665
+So those who are below average for them,
+
+848
+01:02:23.755 --> 01:02:25.945
+these are AU minus of B.
+
+849
+01:02:26.065 --> 01:02:29.065
+B is basically average. I'm talking about those who are
+
+850
+01:02:29.065 --> 01:02:31.385
+below average are AU minus of B will be negative,
+
+851
+01:02:32.335 --> 01:02:33.355
+and those are above average.
+
+852
+01:02:33.355 --> 01:02:36.195
+Average rau minus B will be positive.
+
+853
+01:02:36.495 --> 01:02:37.955
+So I can get this positive
+
+854
+01:02:37.955 --> 01:02:41.475
+and negative feeling from this quantity itself if I consider
+
+855
+01:02:41.585 --> 01:02:46.055
+this AL minus or B quantity in this, okay?
+
+856
+01:02:46.115 --> 01:02:47.895
+So, and that is what is written here.
+
+857
+01:02:49.105 --> 01:02:54.085
+This, I'm writing this gradient in this form.
+
+858
+01:02:54.675 --> 01:02:58.405
+This will gradient of log PT Y multiplied by
+
+859
+01:02:59.465 --> 01:03:02.205
+rau minus B, this multiplication RAU minus.
+
+860
+01:03:03.545 --> 01:03:05.965
+So this will help me to get either positive
+
+861
+01:03:06.385 --> 01:03:07.685
+or negative gradient.
+
+862
+01:03:09.315 --> 01:03:14.285
+Based on that I will update my uh, tita parameter.
+
+863
+01:03:14.475 --> 01:03:17.675
+Okay? And here
+
+864
+01:03:17.675 --> 01:03:20.515
+that is some more proof out there.
+
+865
+01:03:20.775 --> 01:03:22.075
+We won't have to go through now.
+
+866
+01:03:22.075 --> 01:03:25.275
+And the same thing that is, even though you considered
+
+867
+01:03:26.155 --> 01:03:29.765
+subtraction from a average case
+
+868
+01:03:30.075 --> 01:03:32.005
+that is sub subtraction of baseline,
+
+869
+01:03:33.265 --> 01:03:35.975
+it'll not make any difference in your gradient.
+
+870
+01:03:36.515 --> 01:03:40.085
+So this delta, this
+
+871
+01:03:41.615 --> 01:03:43.075
+for this quantity
+
+872
+01:03:44.425 --> 01:03:47.165
+and delta U theta for this quantity,
+
+873
+01:03:47.985 --> 01:03:49.485
+it is going to the same value.
+
+874
+01:03:50.445 --> 01:03:52.015
+Okay? It'll not make any change
+
+875
+01:03:52.015 --> 01:03:53.695
+because you're subtracting only the A average
+
+876
+01:03:53.795 --> 01:03:57.395
+and then you are summing over all of them, okay?
+
+877
+01:03:58.225 --> 01:03:59.715
+Only thing this will help you
+
+878
+01:03:59.715 --> 01:04:01.515
+to convert your algorithm faster
+
+879
+01:04:01.515 --> 01:04:03.355
+because it is going to give you positive
+
+880
+01:04:03.355 --> 01:04:04.875
+or negative reward at every step.
+
+881
+01:04:04.875 --> 01:04:06.955
+However, in this case, you're going
+
+882
+01:04:06.955 --> 01:04:08.155
+to get all the time positive.
+
+883
+01:04:08.615 --> 01:04:10.915
+Now, who is more positive? Who is less positive?
+
+884
+01:04:11.025 --> 01:04:13.835
+That is the objective if you are going to use this
+
+885
+01:04:14.635 --> 01:04:15.955
+gradient option.
+
+886
+01:04:16.775 --> 01:04:19.445
+So they have said to use this
+
+887
+01:04:19.445 --> 01:04:21.885
+gradient, okay?
+
+888
+01:04:22.725 --> 01:04:25.705
+And that is how it goes on.
+
+889
+01:04:28.535 --> 01:04:32.935
+There are many papers out there who says what value
+
+890
+01:04:32.995 --> 01:04:34.135
+of B you should use.
+
+891
+01:04:35.135 --> 01:04:38.095
+Somebody has said, just take all the tractile
+
+892
+01:04:39.505 --> 01:04:41.885
+and find out the of them.
+
+893
+01:04:42.035 --> 01:04:43.525
+That is called constant baseline.
+
+894
+01:04:43.525 --> 01:04:47.005
+Another person had said no at every state action pair,
+
+895
+01:04:47.005 --> 01:04:48.165
+you find out the reward
+
+896
+01:04:48.585 --> 01:04:52.845
+and then you find the, uh, average another person is a most,
+
+897
+01:04:52.865 --> 01:04:56.855
+uh, popular one that is called you just use the V function.
+
+898
+01:04:57.115 --> 01:04:58.415
+It is V function, okay?
+
+899
+01:04:58.855 --> 01:05:01.605
+V of S and you have already done it
+
+900
+01:05:01.605 --> 01:05:03.445
+using TD learning and all.
+
+901
+01:05:04.465 --> 01:05:08.015
+So expectation of some of
+
+902
+01:05:09.945 --> 01:05:11.675
+some of reward here, not discounted.
+
+903
+01:05:11.705 --> 01:05:14.435
+Also some of reward starting from time.
+
+904
+01:05:14.435 --> 01:05:17.995
+Step T find out the expectation over all
+
+905
+01:05:18.315 --> 01:05:19.475
+possible TRA tile.
+
+906
+01:05:20.215 --> 01:05:21.785
+That is your vpi.
+
+907
+01:05:22.005 --> 01:05:25.865
+So you can use that as vpi and this is what most people use.
+
+908
+01:05:26.055 --> 01:05:30.405
+This, this thing people means open ai, Germany
+
+909
+01:05:30.545 --> 01:05:31.645
+and all they use this.
+
+910
+01:05:35.105 --> 01:05:38.635
+Okay? So then how
+
+911
+01:05:38.635 --> 01:05:40.515
+to estimate this value function.
+
+912
+01:05:40.775 --> 01:05:42.555
+We have many ways. One is tele learning,
+
+913
+01:05:42.765 --> 01:05:44.155
+other one is Monte Carlo.
+
+914
+01:05:46.005 --> 01:05:48.635
+There is another thing called we can use another neuro
+
+915
+01:05:48.635 --> 01:05:50.355
+network to do that.
+
+916
+01:05:50.455 --> 01:05:53.235
+And that becomes actor critic network.
+
+917
+01:05:53.775 --> 01:05:56.275
+And as I told you in the policy gradient, we will go,
+
+918
+01:05:56.275 --> 01:05:58.235
+we are gonna delete something called actor critic.
+
+919
+01:05:59.175 --> 01:06:00.675
+So actor critic means we are going
+
+920
+01:06:00.675 --> 01:06:03.235
+to update a policy which is active,
+
+921
+01:06:03.235 --> 01:06:04.595
+which is actively learning.
+
+922
+01:06:06.085 --> 01:06:09.305
+And whatever learning it is making, it is going to ask
+
+923
+01:06:09.405 --> 01:06:10.505
+to a expert.
+
+924
+01:06:10.815 --> 01:06:14.835
+That is like whenever you are drawing, you go
+
+925
+01:06:14.835 --> 01:06:16.435
+to a teacher, you are learning drawing.
+
+926
+01:06:16.455 --> 01:06:19.395
+So teacher has taught you many times how to draw.
+
+927
+01:06:20.165 --> 01:06:24.415
+Then after some time you are drawing at every finishing up
+
+928
+01:06:24.435 --> 01:06:27.055
+of your, uh, one object.
+
+929
+01:06:27.235 --> 01:06:30.775
+You ask your teacher, you show that drawing to your teacher,
+
+930
+01:06:30.795 --> 01:06:32.695
+you ask how good it is, how bad it is.
+
+931
+01:06:32.695 --> 01:06:33.975
+Then he will give you feedback, okay?
+
+932
+01:06:33.975 --> 01:06:35.735
+At this position he will do this stroke
+
+933
+01:06:35.735 --> 01:06:36.855
+or that stroke like that.
+
+934
+01:06:37.675 --> 01:06:39.455
+So that teacher is called critic
+
+935
+01:06:40.195 --> 01:06:44.295
+and this one is critic, okay?
+
+936
+01:06:45.435 --> 01:06:48.455
+And what is your, you as a actor, that is this part
+
+937
+01:06:49.495 --> 01:06:52.385
+what reward you are getting for every state action there.
+
+938
+01:06:53.345 --> 01:06:55.965
+So if this critic is a well evaluated function,
+
+939
+01:06:55.965 --> 01:06:59.965
+then you can learn your, uh, actions very well and good.
+
+940
+01:07:03.125 --> 01:07:04.465
+So today I stop here.
+
+941
+01:07:05.655 --> 01:07:07.585
+Next class, I'll show you some program
+
+942
+01:07:07.815 --> 01:07:09.225
+with this reinforcement.
+
+943
+01:07:09.875 --> 01:07:11.465
+There is a reinforcement algorithm.
+
+944
+01:07:11.915 --> 01:07:15.825
+There is a fast policy proposed in 1988.
+
+945
+01:07:15.985 --> 01:07:19.975
+I think I will show you that algorithm in uh,
+
+946
+01:07:20.415 --> 01:07:21.655
+PDF plain and paper
+
+947
+01:07:21.755 --> 01:07:24.535
+and then I'll show you it's Python notebook also today.
+
+948
+01:07:24.565 --> 01:07:25.975
+I'll stop it here after this.
+
+949
+01:07:30.155 --> 01:07:34.335
+So you have a, uh, do what did I send you
+
+950
+01:07:34.355 --> 01:07:37.025
+by email, sir?
+
+951
+01:07:37.025 --> 01:07:38.865
+That previous file also, we didn't get
+
+952
+01:07:44.635 --> 01:07:47.855
+ft who is present here, I have shared it to you, right?
+
+953
+01:07:58.815 --> 01:08:03.135
+Any TA present here?
+
+954
+01:08:03.375 --> 01:08:06.735
+F-L-T-D-I have given this policy gradient class note,
+
+955
+01:08:07.865 --> 01:08:12.705
+this thing, this one I have shared it to them.
+
+956
+01:08:13.325 --> 01:08:17.085
+You right email to any TA present now.
+
+957
+01:08:18.325 --> 01:08:19.325
+Okay,
+
+958
+01:08:21.795 --> 01:08:22.795
+Sir. Um,
+
+959
+01:08:22.795 --> 01:08:23.275
+
+960
+01:08:29.595 --> 01:08:30.595
+Let me send this.
+
+961
+01:08:30.675 --> 01:08:31.675
+Uh,
+
+962
+01:08:45.565 --> 01:08:48.445
+I think all TAs on vacation most probably
+
+963
+01:08:48.445 --> 01:08:50.445
+because even in DLTs were not present
+
+964
+01:08:50.545 --> 01:08:52.845
+and even assignment hasn't been enabled yet.
+
+965
+01:08:53.425 --> 01:08:54.425
+So most probably
+
+966
+01:08:55.745 --> 01:08:57.285
+In D means deep learning.
+
+967
+01:08:58.205 --> 01:09:02.275
+Yeah, yeah. Okay.
+
+968
+01:09:05.755 --> 01:09:10.005
+Okay, fine. I'll tell them sir,
+
+969
+01:09:10.005 --> 01:09:12.045
+Request, you can even share this in chat, sir,
+
+970
+01:09:12.045 --> 01:09:14.685
+because last time also, uh, respect to TAs,
+
+971
+01:09:14.685 --> 01:09:15.685
+you're not uploaded shortly.
+
+972
+01:09:15.745 --> 01:09:19.335
+We can go through this. Okay, let me go to the chat.
+
+973
+01:09:24.605 --> 01:09:25.605
+Chat
+
+974
+01:09:25.995 --> 01:09:26.995
+Anyway. Also writing
+
+975
+01:09:26.995 --> 01:09:27.655
+to Neha.
+
+976
+01:09:29.515 --> 01:09:32.855
+Huh? Neha is the TM also writing to her sir.
+
+977
+01:09:35.745 --> 01:09:37.485
+Policy gradient plus
+
+978
+01:09:37.715 --> 01:09:42.505
+note this.
+
+979
+01:09:51.455 --> 01:09:52.995
+So all have to download this, okay?
+
+980
+01:09:53.135 --> 01:09:57.795
+And I have forgot to attach this thing.
+
+981
+01:10:22.625 --> 01:10:23.115
+Awesome.
+
+982
+01:10:28.595 --> 01:10:30.725
+Okay, fine. So if you have any question,
+
+983
+01:10:31.065 --> 01:10:32.165
+you can, otherwise you can,
+
+984
+01:10:32.825 --> 01:10:34.325
+Is there one more question, sir?
+
+985
+01:10:34.705 --> 01:10:38.205
+Uh, sir, for value function, why do we use log sir?
+
+986
+01:10:39.265 --> 01:10:43.665
+Like what, what is the purpose behind usage
+
+987
+01:10:43.725 --> 01:10:45.505
+of log function for this?
+
+988
+01:10:46.705 --> 01:10:51.645
+Oh, that is a ation coming up. The ation is here?
+
+989
+01:10:52.745 --> 01:10:54.365
+Yes sir. Could you please go to that? You can see
+
+990
+01:10:54.365 --> 01:10:55.645
+The screen?
+
+991
+01:10:56.345 --> 01:10:57.925
+Yes sir. I can see the screen sir.
+
+992
+01:11:08.995 --> 01:11:13.355
+So this here,
+
+993
+01:11:16.755 --> 01:11:18.405
+Okay, so it is output Actually.
+
+994
+01:11:18.405 --> 01:11:19.965
+So there is the gradient if you wanna take the
+
+995
+01:11:19.965 --> 01:11:21.125
+gradient of this thing.
+
+996
+01:11:21.805 --> 01:11:24.165
+Hmm? Yeah. So this gradient will go inside,
+
+997
+01:11:24.835 --> 01:11:25.835
+Okay? This gradient
+
+998
+01:11:25.835 --> 01:11:26.565
+will go inside.
+
+999
+01:11:26.705 --> 01:11:29.005
+Now here in my class note it is given.
+
+1000
+01:11:29.755 --> 01:11:33.465
+Understood sir? Okay, Here's a class note, right?
+
+1001
+01:11:34.325 --> 01:11:34.905
+Yes sir.
+
+1002
+01:11:39.265 --> 01:11:40.435
+Here is a class note
+
+1003
+01:11:45.205 --> 01:11:46.335
+here is a ion given.
+
+1004
+01:11:47.365 --> 01:11:48.945
+Yes sir. Now it is with
+
+1005
+01:11:48.945 --> 01:11:52.705
+That uh, log, uh, log trick coming up here.
+
+1006
+01:11:53.525 --> 01:11:55.425
+Yes. And that is how it's here.
+
+1007
+01:11:55.495 --> 01:11:57.545
+From here to here, there is a log coming up.
+
+1008
+01:11:59.395 --> 01:12:01.775
+No, understood. No, I thought it was some kind
+
+1009
+01:12:01.775 --> 01:12:05.535
+of like random arbitrary function that we use it,
+
+1010
+01:12:06.235 --> 01:12:08.495
+but uh, now it is pretty much clear that, uh,
+
+1011
+01:12:09.195 --> 01:12:10.815
+it is a derivative function.
+
+1012
+01:12:11.075 --> 01:12:13.775
+So, and now it makes sense. Thanks.
+
+1013
+01:12:14.165 --> 01:12:15.735
+From here to here it is coming on.
+
+1014
+01:12:16.155 --> 01:12:20.625
+Yes. This part, this part turns out
+
+1015
+01:12:20.625 --> 01:12:23.425
+to be gradient of log function.
+
+1016
+01:12:24.165 --> 01:12:28.675
+Yes. Uh,
+
+1017
+01:12:28.895 --> 01:12:32.915
+one more question is, uh, is there any application for, uh,
+
+1018
+01:12:34.295 --> 01:12:36.995
+uh, reinforcement learning in continuous domain, sir,
+
+1019
+01:12:37.175 --> 01:12:40.795
+or it is only in the, um, discrete domain, meaning no,
+
+1020
+01:12:41.215 --> 01:12:42.315
+In continuous only.
+
+1021
+01:12:42.335 --> 01:12:45.315
+It, it has started from continuous domain,
+
+1022
+01:12:45.535 --> 01:12:50.355
+but uh, our language model, they're all, uh,
+
+1023
+01:12:52.325 --> 01:12:53.655
+they're all discreet domain.
+
+1024
+01:12:54.485 --> 01:12:58.635
+It is, this is for your continuous domain only
+
+1025
+01:13:07.985 --> 01:13:09.045
+The language, uh,
+
+1026
+01:13:09.125 --> 01:13:11.805
+LLM they're using it is only in discrete domain,
+
+1027
+01:13:11.825 --> 01:13:15.045
+but actually it has originated from continuous domain.
+
+1028
+01:13:15.245 --> 01:13:19.485
+I will show you one example in uh, next class.
+
+1029
+01:13:20.475 --> 01:13:25.395
+Okay, thank you. Okay, anything else?
+
+1030
+01:13:27.955 --> 01:13:31.055
+Uh, that's also, thanks, thanks from myself. Somebody
+
+1031
+01:13:39.145 --> 01:13:42.115
+Else, if not there, then we can wind up last today.
+
+1032
+01:13:43.645 --> 01:13:46.195
+Still last, last class gonna be which date?
+
+1033
+01:13:47.095 --> 01:13:50.885
+22nd February, sir. 22nd February.
+
+1034
+01:13:51.185 --> 01:13:54.055
+So that means we have, uh,
+
+1035
+01:13:54.165 --> 01:13:56.255
+this is 24th, huh?
+
+1036
+01:13:56.255 --> 01:14:00.895
+So we have one week, two weeks, four weeks,
+
+1037
+01:14:03.215 --> 01:14:04.345
+four more weeks of classes.
+
+1038
+01:14:04.415 --> 01:14:06.865
+Four, four more week. So eight classes are there.
+
+1039
+01:14:10.825 --> 01:14:10.945
+I
+
+1040
+01:14:16.045 --> 01:14:18.825
+my c is on another six class.
+
+1041
+01:14:19.225 --> 01:14:21.065
+I will finish it up five to six plus.
+
+1042
+01:14:25.505 --> 01:14:27.835
+Sure, yeah, sure, sure.
+
+1043
+01:14:29.955 --> 01:14:33.365
+Because all are based on the same technique
+
+1044
+01:14:34.305 --> 01:14:37.805
+and uh, very little theoretical changes are there.
+
+1045
+01:14:37.825 --> 01:14:40.365
+So all things are now under research now.
+
+1046
+01:14:42.635 --> 01:14:46.365
+Okay? Yeah, sure, sir.
+
+1047
+01:14:49.745 --> 01:14:53.725
+So you have a, a day long course for Saturday, right?
+
+1048
+01:14:55.605 --> 01:14:58.825
+Yes, sir. It goes up to four o'clock.
+
+1049
+01:15:00.435 --> 01:15:03.855
+Yes. Including nine o'clock, sir.
+
+1050
+01:15:05.045 --> 01:15:06.135
+Nine 9:00 PM
+
+1051
+01:15:06.765 --> 01:15:07.765
+Yeah. 9:15 PM
+
+1052
+01:15:07.765 --> 01:15:10.415
+sir. In between we have like three hour break,
+
+1053
+01:15:11.235 --> 01:15:12.285
+Nine after four.
+
+1054
+01:15:14.145 --> 01:15:18.165
+Oh, and it starts from morning ten nine
+
+1055
+01:15:18.225 --> 01:15:19.225
+Sir. Morning
+
+1056
+01:15:19.225 --> 01:15:22.045
+nine to evening nine, okay.
+
+1057
+01:15:24.595 --> 01:15:28.005
+Okay, so we can finish today, sir.
+
+1058
+01:15:28.025 --> 01:15:31.005
+Uh, last we asked one question, sir, regarding the quiz.
+
+1059
+01:15:31.065 --> 01:15:32.765
+We have sent mail to T also,
+
+1060
+01:15:32.765 --> 01:15:34.565
+but there were no response in the third.
+
+1061
+01:15:35.675 --> 01:15:38.925
+Okay sir? I just got a response from TA saying that, uh,
+
+1062
+01:15:39.025 --> 01:15:42.765
+the uh, correct answer, which is marked by T is incorrect,
+
+1063
+01:15:43.025 --> 01:15:44.885
+so they'll discuss with you and change it,
+
+1064
+01:15:45.595 --> 01:15:46.595
+Okay? Okay.
+
+1065
+01:15:46.595 --> 01:15:49.465
+Okay, fine. I'll talk to him.
+
+1066
+01:15:52.115 --> 01:15:55.965
+Okay? So we can leave now. Thank you. Yes, thank you sir.
+
+1067
+01:15:56.735 --> 01:15:58.445
+Thank you, sir. Thank you, sir.

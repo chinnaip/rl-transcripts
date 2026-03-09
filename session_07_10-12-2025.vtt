@@ -1,0 +1,4681 @@
+WEBVTT
+
+NOTE
+Video URL: https://vimeo.com/1145477261
+Reinforcement Learning Live Session 7 - 10-12-2025
+
+1
+00:15:22.680 --> 00:15:26.520
+Uh, good evening, everyone. Good evening,
+
+2
+00:15:26.560 --> 00:15:30.460
+sir. Okay.
+
+3
+00:15:30.720 --> 00:15:32.760
+25 participants has joined till
+
+4
+00:15:32.800 --> 00:15:35.440
+now. Let
+
+5
+00:15:35.780 --> 00:15:40.120
+me...
+
+6
+00:16:11.960 --> 00:16:15.390
+So I have shared you the program. All of you have (clears throat)
+
+7
+00:16:15.460 --> 00:16:17.960
+executed?
+
+8
+00:16:22.240 --> 00:16:23.010
+We tried it,
+
+9
+00:16:23.040 --> 00:16:26.600
+sir.
+
+10
+00:16:41.920 --> 00:16:42.420
+Ah.
+
+11
+00:16:42.980 --> 00:16:46.680
+Okay. So the screen is visible to you?
+
+12
+00:16:47.880 --> 00:16:48.390
+Yes, sir.
+
+13
+00:16:48.420 --> 00:16:50.300
+Yes, sir. Okay,
+
+14
+00:16:50.360 --> 00:16:53.700
+fine. So today's topic is
+
+15
+00:16:55.300 --> 00:16:58.920
+policy improvement. Okay. So
+
+16
+00:16:59.780 --> 00:17:03.470
+let me open up what is called...
+
+17
+00:17:03.470 --> 00:17:07.420
+(clears throat) For policy improvement, what do
+
+18
+00:17:07.480 --> 00:17:08.920
+we need?
+
+19
+00:17:11.840 --> 00:17:15.720
+Go back and see. So till the last
+
+20
+00:17:15.800 --> 00:17:19.340
+class, I have finished up here, that how to evaluate a policy.
+
+21
+00:17:20.260 --> 00:17:23.940
+So we had two policy. One is greedy, another one is careful
+
+22
+00:17:24.020 --> 00:17:27.880
+policy. For both of them, I have shown you how to evaluate
+
+23
+00:17:27.890 --> 00:17:31.620
+them. (clears throat) So
+
+24
+00:17:31.920 --> 00:17:35.780
+(clears throat) you can see after running the policy evaluation, the
+
+25
+00:17:35.800 --> 00:17:39.520
+careful value, uh, careful policy is giving the value for
+
+26
+00:17:39.720 --> 00:17:43.700
+being into the state, start state is 0.4, and here
+
+27
+00:17:43.780 --> 00:17:47.280
+in the case of greedy policy, it is 0.3,
+
+28
+00:17:47.400 --> 00:17:50.900
+okay? So once (coughs) policy
+
+29
+00:17:50.960 --> 00:17:53.920
+evaluation has run, it will
+
+30
+00:17:55.940 --> 00:17:58.090
+find out the value for each and every
+
+31
+00:17:58.220 --> 00:18:01.340
+state. So you get these kind of
+
+32
+00:18:01.380 --> 00:18:02.430
+values for
+
+33
+00:18:03.500 --> 00:18:06.600
+careful policy and for greedy policy, you get these kind of
+
+34
+00:18:06.620 --> 00:18:10.000
+values. Now what should you do? You need to
+
+35
+00:18:10.820 --> 00:18:13.560
+do some updation of your policy so that
+
+36
+00:18:15.460 --> 00:18:19.300
+you will get a new policy, and with the new policy, you
+
+37
+00:18:19.340 --> 00:18:20.440
+can do the again policy
+
+38
+00:18:20.460 --> 00:18:23.932
+evaluation.So this
+
+39
+00:18:24.032 --> 00:18:27.832
+updation of policy and then policy evaluation, this will go on
+
+40
+00:18:27.912 --> 00:18:31.872
+for, uh, till the time you do
+
+41
+00:18:31.912 --> 00:18:35.342
+not find any more new policy. So that is what is called
+
+42
+00:18:35.472 --> 00:18:38.732
+policy, uh, iteration algorithm.
+
+43
+00:18:38.772 --> 00:18:41.112
+So a policy iteration algorithm have two step.
+
+44
+00:18:41.392 --> 00:18:45.232
+Once- f- first step is you start with any given policy,
+
+45
+00:18:45.272 --> 00:18:48.472
+any random policy, then you evaluate that
+
+46
+00:18:48.512 --> 00:18:52.432
+policy. After evaluation is terminated, you will get this kind of
+
+47
+00:18:52.512 --> 00:18:56.252
+value for each and every cell. After
+
+48
+00:18:56.412 --> 00:18:59.652
+finding out the values, then you do a policy update.
+
+49
+00:18:59.792 --> 00:19:03.632
+Policy update means the action that you want to
+
+50
+00:19:03.672 --> 00:19:07.372
+take in each and every cell, you have to just
+
+51
+00:19:07.412 --> 00:19:09.132
+change a little bit
+
+52
+00:19:10.192 --> 00:19:13.952
+into some of the cell. You do not change all the cells at the
+
+53
+00:19:13.992 --> 00:19:17.352
+same time. You change one or two cells, or
+
+54
+00:19:17.772 --> 00:19:20.532
+maybe two to three cells, not more than that.
+
+55
+00:19:21.312 --> 00:19:25.032
+Some of the actions to be changed on only on two to three cells,
+
+56
+00:19:25.232 --> 00:19:26.672
+okay, so you get a new policy.
+
+57
+00:19:27.892 --> 00:19:30.412
+That new policy, again, you run policy evaluation.
+
+58
+00:19:31.412 --> 00:19:35.332
+Policy evaluation will find out the s- value for living in particular
+
+59
+00:19:35.412 --> 00:19:39.312
+cell under the new policy. Again, with
+
+60
+00:19:39.352 --> 00:19:42.852
+the new policy, you will have to change some little bit of
+
+61
+00:19:42.932 --> 00:19:46.292
+actions in a particular or two or three number of cells.
+
+62
+00:19:46.312 --> 00:19:49.532
+You get a new policy, again, you run policy evaluation.
+
+63
+00:19:49.592 --> 00:19:51.612
+So that is what is the job of your
+
+64
+00:19:52.592 --> 00:19:55.512
+policy iteration algorithm. Okay?
+
+65
+00:19:55.572 --> 00:19:56.592
+So now I'll show you
+
+66
+00:19:58.672 --> 00:20:02.592
+what is a policy iteration algorithm, then I will come up with the mechanism
+
+67
+00:20:02.632 --> 00:20:06.432
+for doing that. Okay? So,
+
+68
+00:20:08.092 --> 00:20:12.072
+uh, is the algorithm shown over here? No.
+
+69
+00:20:17.472 --> 00:20:19.172
+So let me just write it down
+
+70
+00:20:19.232 --> 00:20:23.792
+here.
+
+71
+00:20:24.252 --> 00:20:26.292
+So i- in the book also, it is written here.
+
+72
+00:20:26.352 --> 00:20:28.992
+If you read the book, in the next page
+
+73
+00:20:29.012 --> 00:20:32.732
+itself, see, we... Last class we have
+
+74
+00:20:32.772 --> 00:20:36.452
+finished up here. Once a policy evaluation is
+
+75
+00:20:36.512 --> 00:20:39.732
+completed, you will get the value for each and every cell under every
+
+76
+00:20:39.832 --> 00:20:43.312
+policy, okay? After that, your job is to do a new po-
+
+77
+00:20:43.572 --> 00:20:47.212
+finding of a new policy that will be improving your
+
+78
+00:20:47.292 --> 00:20:51.252
+value in each and every cell. So if we say that if I want
+
+79
+00:20:51.272 --> 00:20:53.932
+to compare between two policy, policy one and policy
+
+80
+00:20:53.972 --> 00:20:57.952
+two, how to compare? The mechanism is
+
+81
+00:20:58.472 --> 00:21:01.672
+finding out the value for living in each and every
+
+82
+00:21:01.732 --> 00:21:05.672
+cell. If the value, let's say policy two, each
+
+83
+00:21:05.712 --> 00:21:09.032
+and every cell under policy two has some value which
+
+84
+00:21:09.112 --> 00:21:13.032
+are greater than its corresponding cell in the policy one, then
+
+85
+00:21:13.052 --> 00:21:16.852
+we say that policy two is a better policy than policy one.
+
+86
+00:21:16.912 --> 00:21:20.792
+Okay? Now our job here is to find out a better
+
+87
+00:21:20.892 --> 00:21:24.732
+policy at every iteration. Okay? So
+
+88
+00:21:24.792 --> 00:21:27.792
+that is what is the call policy updation.
+
+89
+00:21:27.832 --> 00:21:31.612
+So for doing that, you can start
+
+90
+00:21:31.672 --> 00:21:31.942
+with
+
+91
+00:21:32.872 --> 00:21:33.972
+any random policy,
+
+92
+00:21:34.892 --> 00:21:38.632
+and then you update few of the actions in particular
+
+93
+00:21:38.772 --> 00:21:41.172
+two to three cells. You get a new policy.
+
+94
+00:21:41.232 --> 00:21:43.882
+Again, that new policy, you do policy evaluation.
+
+95
+00:21:43.882 --> 00:21:47.752
+(clears throat) You get the value for each and every
+
+96
+00:21:47.812 --> 00:21:48.172
+cell,
+
+97
+00:21:49.652 --> 00:21:50.692
+okay? And then
+
+98
+00:21:51.532 --> 00:21:51.892
+you
+
+99
+00:21:52.792 --> 00:21:56.272
+change one or two cells' actions, you get a new policy.
+
+100
+00:21:56.312 --> 00:21:58.732
+But how do you find out which are the
+
+101
+00:21:58.772 --> 00:22:01.822
+cells where you want to change the
+
+102
+00:22:02.612 --> 00:22:06.532
+actions? That is direction. Okay, so you cannot find it all
+
+103
+00:22:06.572 --> 00:22:09.912
+randomly, the particular cells in which you want to change the
+
+104
+00:22:09.992 --> 00:22:12.852
+actions. You cannot do it randomly.
+
+105
+00:22:12.912 --> 00:22:16.572
+If you do it randomly, then there is no end of this algorithm, so we need to find
+
+106
+00:22:16.632 --> 00:22:20.392
+some kind of mechanism to do, to find out which
+
+107
+00:22:20.412 --> 00:22:23.892
+particular cell wherein I can change the
+
+108
+00:22:23.952 --> 00:22:27.932
+actions, okay? So here it is given, policy improvement,
+
+109
+00:22:27.992 --> 00:22:29.392
+how to do it. So
+
+110
+00:22:30.612 --> 00:22:33.612
+it is like you can evaluate many policy and rank them.
+
+111
+00:22:34.532 --> 00:22:38.272
+See, look at, you can evaluate any, many policy and rank them by the state value
+
+112
+00:22:38.332 --> 00:22:42.292
+function of the start state. After all, the number of
+
+113
+00:22:42.352 --> 00:22:46.212
+the, the number tells you the expected cumulative reward
+
+114
+00:22:46.912 --> 00:22:50.722
+the policy in question will obtain if you run many,
+
+115
+00:22:50.732 --> 00:22:52.292
+many episodes. Okay?
+
+116
+00:22:53.292 --> 00:22:57.032
+So if you change the actions in few
+
+117
+00:22:57.112 --> 00:23:00.992
+particular cell randomly, your algorithm is not going to complete.
+
+118
+00:23:01.032 --> 00:23:03.492
+Uh, I mean, it is going to be running for- forever.
+
+119
+00:23:03.532 --> 00:23:06.892
+So we need to come up with some kind of principal mechanism.
+
+120
+00:23:06.952 --> 00:23:10.372
+If you follow the principle, you will be ending up with a better
+
+121
+00:23:10.432 --> 00:23:14.272
+policy, with a guarantee that the new policy that you are landing up, that
+
+122
+00:23:14.332 --> 00:23:17.392
+policy will be better than the previous policy.
+
+123
+00:23:17.452 --> 00:23:19.852
+So what is that mechanism? That mechanism is called
+
+124
+00:23:21.172 --> 00:23:23.672
+Q-function, finding out the Q-function,
+
+125
+00:23:24.552 --> 00:23:25.652
+or in other way, it is called
+
+126
+00:23:27.592 --> 00:23:28.572
+state action
+
+127
+00:23:29.412 --> 00:23:33.362
+value function, okay? Currently we are, uh, till now, whatever we're doing is only
+
+128
+00:23:33.452 --> 00:23:36.832
+value function. Now we are going to do it the
+
+129
+00:23:36.932 --> 00:23:40.812
+value for being in a state and then committed
+
+130
+00:23:40.822 --> 00:23:43.372
+to a particular action. That is called Q-function,
+
+131
+00:23:43.452 --> 00:23:44.892
+okay?
+
+132
+00:23:46.612 --> 00:23:49.832
+So we need to find out the Q-function. What is it basically?
+
+133
+00:23:51.072 --> 00:23:54.392
+So the expression for Q-function is, let me show you the
+
+134
+00:23:54.432 --> 00:23:56.872
+expression.
+
+135
+00:24:00.572 --> 00:24:04.252
+Okay, so this part from here to here, this summation
+
+136
+00:24:05.412 --> 00:24:08.732
+is called Q-function.
+
+137
+00:24:12.092 --> 00:24:14.112
+Let me write it so that you can understand
+
+138
+00:24:14.132 --> 00:24:29.500
+clearly.Okay.
+
+139
+00:24:29.560 --> 00:24:29.760
+So
+
+140
+00:24:32.060 --> 00:24:33.000
+today's class is
+
+141
+00:24:34.160 --> 00:24:34.640
+about
+
+142
+00:24:36.680 --> 00:24:40.100
+...
+
+143
+00:24:40.170 --> 00:24:47.710
+(eight seconds)
+
+144
+00:24:47.740 --> 00:24:51.220
+Policy improvement.
+
+145
+00:24:56.440 --> 00:24:58.820
+What is the date today? 10th December, right?
+
+146
+00:25:03.320 --> 00:25:06.240
+So for doing that, we need the help of Q function.
+
+147
+00:25:06.300 --> 00:25:06.480
+So
+
+148
+00:25:07.820 --> 00:25:08.830
+the Q function is
+
+149
+00:25:10.400 --> 00:25:14.220
+... This is the definition. What is the, the literal
+
+150
+00:25:14.260 --> 00:25:18.000
+meaning for Q functioning? What is the value for living in a
+
+151
+00:25:18.020 --> 00:25:21.360
+particular state of S and having committed to a particular action A?
+
+152
+00:25:22.300 --> 00:25:25.460
+So to do that, what do we need?
+
+153
+00:25:26.880 --> 00:25:28.860
+We have committed a particular action.
+
+154
+00:25:28.900 --> 00:25:32.740
+We don't have a choice of action. We are taking one particular action
+
+155
+00:25:32.820 --> 00:25:36.040
+out of many possibility, okay? So there is no
+
+156
+00:25:37.980 --> 00:25:40.900
+need of writing this thingy, okay?
+
+157
+00:25:40.970 --> 00:25:44.080
+This part is not required. However, this part is required.
+
+158
+00:25:44.100 --> 00:25:44.520
+That is
+
+159
+00:25:45.420 --> 00:25:49.180
+probability of S dashed given
+
+160
+00:25:49.380 --> 00:25:51.240
+S, A.
+
+161
+00:25:52.680 --> 00:25:55.700
+Then multiplied by reward for this and then
+
+162
+00:25:55.780 --> 00:25:58.330
+gamma, multiplied by ... You are landing into
+
+163
+00:25:59.400 --> 00:26:03.130
+new state, right? A new state is
+
+164
+00:26:03.200 --> 00:26:06.960
+already having a value called V of S dashed. Okay?
+
+165
+00:26:07.000 --> 00:26:10.840
+So this part is not required. Right?
+
+166
+00:26:10.860 --> 00:26:14.400
+So this is called... So this part I'm making a
+
+167
+00:26:14.480 --> 00:26:17.520
+cross. This is not required. Only this is required.
+
+168
+00:26:17.540 --> 00:26:19.800
+So this is called Q function. Okay?
+
+169
+00:26:20.660 --> 00:26:23.560
+So in other way, we will have to find out
+
+170
+00:26:24.540 --> 00:26:28.380
+this, this particular quantity for every state.
+
+171
+00:26:31.240 --> 00:26:35.000
+Okay. And how to do that? Just y- last two classes, if you have followed, this part
+
+172
+00:26:35.020 --> 00:26:37.750
+only we required. Okay? So you start with ...
+
+173
+00:26:38.680 --> 00:26:41.180
+For, uh, iteration one,
+
+174
+00:26:42.180 --> 00:26:44.580
+I mean, the initial is basically ...
+
+175
+00:26:44.590 --> 00:26:48.510
+Initial V of zero, so initialization for every
+
+176
+00:26:48.660 --> 00:26:52.460
+state is going to be zero. After that, you
+
+177
+00:26:52.520 --> 00:26:55.260
+find out your policy evaluat- you run your policy
+
+178
+00:26:55.300 --> 00:26:58.360
+evaluation, so it is going to be running like this
+
+179
+00:26:58.880 --> 00:27:02.040
+for ... It is an infinite loop, which is in
+
+180
+00:27:02.120 --> 00:27:05.470
+C++ writing. So first
+
+181
+00:27:05.560 --> 00:27:08.380
+you randomly initialize any
+
+182
+00:27:08.440 --> 00:27:11.740
+policy.
+
+183
+00:27:14.040 --> 00:27:14.460
+So you
+
+184
+00:27:16.300 --> 00:27:20.060
+pick up any random policy, this function, you run it.
+
+185
+00:27:20.100 --> 00:27:20.300
+Then
+
+186
+00:27:21.920 --> 00:27:24.570
+for this random policy, you make ...
+
+187
+00:27:24.600 --> 00:27:27.800
+This is your pi, your pi is
+
+188
+00:27:27.860 --> 00:27:30.780
+this, then you do policy evaluation
+
+189
+00:27:33.400 --> 00:27:34.090
+...
+
+190
+00:27:39.740 --> 00:27:40.120
+for
+
+191
+00:27:41.840 --> 00:27:43.040
+this pi.
+
+192
+00:27:45.100 --> 00:27:48.520
+Okay? So anyhow, this should not be here.
+
+193
+00:27:48.540 --> 00:27:50.620
+Random policy will be initialization.
+
+194
+00:27:50.660 --> 00:27:54.220
+This will be here in the beginning stage. Then you run this.
+
+195
+00:27:54.260 --> 00:27:57.520
+This pi will be adjusted after that, so I need to erase this.
+
+196
+00:27:57.590 --> 00:28:08.140
+Okay.
+
+197
+00:28:21.440 --> 00:28:23.300
+So your pi is basically
+
+198
+00:28:24.140 --> 00:28:26.700
+random policy.
+
+199
+00:28:32.360 --> 00:28:32.980
+After that
+
+200
+00:28:33.060 --> 00:28:38.900
+...
+
+201
+00:28:38.940 --> 00:28:41.000
+Well done.
+
+202
+00:28:41.040 --> 00:28:42.530
+And did you explain them all the
+
+203
+00:28:42.540 --> 00:28:45.209
+process?
+
+204
+00:28:47.320 --> 00:28:50.790
+Yes. So after that, you do a policy evaluation
+
+205
+00:28:52.060 --> 00:28:53.440
+...
+
+206
+00:29:00.240 --> 00:29:03.260
+for this pi policy and your
+
+207
+00:29:03.300 --> 00:29:07.140
+environment, whatever is there in environment, okay?
+
+208
+00:29:07.420 --> 00:29:11.140
+You do the policy evaluation. After that, you do a policy
+
+209
+00:29:11.180 --> 00:29:13.780
+improvement. So policy improvement will return a new
+
+210
+00:29:13.860 --> 00:29:15.640
+pi.
+
+211
+00:29:17.160 --> 00:29:19.980
+So it will, it will require a policy
+
+212
+00:29:20.340 --> 00:29:24.050
+improvement. This algorithm, I'll show you what is policy
+
+213
+00:29:24.100 --> 00:29:26.160
+improvement.
+
+214
+00:29:27.480 --> 00:29:31.340
+Policy improvement will take the argument of the
+
+215
+00:29:31.400 --> 00:29:32.250
+existing policy
+
+216
+00:29:34.340 --> 00:29:37.720
+with the same environment. Okay? So you get a new
+
+217
+00:29:37.780 --> 00:29:39.360
+policy,
+
+218
+00:29:40.500 --> 00:29:41.960
+then you set this pi
+
+219
+00:29:44.780 --> 00:29:46.860
+to be new policy.
+
+220
+00:29:48.240 --> 00:29:51.330
+Run this. Okay, before run, before running ...
+
+221
+00:29:51.380 --> 00:29:53.930
+Um, before setting up this, you need to check whether
+
+222
+00:29:53.980 --> 00:29:55.560
+What is the difference between them?
+
+223
+00:29:55.620 --> 00:29:58.550
+So the difference between them is ...
+
+224
+00:29:58.640 --> 00:29:59.560
+If they are
+
+225
+00:30:00.980 --> 00:30:04.540
+not equal, if they are not equal,
+
+226
+00:30:06.280 --> 00:30:08.420
+then you need to run through all this loop again.
+
+227
+00:30:08.460 --> 00:30:11.240
+So if they are not equal,
+
+228
+00:30:12.480 --> 00:30:15.080
+you continue. And if they are equal, you do a breaking.
+
+229
+00:30:15.140 --> 00:30:18.320
+So just let me write the
+
+230
+00:30:18.360 --> 00:30:21.380
+condition.
+
+231
+00:30:23.400 --> 00:30:26.580
+So this and these are equal, then you need to
+
+232
+00:30:26.720 --> 00:30:29.800
+break, need to come out of this loop. That's it.
+
+233
+00:30:29.840 --> 00:30:31.720
+Okay?
+
+234
+00:30:31.800 --> 00:30:35.324
+Else-You just set
+
+235
+00:30:37.124 --> 00:30:39.004
+pi to be new pi,
+
+236
+00:30:40.724 --> 00:30:44.644
+and run the loop again so loo- your follow-up is
+
+237
+00:30:44.664 --> 00:30:48.524
+closing here, okay. So this is how, this is the algorithm
+
+238
+00:30:48.564 --> 00:30:52.364
+called policy. The whole pro- this algorithm is called policy
+
+239
+00:30:52.444 --> 00:30:53.804
+iteration algorithm. We call it
+
+240
+00:30:57.024 --> 00:30:57.684
+policy
+
+241
+00:30:59.524 --> 00:31:02.864
+iteration.
+
+242
+00:31:04.904 --> 00:31:08.664
+Okay. Just give me a
+
+243
+00:31:08.704 --> 00:31:11.104
+second.
+
+244
+00:31:17.543 --> 00:31:21.184
+I have not shown how to do the policy improvement, okay.
+
+245
+00:31:21.244 --> 00:31:22.864
+The policy improvement mechanism is like
+
+246
+00:31:22.904 --> 00:31:25.424
+this.
+
+247
+00:31:30.944 --> 00:31:32.754
+That is, once you find out
+
+248
+00:31:35.984 --> 00:31:36.344
+your
+
+249
+00:31:37.444 --> 00:31:39.744
+Q function,
+
+250
+00:31:40.984 --> 00:31:42.264
+so your Q function is
+
+251
+00:31:46.684 --> 00:31:47.504
+probability of
+
+252
+00:31:48.684 --> 00:31:52.404
+landing in the state of S dashed, given that you are into state of S and
+
+253
+00:31:52.444 --> 00:31:56.404
+committed to st- action A, multiplied by reward
+
+254
+00:31:56.464 --> 00:31:57.464
+for that,
+
+255
+00:31:58.484 --> 00:31:58.984
+gamma,
+
+256
+00:31:59.944 --> 00:32:03.224
+V function for landing into new state of S.
+
+257
+00:32:03.264 --> 00:32:06.824
+This is Q. Now, the new policy is
+
+258
+00:32:06.864 --> 00:32:07.384
+basically,
+
+259
+00:32:09.744 --> 00:32:10.644
+the new
+
+260
+00:32:10.684 --> 00:32:15.324
+policy,
+
+261
+00:32:16.944 --> 00:32:18.543
+policy also denoted by pi.
+
+262
+00:32:19.504 --> 00:32:22.074
+So this is nothing but for every state,
+
+263
+00:32:23.264 --> 00:32:27.043
+that means policy is basically, it takes only one argument, that is what is a
+
+264
+00:32:27.104 --> 00:32:29.783
+state. For every state, it will pick up
+
+265
+00:32:30.744 --> 00:32:32.524
+the
+
+266
+00:32:34.924 --> 00:32:38.754
+argument, it is called argmax, the
+
+267
+00:32:38.754 --> 00:32:39.484
+argument
+
+268
+00:32:40.924 --> 00:32:42.084
+of the function
+
+269
+00:32:44.123 --> 00:32:47.604
+QSA, for which this QSA is the
+
+270
+00:32:47.644 --> 00:32:51.184
+maximum. So it is called argmax of this, okay.
+
+271
+00:32:51.244 --> 00:32:54.104
+In other way, your policy is written like
+
+272
+00:32:54.184 --> 00:32:56.264
+this. This
+
+273
+00:32:58.204 --> 00:32:59.684
+argmax
+
+274
+00:33:00.543 --> 00:33:04.104
+of, argmax means the argument
+
+275
+00:33:05.004 --> 00:33:08.744
+for which the following function is taking the maximum
+
+276
+00:33:08.824 --> 00:33:12.804
+value. So this argmax, let's say I'm not writing it here, I'll just
+
+277
+00:33:12.824 --> 00:33:16.014
+write this part, the expression, whatever
+
+278
+00:33:16.063 --> 00:33:19.884
+written here, I will write it them and then we will
+
+279
+00:33:19.944 --> 00:33:22.824
+show you exact, this expression as written in the book
+
+280
+00:33:22.884 --> 00:33:25.464
+also. Argmax for this,
+
+281
+00:33:26.563 --> 00:33:30.384
+probability of S dashed given S,
+
+282
+00:33:30.764 --> 00:33:34.164
+A, reward plus gamma
+
+283
+00:33:34.284 --> 00:33:35.244
+multiplied by
+
+284
+00:33:37.043 --> 00:33:40.664
+V of S dashed. Okay.
+
+285
+00:33:42.524 --> 00:33:43.614
+So this one, this is the
+
+286
+00:33:44.704 --> 00:33:46.824
+expression for
+
+287
+00:33:49.084 --> 00:33:50.424
+policy.
+
+288
+00:33:52.484 --> 00:33:56.384
+As I said, policy takes only one argument, that is the state for
+
+289
+00:33:56.444 --> 00:33:59.304
+which you want to find out the action, okay.
+
+290
+00:33:59.404 --> 00:34:01.293
+Now, look at in your PDF of the
+
+291
+00:34:01.404 --> 00:34:03.624
+book,
+
+292
+00:34:04.563 --> 00:34:07.744
+this one. Right? The same, same
+
+293
+00:34:07.824 --> 00:34:10.404
+thing. So this is what is called policy improvement
+
+294
+00:34:10.484 --> 00:34:11.904
+equation.
+
+295
+00:34:13.404 --> 00:34:16.704
+Right? You look at here, and here, both are same mean.
+
+296
+00:34:16.764 --> 00:34:20.583
+Only thing is I have not given here, I have not
+
+297
+00:34:21.464 --> 00:34:25.364
+given here two argument. That is, in the book it is,
+
+298
+00:34:26.163 --> 00:34:30.143
+in the book it is this.
+
+299
+00:34:31.504 --> 00:34:35.204
+That means given the state of S, you have committed to st- action A,
+
+300
+00:34:35.764 --> 00:34:39.643
+the particular state of S. You are transitioning to new state is called
+
+301
+00:34:39.704 --> 00:34:42.804
+S dashed, and the transition is obtaining a reward called
+
+302
+00:34:43.004 --> 00:34:46.904
+R. Okay. So that I have not included here, because
+
+303
+00:34:46.964 --> 00:34:50.004
+if I want to include that, then this summation is over S
+
+304
+00:34:50.043 --> 00:34:51.322
+dashed.
+
+305
+00:34:52.264 --> 00:34:55.984
+Okay. This summation is over S dashed, there may be
+
+306
+00:34:56.024 --> 00:34:56.563
+something called
+
+307
+00:34:57.624 --> 00:35:00.784
+variable reward. So you might be transitioning to
+
+308
+00:35:02.304 --> 00:35:04.964
+a state, why they have given
+
+309
+00:35:05.944 --> 00:35:07.364
+this summation is because
+
+310
+00:35:08.703 --> 00:35:10.524
+if I assume this summation to take
+
+311
+00:35:10.564 --> 00:35:14.224
+place... Erase
+
+312
+00:35:14.264 --> 00:35:15.504
+this.
+
+313
+00:35:16.584 --> 00:35:16.594
+If
+
+314
+00:35:16.594 --> 00:35:19.784
+I ask you- Uh, sir, can you take back to the previous page for a
+
+315
+00:35:19.844 --> 00:35:20.663
+second?
+
+316
+00:35:20.724 --> 00:35:23.804
+Yeah, I'll just go back. Wait a minute, let me complete this.
+
+317
+00:35:23.864 --> 00:35:27.684
+In that case, this summation has to be over two index, one
+
+318
+00:35:27.744 --> 00:35:31.203
+is S dashed, another one is R, okay.
+
+319
+00:35:31.214 --> 00:35:35.144
+And that is what is written in the book.
+
+320
+00:35:35.203 --> 00:35:38.764
+Look at here, this summation is over two variable, S dashed and
+
+321
+00:35:38.944 --> 00:35:42.344
+R. That means, if you do a transition from S to S
+
+322
+00:35:42.384 --> 00:35:45.964
+dashed, you will not be getting all the time same reward.
+
+323
+00:35:45.984 --> 00:35:49.724
+You will be receiving a reward which is variable reward.
+
+324
+00:35:50.484 --> 00:35:53.324
+So all the variation is going to be taken care here in this summation.
+
+325
+00:35:56.424 --> 00:35:59.703
+Okay, so which step I need to go back? I think it's B.
+
+326
+00:35:59.804 --> 00:36:03.004
+Uh, so the previous page of the whiteboard.
+
+327
+00:36:05.024 --> 00:36:08.663
+Okay. Previous page?
+
+328
+00:36:08.684 --> 00:36:10.564
+Hmm.
+
+329
+00:36:13.524 --> 00:36:16.474
+Yes, sir. Got it.
+
+330
+00:36:16.474 --> 00:36:20.444
+Got it. Okay, so if you have any doubt, you
+
+331
+00:36:20.464 --> 00:36:24.324
+can ask, uh, I mean, even for other student, they might be having that
+
+332
+00:36:24.344 --> 00:36:26.644
+question in their mind.
+
+333
+00:36:27.364 --> 00:36:31.344
+Ritu, one time after this, you please recap one, two,
+
+334
+00:36:31.364 --> 00:36:34.604
+three, four, whatever we did from the beginning because there are many
+
+335
+00:36:34.644 --> 00:36:38.384
+terminologies. Uh, after this, maybe next class
+
+336
+00:36:38.424 --> 00:36:40.064
+before beginning the class.
+
+337
+00:36:40.084 --> 00:36:41.344
+Mm-hmm. Okay.
+
+338
+00:36:41.354 --> 00:36:42.864
+A short recap, sir.
+
+339
+00:36:43.832 --> 00:36:44.652
+Okay, fine.
+
+340
+00:36:46.032 --> 00:36:49.792
+Anyhow, today's class is only about this thing, so let me just recap
+
+341
+00:36:49.832 --> 00:36:53.712
+whatever I did for last two days. Today's class is about
+
+342
+00:36:53.752 --> 00:36:56.942
+only this thing, then I will show you Python program if time is there, okay?
+
+343
+00:36:56.992 --> 00:37:00.582
+So whatever I did from the last two to three days is
+
+344
+00:37:00.592 --> 00:37:02.292
+basically this thing.
+
+345
+00:37:10.432 --> 00:37:11.512
+Okay, first was
+
+346
+00:37:13.272 --> 00:37:13.712
+the
+
+347
+00:37:14.532 --> 00:37:15.212
+physical meaning
+
+348
+00:37:15.292 --> 00:37:21.032
+of...
+
+349
+00:37:23.392 --> 00:37:25.552
+Physical meaning of...
+
+350
+00:37:31.672 --> 00:37:35.612
+value function, okay, value is a state dependent function,
+
+351
+00:37:35.672 --> 00:37:39.432
+okay? That equation is basically
+
+352
+00:37:39.532 --> 00:37:43.332
+this thing, value for being in a state is this
+
+353
+00:37:43.372 --> 00:37:44.412
+summation over
+
+354
+00:37:46.592 --> 00:37:50.372
+all possible action you can take under the state of S, so you have to
+
+355
+00:37:50.382 --> 00:37:53.952
+account for this under all possible actions, so this summation will be worth
+
+356
+00:37:54.072 --> 00:37:57.512
+A. Once you have chosen a action,
+
+357
+00:37:57.592 --> 00:38:00.962
+then you might be landing into many
+
+358
+00:38:01.132 --> 00:38:03.972
+states. That is given S dashed,
+
+359
+00:38:04.032 --> 00:38:07.292
+okay? So once you have chosen a action, that means
+
+360
+00:38:07.952 --> 00:38:11.572
+given a state of S, you have chosen action A, you might be landing into
+
+361
+00:38:11.632 --> 00:38:15.612
+multiple states, so you require to take care of all the possibility of
+
+362
+00:38:15.712 --> 00:38:19.352
+states through this summation. After you're landing up to new
+
+363
+00:38:19.532 --> 00:38:21.852
+state, you are going to receive a reward, plus
+
+364
+00:38:22.832 --> 00:38:24.052
+gamma multiplied by
+
+365
+00:38:25.392 --> 00:38:26.732
+value available
+
+366
+00:38:29.032 --> 00:38:32.152
+previously available of the state of S
+
+367
+00:38:32.192 --> 00:38:34.652
+dashed. Okay?
+
+368
+00:38:35.692 --> 00:38:38.062
+This is what we have done. It's called policy valuation.
+
+369
+00:38:38.092 --> 00:38:41.732
+So it is happening iteratively, so value,
+
+370
+00:38:41.772 --> 00:38:43.162
+function obtained at the
+
+371
+00:38:44.292 --> 00:38:45.152
+Kth iteration-
+
+372
+00:38:45.212 --> 00:38:45.532
+Okay.
+
+373
+00:38:45.572 --> 00:38:48.412
+... has to depend on K minus one. Okay?
+
+374
+00:38:48.422 --> 00:38:48.432
+Okay.
+
+375
+00:38:48.472 --> 00:38:50.682
+This we have done it, last class, last two classes.
+
+376
+00:38:50.692 --> 00:38:51.392
+And
+
+377
+00:38:52.631 --> 00:38:54.572
+I'm gonna check to make sure enough time.
+
+378
+00:38:54.582 --> 00:38:54.992
+Um, but, so let me just-
+
+379
+00:38:55.112 --> 00:38:58.312
+Someone is talking over phone.
+
+380
+00:38:58.332 --> 00:39:01.132
+Let me put my phone where it's fine.
+
+381
+00:39:01.192 --> 00:39:03.042
+You can sum them.
+
+382
+00:39:03.132 --> 00:39:07.052
+So, uh, so again, the K and the S dash is always very
+
+383
+00:39:07.072 --> 00:39:08.832
+confusing, sir. So K-
+
+384
+00:39:08.842 --> 00:39:09.402
+Yeah.
+
+385
+00:39:09.402 --> 00:39:13.352
+Yeah. ... is, I mean, so if we see state-wise, S is the previous
+
+386
+00:39:13.372 --> 00:39:15.632
+state, S dash is the next state-
+
+387
+00:39:15.712 --> 00:39:16.272
+Hmm.
+
+388
+00:39:16.282 --> 00:39:19.481
+... and K is the current iteration, K minus one is the...
+
+389
+00:39:19.532 --> 00:39:22.761
+I mean, these are two different dimensions of activities.
+
+390
+00:39:22.761 --> 00:39:25.432
+So, sir, uh, that's where I'm getting caught.
+
+391
+00:39:25.472 --> 00:39:28.992
+I mean, my brain is not synthesizing these.
+
+392
+00:39:29.072 --> 00:39:29.502
+I like-
+
+393
+00:39:29.502 --> 00:39:30.412
+K and this, right?
+
+394
+00:39:30.512 --> 00:39:31.822
+Yeah. These domains don't match up.
+
+395
+00:39:31.872 --> 00:39:34.432
+Okay. So it is basically... Yeah, yeah.
+
+396
+00:39:34.472 --> 00:39:37.952
+So it is basically for a- a- any, any
+
+397
+00:39:38.072 --> 00:39:41.692
+cell, let's say this is your four cross four grid.
+
+398
+00:39:43.252 --> 00:39:47.232
+This is your four cross four grid.
+
+399
+00:39:48.352 --> 00:39:51.652
+Okay. So you have this many number of
+
+400
+00:39:52.032 --> 00:39:55.412
+cells, so S is basically 16,
+
+401
+00:39:55.512 --> 00:39:59.192
+okay? And what is K? For finding out the value
+
+402
+00:39:59.232 --> 00:40:02.072
+for any state like this, okay, any state,
+
+403
+00:40:02.082 --> 00:40:05.472
+(clears throat) the value is going to be computed
+
+404
+00:40:05.532 --> 00:40:09.452
+iteratively, and (clears throat) that iteration count is given
+
+405
+00:40:09.492 --> 00:40:11.812
+by K. Okay? So
+
+406
+00:40:12.332 --> 00:40:16.272
+Vk of S, this is
+
+407
+00:40:16.372 --> 00:40:18.092
+a single value.
+
+408
+00:40:19.112 --> 00:40:22.692
+It is a single value. It is not a vector. Okay?
+
+409
+00:40:22.712 --> 00:40:24.812
+The single value is-
+
+410
+00:40:24.932 --> 00:40:25.692
+No.
+
+411
+00:40:25.701 --> 00:40:28.512
+... depending on the iteration index.
+
+412
+00:40:28.572 --> 00:40:32.232
+So this value is keep on increasing as the iteration goes
+
+413
+00:40:32.272 --> 00:40:36.212
+on. For every state the value is increasing
+
+414
+00:40:36.292 --> 00:40:39.412
+as the iteration goes on, okay? At some point of
+
+415
+00:40:39.452 --> 00:40:42.252
+time, there will be no difference between
+
+416
+00:40:43.272 --> 00:40:46.852
+Vk plus one for the same state of
+
+417
+00:40:47.292 --> 00:40:51.192
+S, okay? So they are going to be
+
+418
+00:40:51.292 --> 00:40:55.272
+same, Vk of S... There will be
+
+419
+00:40:55.332 --> 00:40:59.032
+no changes, so then we'll stop your L- policy evaluation
+
+420
+00:40:59.092 --> 00:41:02.892
+algorithm. This will no longer be running because you keep on getting the same
+
+421
+00:41:02.932 --> 00:41:06.592
+value again and again. Even though you keep on increasing the iteration
+
+422
+00:41:06.672 --> 00:41:10.372
+index, let's say around 1,000 value, 1,000 times you have done your
+
+423
+00:41:10.412 --> 00:41:13.552
+iteration. After that you will see there is no more improvement.
+
+424
+00:41:13.752 --> 00:41:17.712
+This called convergence has happened, so we'll stop this
+
+425
+00:41:17.732 --> 00:41:19.072
+policy evaluation.
+
+426
+00:41:22.812 --> 00:41:23.272
+Now you got
+
+427
+00:41:23.312 --> 00:41:27.372
+it?
+
+428
+00:41:29.872 --> 00:41:33.412
+Try. Try. (laughs) I'm sorry, sir. Oh.
+
+429
+00:41:33.492 --> 00:41:36.492
+Okay. So here you see that in this book itself-
+
+430
+00:41:36.532 --> 00:41:37.082
+Yeah.
+
+431
+00:41:37.092 --> 00:41:40.302
+... you will see that, uh...
+
+432
+00:41:41.372 --> 00:41:41.692
+Look at
+
+433
+00:41:41.732 --> 00:41:47.432
+here.
+
+434
+00:41:48.572 --> 00:41:52.472
+Before starting a Q function. This is the
+
+435
+00:41:52.532 --> 00:41:56.472
+last class I did, that is the policy evaluation for
+
+436
+00:41:56.712 --> 00:41:59.712
+two different policy. Okay, look at here, the line it
+
+437
+00:41:59.772 --> 00:42:00.892
+says-
+
+438
+00:42:00.972 --> 00:42:01.012
+Oh.
+
+439
+00:42:01.032 --> 00:42:04.352
+The state value function for this policy, for this greedy
+
+440
+00:42:04.452 --> 00:42:08.412
+policy, converging after 66 iteration.
+
+441
+00:42:08.472 --> 00:42:10.462
+After 66 iter, there's a K value
+
+442
+00:42:11.512 --> 00:42:15.032
+is coming up after 66. After that at the 67th iteration,
+
+443
+00:42:15.132 --> 00:42:18.412
+the VkS is no longer changing.
+
+444
+00:42:18.452 --> 00:42:20.232
+Okay?
+
+445
+00:42:20.412 --> 00:42:22.062
+Right, sir. So there is
+
+446
+00:42:22.062 --> 00:42:25.252
+a- And here it is. And here the K value is 546.
+
+447
+00:42:25.262 --> 00:42:26.702
+... 5... Uh.
+
+448
+00:42:26.812 --> 00:42:27.942
+So 546 times-
+
+449
+00:42:27.952 --> 00:42:28.022
+So there
+
+450
+00:42:28.022 --> 00:42:30.642
+is a- ... you have to run this algorithm if you have this kind of
+
+451
+00:42:30.672 --> 00:42:32.412
+policy.
+
+452
+00:42:33.612 --> 00:42:34.932
+Right, sir.
+
+453
+00:42:34.952 --> 00:42:35.812
+Hmm.
+
+454
+00:42:35.872 --> 00:42:39.852
+Sir, there's a table also, uh, I mean, the values which we used to do by hand,
+
+455
+00:42:39.912 --> 00:42:41.272
+these people in the book-
+
+456
+00:42:41.292 --> 00:42:41.492
+Hmm.
+
+457
+00:42:41.552 --> 00:42:44.012
+... abo- above, they have made it in a table.
+
+458
+00:42:44.112 --> 00:42:47.372
+So the other question was that, um-
+
+459
+00:42:47.392 --> 00:42:48.002
+Hmm.
+
+460
+00:42:48.002 --> 00:42:51.844
+Hmm. ... why do we start from state 14?I mean, that box 14 we started
+
+461
+00:42:51.884 --> 00:42:52.984
+all the time.
+
+462
+00:42:52.993 --> 00:42:56.433
+Okay. Hmm. Hmm. Hmm. Fine. So it is like this, the
+
+463
+00:42:56.564 --> 00:43:00.464
+value gets propagated from the goal state to
+
+464
+00:43:00.504 --> 00:43:01.644
+the start state.
+
+465
+00:43:01.763 --> 00:43:03.024
+Uh-huh.
+
+466
+00:43:03.064 --> 00:43:06.364
+Because the, uh, when K is equal to one-
+
+467
+00:43:06.464 --> 00:43:06.624
+Yeah.
+
+468
+00:43:06.634 --> 00:43:10.564
+... when K is equal to one, all of the states which are not 14, all of these
+
+469
+00:43:10.644 --> 00:43:12.663
+states, their value is zero.
+
+470
+00:43:12.674 --> 00:43:12.674
+
+471
+00:43:12.683 --> 00:43:14.144
+That you have seen in last class.
+
+472
+00:43:14.263 --> 00:43:15.144
+Yes, sir.
+
+473
+00:43:15.223 --> 00:43:19.064
+After that you take for one more iteration, then this value
+
+474
+00:43:19.424 --> 00:43:22.533
+will get propagated and this function will...
+
+475
+00:43:22.564 --> 00:43:24.644
+I mean, the cell value for the 14-
+
+476
+00:43:25.263 --> 00:43:25.493
+Hmm.
+
+477
+00:43:25.493 --> 00:43:28.024
+... is going to be increasing its value.
+
+478
+00:43:28.084 --> 00:43:32.044
+So at K of two, rest all states apart from this 13
+
+479
+00:43:32.084 --> 00:43:35.384
+and 14, everybody's value is going to be zero.
+
+480
+00:43:35.504 --> 00:43:35.944
+Uh-huh.
+
+481
+00:43:35.964 --> 00:43:39.884
+This value is keep on rising for every cell.
+
+482
+00:43:39.944 --> 00:43:43.544
+It is not going to be decreasing under the condition that there is no negative
+
+483
+00:43:43.624 --> 00:43:45.364
+reward.
+
+484
+00:43:45.484 --> 00:43:46.124
+Uh-huh.
+
+485
+00:43:46.144 --> 00:43:48.033
+The values are keep on rising and...
+
+486
+00:43:48.243 --> 00:43:51.854
+Uh, there is some point of time where there is no change of values for every
+
+487
+00:43:51.944 --> 00:43:52.763
+cell.
+
+488
+00:43:52.904 --> 00:43:54.394
+Uh-huh.
+
+489
+00:43:54.442 --> 00:43:57.723
+That is what is called policy evaluation has terminated at that point of time.
+
+490
+00:43:57.743 --> 00:44:00.274
+Mm-hmm. Mm-hmm.
+
+491
+00:44:00.274 --> 00:44:03.254
+Sir, uh, sir, I may infer in the other way also, sir.
+
+492
+00:44:03.283 --> 00:44:06.124
+Like we know this reward for reaching the goal state.
+
+493
+00:44:06.163 --> 00:44:10.104
+So you told me that, uh, uh, the reward will be there for the terminal states.
+
+494
+00:44:10.114 --> 00:44:13.962
+So in this four cross four grid, either the start state or the goal state will
+
+495
+00:44:14.004 --> 00:44:17.524
+have the reward. Next, intermediate status will not have any rewards.
+
+496
+00:44:17.564 --> 00:44:20.464
+So even if it start at state two, instead of 14-
+
+497
+00:44:20.473 --> 00:44:20.493
+No. No.
+
+498
+00:44:20.493 --> 00:44:21.624
+What did you say? ... I know that the previous-
+
+499
+00:44:21.743 --> 00:44:23.513
+Start state and goal state-
+
+500
+00:44:23.513 --> 00:44:24.053
+So, and the goal state-
+
+501
+00:44:24.084 --> 00:44:24.854
+... will have the reward. Uh-huh.
+
+502
+00:44:24.944 --> 00:44:27.993
+Yes, sir. And intermediate states, we don't have any reward. Reward is a zero.
+
+503
+00:44:28.004 --> 00:44:30.344
+No. No. Start state also don't have any reward.
+
+504
+00:44:30.404 --> 00:44:31.283
+Okay.
+
+505
+00:44:31.303 --> 00:44:31.314
+Only
+
+506
+00:44:31.324 --> 00:44:33.864
+So because when you... Only goal has a-
+
+507
+00:44:34.344 --> 00:44:35.174
+Uh-huh. Yes.
+
+508
+00:44:35.703 --> 00:44:39.053
+Okay. Because since we know the goal state reward, no, then we'll...
+
+509
+00:44:39.064 --> 00:44:42.794
+The, because of that, we can able to info 14 and thereafter we can able to go for
+
+510
+00:44:42.904 --> 00:44:45.803
+filling up other details. So that's why we start with 14.
+
+511
+00:44:46.243 --> 00:44:47.464
+Hmm.
+
+512
+00:44:47.504 --> 00:44:48.084
+Right, sir?
+
+513
+00:44:48.124 --> 00:44:49.163
+Yeah. Yeah.
+
+514
+00:44:49.223 --> 00:44:49.584
+Okay.
+
+515
+00:44:49.604 --> 00:44:53.044
+Because the value actually i- i- it is like you are playing a chase game.
+
+516
+00:44:53.584 --> 00:44:53.594
+Yes.
+
+517
+00:44:53.624 --> 00:44:57.384
+Until you complete, uh, your game, like either winning or losing, you don't
+
+518
+00:44:57.424 --> 00:45:01.283
+receive any reward, right? Same thing happens until you
+
+519
+00:45:01.644 --> 00:45:05.504
+go and complete your, uh, episode, you don't receive any reward because
+
+520
+00:45:05.584 --> 00:45:09.524
+if you are completing in any intermediate states, you will not
+
+521
+00:45:09.584 --> 00:45:13.433
+receive any reward. Only when you dis- go and hit the goal state,
+
+522
+00:45:13.484 --> 00:45:16.884
+you'll receive a reward. So the value will propagate from the goal state
+
+523
+00:45:16.924 --> 00:45:20.104
+onward.
+
+524
+00:45:22.124 --> 00:45:26.084
+So now we have all the values of the given four cross four grid, then we can
+
+525
+00:45:26.124 --> 00:45:29.183
+say it's won, uh, iterations completed.
+
+526
+00:45:29.223 --> 00:45:33.104
+Uh... We can say policy
+
+527
+00:45:33.183 --> 00:45:36.384
+evaluation for that particular policy has completed.
+
+528
+00:45:36.564 --> 00:45:37.504
+Yes, completed.
+
+529
+00:45:37.524 --> 00:45:37.594
+Hmm.
+
+530
+00:45:37.624 --> 00:45:40.304
+Because my question was that when you say arg max-
+
+531
+00:45:40.314 --> 00:45:40.314
+
+532
+00:45:40.384 --> 00:45:44.344
+... so like, uh, we have, we have for one iteration or one policy, we have a
+
+533
+00:45:44.384 --> 00:45:47.404
+how... Uh, we have the values for all the states.
+
+534
+00:45:47.444 --> 00:45:50.804
+So accordingly, it will compare, uh, each and every state
+
+535
+00:45:51.364 --> 00:45:55.124
+and we'll see the values given in each and every cell, and which has the
+
+536
+00:45:55.243 --> 00:45:59.104
+maximum value. So that policy will be taken as, uh, these
+
+537
+00:45:59.124 --> 00:45:59.544
+things are-
+
+538
+00:45:59.924 --> 00:46:00.154
+Hmm.
+
+539
+00:46:00.154 --> 00:46:01.823
+Yes. ... as the policy improvement.
+
+540
+00:46:01.864 --> 00:46:05.384
+Yeah, you are coming near to the an- an- a- analytically.
+
+541
+00:46:05.404 --> 00:46:08.844
+The only thing is some of the gaps of word that are missing.
+
+542
+00:46:08.884 --> 00:46:12.864
+That is, uh, which particular (clears throat) action is
+
+543
+00:46:12.924 --> 00:46:15.104
+producing the highest value.
+
+544
+00:46:15.144 --> 00:46:15.714
+Value. Okay.
+
+545
+00:46:15.723 --> 00:46:19.304
+That action we have to choose under that particular state.
+
+546
+00:46:19.364 --> 00:46:22.804
+Okay. Understood, sir. Okay. So
+
+547
+00:46:22.924 --> 00:46:23.404
+each-
+
+548
+00:46:23.413 --> 00:46:23.893
+So terminology
+
+549
+00:46:23.893 --> 00:46:24.644
+is- Is that... Oh, no. Understood.
+
+550
+00:46:24.743 --> 00:46:27.864
+Uh, so the terminology is the iteration is referring to
+
+551
+00:46:28.683 --> 00:46:32.163
+how many times you are running inside a particular algorithm.
+
+552
+00:46:32.183 --> 00:46:34.703
+The algorithm can be a policy evaluation.
+
+553
+00:46:34.743 --> 00:46:38.004
+The algorithm, uh, yeah, policy evaluation
+
+554
+00:46:38.044 --> 00:46:42.024
+only, um, because policy improvement is a one
+
+555
+00:46:42.183 --> 00:46:45.484
+iteration job. It doesn't require more than one
+
+556
+00:46:45.544 --> 00:46:47.044
+iteration.
+
+557
+00:46:48.524 --> 00:46:50.604
+I will show you it here.
+
+558
+00:46:51.924 --> 00:46:53.864
+So policy improvement, what does it mean?
+
+559
+00:46:53.944 --> 00:46:57.884
+Once you have got a policy evaluation done, this policy evaluation will
+
+560
+00:46:57.944 --> 00:47:01.544
+take many iteration, like 546 iteration.
+
+561
+00:47:01.564 --> 00:47:05.084
+To converge, to converge means under this particular
+
+562
+00:47:05.163 --> 00:47:06.844
+policy, the cell value
+
+563
+00:47:08.082 --> 00:47:11.944
+living in this particular cell, the value is not going to
+
+564
+00:47:11.984 --> 00:47:14.663
+change anymore. That is called convergence. Okay?
+
+565
+00:47:14.674 --> 00:47:14.674
+
+566
+00:47:14.703 --> 00:47:18.413
+So policy evaluation will run for many iteration and then policy
+
+567
+00:47:18.444 --> 00:47:22.424
+evaluation will be converging. After that, you change a
+
+568
+00:47:22.504 --> 00:47:26.263
+very little... I mean, uh, you change one or two
+
+569
+00:47:26.384 --> 00:47:29.243
+cells, not more than one or two cells.
+
+570
+00:47:29.283 --> 00:47:30.804
+You don't change every cell.
+
+571
+00:47:32.144 --> 00:47:35.984
+All the actions, okay? So one or two cells you just change either from this
+
+572
+00:47:36.024 --> 00:47:38.404
+action to some action like upside.
+
+573
+00:47:38.424 --> 00:47:42.404
+And for this cell, you might change the action from downside to
+
+574
+00:47:42.484 --> 00:47:45.223
+this side like that. So that is called policy
+
+575
+00:47:45.283 --> 00:47:49.144
+improvement. So for doing policy improvement, it doesn't
+
+576
+00:47:49.203 --> 00:47:53.163
+require more than one iteration, because once you have got the
+
+577
+00:47:53.223 --> 00:47:56.984
+value function computed, okay, you use those value
+
+578
+00:47:57.044 --> 00:47:57.464
+function
+
+579
+00:47:58.344 --> 00:48:02.183
+to find out the Q function. So Q
+
+580
+00:48:02.223 --> 00:48:04.924
+function, let's say I want to find out the Q function for this cell,
+
+581
+00:48:04.964 --> 00:48:08.524
+okay? I will write it down here so that you
+
+582
+00:48:08.564 --> 00:48:11.544
+understand.
+
+583
+00:48:15.984 --> 00:48:18.984
+Let's say I want to find out using the
+
+584
+00:48:19.104 --> 00:48:22.624
+value, uh, you can see
+
+585
+00:48:22.703 --> 00:48:26.683
+that... Let's say this is my... Under this cell, I'm
+
+586
+00:48:26.703 --> 00:48:30.203
+going to do, okay? So this cell value is
+
+587
+00:48:30.223 --> 00:48:34.044
+something, the nea- neighboring cell is here under the action
+
+588
+00:48:34.104 --> 00:48:37.644
+of right-hand side. So let me... This is 0.43,
+
+589
+00:48:37.683 --> 00:48:40.124
+okay? So here. Now,
+
+590
+00:48:41.084 --> 00:48:41.624
+Q value
+
+591
+00:48:42.464 --> 00:48:45.064
+for the cell, cell number, I don't know.
+
+592
+00:48:45.084 --> 00:48:48.804
+This is state is S. The action is right-hand
+
+593
+00:48:48.864 --> 00:48:50.663
+side action, so capital R.
+
+594
+00:48:51.984 --> 00:48:55.504
+So for doing that, I'll be finding out this
+
+595
+00:48:56.124 --> 00:48:59.624
+S dashed under-... is comma
+
+596
+00:48:59.744 --> 00:49:03.644
+capital R, reward plus gamma
+
+597
+00:49:03.724 --> 00:49:04.944
+multiplied by value
+
+598
+00:49:05.744 --> 00:49:09.004
+computed for the state of S dashed, okay?
+
+599
+00:49:09.404 --> 00:49:12.324
+Now what is your cell number this thing?
+
+600
+00:49:12.344 --> 00:49:16.244
+It will be zero, one, two, three, four, five, six, seven, eight,
+
+601
+00:49:16.284 --> 00:49:18.584
+nine. So this is nine cell, okay?
+
+602
+00:49:19.664 --> 00:49:19.964
+So
+
+603
+00:49:21.224 --> 00:49:21.804
+that is called
+
+604
+00:49:23.184 --> 00:49:27.084
+Q function value, or R is going to be this one.
+
+605
+00:49:27.104 --> 00:49:29.284
+How many... What are the possible
+
+606
+00:49:30.924 --> 00:49:34.784
+next state under right action? It can be here, it
+
+607
+00:49:34.824 --> 00:49:37.984
+can be here, it can be here, okay? Okay.
+
+608
+00:49:38.024 --> 00:49:38.284
+So
+
+609
+00:49:39.744 --> 00:49:43.444
+if I go and occupy this at nine, ten, so that is going to
+
+610
+00:49:43.504 --> 00:49:47.184
+be, hmm, probability of getting into 10
+
+611
+00:49:47.304 --> 00:49:49.084
+state given I have nine
+
+612
+00:49:49.984 --> 00:49:53.324
+R, this reward is zero plus gamma
+
+613
+00:49:53.424 --> 00:49:54.264
+multiplied by
+
+614
+00:49:55.204 --> 00:49:56.724
+value function for 10,
+
+615
+00:49:58.344 --> 00:50:00.484
+okay? Plus
+
+616
+00:50:01.944 --> 00:50:03.744
+probability that I may get into
+
+617
+00:50:04.864 --> 00:50:06.664
+this cell. This cell-
+
+618
+00:50:06.744 --> 00:50:07.954
+Six state, sir.
+
+619
+00:50:07.964 --> 00:50:10.974
+Hmm, six state. Uh- In any case, it is going to be zero. ...
+
+620
+00:50:10.984 --> 00:50:13.284
+four, five, five.
+
+621
+00:50:13.304 --> 00:50:13.314
+Yeah.
+
+622
+00:50:13.324 --> 00:50:17.024
+Huh? So you- Uh, zero. ... you reduce, uh, you reduce four
+
+623
+00:50:17.104 --> 00:50:19.644
+value from here, right? Four,
+
+624
+00:50:19.684 --> 00:50:21.224
+one...
+
+625
+00:50:21.264 --> 00:50:23.154
+Let's see. One, two...
+
+626
+00:50:24.124 --> 00:50:27.504
+What was the state number? Six-
+
+627
+00:50:27.804 --> 00:50:28.684
+Six. Six, sir.
+
+628
+00:50:28.784 --> 00:50:32.244
+Uh, six. Then this, this.
+
+629
+00:50:32.484 --> 00:50:35.864
+Zero plus zero, okay? This
+
+630
+00:50:35.904 --> 00:50:36.544
+plus,
+
+631
+00:50:38.304 --> 00:50:41.444
+and then you can get into this cell also. What is the cell number?
+
+632
+00:50:41.464 --> 00:50:44.664
+13 number, okay? 13. So 13.
+
+633
+00:50:46.524 --> 00:50:49.684
+Given nine comma R, what is the reward?
+
+634
+00:50:49.724 --> 00:50:51.504
+Intermediate state reward is zero.
+
+635
+00:50:51.524 --> 00:50:52.144
+What is the
+
+636
+00:50:53.784 --> 00:50:56.404
+value available to the state of 13?
+
+637
+00:50:56.484 --> 00:50:59.864
+It is non-zero,
+
+638
+00:50:59.944 --> 00:51:03.864
+okay? This is non-zero value, this is non-zero, this is non-zero.
+
+639
+00:51:03.924 --> 00:51:07.024
+Okay, now what is this coming up to be?
+
+640
+00:51:07.064 --> 00:51:09.663
+This probability is 0.33
+
+641
+00:51:10.944 --> 00:51:13.324
+multiplied by the gamma factor is
+
+642
+00:51:14.404 --> 00:51:18.244
+0.99, multiplied by value function for 10,
+
+643
+00:51:19.204 --> 00:51:21.384
+for 10 cell, 0.43.
+
+644
+00:51:23.644 --> 00:51:25.044
+0.43
+
+645
+00:51:25.984 --> 00:51:27.364
+plus this part.
+
+646
+00:51:28.184 --> 00:51:31.864
+Again, 0.33 multiplied by, this is zero
+
+647
+00:51:31.964 --> 00:51:34.464
+plus of gamma, gamma is 0.99,
+
+648
+00:51:35.264 --> 00:51:37.544
+multiplied by the value function for 13,
+
+649
+00:51:39.144 --> 00:51:40.964
+0.588.
+
+650
+00:51:42.244 --> 00:51:45.984
+0.588, okay? Do the
+
+651
+00:51:46.064 --> 00:51:48.924
+summation, you'll get some non-zero value, okay?
+
+652
+00:51:48.964 --> 00:51:52.664
+That is just Q value for this under the action of R.
+
+653
+00:51:52.744 --> 00:51:55.884
+Similarly, you need to compute Q function for
+
+654
+00:51:56.124 --> 00:51:59.144
+this under the action of L. You will get
+
+655
+00:51:59.224 --> 00:52:00.444
+some
+
+656
+00:52:01.584 --> 00:52:05.104
+X, Y, Z value, okay? Similarly, we will get
+
+657
+00:52:06.064 --> 00:52:09.984
+this line under upside action, you will get some
+
+658
+00:52:10.184 --> 00:52:11.444
+Y value.
+
+659
+00:52:11.484 --> 00:52:13.744
+Sir, why we are selecting nine here, sir?
+
+660
+00:52:14.724 --> 00:52:16.084
+Just for example.
+
+661
+00:52:16.184 --> 00:52:16.714
+Okay, sir.
+
+662
+00:52:17.324 --> 00:52:18.054
+Just for...
+
+663
+00:52:20.424 --> 00:52:24.224
+Here you get a Z value, okay? Then your
+
+664
+00:52:25.424 --> 00:52:26.604
+policy,
+
+665
+00:52:28.284 --> 00:52:31.624
+the new policy called pie dashed, under the state of
+
+666
+00:52:31.764 --> 00:52:33.543
+nine, is going to be
+
+667
+00:52:34.844 --> 00:52:35.664
+maximum
+
+668
+00:52:37.004 --> 00:52:40.874
+among...
+
+669
+00:52:40.884 --> 00:52:44.124
+this is something value, okay? So let's say this value is
+
+670
+00:52:44.624 --> 00:52:48.604
+denoted as P. Now P is already used, so let's say
+
+671
+00:52:48.624 --> 00:52:52.304
+it is denoted as...
+
+672
+00:52:54.104 --> 00:52:57.124
+So it will be max of P comma X comma Y comma Z, sir.
+
+673
+00:52:57.184 --> 00:53:00.324
+Yeah. A, B, C, D, E, let's say it is
+
+674
+00:53:01.564 --> 00:53:04.284
+B, okay?
+
+675
+00:53:05.724 --> 00:53:08.224
+It is B, okay? So here,
+
+676
+00:53:08.464 --> 00:53:12.424
+BX, this value is B, okay? You can f- uh,
+
+677
+00:53:12.564 --> 00:53:15.864
+you can calculate and tell me the value of the find.
+
+678
+00:53:15.924 --> 00:53:18.904
+That is this. Out of all of this, which is the
+
+679
+00:53:18.944 --> 00:53:22.864
+maximum? So that is going to be the action which is producing the
+
+680
+00:53:22.904 --> 00:53:25.464
+maximum among them, okay? So
+
+681
+00:53:26.304 --> 00:53:30.104
+pie dashed at a state of nine is going to be action,
+
+682
+00:53:30.144 --> 00:53:33.884
+that particular action which is producing the maximum among all of these
+
+683
+00:53:33.964 --> 00:53:37.524
+thing, okay? So that is what is called your policy
+
+684
+00:53:37.584 --> 00:53:40.404
+function. Your new policy you have got it using
+
+685
+00:53:41.244 --> 00:53:42.404
+argument maximum.
+
+686
+00:53:44.024 --> 00:53:47.744
+So, sir, then this policy will be running for all the cells, like
+
+687
+00:53:47.764 --> 00:53:48.724
+16 cells it will run.
+
+688
+00:53:48.824 --> 00:53:49.164
+Ah, yes, yes.
+
+689
+00:53:49.174 --> 00:53:51.184
+And then it will pick up this is the-
+
+690
+00:53:51.264 --> 00:53:51.653
+Yeah, so-
+
+691
+00:53:51.653 --> 00:53:52.534
+... policy. Yeah.
+
+692
+00:53:52.534 --> 00:53:56.204
+Yeah, so it is this thing, your...
+
+693
+00:53:57.424 --> 00:54:00.424
+It is already written here, this one.
+
+694
+00:54:01.484 --> 00:54:03.544
+This is going to be running for each and every cell,
+
+695
+00:54:04.524 --> 00:54:07.624
+and each and every cell, how many values are there?
+
+696
+00:54:07.664 --> 00:54:08.704
+Because you have four actions-
+
+697
+00:54:08.724 --> 00:54:08.734
+Four
+
+698
+00:54:08.734 --> 00:54:11.204
+values. ... so you have four, uh, four values in there.
+
+699
+00:54:11.224 --> 00:54:11.264
+Four values.
+
+700
+00:54:11.284 --> 00:54:14.164
+Out of those four, which is the maximum?
+
+701
+00:54:14.804 --> 00:54:16.944
+That is your action that is producing the maximum
+
+702
+00:54:16.984 --> 00:54:20.134
+value. Okay? An example
+
+703
+00:54:20.144 --> 00:54:22.544
+But that would be per cell?
+
+704
+00:54:22.564 --> 00:54:23.444
+Hmm.
+
+705
+00:54:23.504 --> 00:54:27.444
+Right. So per cell, it will be... it won't define the, uh,
+
+706
+00:54:27.564 --> 00:54:29.784
+policy or the action for the entire-
+
+707
+00:54:30.224 --> 00:54:32.604
+Yeah, yeah, yeah. Y- y- yeah, here it is written. Look at.
+
+708
+00:54:32.684 --> 00:54:36.084
+If I have this policy, careful policy, the Q
+
+709
+00:54:36.124 --> 00:54:39.704
+function will be returning these values.
+
+710
+00:54:39.784 --> 00:54:43.584
+It doesn't require more than one iteration, because it will use the
+
+711
+00:54:45.244 --> 00:54:48.924
+policy evaluation, that means the cell value for living in
+
+712
+00:54:48.964 --> 00:54:52.924
+every... What is the value for living into every one of this cell?
+
+713
+00:54:52.964 --> 00:54:56.744
+That value is a single value. Okay, so now you are going to use
+
+714
+00:54:56.764 --> 00:54:58.664
+those values to find out the Q value.
+
+715
+00:54:58.824 --> 00:55:02.686
+Q value is going to be four values under each and every cell....
+
+716
+00:55:02.696 --> 00:55:03.256
+because this
+
+717
+00:55:04.056 --> 00:55:06.636
+standing for upside, this one, okay?
+
+718
+00:55:06.656 --> 00:55:06.765
+Right.
+
+719
+00:55:06.796 --> 00:55:10.056
+Let's say I'm staying in this cell. There's a start cell.
+
+720
+00:55:10.116 --> 00:55:13.966
+I'm living in start cell. In the start cell, if I take action on the upside, I will
+
+721
+00:55:14.016 --> 00:55:15.576
+get 0.39.
+
+722
+00:55:15.596 --> 00:55:16.096
+Hmm.
+
+723
+00:55:16.516 --> 00:55:20.336
+If I take a left-hand side action, I will get the value of 0.41.
+
+724
+00:55:21.676 --> 00:55:24.716
+If I take the action right-hand side, I will get the value of 0.4.
+
+725
+00:55:24.776 --> 00:55:27.256
+If I take the action in the downside, I will get
+
+726
+00:55:27.456 --> 00:55:30.616
+0.4. Among these, which is the maximum?
+
+727
+00:55:30.636 --> 00:55:33.896
+That is given in the red color. Okay?
+
+728
+00:55:35.456 --> 00:55:39.216
+Look at for every cell. Whichever is a red color, it is the particular
+
+729
+00:55:39.276 --> 00:55:42.956
+action that is producing the highest value.
+
+730
+00:55:44.716 --> 00:55:47.456
+So these four values is called Q function.
+
+731
+00:55:47.496 --> 00:55:51.216
+Q function means, what is the quality? Why it is named as Q?
+
+732
+00:55:51.236 --> 00:55:55.156
+The, if their name is Q, is basically what is the quality for me
+
+733
+00:55:55.196 --> 00:55:59.166
+to live in a particular state and having committed
+
+734
+00:55:59.216 --> 00:56:03.106
+to a particular action. Okay?
+
+735
+00:56:03.176 --> 00:56:05.366
+V function stands for a single value.
+
+736
+00:56:05.396 --> 00:56:08.836
+It says that, uh, what is the value for me to live in a
+
+737
+00:56:08.876 --> 00:56:12.816
+particular state? In other
+
+738
+00:56:12.876 --> 00:56:16.336
+way, if you multiply all of them with their
+
+739
+00:56:16.376 --> 00:56:20.356
+respective order of 0.25, th- this summation,
+
+740
+00:56:21.236 --> 00:56:24.026
+they will come up to your,
+
+741
+00:56:24.456 --> 00:56:28.376
+uh, value function.
+
+742
+00:56:30.796 --> 00:56:34.536
+Okay. So that is, uh, your value function and Q
+
+743
+00:56:34.576 --> 00:56:38.256
+function. Once you got your Q function, then you
+
+744
+00:56:38.356 --> 00:56:42.316
+apply this argmax condition, and you will get it, and this
+
+745
+00:56:42.376 --> 00:56:45.676
+what is called greedy policy over careful function.
+
+746
+00:56:45.696 --> 00:56:46.216
+So now,
+
+747
+00:56:47.016 --> 00:56:48.136
+if you look at this,
+
+748
+00:56:49.316 --> 00:56:52.676
+the... this is the policy, careful policy, you have evaluated
+
+749
+00:56:52.756 --> 00:56:55.236
+it. The value evaluation is showing over
+
+750
+00:56:55.296 --> 00:56:59.116
+here. The value evaluation is showing over
+
+751
+00:56:59.176 --> 00:57:01.236
+here, okay? This is a careful policy.
+
+752
+00:57:01.256 --> 00:57:02.276
+This is the value evaluation,
+
+753
+00:57:03.476 --> 00:57:06.696
+policy evaluation. You use those policy evaluation
+
+754
+00:57:06.756 --> 00:57:09.876
+values, then you compute the Q function value
+
+755
+00:57:09.936 --> 00:57:13.015
+here. Then you are going to find a new
+
+756
+00:57:13.036 --> 00:57:16.676
+policy out of the careful policy. The new
+
+757
+00:57:16.716 --> 00:57:20.056
+policy is generated in this property. Like, look at here.
+
+758
+00:57:20.116 --> 00:57:23.996
+I'll start from here. My action was on the right-hand side before
+
+759
+00:57:24.096 --> 00:57:26.436
+I do the Q function updation, okay?
+
+760
+00:57:27.356 --> 00:57:30.136
+Uh, before I do the updation based on Q function.
+
+761
+00:57:30.176 --> 00:57:34.056
+So Q function is prescribing me that if I take a downside action, I will
+
+762
+00:57:34.096 --> 00:57:37.856
+get 0.76. So as a result, this cell will
+
+763
+00:57:37.916 --> 00:57:41.656
+have a downside movement. So this is the new
+
+764
+00:57:41.696 --> 00:57:45.356
+policy generated out of the careful policy.
+
+765
+00:57:45.376 --> 00:57:45.916
+Right?
+
+766
+00:57:47.236 --> 00:57:51.056
+For look at this, this cell, this cell, the right-hand side is
+
+767
+00:57:51.096 --> 00:57:53.816
+given the highest, 0.59, so it will remain the same.
+
+768
+00:57:53.876 --> 00:57:57.516
+It was right-hand side here. Here also, the right-hand side in the new
+
+769
+00:57:57.556 --> 00:58:00.876
+policy. Fine? Now, look at in this
+
+770
+00:58:00.916 --> 00:58:04.176
+cell. This cell is left-hand side.
+
+771
+00:58:04.196 --> 00:58:06.516
+It was originally in the careful policy.
+
+772
+00:58:06.576 --> 00:58:10.396
+After I do the Q value function... Q function computation, the
+
+773
+00:58:10.436 --> 00:58:13.546
+left-hand side is having 0.43. So this
+
+774
+00:58:13.796 --> 00:58:17.006
+0.43 is going to be remaining the...
+
+775
+00:58:17.016 --> 00:58:20.736
+This is pointing to the left-hand side, so this left-hand side here, this left-hand
+
+776
+00:58:20.776 --> 00:58:24.516
+side, there is no change in the policy.
+
+777
+00:58:24.636 --> 00:58:27.876
+Now you look at in this cell. This cell in the careful
+
+778
+00:58:27.936 --> 00:58:31.516
+policy, it was having upside movement.
+
+779
+00:58:31.576 --> 00:58:35.396
+After doing the Q value computation, which one
+
+780
+00:58:35.456 --> 00:58:38.096
+is having the highest? Look at here.
+
+781
+00:58:38.236 --> 00:58:41.556
+Left-hand side is 0.26. Right-hand side is
+
+782
+00:58:41.796 --> 00:58:42.676
+0.26.
+
+783
+00:58:43.476 --> 00:58:46.876
+So these are two equal value produced by left or right.
+
+784
+00:58:46.916 --> 00:58:49.856
+So you can choose any one of them. They have chosen left-hand
+
+785
+00:58:49.916 --> 00:58:53.356
+side. So this is a new
+
+786
+00:58:53.436 --> 00:58:56.476
+action, so the policy is different.
+
+787
+00:58:56.536 --> 00:58:59.936
+So here, previous it was upside. Now it is on the left-hand
+
+788
+00:59:00.016 --> 00:59:00.536
+side.
+
+789
+00:59:00.596 --> 00:59:04.236
+Sir, why, uh, uh, l- uh, left-hand side only,
+
+790
+00:59:04.276 --> 00:59:08.096
+sir? Both 0.26 and, uh, left and right
+
+791
+00:59:08.156 --> 00:59:08.896
+is, uh-
+
+792
+00:59:08.936 --> 00:59:11.796
+Hmm, you can choose right also. No problem.
+
+793
+00:59:11.836 --> 00:59:14.016
+No, any specific reason of selecting left?
+
+794
+00:59:14.026 --> 00:59:16.236
+Any... No, no, no, there is no specific reason.
+
+795
+00:59:16.316 --> 00:59:16.836
+Okay.
+
+796
+00:59:16.896 --> 00:59:19.805
+Since bo- both are producing same value, you can choose any one of
+
+797
+00:59:19.836 --> 00:59:20.976
+them.
+
+798
+00:59:21.316 --> 00:59:21.716
+Yes.
+
+799
+00:59:22.555 --> 00:59:25.436
+Okay? So this is a improved policy that we are
+
+800
+00:59:25.476 --> 00:59:28.576
+getting. And look at here and here, this
+
+801
+00:59:28.596 --> 00:59:32.516
+policy. Almost all of the cells in the first row, all of
+
+802
+00:59:32.556 --> 00:59:35.216
+them are having the same direction. No change.
+
+803
+00:59:35.316 --> 00:59:38.936
+Here, no change. In this cell, there is a change, in this
+
+804
+00:59:38.976 --> 00:59:42.936
+cell. The change is now here, so this is a one
+
+805
+00:59:42.976 --> 00:59:46.016
+cell. The other cell, where there is a change here,
+
+806
+00:59:46.856 --> 00:59:49.376
+that is the state number 14.
+
+807
+00:59:50.276 --> 00:59:53.696
+So this cell and this cell, there is a change of action,
+
+808
+00:59:53.716 --> 00:59:56.056
+direction. The rest all of them are remaining same.
+
+809
+00:59:56.096 --> 00:59:59.896
+So it ensures that you change very little bit, and you get a better
+
+810
+00:59:59.936 --> 01:00:03.056
+policy. Then you do the policy evaluation for this new
+
+811
+01:00:03.076 --> 01:00:07.036
+policy. Once you do the policy evaluation,
+
+812
+01:00:07.076 --> 01:00:08.726
+you will getting a new value function.
+
+813
+01:00:08.756 --> 01:00:12.336
+You use them to apply the Q function argument.
+
+814
+01:00:12.376 --> 01:00:15.716
+You will be getting, again, four values in each and every
+
+815
+01:00:15.776 --> 01:00:19.716
+cell. Among them, you pick up the highest (clears throat) value
+
+816
+01:00:19.776 --> 01:00:20.326
+produced
+
+817
+01:00:21.196 --> 01:00:23.956
+for that particular action. That action is going to be your new
+
+818
+01:00:23.976 --> 01:00:26.396
+policy.
+
+819
+01:00:28.816 --> 01:00:32.776
+Okay? So this will go on forever, and here is the Python
+
+820
+01:00:33.756 --> 01:00:35.936
+program they have shown.
+
+821
+01:00:37.336 --> 01:00:39.576
+Okay? This is the Python program. Right now, I'm not going to
+
+822
+01:00:40.816 --> 01:00:44.216
+explain you. It is same thing. I have a, mm,
+
+823
+01:00:45.736 --> 01:00:49.326
+I have a (clears throat)
+
+824
+01:00:49.376 --> 01:00:52.196
+policy improvement for this, which I have run it
+
+825
+01:00:53.156 --> 01:00:56.736
+half an hour before. So look at here.
+
+826
+01:00:58.276 --> 01:01:01.336
+Under the same four cross four grid of frozen lake
+
+827
+01:01:01.396 --> 01:01:05.348
+environment-The last class
+
+828
+01:01:05.428 --> 01:01:09.167
+I have shown you, your policy evaluation, the same sheet I'm
+
+829
+01:01:09.207 --> 01:01:10.587
+using, so I'm having
+
+830
+01:01:11.828 --> 01:01:15.548
+policy evaluation. Look at this policy evaluation, last class I have
+
+831
+01:01:15.647 --> 01:01:19.627
+explained you. If I run this policy evaluation, I
+
+832
+01:01:19.667 --> 01:01:23.488
+can find out the value for living in every state.
+
+833
+01:01:23.808 --> 01:01:27.187
+Then I'm printing the state value function under the
+
+834
+01:01:28.107 --> 01:01:30.908
+policy of pi. Okay.
+
+835
+01:01:31.888 --> 01:01:34.348
+So this is a state value, we got it.
+
+836
+01:01:35.187 --> 01:01:38.687
+Then after that we have a greedy policy, go get it
+
+837
+01:01:38.748 --> 01:01:42.647
+policy. The greedy policy, what is the value we are getting?
+
+838
+01:01:42.667 --> 01:01:46.627
+If I run the policy evaluation, I'm getting the start
+
+839
+01:01:46.728 --> 01:01:50.508
+state value 0.375. If I choose a
+
+840
+01:01:50.548 --> 01:01:52.868
+careful policy,
+
+841
+01:01:53.828 --> 01:01:57.627
+then I do a policy evaluation, then I do the
+
+842
+01:01:57.707 --> 01:02:01.607
+val- uh, st-st... Printing the state value function
+
+843
+01:02:01.988 --> 01:02:02.207
+for
+
+844
+01:02:03.548 --> 01:02:07.468
+this careful policy. Okay. Look at the start
+
+845
+01:02:07.548 --> 01:02:08.987
+state is having an increased value,
+
+846
+01:02:09.187 --> 01:02:11.808
+0.40.
+
+847
+01:02:13.268 --> 01:02:17.167
+Okay. Here is a policy improvement, a very small program, policy
+
+848
+01:02:17.228 --> 01:02:19.167
+improvement.
+
+849
+01:02:21.667 --> 01:02:25.138
+As I told you, there is no iteration required. You just...
+
+850
+01:02:25.147 --> 01:02:29.127
+You need to run for every state under that state, all
+
+851
+01:02:29.167 --> 01:02:32.528
+possible actions, whichever is producing the
+
+852
+01:02:34.048 --> 01:02:37.948
+maximum. Look at here, first I find out this value, and
+
+853
+01:02:38.008 --> 01:02:41.968
+then the action for which np.argmax.
+
+854
+01:02:41.988 --> 01:02:44.728
+That means it is the argmax function that I'm running.
+
+855
+01:02:46.087 --> 01:02:49.448
+So I get a new policy. New policy, I have got it as new pi.
+
+856
+01:02:50.528 --> 01:02:54.508
+After I got a new policy, now look at I run the policy improvement.
+
+857
+01:02:56.828 --> 01:03:00.428
+Once I run the policy improvement, I get a new policy of this
+
+858
+01:03:00.468 --> 01:03:01.308
+thing. Now, if I
+
+859
+01:03:02.448 --> 01:03:05.707
+do the print policy, look at here, this is the my new
+
+860
+01:03:05.728 --> 01:03:09.248
+policy. Where is your state number 14?
+
+861
+01:03:09.308 --> 01:03:13.167
+Has a downside movement here. Okay, look
+
+862
+01:03:13.187 --> 01:03:15.707
+at here, it is matching.
+
+863
+01:03:17.627 --> 01:03:20.607
+The state number 14. This is the new policy, I have got
+
+864
+01:03:20.667 --> 01:03:24.508
+it. State number 14 having a downside movement here, and
+
+865
+01:03:24.567 --> 01:03:28.328
+here also you can see, state number 14 is a downside movement here.
+
+866
+01:03:29.607 --> 01:03:33.167
+And, uh, state number 13 is having a right side movement
+
+867
+01:03:33.207 --> 01:03:35.328
+here. You can see this is
+
+868
+01:03:37.127 --> 01:03:40.308
+right side movement. Only state number six is having a left-hand side
+
+869
+01:03:40.368 --> 01:03:44.187
+movement. State number six is a
+
+870
+01:03:44.288 --> 01:03:48.087
+left-side movement. Okay. So I get a new policy, then I can
+
+871
+01:03:48.147 --> 01:03:50.768
+again, I can run a policy
+
+872
+01:03:52.008 --> 01:03:55.107
+evaluation for this new policy.
+
+873
+01:03:56.687 --> 01:03:59.748
+So I have a new careful policy. I, I do a policy
+
+874
+01:03:59.768 --> 01:04:03.647
+evaluation. Under the policy evaluation, these are the new
+
+875
+01:04:03.687 --> 01:04:07.248
+values I have got it. Look at now, the state
+
+876
+01:04:07.548 --> 01:04:11.107
+zero is now improved to be 542, 0.542.
+
+877
+01:04:11.147 --> 01:04:12.228
+Previously it was?
+
+878
+01:04:14.167 --> 01:04:17.488
+Under careful policy it was? Look at careful policy, it was
+
+879
+01:04:17.748 --> 01:04:20.658
+0.40. It has improved.
+
+880
+01:04:20.728 --> 01:04:22.647
+Okay?
+
+881
+01:04:27.107 --> 01:04:31.008
+We'll... In the next class also I'll show you the same thing, because
+
+882
+01:04:31.048 --> 01:04:34.848
+it will take some amount of time for you to understand and
+
+883
+01:04:34.908 --> 01:04:38.808
+then... So this is the policy iteration algorithm which I
+
+884
+01:04:38.868 --> 01:04:42.728
+have taken from this book again, the same
+
+885
+01:04:42.737 --> 01:04:46.297
+thing I have coded it up, okay? I have taken from this
+
+886
+01:04:46.328 --> 01:04:49.948
+book. First I do a random initialization of the
+
+887
+01:04:49.968 --> 01:04:53.888
+policy, okay? After initialization, I, I store this
+
+888
+01:04:54.048 --> 01:04:56.147
+old policy, I run it for the
+
+889
+01:04:57.087 --> 01:04:58.567
+policy.
+
+890
+01:05:00.667 --> 01:05:04.468
+I do a (sighs) I, I do a policy evaluation, then I do a policy
+
+891
+01:05:04.528 --> 01:05:05.308
+improvement.
+
+892
+01:05:06.808 --> 01:05:08.167
+After policy improvement,
+
+893
+01:05:09.228 --> 01:05:13.207
+I will try to check whether this new policy and the old policy, whether
+
+894
+01:05:13.248 --> 01:05:16.707
+they are same or not. Look at here, the same thing I have written it here,
+
+895
+01:05:17.808 --> 01:05:21.688
+in that class note also. Look at here,
+
+896
+01:05:21.707 --> 01:05:25.348
+I do a random policy initialization, then I do policy evaluation for this
+
+897
+01:05:25.667 --> 01:05:29.167
+random policy. I get a new policy by running policy
+
+898
+01:05:29.207 --> 01:05:31.707
+improvement over the random policy here.
+
+899
+01:05:31.728 --> 01:05:34.718
+Then I check whether they are the same policy. If the...
+
+900
+01:05:34.768 --> 01:05:36.828
+In that case, I will be coming out of the loop.
+
+901
+01:05:36.888 --> 01:05:40.728
+Else, I will redo the loop again by setting pi to
+
+902
+01:05:40.768 --> 01:05:44.548
+be new pi, and that is what is happening here.
+
+903
+01:05:45.508 --> 01:05:47.788
+Okay?
+
+904
+01:05:51.567 --> 01:05:55.528
+So I do a policy iteration. After doing policy iteration, look at
+
+905
+01:05:55.567 --> 01:05:58.328
+my state value function is
+
+906
+01:05:58.567 --> 01:06:00.497
+0.542,
+
+907
+01:06:01.667 --> 01:06:03.268
+is my new
+
+908
+01:06:03.288 --> 01:06:06.107
+state.
+
+909
+01:06:08.868 --> 01:06:12.488
+We can run it here. Run all.
+
+910
+01:06:18.868 --> 01:06:21.107
+We are almost ending the unit
+
+911
+01:06:21.228 --> 01:06:23.928
+one.
+
+912
+01:06:25.627 --> 01:06:26.747
+Oh, it has run it
+
+913
+01:06:27.747 --> 01:06:28.548
+on a new
+
+914
+01:06:29.508 --> 01:06:32.848
+policy and all. We look at the start state is at
+
+915
+01:06:32.988 --> 01:06:34.548
+0.542.
+
+916
+01:06:41.058 --> 01:06:43.328
+(sighs) Whereas if you look at the careful
+
+917
+01:06:43.428 --> 01:06:46.688
+policy, when I do a careful
+
+918
+01:06:46.768 --> 01:06:50.587
+policy, then I do one more time of updation of
+
+919
+01:06:50.627 --> 01:06:53.828
+careful policy, I get a new careful policy.
+
+920
+01:06:53.868 --> 01:06:55.228
+In that, what is that
+
+921
+01:06:56.167 --> 01:07:00.087
+state value function showing? Is 542 here and s-
+
+922
+01:07:00.107 --> 01:07:03.888
+14 value is 0.8628. Look at
+
+923
+01:07:03.928 --> 01:07:07.734
+here,Yeah, so five
+
+924
+01:07:07.824 --> 01:07:11.804
+four two here, it's also exactly, I started here with a random
+
+925
+01:07:11.844 --> 01:07:15.133
+policy. Look at policy iteration, I'm running policy iteration.
+
+926
+01:07:15.163 --> 01:07:17.104
+In the policy iteration, I'm starting with a random
+
+927
+01:07:17.984 --> 01:07:21.794
+policy. From random policy, it is converging to a
+
+928
+01:07:21.844 --> 01:07:24.604
+careful policy, and the new careful policy,
+
+929
+01:07:24.644 --> 01:07:26.424
+okay?
+
+930
+01:07:27.424 --> 01:07:31.204
+So that is why I tell you the moral of the story of reinforcement
+
+931
+01:07:31.304 --> 01:07:32.144
+learning is
+
+932
+01:07:33.304 --> 01:07:35.924
+never be greedy.
+
+933
+01:07:37.024 --> 01:07:40.984
+Look at here. I always give
+
+934
+01:07:41.044 --> 01:07:43.804
+this example in my B.Tech classroom
+
+935
+01:07:43.884 --> 01:07:46.564
+also.
+
+936
+01:07:48.424 --> 01:07:51.183
+Policy evaluation, right.
+
+937
+01:07:52.163 --> 01:07:55.004
+Yeah, so this, uh, yes. So
+
+938
+01:07:55.044 --> 01:07:57.444
+here, this is a greedy policy, okay?
+
+939
+01:07:57.484 --> 01:08:00.624
+If you look at here, I want to reach the goal state from the start state.
+
+940
+01:08:00.644 --> 01:08:04.364
+What I will do, go here, here, here, here, here, and here is the goal
+
+941
+01:08:04.404 --> 01:08:06.804
+state. By taking this
+
+942
+01:08:08.504 --> 01:08:12.424
+action, it is a greedy action, because I want to reach the goal state at a minimum
+
+943
+01:08:12.433 --> 01:08:15.624
+possible number of, uh, time
+
+944
+01:08:15.724 --> 01:08:19.524
+step. Okay? So what is the value I get?
+
+945
+01:08:19.703 --> 01:08:21.104
+0.0342
+
+946
+01:08:22.004 --> 01:08:25.804
+by taking this policy. Whereas if I go and do the many
+
+947
+01:08:25.823 --> 01:08:28.903
+trial, trial means I'm exploring the world, I'm exploring the
+
+948
+01:08:28.924 --> 01:08:32.903
+nature, in that case, look at here, you are
+
+949
+01:08:32.924 --> 01:08:35.024
+hitting the wall, you are hitting the wall, hitting the wall,
+
+950
+01:08:36.283 --> 01:08:38.104
+and it is an unbiased environment.
+
+951
+01:08:38.124 --> 01:08:41.984
+That means if you are choosing this section, left-hand side, with 0.33
+
+952
+01:08:42.004 --> 01:08:45.903
+priority, we're really taking the left-hand side, 0.33 priority we'll be going to
+
+953
+01:08:45.943 --> 01:08:48.804
+the offside, 0.33 will be going to the downside.
+
+954
+01:08:48.823 --> 01:08:52.764
+So it is a unbiased. I don't have any more weights for any particular
+
+955
+01:08:52.804 --> 01:08:56.554
+direction of action. So it is a unbiased environment, and
+
+956
+01:08:57.203 --> 01:09:00.964
+there is no reward for landing into intermediate state, and
+
+957
+01:09:01.124 --> 01:09:02.823
+landing into whole state is zero, zero.
+
+958
+01:09:04.363 --> 01:09:07.504
+Only I get a reward after I go to goal state.
+
+959
+01:09:07.604 --> 01:09:09.943
+So this is a completely unbiased environment.
+
+960
+01:09:10.024 --> 01:09:13.743
+Under this unbiased environment, reinforcement learning is showing
+
+961
+01:09:13.823 --> 01:09:14.344
+you that
+
+962
+01:09:15.344 --> 01:09:19.024
+if you do lot of exploration of the world, this thing is
+
+963
+01:09:19.943 --> 01:09:23.624
+value for remaining in the start state is 0.4 here, and if you take a
+
+964
+01:09:23.703 --> 01:09:27.524
+greedy action, value for remaining in the start state is 0.03.
+
+965
+01:09:28.363 --> 01:09:32.294
+Okay? So irrespective of your, uh,
+
+966
+01:09:32.323 --> 01:09:35.024
+whatever religion says, try to not to be
+
+967
+01:09:35.044 --> 01:09:38.783
+greedy. And it is scientifically also been
+
+968
+01:09:38.804 --> 01:09:42.663
+proven here. It is all opportunity coming to your
+
+969
+01:09:42.724 --> 01:09:43.124
+life
+
+970
+01:09:44.004 --> 01:09:47.064
+after many sequential decision that you take it.
+
+971
+01:09:47.604 --> 01:09:48.004
+Okay?
+
+972
+01:09:48.924 --> 01:09:51.884
+So this is a real proof of why
+
+973
+01:09:51.924 --> 01:09:55.324
+greedy algorithms or greedy
+
+974
+01:09:55.384 --> 01:09:56.984
+mechanisms or greedy mindset
+
+975
+01:09:58.384 --> 01:10:01.864
+is not good for the long term.
+
+976
+01:10:03.164 --> 01:10:06.964
+Uh, can I infer that using this Q function, I'm able to optimize
+
+977
+01:10:07.004 --> 01:10:08.204
+the careful policy?
+
+978
+01:10:09.324 --> 01:10:10.624
+Hmm. Yes, yes, right.
+
+979
+01:10:10.644 --> 01:10:14.493
+Yes, sir. The second thing, sir, uh, w- what is that, uh, how much I'm
+
+980
+01:10:14.544 --> 01:10:18.364
+getting this optimization, sir? Like, uh, when we compare this, uh, go get
+
+981
+01:10:18.374 --> 01:10:22.124
+policy and careful policy, we have number of iterations and we have the percentage
+
+982
+01:10:22.164 --> 01:10:23.784
+of goal to reach.
+
+983
+01:10:23.794 --> 01:10:23.794
+
+984
+01:10:23.844 --> 01:10:27.764
+So with this, uh, uh, Q function implementation, how many
+
+985
+01:10:27.804 --> 01:10:31.294
+iterations we are able to reduce, and what is the percentage of, uh,
+
+986
+01:10:31.424 --> 01:10:34.964
+increase, uh, escalation as in this, in the percentage, how much we are able to
+
+987
+01:10:34.984 --> 01:10:38.464
+reach the goal state? So that, uh, also can be shown in this
+
+988
+01:10:38.784 --> 01:10:40.004
+course, so we can compare.
+
+989
+01:10:40.014 --> 01:10:41.804
+Yeah, yeah, you can show, you can show.
+
+990
+01:10:41.884 --> 01:10:45.164
+You are not going to reduce your iteration. Okay?
+
+991
+01:10:45.244 --> 01:10:48.484
+Iteration is applicable to only when you run the policy
+
+992
+01:10:48.524 --> 01:10:49.704
+evaluation.
+
+993
+01:10:49.713 --> 01:10:49.734
+Okay, sir.
+
+994
+01:10:49.744 --> 01:10:53.684
+When you do the policy improvement, it is only one iteration, because
+
+995
+01:10:53.744 --> 01:10:57.184
+under, it is a nested for loop of two things.
+
+996
+01:10:57.264 --> 01:11:01.004
+First one is the number of states. Under each and every state, you have so many
+
+997
+01:11:01.064 --> 01:11:04.964
+possible actions. So it is this for loop is going on based on number of
+
+998
+01:11:05.044 --> 01:11:08.904
+states and number of action. It is not going on forever till you do a convergence,
+
+999
+01:11:08.984 --> 01:11:12.144
+okay? It is not like that. So you are going to save
+
+1000
+01:11:12.224 --> 01:11:15.424
+your, mmm, iteration, that is a wrong
+
+1001
+01:11:15.484 --> 01:11:16.384
+concept.
+
+1002
+01:11:16.424 --> 01:11:16.534
+Okay,
+
+1003
+01:11:16.564 --> 01:11:17.844
+But you can improve your
+
+1004
+01:11:19.284 --> 01:11:22.744
+policy by the help of Q function, and that improvement
+
+1005
+01:11:23.244 --> 01:11:25.424
+is shown over here.
+
+1006
+01:11:26.304 --> 01:11:29.943
+That improvement is, look at this s- this was my
+
+1007
+01:11:30.024 --> 01:11:33.584
+careful policy, this is my new careful policy.
+
+1008
+01:11:33.624 --> 01:11:37.124
+You have a value function for running for every cell, you get the value
+
+1009
+01:11:37.184 --> 01:11:40.124
+function. For this also you can run the value function.
+
+1010
+01:11:40.284 --> 01:11:44.204
+Difference between these value function here, cell by cell, step
+
+1011
+01:11:44.244 --> 01:11:48.204
+by step, will give you the improvement of your new
+
+1012
+01:11:48.244 --> 01:11:51.304
+policies. This is what is shown over here, look at.
+
+1013
+01:11:51.324 --> 01:11:54.284
+This is your new careful policy. Okay?
+
+1014
+01:11:54.344 --> 01:11:57.044
+In that, these two are shown red, right?
+
+1015
+01:11:57.064 --> 01:11:59.744
+Only these two cell has change of direction of
+
+1016
+01:11:59.784 --> 01:12:02.604
+action. For doing this new policy
+
+1017
+01:12:02.624 --> 01:12:06.604
+evaluation, you get some value. That value
+
+1018
+01:12:06.624 --> 01:12:10.544
+is shown over here, 0.5420 over here in
+
+1019
+01:12:10.584 --> 01:12:13.704
+the new policy. Okay? This is a new careful policy.
+
+1020
+01:12:13.744 --> 01:12:15.864
+Here left hand side, here downside.
+
+1021
+01:12:15.874 --> 01:12:19.384
+And look at your old careful policy value function.
+
+1022
+01:12:20.464 --> 01:12:22.724
+Start state was having 0.40,
+
+1023
+01:12:23.384 --> 01:12:27.324
+0.40. Here under the new Q
+
+1024
+01:12:27.424 --> 01:12:31.064
+fun- uh, new, new careful policy start state value is
+
+1025
+01:12:31.304 --> 01:12:33.624
+0.54. Difference between them is
+
+1026
+01:12:34.284 --> 01:12:35.304
+0.1341,
+
+1027
+01:12:36.584 --> 01:12:37.424
+okay?
+
+1028
+01:12:37.443 --> 01:12:40.804
+Yes, actually, sir, sorry, sir. Uh, actually I was just seeing down below that this
+
+1029
+01:12:40.884 --> 01:12:43.904
+policy careful can result the goal state to 73%.
+
+1030
+01:12:43.924 --> 01:12:43.934
+Hmm.
+
+1031
+01:12:44.024 --> 01:12:47.943
+Okay. So this is the thing, uh, which we have this to reach on time
+
+1032
+01:12:48.564 --> 01:12:49.704
+for the goal state.
+
+1033
+01:12:49.724 --> 01:12:49.814
+Hmm. Hmm.
+
+1034
+01:12:49.864 --> 01:12:50.384
+Whereas in the
+
+1035
+01:12:51.264 --> 01:12:55.134
+careful policy, uh, we would have somewhere around 50%, uh, so-
+
+1036
+01:12:55.164 --> 01:12:57.824
+so this is, uh, we are able to beat this.
+
+1037
+01:12:57.864 --> 01:13:01.604
+Uh-huh. This percentage means the old value minus our new
+
+1038
+01:13:01.684 --> 01:13:04.404
+value divided by old value percentage.
+
+1039
+01:13:05.464 --> 01:13:09.354
+The difference between, uh, any this new value, this
+
+1040
+01:13:10.084 --> 01:13:13.624
+0.74, minus of its old value, divide by the old
+
+1041
+01:13:13.684 --> 01:13:17.624
+value.Take 100 percentage, you will get some percentage
+
+1042
+01:13:17.824 --> 01:13:21.204
+computation over here for this data.
+
+1043
+01:13:21.264 --> 01:13:23.024
+That is the percentage of improvement.
+
+1044
+01:13:23.224 --> 01:13:26.724
+Y- Yes, sir. Then how come... We will come to know that our policy has now
+
+1045
+01:13:26.784 --> 01:13:29.174
+optimized. We n- don't need to move forward?
+
+1046
+01:13:30.264 --> 01:13:33.544
+So this policy, uh, evaluation algorithm is going to be
+
+1047
+01:13:33.584 --> 01:13:37.004
+converging only when there is no change in your
+
+1048
+01:13:37.724 --> 01:13:41.434
+new policy. Look at policy. I'm calling here policy evaluation,
+
+1049
+01:13:41.484 --> 01:13:42.684
+okay?
+
+1050
+01:13:42.744 --> 01:13:43.124
+Yes, sir.
+
+1051
+01:13:43.144 --> 01:13:46.304
+This policy evaluation, I'm calling every time to get
+
+1052
+01:13:46.384 --> 01:13:49.764
+a evaluation for the policy of
+
+1053
+01:13:49.784 --> 01:13:53.664
+pi. So that is the value returning, this V function,
+
+1054
+01:13:53.704 --> 01:13:56.524
+this V value, okay? This V value,
+
+1055
+01:13:57.564 --> 01:14:01.224
+based on this V value I'm running policy improvement, I get a new policy, pi.
+
+1056
+01:14:01.944 --> 01:14:03.684
+So this old pi and new
+
+1057
+01:14:03.724 --> 01:14:07.394
+pi, this old pi and new pi, i-
+
+1058
+01:14:07.424 --> 01:14:11.384
+it is same, then this policy iteration is going
+
+1059
+01:14:11.424 --> 01:14:15.264
+to break. If it is not same, it will
+
+1060
+01:14:15.304 --> 01:14:19.104
+get into the... This is a while loop, okay? This is an infinite loop.
+
+1061
+01:14:19.143 --> 01:14:19.994
+It will keep on running.
+
+1062
+01:14:20.624 --> 01:14:22.784
+O- Okay. Y- Yes.
+
+1063
+01:14:25.144 --> 01:14:26.184
+Thank you, sir.
+
+1064
+01:14:26.194 --> 01:14:27.304
+Hmm.
+
+1065
+01:14:29.704 --> 01:14:32.294
+Okay, so I'll share you this, uh,
+
+1066
+01:14:32.324 --> 01:14:35.984
+file. I'll share it to TA. They will upload
+
+1067
+01:14:36.044 --> 01:14:39.804
+it. Okay? So you get everything. And almost we are
+
+1068
+01:14:39.844 --> 01:14:42.944
+reaching the end of the unit one. This is
+
+1069
+01:14:44.064 --> 01:14:47.064
+completion of almost unit one. However, Saturday we'll complete
+
+1070
+01:14:47.124 --> 01:14:48.984
+it.
+
+1071
+01:14:49.984 --> 01:14:51.444
+Yeah, sure, sir.
+
+1072
+01:14:51.504 --> 01:14:52.424
+Okay, sir.
+
+1073
+01:14:52.444 --> 01:14:53.284
+Hmm.
+
+1074
+01:14:54.564 --> 01:14:54.824
+Okay.
+
+1075
+01:14:55.784 --> 01:14:56.584
+Goodnight.
+
+1076
+01:14:56.744 --> 01:14:57.474
+Goodnight, sir.
+
+1077
+01:14:57.474 --> 01:14:57.714
+Thank you, sir.
+
+1078
+01:14:57.724 --> 01:15:01.104
+Saturday will be less loaded because this will be just revision of all this thing,
+
+1079
+01:15:01.164 --> 01:15:03.344
+and, uh, only one algorithm remaining.
+
+1080
+01:15:03.364 --> 01:15:06.244
+That is called value iteration, which is a subset of this algorithm,
+
+1081
+01:15:06.304 --> 01:15:07.764
+again.
+
+1082
+01:15:08.864 --> 01:15:11.704
+So almost like, uh, one month is over for you for this c-
+
+1083
+01:15:11.864 --> 01:15:15.684
+course, this 10th of December. When did you
+
+1084
+01:15:15.744 --> 01:15:16.804
+start this course?
+
+1085
+01:15:16.844 --> 01:15:17.684
+17th.
+
+1086
+01:15:17.724 --> 01:15:19.204
+November 17th,
+
+1087
+01:15:20.864 --> 01:15:22.244
+right? Okay.
+
+1088
+01:15:23.504 --> 01:15:25.624
+We are going on time. No problem.
+
+1089
+01:15:26.924 --> 01:15:30.764
+The practical applications of this one, so that we can
+
+1090
+01:15:30.824 --> 01:15:32.644
+understand better?
+
+1091
+01:15:32.704 --> 01:15:36.264
+Practical application. Practical application I will show you after I
+
+1092
+01:15:36.324 --> 01:15:37.394
+complete, uh,
+
+1093
+01:15:38.484 --> 01:15:41.764
+model-free algorithm. Then I'll show
+
+1094
+01:15:41.784 --> 01:15:42.533
+you.
+
+1095
+01:15:42.844 --> 01:15:44.244
+Module three.
+
+1096
+01:15:44.624 --> 01:15:48.044
+No, no, no. Model-free. These are model-based,
+
+1097
+01:15:48.104 --> 01:15:51.764
+model-based algorithm. There is something called model-free
+
+1098
+01:15:51.824 --> 01:15:55.544
+algorithm, okay, after that I... Again,
+
+1099
+01:15:55.624 --> 01:15:59.464
+after model-free also not possible too much, but I will try to show you.
+
+1100
+01:15:59.524 --> 01:16:02.784
+The real application is on the robotic side.
+
+1101
+01:16:04.824 --> 01:16:08.544
+But if you want to see the application on language modeling, basically
+
+1102
+01:16:08.564 --> 01:16:11.504
+ChatGPT is using reinforcement learning.
+
+1103
+01:16:11.544 --> 01:16:15.504
+For you, I mean, for me to show you, that i- is going to be
+
+1104
+01:16:15.884 --> 01:16:19.584
+somewhat tedious, because I don't have a GPU to
+
+1105
+01:16:19.724 --> 01:16:20.394
+show you all this.
+
+1106
+01:16:20.394 --> 01:16:22.974
+Uh, any fraud detection case also you have to do
+
+1107
+01:16:23.084 --> 01:16:25.244
+better, sir.
+
+1108
+01:16:25.304 --> 01:16:26.364
+Fraud detection?
+
+1109
+01:16:26.424 --> 01:16:28.084
+Yes.
+
+1110
+01:16:28.264 --> 01:16:28.654
+No, f- for dete-
+
+1111
+01:16:28.684 --> 01:16:31.604
+Transaction fraud or any such things.
+
+1112
+01:16:31.804 --> 01:16:33.014
+No.
+
+1113
+01:16:33.844 --> 01:16:36.464
+Sir, this room cleaner?
+
+1114
+01:16:36.484 --> 01:16:38.284
+Huh, room cleaner? Yes.
+
+1115
+01:16:39.944 --> 01:16:43.004
+Robotic application you can a- apply this.
+
+1116
+01:16:43.224 --> 01:16:46.924
+For fraud detection, there is something called, basically you are having lot
+
+1117
+01:16:47.004 --> 01:16:50.904
+of time series data. Suppose you are into,
+
+1118
+01:16:50.944 --> 01:16:54.644
+mm, you are protecting a website or a whole network.
+
+1119
+01:16:54.664 --> 01:16:58.144
+There are a lot of, uh, lot of normal traffic coming in.
+
+1120
+01:16:58.184 --> 01:17:01.264
+Normal traffic have its, having its own behavior.
+
+1121
+01:17:01.304 --> 01:17:04.624
+That is, the packet size is not too much high.
+
+1122
+01:17:04.744 --> 01:17:08.654
+And, uh, the amount of interaction with the server is not
+
+1123
+01:17:08.684 --> 01:17:11.854
+too high. He's not going to be directing all the
+
+1124
+01:17:11.884 --> 01:17:15.484
+time. But those who are actually, uh,
+
+1125
+01:17:15.524 --> 01:17:19.144
+malicious traffic, they, once they get
+
+1126
+01:17:19.204 --> 01:17:22.664
+access to the network, they will try to exploit many
+
+1127
+01:17:22.684 --> 01:17:26.424
+computers within the network. So their session,
+
+1128
+01:17:26.444 --> 01:17:30.364
+uh, timing is much more higher. And their traffic,
+
+1129
+01:17:30.444 --> 01:17:34.404
+uh, characteristics, like the burst size, like, I am also talking to you
+
+1130
+01:17:34.484 --> 01:17:38.154
+about this Zoom session, but
+
+1131
+01:17:38.164 --> 01:17:41.284
+that is... A regular interval packet is
+
+1132
+01:17:41.324 --> 01:17:44.964
+flowing, okay? And all of the packet size is going to be almost
+
+1133
+01:17:45.004 --> 01:17:48.304
+similar. So it is not a malicious traffic, but for the malicious
+
+1134
+01:17:48.344 --> 01:17:52.304
+traffic, once they get to understand the behavior of the,
+
+1135
+01:17:52.404 --> 01:17:54.804
+all systems, they launch a attack.
+
+1136
+01:17:54.904 --> 01:17:58.564
+And that time, they're having some kind
+
+1137
+01:17:58.644 --> 01:18:02.524
+of high volume of packet going at a particular amount
+
+1138
+01:18:02.584 --> 01:18:06.144
+of time. That is going to be b- detected as a
+
+1139
+01:18:06.344 --> 01:18:10.074
+malicious behavior. But that, those will not be detected by...
+
+1140
+01:18:10.074 --> 01:18:12.604
+I mean, it doesn't require reinforcement learning.
+
+1141
+01:18:13.344 --> 01:18:16.244
+It can be detected by many existing algorithm.
+
+1142
+01:18:17.064 --> 01:18:18.944
+Okay? I can tell you some of the algorithms.
+
+1143
+01:18:18.964 --> 01:18:20.804
+Like, this called, this domain is called anomaly
+
+1144
+01:18:20.824 --> 01:18:23.364
+detection.
+
+1145
+01:18:24.304 --> 01:18:27.524
+If you are interested, I can tell you some of the ideas for doing that.
+
+1146
+01:18:27.604 --> 01:18:27.914
+I, I-
+
+1147
+01:18:27.924 --> 01:18:29.204
+Yes, yes.
+
+1148
+01:18:29.284 --> 01:18:33.064
+I had a paper published in IEEE Power Systems.
+
+1149
+01:18:33.084 --> 01:18:36.964
+Uh, that is basically detecting the anomal- anomaly detection
+
+1150
+01:18:37.024 --> 01:18:40.684
+in the power systems, power grid. It is in computer
+
+1151
+01:18:40.724 --> 01:18:43.164
+network maintained power systems.
+
+1152
+01:18:43.204 --> 01:18:45.344
+So there are a lot of anomaly generated.
+
+1153
+01:18:45.404 --> 01:18:47.504
+We can detect that, okay?
+
+1154
+01:18:47.564 --> 01:18:49.824
+Yeah, sure, sir.
+
+1155
+01:18:49.884 --> 01:18:53.364
+Okay, so thank you. So you have to attend your quiz
+
+1156
+01:18:53.444 --> 01:18:57.124
+on Sunday night by 9:00 PM. You have to upload both of the
+
+1157
+01:18:57.164 --> 01:19:01.034
+classes note in a single file. Redu- reduce the file
+
+1158
+01:19:01.124 --> 01:19:04.444
+size, upload it only one file for both of the class.
+
+1159
+01:19:04.464 --> 01:19:08.444
+We'll do the uploading by, I think, uh, Sunday 11:00 PM, I think.
+
+1160
+01:19:08.504 --> 01:19:09.624
+Okay?
+
+1161
+01:19:09.804 --> 01:19:11.224
+Yes, sir.
+
+1162
+01:19:12.704 --> 01:19:14.624
+Okay. Have a good night then.
+
+1163
+01:19:14.684 --> 01:19:15.754
+Yeah. Thank you, sir. Goodnight.
+
+1164
+01:19:15.764 --> 01:19:16.844
+Thank you, sir. Goodnight.
+
+1165
+01:19:16.884 --> 01:19:17.694
+Welcome. Okay.
+
+1166
+01:19:18.284 --> 01:19:19.204
+Thank you, sir.
+
+1167
+01:19:19.944 --> 01:19:20.924
+Hmm. Thank you.
+
+1168
+01:19:20.944 --> 01:19:21.984
+Thank you, sir.
+
+1169
+01:19:22.064 --> 01:19:25.664
+Close
+
+1170
+01:19:25.744 --> 01:20:00.684
+it.

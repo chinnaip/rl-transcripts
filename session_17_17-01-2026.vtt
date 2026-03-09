@@ -1,0 +1,3995 @@
+WEBVTT
+
+NOTE
+Video URL: https://vimeo.com/1155839957
+Reinforcement Learning Live Session 17 - 17-01-2026
+
+1
+00:16:57.015 --> 00:16:58.655
+Looks like it came to Bangalore last week.
+
+2
+00:17:01.385 --> 00:17:03.325
+Yes, I was in Bangalore last week. Yeah,
+
+3
+00:17:04.525 --> 00:17:07.445
+I saw, saw your, uh, post, so I just throw you a bang.
+
+4
+00:17:08.735 --> 00:17:11.405
+We're doing some runs. It's my friends in Bangalore.
+
+5
+00:17:12.245 --> 00:17:13.765
+I saw, I saw that Post You star,
+
+6
+00:17:13.945 --> 00:17:16.485
+you doing some within the Euro Info campus, is
+
+7
+00:17:16.485 --> 00:17:17.485
+It? Yeah, I was in
+
+8
+00:17:17.485 --> 00:17:18.605
+the info campus. Yeah.
+
+9
+00:17:19.515 --> 00:17:20.935
+So you came only for the run or the
+
+10
+00:17:21.155 --> 00:17:22.155
+No, no, no, no, no. There are
+
+11
+00:17:22.155 --> 00:17:23.895
+some, uh, client S and all.
+
+12
+00:17:24.485 --> 00:17:26.175
+Okay. I just did that as well.
+
+13
+00:17:26.435 --> 00:17:27.495
+How many days? Two days. Huh?
+
+14
+00:17:28.435 --> 00:17:29.705
+Three days I was there. No,
+
+15
+00:17:29.705 --> 00:17:31.505
+Sunday came till Wednesday. I was there. Yeah.
+
+16
+00:17:32.005 --> 00:17:32.425
+Oh, okay.
+
+17
+00:17:39.945 --> 00:17:41.665
+I was the deep planning assignments going on.
+
+18
+00:17:42.335 --> 00:17:44.865
+Yeah. To task. But it also,
+
+19
+00:17:45.095 --> 00:17:47.825
+that was all this week I was in, I was doing the rl.
+
+20
+00:17:48.605 --> 00:17:52.275
+Oh, okay. Last week I was completely only reading the
+
+21
+00:17:52.345 --> 00:17:53.875
+deep learning the Oh, okay.
+
+22
+00:17:53.875 --> 00:17:57.555
+Okay. So not yet done. You done it?
+
+23
+00:17:58.775 --> 00:18:00.995
+Uh, just started, just started reading the
+
+24
+00:18:00.995 --> 00:18:01.995
+Data. Just started
+
+25
+00:18:01.995 --> 00:18:03.955
+now. Yeah.
+
+26
+00:18:05.715 --> 00:18:08.385
+Where is the time where, I dunno to take the paper.
+
+27
+00:18:11.095 --> 00:18:15.065
+This, uh, this uh, deep learning, uh, thing.
+
+28
+00:18:15.215 --> 00:18:17.545
+They have not extended the date yet, right? No,
+
+29
+00:18:17.545 --> 00:18:18.505
+No. They'll extend it.
+
+30
+00:18:18.535 --> 00:18:20.065
+They'll do, yeah. Yeah,
+
+31
+00:18:20.065 --> 00:18:23.625
+because, uh, when I gave, wrote a mail, uh, sir, instructed,
+
+32
+00:18:23.805 --> 00:18:28.505
+uh, the TA to extend, uh, 22nd next week.
+
+33
+00:18:28.735 --> 00:18:29.735
+Next week. Monday. Yeah,
+
+34
+00:18:30.735 --> 00:18:32.425
+Next week Monday. MCL
+
+35
+00:18:32.605 --> 00:18:33.605
+Sun. No, no, next week. Sunday.
+
+36
+00:18:33.605 --> 00:18:34.705
+Sorry. Sunday
+
+37
+00:18:34.705 --> 00:18:35.705
+25th. 25th.
+
+38
+00:18:35.705 --> 00:18:36.905
+Yeah. Correct.
+
+39
+00:18:38.315 --> 00:18:40.575
+So I don't know why there, she, she's not extended.
+
+40
+00:18:40.775 --> 00:18:42.615
+I mail her twice also.
+
+41
+00:18:42.615 --> 00:18:44.815
+She told I will extend, I will extend, but still not.
+
+42
+00:18:44.915 --> 00:18:46.735
+No, actually she said in one of the calls
+
+43
+00:18:46.765 --> 00:18:48.175
+that she'll do it in the last day.
+
+44
+00:18:49.035 --> 00:18:51.855
+Why to do that? Yeah. Is extended, dunno
+
+45
+00:18:51.855 --> 00:18:53.095
+The logic, but she said she'll do it.
+
+46
+00:18:53.095 --> 00:18:54.415
+Exactly. Exactly. So today also they
+
+47
+00:18:54.415 --> 00:18:56.255
+confirmed right that they'll do it. So it's okay.
+
+48
+00:18:56.605 --> 00:19:00.095
+Correct. See,
+
+49
+00:19:00.515 --> 00:19:01.815
+FUS is completely lost somewhere
+
+50
+00:19:04.575 --> 00:19:07.395
+And, and this UI issue, I'm still there.
+
+51
+00:19:08.305 --> 00:19:10.715
+Told me the morning that it's, uh, for her it is fault,
+
+52
+00:19:10.775 --> 00:19:11.795
+but I still see it.
+
+53
+00:19:11.795 --> 00:19:13.555
+Is there that, uh, UI issue, right?
+
+54
+00:19:13.575 --> 00:19:15.755
+In the outstanding dashboard?
+
+55
+00:19:15.945 --> 00:19:17.475
+Yeah. I the about it,
+
+56
+00:19:17.555 --> 00:19:19.435
+I think it's a system change. I just ignored
+
+57
+00:19:20.225 --> 00:19:21.225
+They are upgraded. The
+
+58
+00:19:21.225 --> 00:19:22.795
+system actually upgraded.
+
+59
+00:19:22.795 --> 00:19:24.435
+So all the live engine are showing up.
+
+60
+00:19:24.665 --> 00:19:26.435
+What you do if you don't want there to see
+
+61
+00:19:26.435 --> 00:19:28.315
+that click on each link, it'll go off.
+
+62
+00:19:28.425 --> 00:19:31.075
+Yeah. See, I think see for the next batch, right,
+
+63
+00:19:31.265 --> 00:19:33.675
+they are making it like they can do the, uh,
+
+64
+00:19:33.675 --> 00:19:35.835
+they can watch the video till the next day
+
+65
+00:19:35.975 --> 00:19:38.435
+and it will be still considered as like attended the class.
+
+66
+00:19:38.525 --> 00:19:39.595
+Right? Right. Correct. Correct.
+
+67
+00:19:39.655 --> 00:19:41.715
+So for that, they've done some system change,
+
+68
+00:19:41.775 --> 00:19:43.835
+so it becomes a set due for everyone
+
+69
+00:19:43.835 --> 00:19:45.035
+and then once you watch the video
+
+70
+00:19:45.035 --> 00:19:46.155
+it'll become like completed.
+
+71
+00:19:46.215 --> 00:19:48.595
+But I think our batch folks don't have worry about it.
+
+72
+00:19:49.415 --> 00:19:51.195
+No. Because of that, even we are not able
+
+73
+00:19:51.195 --> 00:19:53.275
+to download the P PPS also.
+
+74
+00:19:53.545 --> 00:19:56.515
+Yeah, yeah. Are you,
+
+75
+00:19:58.135 --> 00:20:01.595
+Are we submitting that reinforcement learning in notebook?
+
+76
+00:20:01.695 --> 00:20:03.195
+Uh, when submitting the assignment
+
+77
+00:20:04.175 --> 00:20:05.175
+Pdf? Yeah, you just need
+
+78
+00:20:05.175 --> 00:20:06.675
+to convert it to pdf DF pdf. Yeah.
+
+79
+00:20:06.675 --> 00:20:08.315
+Convert it into PDF DF and upload it.
+
+80
+00:20:08.945 --> 00:20:11.635
+Okay. Okay. The notebook into A PDF, right? Yes,
+
+81
+00:20:11.635 --> 00:20:12.235
+Yes, yes. Just
+
+82
+00:20:12.245 --> 00:20:13.475
+Click on print and that's
+
+83
+00:20:13.475 --> 00:20:16.795
+What, what can you probably can do is convert your, uh,
+
+84
+00:20:17.355 --> 00:20:19.475
+notebook into Latinx format and put it into
+
+85
+00:20:19.835 --> 00:20:22.195
+and download as pdf f That's the easiest way to do it.
+
+86
+00:20:22.695 --> 00:20:24.795
+Or we can do the print version. No,
+
+87
+00:20:24.795 --> 00:20:26.275
+Like yeah, you can do print but print,
+
+88
+00:20:26.375 --> 00:20:28.035
+the problem is you won't get it in proper
+
+89
+00:20:28.035 --> 00:20:29.195
+format. That's the only
+
+90
+00:20:29.195 --> 00:20:30.195
+Issue with the print.
+
+91
+00:20:30.545 --> 00:20:31.545
+Okay. Okay. Okay.
+
+92
+00:20:32.685 --> 00:20:35.885
+I think other than pdf f uh, it won't accept, uh, the doc.
+
+93
+00:20:36.145 --> 00:20:39.965
+Yes, yes, yes. No, they only accept accepted as a doc.
+
+94
+00:20:40.245 --> 00:20:42.765
+PDF, they're accepting images, they're accepting themselves.
+
+95
+00:20:42.785 --> 00:20:44.885
+So you all submit for, for AI lab,
+
+96
+00:20:44.885 --> 00:20:47.285
+you all submit I Python notebook only, right?
+
+97
+00:20:47.345 --> 00:20:50.125
+Yes, yes, yes. Okay. Okay. For AI lab is Python notebook.
+
+98
+00:20:50.235 --> 00:20:51.235
+Okay.
+
+99
+00:20:52.305 --> 00:20:55.205
+Now, if you've really done the code, well you want that
+
+100
+00:20:55.205 --> 00:20:56.245
+to be read properly.
+
+101
+00:20:56.245 --> 00:20:57.605
+Follow what Han said.
+
+102
+00:20:58.145 --> 00:21:02.605
+If you want not read it, well then just print it as P
+
+103
+00:21:04.425 --> 00:21:06.045
+So You decide what works well.
+
+104
+00:21:08.495 --> 00:21:10.355
+Hey, good afternoon. Oh my God. Then I did a mistake.
+
+105
+00:21:10.355 --> 00:21:15.035
+Is it doing Hello sir.
+
+106
+00:21:15.035 --> 00:21:17.115
+Good afternoon. Hi sir. Good afternoon sir.
+
+107
+00:21:17.185 --> 00:21:19.475
+Good afternoon, sir. Good afternoon. Good afternoon.
+
+108
+00:21:22.165 --> 00:21:25.425
+The 31 people have joined. Yes sir. Start.
+
+109
+00:21:27.925 --> 00:21:31.345
+Okay, so I don't check
+
+110
+00:21:31.485 --> 00:21:34.505
+who are the I joined.
+
+111
+00:21:36.455 --> 00:21:38.945
+Okay, so today's content is not going to be long.
+
+112
+00:21:39.335 --> 00:21:40.505
+I'll finish class early.
+
+113
+00:21:41.995 --> 00:21:44.615
+We are ending stage of that deep Q learning.
+
+114
+00:21:45.355 --> 00:21:47.695
+So only thing is that today I will revise it
+
+115
+00:21:48.285 --> 00:21:50.415
+what has happened because some next class on
+
+116
+00:21:50.415 --> 00:21:53.535
+what we'll be getting into policy gradient.
+
+117
+00:21:54.445 --> 00:21:59.085
+Okay, so today I'm not going
+
+118
+00:21:59.085 --> 00:22:02.085
+to teach you anything on uh, programming side.
+
+119
+00:22:03.935 --> 00:22:07.025
+Let me open the whiteboard. Okay.
+
+120
+00:22:10.115 --> 00:22:11.395
+I have not shared the screen, I think.
+
+121
+00:22:26.445 --> 00:22:30.855
+Okay. So
+
+122
+00:22:32.225 --> 00:22:35.235
+this is just a revision today class I will finishing up
+
+123
+00:22:35.235 --> 00:22:36.715
+about half an hour, not more than that.
+
+124
+00:22:38.065 --> 00:22:41.245
+So we have learned Q learning in the unit tool
+
+125
+00:22:41.245 --> 00:22:42.805
+that is basically called model three.
+
+126
+00:22:44.275 --> 00:22:45.935
+So under model three,
+
+127
+00:22:49.575 --> 00:22:53.225
+that means we don't have any knowledge about the transition
+
+128
+00:22:53.225 --> 00:22:54.425
+probability of the environment.
+
+129
+00:22:55.895 --> 00:22:59.225
+For that we have Q learning,
+
+130
+00:23:01.135 --> 00:23:03.835
+TD learning monte and all, everything on there.
+
+131
+00:23:03.855 --> 00:23:05.315
+But Q learning is a main focus.
+
+132
+00:23:05.535 --> 00:23:09.665
+So this Monte law, TD learning,
+
+133
+00:23:10.715 --> 00:23:15.255
+these two methods are basically value
+
+134
+00:23:16.225 --> 00:23:20.315
+based method.
+
+135
+00:23:22.345 --> 00:23:25.455
+Value based method means it'll help you to find out the
+
+136
+00:23:26.335 --> 00:23:29.455
+val utility value for remaining in a particular state.
+
+137
+00:23:30.135 --> 00:23:32.445
+It'll not give you directly the knowledge about
+
+138
+00:23:32.445 --> 00:23:35.045
+what is the optimal action that you want to take.
+
+139
+00:23:35.805 --> 00:23:37.505
+If you want to find out the optimal action,
+
+140
+00:23:37.505 --> 00:23:40.035
+that is called action value.
+
+141
+00:23:40.255 --> 00:23:42.155
+So this big is state value and
+
+142
+00:23:42.255 --> 00:23:45.305
+or Q function.
+
+143
+00:23:45.305 --> 00:23:46.625
+Basically state action.
+
+144
+00:23:47.255 --> 00:23:48.865
+This is the only method used for,
+
+145
+00:23:49.455 --> 00:23:53.125
+it's called action value function action
+
+146
+00:23:55.295 --> 00:23:58.795
+value function action
+
+147
+00:23:58.885 --> 00:24:00.935
+value method.
+
+148
+00:24:04.175 --> 00:24:05.675
+So under this method we have,
+
+149
+00:24:10.765 --> 00:24:15.635
+this is our equation for finding the new
+
+150
+00:24:16.745 --> 00:24:19.465
+Q value for the same state of ace.
+
+151
+00:24:19.485 --> 00:24:23.085
+And so let me,
+
+152
+00:24:26.875 --> 00:24:28.015
+let me give today's date.
+
+153
+00:24:28.015 --> 00:24:29.615
+What is today's date is 17th.
+
+154
+00:24:31.825 --> 00:24:34.155
+17th January 26th.
+
+155
+00:24:34.745 --> 00:24:39.575
+Okay, so we have Q new for the same state
+
+156
+00:24:39.575 --> 00:24:43.535
+of SK and AKA is the action
+
+157
+00:24:43.755 --> 00:24:47.225
+and the K state, this is the new estimate,
+
+158
+00:24:47.235 --> 00:24:51.715
+which is coming from the old estimate of Q, old
+
+159
+00:24:53.895 --> 00:24:58.775
+SK a k plus a learning rate
+
+160
+00:25:00.035 --> 00:25:04.185
+and you have a billman error that is basically
+
+161
+00:25:05.005 --> 00:25:06.745
+you take one single action.
+
+162
+00:25:06.885 --> 00:25:08.545
+So you're going to next date for that.
+
+163
+00:25:08.565 --> 00:25:09.665
+You have a reward here.
+
+164
+00:25:09.805 --> 00:25:14.635
+So just reward plus gamma is a discount factor multiplied by
+
+165
+00:25:16.595 --> 00:25:21.555
+your queue function
+
+166
+00:25:21.615 --> 00:25:22.635
+for the next state
+
+167
+00:25:24.815 --> 00:25:26.705
+because you have taken a transition.
+
+168
+00:25:26.705 --> 00:25:30.055
+So you're getting into next state escape plus one,
+
+169
+00:25:30.675 --> 00:25:33.335
+and under escape plus one, you have many
+
+170
+00:25:34.395 --> 00:25:35.655
+action possible here.
+
+171
+00:25:35.835 --> 00:25:36.935
+So I'm writing it here.
+
+172
+00:25:37.495 --> 00:25:41.575
+A dash, okay, you have many action possible here, a dash.
+
+173
+00:25:42.275 --> 00:25:44.615
+So out of all these action take the maximum.
+
+174
+00:25:45.975 --> 00:25:49.985
+So you are taking a maximum for all the A Ds.
+
+175
+00:25:50.375 --> 00:25:54.495
+Okay, this minus of your old estimate.
+
+176
+00:25:56.085 --> 00:25:59.875
+Your old estimate is this
+
+177
+00:26:00.995 --> 00:26:04.165
+SK comma a key.
+
+178
+00:26:06.285 --> 00:26:09.095
+Then this big bracket is closing over here.
+
+179
+00:26:09.095 --> 00:26:13.855
+This is basically third bracket I'm putting right now here.
+
+180
+00:26:13.855 --> 00:26:15.375
+Look at, I have not put new
+
+181
+00:26:15.375 --> 00:26:17.375
+or old anything here in this queue function.
+
+182
+00:26:19.295 --> 00:26:22.315
+So whenever we are updating the old estimate,
+
+183
+00:26:23.365 --> 00:26:25.145
+we are finding a billman error.
+
+184
+00:26:26.105 --> 00:26:28.915
+With that billman error we are updating the old estimate.
+
+185
+00:26:28.935 --> 00:26:31.235
+As a result, we're getting here a new estimate.
+
+186
+00:26:31.775 --> 00:26:35.235
+So here this Q function, this will be also a
+
+187
+00:26:36.275 --> 00:26:39.175
+old estimate that you are using fine.
+
+188
+00:26:39.755 --> 00:26:42.695
+So that is basically the traditional knowledge of uh,
+
+189
+00:26:43.485 --> 00:26:46.585
+Q learning if you want to solve this problem.
+
+190
+00:26:46.925 --> 00:26:48.505
+Uh, this Q learning using
+
+191
+00:26:49.535 --> 00:26:52.525
+deep neural network.
+
+192
+00:26:53.825 --> 00:26:56.115
+In that case we have
+
+193
+00:27:02.665 --> 00:27:04.125
+in that case what we do
+
+194
+00:27:08.615 --> 00:27:10.715
+in the last two classes, the three classes we have seen,
+
+195
+00:27:10.715 --> 00:27:13.435
+what we are doing, we taking the help of two neural network.
+
+196
+00:27:14.925 --> 00:27:19.345
+One, one neural network is called the policy neural network.
+
+197
+00:27:19.345 --> 00:27:20.665
+Another neural network is called
+
+198
+00:27:20.665 --> 00:27:23.045
+that target neural network, right?
+
+199
+00:27:24.145 --> 00:27:28.205
+So this uh, reward uh, plus of GA of this thing.
+
+200
+00:27:30.145 --> 00:27:32.675
+This part we are considering to be our target.
+
+201
+00:27:34.835 --> 00:27:37.965
+This is called target. This is called your old estimate.
+
+202
+00:27:38.105 --> 00:27:40.765
+So if you have any error from the target
+
+203
+00:27:42.415 --> 00:27:46.795
+to your current estimate, okay, that much tar uh,
+
+204
+00:27:47.085 --> 00:27:50.005
+difference is your uh, difference
+
+205
+00:27:50.005 --> 00:27:51.685
+between the target and the current estimate.
+
+206
+00:27:51.755 --> 00:27:52.925
+That is a quantity
+
+207
+00:27:53.185 --> 00:27:55.565
+by which you're adjusting your old estimate every time.
+
+208
+00:27:56.155 --> 00:28:00.085
+Okay? So we are going to take help of the neur network.
+
+209
+00:28:00.225 --> 00:28:03.165
+So in that case the we are going
+
+210
+00:28:03.165 --> 00:28:08.165
+to use a replay
+
+211
+00:28:13.145 --> 00:28:14.955
+What is a replay memory? It is basically
+
+212
+00:28:19.335 --> 00:28:23.975
+collection is a collection of
+
+213
+00:28:28.415 --> 00:28:32.495
+previous experience.
+
+214
+00:28:36.945 --> 00:28:41.845
+Okay, this previous
+
+215
+00:28:41.945 --> 00:28:43.765
+exp, what is the meaning of experience?
+
+216
+00:28:44.415 --> 00:28:47.625
+Experience contents. It is a topple.
+
+217
+00:28:48.055 --> 00:28:50.905
+That is a current state action.
+
+218
+00:28:54.115 --> 00:28:57.005
+Next date reward.
+
+219
+00:28:58.215 --> 00:29:01.645
+And whether the state is a terminal
+
+220
+00:29:02.985 --> 00:29:07.545
+or non terminal means you can keep alive in that state.
+
+221
+00:29:07.545 --> 00:29:08.785
+If you are ing a terminal state,
+
+222
+00:29:08.785 --> 00:29:10.505
+your game is already already start you distance.
+
+223
+00:29:10.565 --> 00:29:12.185
+So it is call a terminal state or not.
+
+224
+00:29:12.185 --> 00:29:16.025
+So the flag is basically done. The flag is done.
+
+225
+00:29:16.025 --> 00:29:17.745
+That means you are reaching a AL state.
+
+226
+00:29:17.885 --> 00:29:20.385
+So this is where basically your experience
+
+227
+00:29:20.445 --> 00:29:22.395
+tappel with this experience.
+
+228
+00:29:22.395 --> 00:29:26.635
+Tappel you are basically collecting
+
+229
+00:29:28.645 --> 00:29:31.225
+and then you are storing that to form a large amount
+
+230
+00:29:31.225 --> 00:29:34.025
+of memory like around thousand thousand.
+
+231
+00:29:34.025 --> 00:29:37.225
+Number of experience tappel storing out of them.
+
+232
+00:29:37.245 --> 00:29:40.545
+You are randomly collecting a batch sample.
+
+233
+00:29:40.595 --> 00:29:43.165
+Batch is basically consisting of like 32 example
+
+234
+00:29:43.385 --> 00:29:44.885
+or 64 example like that.
+
+235
+00:29:44.905 --> 00:29:47.045
+So you're collecting a batch out of this
+
+236
+00:29:47.825 --> 00:29:49.835
+from the total memory size is thousand.
+
+237
+00:29:50.385 --> 00:29:51.955
+That batch you are going to use
+
+238
+00:29:51.975 --> 00:29:54.545
+to train your policy network.
+
+239
+00:29:55.375 --> 00:29:57.865
+Okay, so down we are writing the steps
+
+240
+00:30:03.595 --> 00:30:04.605
+algorithmic manner.
+
+241
+00:30:04.945 --> 00:30:09.775
+So first is you initialize,
+
+242
+00:30:09.905 --> 00:30:10.535
+first step
+
+243
+00:30:15.975 --> 00:30:19.395
+initialize your policy,
+
+244
+00:30:23.025 --> 00:30:25.325
+neural network random initialize.
+
+245
+00:30:25.835 --> 00:30:29.565
+Okay? Second one is you copy
+
+246
+00:30:34.895 --> 00:30:36.795
+target neural network
+
+247
+00:30:41.535 --> 00:30:43.505
+from basically assigning the weight
+
+248
+00:30:43.505 --> 00:30:45.225
+of policy neural network to your target.
+
+249
+00:30:45.375 --> 00:30:47.625
+Okay? So basically is copy operation, copy
+
+250
+00:30:49.285 --> 00:30:51.135
+this from policy NN.
+
+251
+00:30:55.805 --> 00:31:00.045
+Third one is you
+
+252
+00:31:00.555 --> 00:31:05.275
+take a random action from
+
+253
+00:31:05.895 --> 00:31:07.235
+Sal beauty strategy method.
+
+254
+00:31:07.475 --> 00:31:10.915
+SAL method, you already know you just do a coin tossing.
+
+255
+00:31:10.915 --> 00:31:14.235
+With the coin tossing result is producing a higher value.
+
+256
+00:31:15.095 --> 00:31:19.075
+Uh, basically you have a sal value if is set to be one.
+
+257
+00:31:20.085 --> 00:31:21.535
+Then you generate a random number.
+
+258
+00:31:21.595 --> 00:31:25.855
+The random number of hello is bigger than the sal.
+
+259
+00:31:25.965 --> 00:31:27.095
+Then you go ahead
+
+260
+00:31:27.555 --> 00:31:30.335
+to train from your previously trained neural network.
+
+261
+00:31:30.845 --> 00:31:34.175
+Otherwise you go ahead and do your random action.
+
+262
+00:31:34.235 --> 00:31:37.135
+So it is basically your select action using,
+
+263
+00:31:38.675 --> 00:31:39.615
+so select
+
+264
+00:31:43.895 --> 00:31:44.315
+action
+
+265
+00:31:47.145 --> 00:31:52.145
+using if silent grid.
+
+266
+00:31:52.415 --> 00:31:57.195
+I'm writing if silent grid strategy.
+
+267
+00:31:57.415 --> 00:31:59.155
+So this will help you to find out
+
+268
+00:31:59.865 --> 00:32:02.595
+whether you are doing a random action
+
+269
+00:32:02.855 --> 00:32:06.545
+or you are exploiting the previous action.
+
+270
+00:32:06.605 --> 00:32:09.145
+So from here you are setting a action A,
+
+271
+00:32:10.035 --> 00:32:11.725
+this is the action A that you are setting.
+
+272
+00:32:12.355 --> 00:32:14.085
+This will be doing it inside a loop, okay?
+
+273
+00:32:14.085 --> 00:32:15.725
+It is 3, 4, 5 step, all this thing.
+
+274
+00:32:15.745 --> 00:32:18.405
+So we'll write a loop over here later after that.
+
+275
+00:32:21.225 --> 00:32:24.445
+So whenever we write a loop, basically we have
+
+276
+00:32:28.615 --> 00:32:29.715
+number of episode.
+
+277
+00:32:29.895 --> 00:32:30.915
+So there is a two loop.
+
+278
+00:32:30.975 --> 00:32:32.275
+One is a outer loop for number
+
+279
+00:32:32.275 --> 00:32:36.115
+of episode under each episode, you then I it over
+
+280
+00:32:36.855 --> 00:32:41.135
+all possible states until you hit the terminal state.
+
+281
+00:32:41.765 --> 00:32:43.855
+Okay? So we have to write here two loops.
+
+282
+00:32:44.475 --> 00:32:45.095
+One is the
+
+283
+00:32:47.385 --> 00:32:51.305
+four, it is hash.
+
+284
+00:32:52.215 --> 00:32:53.305
+Hash means number of
+
+285
+00:32:53.495 --> 00:32:58.085
+episode, okay?
+
+286
+00:32:59.115 --> 00:33:01.215
+You take action and then
+
+287
+00:33:04.065 --> 00:33:08.035
+You Now this fall loop is
+
+288
+00:33:15.825 --> 00:33:18.935
+Uh, not hitting.
+
+289
+00:33:21.225 --> 00:33:23.925
+I mean the condition for not hitting
+
+290
+00:33:24.665 --> 00:33:27.565
+the hash will not be there not hitting down state.
+
+291
+00:33:28.185 --> 00:33:32.795
+As long as you are inside a non terminal state.
+
+292
+00:33:32.815 --> 00:33:35.545
+You keep on doing this, okay?
+
+293
+00:33:37.395 --> 00:33:38.735
+For not hitting the dance date.
+
+294
+00:33:39.245 --> 00:33:41.295
+What you do after you've taken the action,
+
+295
+00:33:41.445 --> 00:33:45.095
+then you'll collect this experience double that is state
+
+296
+00:33:45.675 --> 00:33:50.375
+action, next date reward and the dance date.
+
+297
+00:33:51.285 --> 00:33:55.235
+This thing you keep
+
+298
+00:33:55.375 --> 00:33:58.315
+on appending.
+
+299
+00:33:58.535 --> 00:34:00.715
+So I'm not in plus, plus plus means this
+
+300
+00:34:00.715 --> 00:34:01.755
+simply keep on appending.
+
+301
+00:34:01.945 --> 00:34:04.995
+This is called memory. You keep on appending, okay?
+
+302
+00:34:06.355 --> 00:34:09.095
+And after the memory is quite high,
+
+303
+00:34:09.245 --> 00:34:11.455
+then only you can take a sample from here.
+
+304
+00:34:11.555 --> 00:34:14.255
+So then you go ahead and face random sample.
+
+305
+00:34:14.875 --> 00:34:18.935
+So for that you have to run it within a fall loop
+
+306
+00:34:18.955 --> 00:34:20.615
+of batch size.
+
+307
+00:34:24.395 --> 00:34:25.575
+Inside this batch size.
+
+308
+00:34:25.675 --> 00:34:28.895
+Now we are going to train your policy network
+
+309
+00:34:29.195 --> 00:34:29.415
+or
+
+310
+00:34:33.965 --> 00:34:36.575
+when you're taking the batch size from there onward,
+
+311
+00:34:37.115 --> 00:34:40.855
+you are going to do this Q function update.
+
+312
+00:34:41.245 --> 00:34:42.495
+Basically q functional.
+
+313
+00:34:42.495 --> 00:34:46.905
+Basically you are learning over Q4 policy network.
+
+314
+00:34:52.415 --> 00:34:53.865
+This policy network will be trained
+
+315
+00:34:53.925 --> 00:34:55.545
+as per the billman update rule of
+
+316
+00:34:55.545 --> 00:34:56.945
+that I have shown you last time.
+
+317
+00:34:56.975 --> 00:35:00.545
+Okay? So you are taking the sample batch size sample,
+
+318
+00:35:00.725 --> 00:35:02.385
+use them to train your policy network.
+
+319
+00:35:02.685 --> 00:35:05.185
+And that network update rule is given over here
+
+320
+00:35:07.005 --> 00:35:08.265
+is the network update rule.
+
+321
+00:35:08.495 --> 00:35:11.595
+Okay? Once the sufficient number of,
+
+322
+00:35:16.405 --> 00:35:18.945
+so batch size still is done if,
+
+323
+00:35:24.285 --> 00:35:24.505
+if
+
+324
+00:35:30.545 --> 00:35:31.305
+positive reward
+
+325
+00:35:36.325 --> 00:35:36.485
+obtained.
+
+326
+00:35:39.335 --> 00:35:41.795
+If you have not got the positive reward, basically
+
+327
+00:35:41.825 --> 00:35:42.955
+that means you have not got
+
+328
+00:35:42.955 --> 00:35:45.275
+to the last stage, I mean last date.
+
+329
+00:35:45.765 --> 00:35:48.375
+Because for intermediate state transition,
+
+330
+00:35:48.375 --> 00:35:49.415
+we don't receive any reward.
+
+331
+00:35:49.415 --> 00:35:52.495
+Most of the cases, yes, positive reward obtained
+
+332
+00:35:52.955 --> 00:35:57.625
+or suppose you have already receive positive reward multiple
+
+333
+00:35:57.625 --> 00:36:01.205
+times or there is a counter
+
+334
+00:36:01.515 --> 00:36:06.315
+that is called count is greater
+
+335
+00:36:06.385 --> 00:36:08.475
+than let's say the fixed value to be a hundred.
+
+336
+00:36:08.585 --> 00:36:10.995
+That means a hundred times you have gone over
+
+337
+00:36:11.265 --> 00:36:12.315
+this whole thing.
+
+338
+00:36:13.135 --> 00:36:16.235
+In that case, you can now take a call off
+
+339
+00:36:17.465 --> 00:36:18.995
+setting the target
+
+340
+00:36:23.075 --> 00:36:26.595
+neural network weight to be assigned from
+
+341
+00:36:28.465 --> 00:36:31.045
+policy neural network weight.
+
+342
+00:36:31.515 --> 00:36:35.645
+Okay? After that, this loop will go on her,
+
+343
+00:36:37.315 --> 00:36:40.255
+this loop will go on her for your
+
+344
+00:36:43.215 --> 00:36:45.155
+number of episode here, okay?
+
+345
+00:36:45.785 --> 00:36:47.435
+This is the looping mechanism.
+
+346
+00:36:49.195 --> 00:36:51.175
+Now where is the target network and policy network?
+
+347
+00:36:51.325 --> 00:36:55.035
+Basically your target network is
+
+348
+00:36:55.035 --> 00:36:56.915
+basically this part.
+
+349
+00:36:58.115 --> 00:36:59.485
+This part is a target network.
+
+350
+00:37:00.585 --> 00:37:04.205
+So what we're doing is basically we have two different ways
+
+351
+00:37:04.205 --> 00:37:06.765
+of neural network first weight.
+
+352
+00:37:07.225 --> 00:37:10.565
+So when we're, uh, let me write that in there.
+
+353
+00:37:11.185 --> 00:37:14.635
+So this is the looping part is over the logical parties.
+
+354
+00:37:14.745 --> 00:37:17.355
+This is over now, okay, this part is over end.
+
+355
+00:37:18.355 --> 00:37:20.345
+These two loops, two times the, what is the number
+
+356
+00:37:20.365 --> 00:37:21.865
+of state condition.
+
+357
+00:37:22.205 --> 00:37:23.705
+And here the number episode is over.
+
+358
+00:37:23.765 --> 00:37:26.825
+The problem is will be ending here. Okay?
+
+359
+00:37:27.605 --> 00:37:29.985
+So what I'm now trying to say is the difference
+
+360
+00:37:29.985 --> 00:37:31.825
+between target and policy development
+
+361
+00:37:33.665 --> 00:37:35.405
+for every gradient decent learning.
+
+362
+00:37:35.505 --> 00:37:37.605
+So we, we come up with a error function.
+
+363
+00:37:38.475 --> 00:37:40.105
+Error function is basically your
+
+364
+00:37:42.775 --> 00:37:47.595
+YI minus of your Y hat.
+
+365
+00:37:48.885 --> 00:37:53.785
+This is what we do for every time I to one,
+
+366
+00:37:53.965 --> 00:37:58.385
+two, any number of samples you have, you have already you,
+
+367
+00:37:58.525 --> 00:38:00.945
+you have been already provided with the output value.
+
+368
+00:38:01.125 --> 00:38:04.465
+For every sample I sample, you are going
+
+369
+00:38:04.465 --> 00:38:06.225
+to find out some kind of neural network
+
+370
+00:38:06.365 --> 00:38:08.585
+for which you are having a prediction of the Y
+
+371
+00:38:08.815 --> 00:38:09.905
+that is called yha.
+
+372
+00:38:10.555 --> 00:38:12.255
+So this prediction and the real value
+
+373
+00:38:12.275 --> 00:38:15.815
+to be minimized over a training period.
+
+374
+00:38:16.035 --> 00:38:20.355
+So this is the, this is called means square error
+
+375
+00:38:21.055 --> 00:38:24.355
+in our case of q learning the means square error is
+
+376
+00:38:24.355 --> 00:38:26.035
+basically this will be
+
+377
+00:38:28.965 --> 00:38:30.295
+what is your Y hat?
+
+378
+00:38:33.035 --> 00:38:36.125
+This is basically era term term. What is the error term?
+
+379
+00:38:39.805 --> 00:38:41.855
+What is the error term in our q learning
+
+380
+00:38:44.145 --> 00:38:46.165
+output versus, uh, expected.
+
+381
+00:38:46.505 --> 00:38:50.645
+So that bracket, yes you are right, that bracket part,
+
+382
+00:38:51.065 --> 00:38:52.325
+the bracket part alone.
+
+383
+00:38:53.175 --> 00:38:57.745
+In the bracket part what we have reward plus gamma
+
+384
+00:38:58.845 --> 00:39:00.125
+multiplied by max
+
+385
+00:39:02.235 --> 00:39:04.085
+for action.
+
+386
+00:39:05.345 --> 00:39:09.405
+QSA dash,
+
+387
+00:39:10.665 --> 00:39:11.675
+this is gamma, okay?
+
+388
+00:39:11.675 --> 00:39:15.975
+This is gamma, this is reward, this
+
+389
+00:39:16.745 --> 00:39:17.615
+minus of
+
+390
+00:39:19.305 --> 00:39:21.885
+QSA.
+
+391
+00:39:22.315 --> 00:39:25.365
+This QSA is our objective to learn, okay?
+
+392
+00:39:26.595 --> 00:39:28.725
+This take whole square
+
+393
+00:39:29.985 --> 00:39:34.365
+and this submission is taken over for all possible A
+
+394
+00:39:34.505 --> 00:39:35.725
+and a.
+
+395
+00:39:36.105 --> 00:39:38.605
+So this submission instead of one sample,
+
+396
+00:39:38.945 --> 00:39:41.365
+one sample here in this case of reinforcement learning is
+
+397
+00:39:42.395 --> 00:39:46.535
+for each state you are going to take a number of, uh, number
+
+398
+00:39:46.555 --> 00:39:48.415
+of action that is out of four action,
+
+399
+00:39:48.415 --> 00:39:49.455
+which action are taking.
+
+400
+00:39:50.345 --> 00:39:53.175
+Every time you take a change of your state, you are going
+
+401
+00:39:53.175 --> 00:39:55.375
+to take any action outta four action.
+
+402
+00:39:55.395 --> 00:39:57.455
+So this sum is going to happen overall action
+
+403
+00:39:57.615 --> 00:39:58.895
+and all state, okay?
+
+404
+00:39:59.835 --> 00:40:03.415
+In short, we are writing, this is the expectation over a
+
+405
+00:40:05.065 --> 00:40:09.825
+a and in the next state that you're arriving, this one, uh,
+
+406
+00:40:09.965 --> 00:40:12.105
+is basically a dash, okay?
+
+407
+00:40:12.245 --> 00:40:14.185
+The next state is a dash.
+
+408
+00:40:16.225 --> 00:40:18.645
+So out of all these three variable, the expectation,
+
+409
+00:40:18.645 --> 00:40:22.805
+expectation means this submission, okay?
+
+410
+00:40:24.135 --> 00:40:25.625
+This is going to happening over four.
+
+411
+00:40:25.725 --> 00:40:29.035
+The three, three submission, some of state, some
+
+412
+00:40:29.035 --> 00:40:30.595
+of action, some of next state.
+
+413
+00:40:31.345 --> 00:40:33.795
+It's quite complicated thing for you.
+
+414
+00:40:33.795 --> 00:40:35.795
+It is not going to be easy to understand.
+
+415
+00:40:36.615 --> 00:40:39.965
+So for every error case,
+
+416
+00:40:41.895 --> 00:40:45.395
+so our error function, we write it as a J function.
+
+417
+00:40:45.715 --> 00:40:48.555
+J is basically parameter of a A
+
+418
+00:40:49.215 --> 00:40:51.635
+is dash, okay?
+
+419
+00:40:52.055 --> 00:40:54.555
+And if you consider this reward is also a variable, in
+
+420
+00:40:54.555 --> 00:40:58.195
+that case, this will become a function of four variable.
+
+421
+00:40:58.695 --> 00:41:01.315
+I'm not writing that. Reward is a variable.
+
+422
+00:41:01.455 --> 00:41:03.555
+We are considering reward is a constant, okay?
+
+423
+00:41:03.555 --> 00:41:05.715
+There are, there is a, um,
+
+424
+00:41:06.775 --> 00:41:09.115
+method in which reinforc learning is called
+
+425
+00:41:10.395 --> 00:41:11.955
+variable reward reinforcement learning.
+
+426
+00:41:12.155 --> 00:41:16.715
+VRRL. So this is basically expectation
+
+427
+00:41:16.905 --> 00:41:20.715
+over is A is dash
+
+428
+00:41:20.975 --> 00:41:25.755
+for this whole term reward plus gamma multiplied by this
+
+429
+00:41:28.425 --> 00:41:33.025
+E dash U is dash a dash
+
+430
+00:41:33.695 --> 00:41:37.245
+minus of QS comma A.
+
+431
+00:41:37.635 --> 00:41:42.115
+This whole square for every uh,
+
+432
+00:41:42.295 --> 00:41:44.755
+neural network, we are updating our weight
+
+433
+00:41:46.275 --> 00:41:48.135
+by the previous weight, right?
+
+434
+00:41:48.205 --> 00:41:50.495
+This is basically your weight of the neural network
+
+435
+00:41:50.715 --> 00:41:52.215
+and the iation T plus one.
+
+436
+00:41:52.685 --> 00:41:56.575
+This is the weight of the neuro T, this minus of
+
+437
+00:41:57.935 --> 00:42:01.255
+derivative with respect to theta for this J function.
+
+438
+00:42:01.565 --> 00:42:05.295
+Okay? So this thing, you want to take a derivative, it means
+
+439
+00:42:05.295 --> 00:42:09.335
+that it'll become this minus, this derivative is going
+
+440
+00:42:09.335 --> 00:42:10.695
+to be for this.
+
+441
+00:42:10.845 --> 00:42:14.695
+Look at this, uh, the
+
+442
+00:42:15.225 --> 00:42:17.815
+queue function is parameterized as a neural network.
+
+443
+00:42:18.035 --> 00:42:20.955
+Now. So this neural network has always set
+
+444
+00:42:20.955 --> 00:42:22.675
+of weight called denoted by theta.
+
+445
+00:42:23.135 --> 00:42:25.755
+So you have to take a derivative with respect to here
+
+446
+00:42:26.685 --> 00:42:28.835
+delta q delta theta will come again here,
+
+447
+00:42:28.835 --> 00:42:30.275
+delta q delta theta will come.
+
+448
+00:42:30.975 --> 00:42:34.115
+In that case, it is going to be a indeterminate problem
+
+449
+00:42:35.015 --> 00:42:38.805
+to avoid that in case of um,
+
+450
+00:42:39.845 --> 00:42:41.155
+usage of neural network.
+
+451
+00:42:41.215 --> 00:42:43.395
+Neural network is a supervised learning technique.
+
+452
+00:42:43.395 --> 00:42:46.795
+Most of the cases, in that case, we assume that the Y
+
+453
+00:42:47.325 --> 00:42:48.475
+value is a constant
+
+454
+00:42:48.575 --> 00:42:51.875
+and why that is the output of a neural network
+
+455
+00:42:51.905 --> 00:42:52.915
+that you're predicting.
+
+456
+00:42:52.975 --> 00:42:55.835
+So we have to think that this is a constant so that only
+
+457
+00:42:56.815 --> 00:42:58.075
+if we take this constant,
+
+458
+00:42:58.075 --> 00:43:00.915
+then only we can apply this gradient faster derivative.
+
+459
+00:43:01.375 --> 00:43:04.955
+To make this constant. We keep this as a target.
+
+460
+00:43:07.045 --> 00:43:11.355
+NN. This network is
+
+461
+00:43:11.395 --> 00:43:12.555
+called a target and N.
+
+462
+00:43:13.255 --> 00:43:14.395
+So then onward
+
+463
+00:43:15.475 --> 00:43:18.545
+to make the engineering possible.
+
+464
+00:43:19.045 --> 00:43:22.265
+Mathematically, whatever we are doing is a
+
+465
+00:43:22.265 --> 00:43:23.425
+approximation, okay?
+
+466
+00:43:24.205 --> 00:43:25.705
+So we concept this a target network.
+
+467
+00:43:25.765 --> 00:43:29.865
+So for that case, so this is an impossible thing
+
+468
+00:43:29.865 --> 00:43:31.265
+to do by mathematics.
+
+469
+00:43:31.735 --> 00:43:33.585
+This part is an impossible thing.
+
+470
+00:43:33.645 --> 00:43:37.605
+So engineering approximation is think
+
+471
+00:43:37.605 --> 00:43:38.685
+that this is a constant.
+
+472
+00:43:39.585 --> 00:43:40.965
+So then this will become,
+
+473
+00:43:41.315 --> 00:43:44.245
+this derivative will become this part.
+
+474
+00:43:44.355 --> 00:43:47.875
+This derivative will become one time of this
+
+475
+00:43:51.455 --> 00:43:53.705
+word plus gamal multipli
+
+476
+00:43:54.825 --> 00:43:56.665
+maximization over a dash.
+
+477
+00:43:58.045 --> 00:44:02.275
+This this thing,
+
+478
+00:44:02.935 --> 00:44:06.085
+we write this as this network
+
+479
+00:44:07.665 --> 00:44:12.075
+is a network denoted by the weight of five.
+
+480
+00:44:12.705 --> 00:44:17.375
+Okay? Then this is separate
+
+481
+00:44:17.465 --> 00:44:22.175
+email network minus QW.
+
+482
+00:44:22.725 --> 00:44:25.135
+This is separate. This is called policy network.
+
+483
+00:44:28.635 --> 00:44:31.085
+This is called policy network. Okay?
+
+484
+00:44:32.555 --> 00:44:37.205
+This QWSA, this is one time then
+
+485
+00:44:39.155 --> 00:44:41.925
+derivative of with respect to W
+
+486
+00:44:41.925 --> 00:44:43.685
+because this we are thinking to a constant.
+
+487
+00:44:43.715 --> 00:44:48.105
+This of QWSA.
+
+488
+00:44:48.285 --> 00:44:51.105
+So this will boil down, this part will boil down
+
+489
+00:44:51.105 --> 00:44:55.185
+to this much and for the approximation, we are getting lead
+
+490
+00:44:55.185 --> 00:44:56.585
+of this expectation operated.
+
+491
+00:44:56.585 --> 00:44:58.585
+Expectation means we have to take summation
+
+492
+00:44:58.605 --> 00:44:59.865
+for this, this, this.
+
+493
+00:45:00.875 --> 00:45:02.245
+That is not going to be possible
+
+494
+00:45:02.245 --> 00:45:05.485
+because we don't have all possible knowledge of next date.
+
+495
+00:45:06.785 --> 00:45:10.035
+Okay? So what we are doing, we're taking only one action,
+
+496
+00:45:10.335 --> 00:45:11.475
+random one action.
+
+497
+00:45:12.135 --> 00:45:14.275
+We are getting into a any possible next
+
+498
+00:45:14.275 --> 00:45:15.355
+state from the next state.
+
+499
+00:45:15.355 --> 00:45:17.715
+We're assuming that that next state will have a better
+
+500
+00:45:17.715 --> 00:45:18.795
+knowledge about the world.
+
+501
+00:45:19.575 --> 00:45:22.875
+So we're taking one example, only one sample.
+
+502
+00:45:22.925 --> 00:45:24.195
+We're not taking multiple sample.
+
+503
+00:45:24.695 --> 00:45:27.755
+The moment we apply expectation of we need to have
+
+504
+00:45:28.515 --> 00:45:30.435
+multiple samples availability, that is not available.
+
+505
+00:45:30.575 --> 00:45:32.835
+So we are letting this go off.
+
+506
+00:45:34.835 --> 00:45:38.895
+As a result, this is not a equal. This is somewhat near.
+
+507
+00:45:39.155 --> 00:45:40.895
+So it is a approximation operator.
+
+508
+00:45:41.565 --> 00:45:42.775
+This we're taking one time,
+
+509
+00:45:43.115 --> 00:45:44.775
+we don't have any expectation operated here.
+
+510
+00:45:44.925 --> 00:45:49.115
+Okay? So now this weight
+
+511
+00:45:50.455 --> 00:45:52.075
+is happening for this setting.
+
+512
+00:45:52.255 --> 00:45:55.715
+Now this WT plus one
+
+513
+00:45:56.785 --> 00:46:01.285
+is the weight and the at t plus one will be updated by
+
+514
+00:46:01.985 --> 00:46:03.285
+is any erase arrow here.
+
+515
+00:46:03.745 --> 00:46:07.205
+So this symbol I'm just writing,
+
+516
+00:46:07.985 --> 00:46:09.165
+let me write it separately.
+
+517
+00:46:09.835 --> 00:46:11.725
+That is the approxi
+
+518
+00:46:17.835 --> 00:46:22.375
+WT plus one is set out from
+
+519
+00:46:23.705 --> 00:46:27.125
+the eighth time weight
+
+520
+00:46:28.515 --> 00:46:31.645
+minus of this thing
+
+521
+00:46:32.505 --> 00:46:36.055
+is basically this part.
+
+522
+00:46:36.245 --> 00:46:37.535
+Okay? So here you have
+
+523
+00:46:39.015 --> 00:46:42.075
+reward plus gamma maximization over
+
+524
+00:46:42.875 --> 00:46:45.025
+a dash Q five.
+
+525
+00:46:47.175 --> 00:46:51.575
+Considering this target is separating this a dash minus
+
+526
+00:46:52.765 --> 00:46:57.755
+QWS one A multiplied by
+
+527
+00:46:58.315 --> 00:47:01.635
+derivative for that policy network.
+
+528
+00:47:02.545 --> 00:47:05.085
+So we are updating only policy network weight, okay?
+
+529
+00:47:05.815 --> 00:47:09.925
+After a sufficient amount of update is over, then we go back
+
+530
+00:47:09.945 --> 00:47:11.125
+to this step.
+
+531
+00:47:14.265 --> 00:47:16.495
+After a sufficient amount of update is over,
+
+532
+00:47:16.495 --> 00:47:18.255
+then we look at this condition,
+
+533
+00:47:18.255 --> 00:47:20.135
+whether we have encountered positive reward
+
+534
+00:47:20.135 --> 00:47:21.415
+or count has number
+
+535
+00:47:21.415 --> 00:47:23.135
+of time update has gone more than a hundred.
+
+536
+00:47:23.205 --> 00:47:25.055
+Then we apply this technique.
+
+537
+00:47:25.055 --> 00:47:28.175
+Target network weight will be copied from the weight
+
+538
+00:47:28.175 --> 00:47:29.605
+of the policy network.
+
+539
+00:47:30.065 --> 00:47:33.915
+So after that, this will go
+
+540
+00:47:33.975 --> 00:47:35.985
+on inside.
+
+541
+00:47:36.125 --> 00:47:36.865
+Day four
+
+542
+00:47:38.115 --> 00:47:42.245
+count is less than a hundred.
+
+543
+00:47:43.275 --> 00:47:45.295
+You can change this power to one 50 to 100.
+
+544
+00:47:45.495 --> 00:47:46.815
+Anything that is some expert in
+
+545
+00:47:46.815 --> 00:47:50.975
+after that is over, then you make this Q five,
+
+546
+00:47:53.145 --> 00:47:57.695
+it'll be set from QFW, right?
+
+547
+00:47:58.955 --> 00:48:03.065
+Then you go back to the loop again, get a new sample.
+
+548
+00:48:03.965 --> 00:48:06.345
+Get a new sample by using excelon grad strategy.
+
+549
+00:48:07.015 --> 00:48:09.505
+That sample will help you to formulate again,
+
+550
+00:48:09.545 --> 00:48:13.665
+a deploy memory multiple time you do that state action,
+
+551
+00:48:13.665 --> 00:48:14.785
+state action reward thing.
+
+552
+00:48:15.595 --> 00:48:18.065
+After that, all those memo replay memory
+
+553
+00:48:18.065 --> 00:48:20.905
+that you have made out from there, take a batch of 32,
+
+554
+00:48:21.565 --> 00:48:25.345
+you train your, uh, target you
+
+555
+00:48:25.345 --> 00:48:27.595
+to train your policy network, okay?
+
+556
+00:48:28.335 --> 00:48:31.365
+And after a sufficient amount is standing lower.
+
+557
+00:48:33.285 --> 00:48:35.305
+So when you are doing sufficient amount
+
+558
+00:48:35.305 --> 00:48:36.905
+of training for a W, right?
+
+559
+00:48:36.965 --> 00:48:40.265
+You have to make use of Q five function, Q five function
+
+560
+00:48:41.045 --> 00:48:42.785
+for the isde and a desk.
+
+561
+00:48:43.485 --> 00:48:46.105
+So this Q five function is having the old weight
+
+562
+00:48:46.105 --> 00:48:47.225
+coming from the QW.
+
+563
+00:48:48.405 --> 00:48:52.015
+So this will return the q hello function for the state
+
+564
+00:48:52.015 --> 00:48:54.955
+of isde and a DS pair.
+
+565
+00:48:55.815 --> 00:48:59.755
+All those old hell will be used here to take a difference
+
+566
+00:48:59.755 --> 00:49:00.995
+with the current value
+
+567
+00:49:00.995 --> 00:49:02.835
+that are getting from the policy network.
+
+568
+00:49:03.575 --> 00:49:07.955
+So in other way, this stores here past experience,
+
+569
+00:49:08.025 --> 00:49:10.555
+this Q five stores your past experience,
+
+570
+00:49:12.335 --> 00:49:15.635
+it may be higher than the uh, new help that you're getting.
+
+571
+00:49:15.655 --> 00:49:17.235
+It may be lower than the new helu.
+
+572
+00:49:17.255 --> 00:49:19.035
+So you'll have a lot of
+
+573
+00:49:20.275 --> 00:49:24.725
+jump unlike you have seen in case of your, uh, model based
+
+574
+00:49:24.855 --> 00:49:28.125
+where your health function is keep on rising in this cases
+
+575
+00:49:28.225 --> 00:49:31.125
+and all, it'll be up and down, up and down like that.
+
+576
+00:49:36.875 --> 00:49:38.685
+Okay? So that's all I had
+
+577
+00:49:39.345 --> 00:49:42.725
+to complete this Q part Q learning part, deep Q learning.
+
+578
+00:49:43.965 --> 00:49:46.735
+If you have any question, you can ask me.
+
+579
+00:49:49.905 --> 00:49:52.955
+Excuse me, sir. Sir, uh,
+
+580
+00:49:53.775 --> 00:49:55.195
+can you go a little bit upward?
+
+581
+00:50:01.565 --> 00:50:06.265
+So one, no sir, this the target neural network, right?
+
+582
+00:50:06.525 --> 00:50:09.865
+Target, uh,
+
+583
+00:50:10.605 --> 00:50:12.105
+policy is changing, right?
+
+584
+00:50:12.685 --> 00:50:17.185
+So how can we, uh, change the policy with respect to target?
+
+585
+00:50:17.525 --> 00:50:21.505
+The Y is accurate one, right? Accurate output, right?
+
+586
+00:50:21.505 --> 00:50:24.465
+Mm-hmm. Mm-hmm. So if that is the case, then uh,
+
+587
+00:50:24.485 --> 00:50:26.065
+it should be fixed, right?
+
+588
+00:50:26.065 --> 00:50:28.205
+Then if it is policy, then it keeps on wearing
+
+589
+00:50:29.075 --> 00:50:32.485
+that part is a little bit difficult to convince.
+
+590
+00:50:33.145 --> 00:50:36.365
+Mm-hmm. Yeah, your question is very valid Question
+
+591
+00:50:37.505 --> 00:50:39.605
+as I told of reinforcement learning.
+
+592
+00:50:40.725 --> 00:50:42.645
+Reinforcement learning is not a supervised learning.
+
+593
+00:50:43.425 --> 00:50:47.525
+It does not assume that availability of the data
+
+594
+00:50:47.945 --> 00:50:49.845
+or level data, forget about level data.
+
+595
+00:50:49.985 --> 00:50:52.605
+It does not assume that the data is available to you.
+
+596
+00:50:53.305 --> 00:50:56.845
+It goes and explore the world to collect data, okay?
+
+597
+00:50:56.845 --> 00:50:59.005
+So the gathering of data, making dataset,
+
+598
+00:50:59.385 --> 00:51:01.365
+all those things can be done by the enforcement learning.
+
+599
+00:51:02.075 --> 00:51:07.045
+Just like a, uh, when a child is trying
+
+600
+00:51:07.065 --> 00:51:11.245
+to learn how to walk, he does not go
+
+601
+00:51:11.245 --> 00:51:13.365
+and make the walk attempt in the beginning,
+
+602
+00:51:14.025 --> 00:51:16.835
+the child will first crawl, even
+
+603
+00:51:16.835 --> 00:51:20.835
+before crawling child will first try to grab a object
+
+604
+00:51:21.095 --> 00:51:23.635
+by his own hand and he will try
+
+605
+00:51:23.635 --> 00:51:25.875
+to grab the object fully in his hand.
+
+606
+00:51:25.875 --> 00:51:30.195
+When he can grab it, he gets a good feeling among himself.
+
+607
+00:51:31.555 --> 00:51:36.235
+Okay? So like this, YI as in case of,
+
+608
+00:51:36.935 --> 00:51:38.995
+in case of your supervised learning,
+
+609
+00:51:39.355 --> 00:51:40.715
+YI is already given to you.
+
+610
+00:51:41.295 --> 00:51:43.355
+It is already given to you, okay?
+
+611
+00:51:44.905 --> 00:51:46.565
+In our case, Audi enforcement learning
+
+612
+00:51:46.965 --> 00:51:48.205
+YI is not given to you.
+
+613
+00:51:48.825 --> 00:51:53.085
+So what we do to make this Grady, to make this derivative
+
+614
+00:51:53.085 --> 00:51:56.285
+to happen, we need to make this part to be a fixed part,
+
+615
+00:51:57.305 --> 00:51:58.305
+Okay? That is
+
+616
+00:51:58.305 --> 00:52:00.835
+a compulsion for the mathematical derivation.
+
+617
+00:52:00.985 --> 00:52:02.195
+That compulsion is not
+
+618
+00:52:02.195 --> 00:52:05.915
+because your dataset is a fixed, in case of deep learning,
+
+619
+00:52:06.025 --> 00:52:07.315
+your data set is fixed.
+
+620
+00:52:07.855 --> 00:52:10.635
+You are trying to learn the pattern involving the
+
+621
+00:52:10.665 --> 00:52:12.445
+dataset, okay?
+
+622
+00:52:12.515 --> 00:52:15.285
+Okay. Here in this case, data set is not fixed.
+
+623
+00:52:15.905 --> 00:52:18.165
+So what we do is we try to take help
+
+624
+00:52:18.185 --> 00:52:19.525
+of our previous experience.
+
+625
+00:52:20.405 --> 00:52:23.065
+So just like that, you are learning a new thing.
+
+626
+00:52:23.115 --> 00:52:26.945
+Let's say after 10th, you are getting into 11th
+
+627
+00:52:27.045 --> 00:52:29.665
+and you are going to learn calculus quite a new thing.
+
+628
+00:52:30.695 --> 00:52:32.075
+At that point of time, what do you do?
+
+629
+00:52:32.095 --> 00:52:34.835
+You go and take a lot of trial on your own.
+
+630
+00:52:34.885 --> 00:52:37.155
+After you learn from your teacher, then you go
+
+631
+00:52:37.155 --> 00:52:38.395
+and do a lot of exercise.
+
+632
+00:52:39.105 --> 00:52:40.875
+Some exercise will give you a good feeling,
+
+633
+00:52:40.875 --> 00:52:44.275
+some will give you a bad feeling, nothing like it is correct
+
+634
+00:52:44.275 --> 00:52:45.395
+or wrong, okay?
+
+635
+00:52:45.395 --> 00:52:48.115
+Mm-hmm. So you are going to store all of your good
+
+636
+00:52:48.115 --> 00:52:50.155
+and bad experience to your memory,
+
+637
+00:52:50.735 --> 00:52:54.435
+and now when new problem comes in, you try to take a very,
+
+638
+00:52:55.135 --> 00:52:58.555
+uh, little step on your own to solve a problem.
+
+639
+00:53:00.195 --> 00:53:02.815
+All of the problem that you're solving in mathematics world,
+
+640
+00:53:03.315 --> 00:53:06.895
+the first tip for solving the problem need not be
+
+641
+00:53:07.715 --> 00:53:09.145
+al, okay?
+
+642
+00:53:09.555 --> 00:53:11.705
+After two steps, the mathematical problem
+
+643
+00:53:12.445 --> 00:53:15.505
+reduce you choose some kind of solution, okay?
+
+644
+00:53:16.115 --> 00:53:19.145
+After, if you try to solve a critical math problem,
+
+645
+00:53:19.295 --> 00:53:21.505
+reasoning problem first two steps,
+
+646
+00:53:21.565 --> 00:53:24.695
+and most important for two or three steps, okay?
+
+647
+00:53:25.665 --> 00:53:28.735
+After that, then you have previous knowledge of how
+
+648
+00:53:28.735 --> 00:53:30.295
+to now you're into a known world,
+
+649
+00:53:30.485 --> 00:53:32.735
+then you can reuse your previous experience.
+
+650
+00:53:32.755 --> 00:53:36.735
+So that is the main philosophical, uh, relation
+
+651
+00:53:37.395 --> 00:53:41.065
+by which reinforcement learning is taking help of that.
+
+652
+00:53:42.855 --> 00:53:46.085
+So why I is not a constant,
+
+653
+00:53:46.705 --> 00:53:48.925
+it is a natural phenomena for reinforcement learning,
+
+654
+00:53:49.345 --> 00:53:52.285
+but for the purpose of making mathematics possible,
+
+655
+00:53:52.305 --> 00:53:55.445
+for doing ation, this part has to be a con
+
+656
+00:53:56.005 --> 00:53:58.385
+constant part, okay?
+
+657
+00:53:58.385 --> 00:53:59.385
+That is why we go ahead
+
+658
+00:53:59.385 --> 00:54:01.265
+and make this fix with the target network.
+
+659
+00:54:02.745 --> 00:54:05.305
+Although the value that is coming up from the target network
+
+660
+00:54:05.525 --> 00:54:06.585
+may not be a correct value
+
+661
+00:54:07.095 --> 00:54:09.065
+because this target network is formed from
+
+662
+00:54:09.065 --> 00:54:10.345
+the previous experience.
+
+663
+00:54:11.355 --> 00:54:13.285
+That is also under learning mechanism.
+
+664
+00:54:17.255 --> 00:54:19.105
+That is why I wanted, instead
+
+665
+00:54:19.105 --> 00:54:21.465
+of showing everything in program, it is not going
+
+666
+00:54:21.465 --> 00:54:24.535
+to be helpful because we are not going to learn.
+
+667
+00:54:24.555 --> 00:54:26.895
+Um, you're not going to write program on yourself,
+
+668
+00:54:26.915 --> 00:54:31.175
+so you'll not spend, uh, your own, uh, hormone
+
+669
+00:54:32.455 --> 00:54:34.955
+to make the learning happen within your own brain.
+
+670
+00:54:35.775 --> 00:54:37.555
+I'm only feeding, so that's why I wanted
+
+671
+00:54:37.555 --> 00:54:39.395
+to show you from this mathematics, okay?
+
+672
+00:54:41.755 --> 00:54:46.445
+And this is how actually naturally, uh, people,
+
+673
+00:54:46.685 --> 00:54:49.365
+I mean a human being try to learn in this way,
+
+674
+00:54:51.485 --> 00:54:52.485
+Okay? And that is
+
+675
+00:54:52.485 --> 00:54:54.255
+why reinforcement learning is not machine
+
+676
+00:54:54.455 --> 00:54:58.595
+learning is not like machine learning, okay?
+
+677
+00:55:00.085 --> 00:55:03.305
+And reinforcement learning is the backbone of ai.
+
+678
+00:55:04.215 --> 00:55:07.755
+The science behind AI is coming through the path
+
+679
+00:55:07.755 --> 00:55:08.795
+of reinforcement learning.
+
+680
+00:55:10.185 --> 00:55:11.625
+Although you'll be using AI
+
+681
+00:55:11.625 --> 00:55:13.825
+as a black box tool in your company
+
+682
+00:55:15.005 --> 00:55:17.025
+or in inside your academics.
+
+683
+00:55:17.055 --> 00:55:20.385
+Also, most of the cases I see all the academicians,
+
+684
+00:55:20.385 --> 00:55:22.265
+they're using AI as a black box tool.
+
+685
+00:55:22.265 --> 00:55:24.465
+They use some kind of hugging face liability,
+
+686
+00:55:25.395 --> 00:55:29.315
+write some import command, get through the leisure.
+
+687
+00:55:29.465 --> 00:55:32.485
+That is something not a
+
+688
+00:55:34.905 --> 00:55:36.195
+logical minded people
+
+689
+00:55:36.335 --> 00:55:40.925
+do. Okay?
+
+690
+00:55:41.585 --> 00:55:43.325
+So here the weight doesn't change
+
+691
+00:55:43.435 --> 00:55:45.485
+because the derivative is zero, sir.
+
+692
+00:55:45.665 --> 00:55:47.465
+Uh, T
+
+693
+00:55:47.895 --> 00:55:52.105
+Doesn't Tt t plus one equal to T 30 T, right?
+
+694
+00:55:52.165 --> 00:55:56.175
+And then you said the, which, the, the third,
+
+695
+00:55:56.175 --> 00:55:57.495
+third line from bottom, right?
+
+696
+00:55:57.555 --> 00:56:01.015
+So the way you are calculating threet third
+
+697
+00:56:01.015 --> 00:56:03.015
+Line from bottom, this line you're talking
+
+698
+00:56:03.645 --> 00:56:04.645
+Yeah, yeah.
+
+699
+00:56:04.815 --> 00:56:05.815
+TT plus one
+
+700
+00:56:08.055 --> 00:56:09.055
+Here. This part, nothing is
+
+701
+00:56:09.055 --> 00:56:10.505
+the because No,
+
+702
+00:56:10.505 --> 00:56:11.505
+No, no. The one I was there
+
+703
+00:56:11.505 --> 00:56:12.865
+actually like, yeah.
+
+704
+00:56:13.005 --> 00:56:16.705
+So you said, you said the J is constant and uh,
+
+705
+00:56:16.845 --> 00:56:18.025
+No, J is not constant.
+
+706
+00:56:19.185 --> 00:56:23.725
+J as I told you here, go back here. J is the error function.
+
+707
+00:56:24.305 --> 00:56:29.295
+It is a expectation operator for this quantity, okay?
+
+708
+00:56:30.315 --> 00:56:34.305
+And if we see this, we are going
+
+709
+00:56:34.305 --> 00:56:36.425
+to update the Q network, okay?
+
+710
+00:56:36.735 --> 00:56:40.175
+Yeah. Now, if we don't separate this
+
+711
+00:56:40.395 --> 00:56:42.935
+and this as separate variable, we'll not be able
+
+712
+00:56:42.935 --> 00:56:44.415
+to make the derivative happening
+
+713
+00:56:44.415 --> 00:56:47.455
+because this derivative is happening over the
+
+714
+00:56:47.525 --> 00:56:48.935
+network weight of queue.
+
+715
+00:56:49.675 --> 00:56:53.625
+So we need to make this separate two thing, Okay?
+
+716
+00:56:53.925 --> 00:56:57.305
+So for making that separate, we treat the late this two VA
+
+717
+00:56:57.905 --> 00:56:59.185
+constant for some amount of time.
+
+718
+00:56:59.475 --> 00:57:01.185
+After that, again, we'll go ahead
+
+719
+00:57:01.185 --> 00:57:03.105
+and fill up our experience.
+
+720
+00:57:03.215 --> 00:57:05.305
+That is replay memorial with the
+
+721
+00:57:05.985 --> 00:57:07.805
+random set of expense that we're getting.
+
+722
+00:57:08.625 --> 00:57:10.005
+So let us keep this constant
+
+723
+00:57:10.005 --> 00:57:13.985
+because of mathematical tractability, okay?
+
+724
+00:57:14.085 --> 00:57:17.585
+So what we do is we make, we also make a approximation
+
+725
+00:57:17.585 --> 00:57:21.185
+that expectation should not be considered.
+
+726
+00:57:21.335 --> 00:57:24.425
+Just take only one sample, only one sample.
+
+727
+00:57:24.455 --> 00:57:27.265
+This is one sample. If you have multiple A Ds,
+
+728
+00:57:27.505 --> 00:57:31.385
+multiple a Ds multiple A, multiple A, then you take all
+
+729
+00:57:31.385 --> 00:57:35.675
+of them submission divide by all of the quantities,
+
+730
+00:57:35.675 --> 00:57:37.835
+like total number of states, total number action.
+
+731
+00:57:38.145 --> 00:57:39.235
+Then it becomes a,
+
+732
+00:57:40.135 --> 00:57:41.835
+so we don't have any knowledge about all
+
+733
+00:57:42.035 --> 00:57:43.115
+possible next date and all.
+
+734
+00:57:43.495 --> 00:57:46.115
+So we get rid of this expectation operator,
+
+735
+00:57:46.695 --> 00:57:47.795
+we take only one sample.
+
+736
+00:57:48.795 --> 00:57:50.655
+So this one sample update,
+
+737
+00:57:50.725 --> 00:57:53.535
+however, we have a batch of sample coming up.
+
+738
+00:57:53.555 --> 00:57:56.655
+So then for every sample we take this update, go on.
+
+739
+00:57:57.265 --> 00:57:59.115
+That is why machine learning
+
+740
+00:57:59.175 --> 00:58:03.765
+and this gradient cent based learning, you require a lot
+
+741
+00:58:03.765 --> 00:58:07.685
+of samples because every sample is not a representative
+
+742
+00:58:07.905 --> 00:58:09.085
+of your average behavior,
+
+743
+00:58:10.445 --> 00:58:11.445
+Right? Mm-hmm.
+
+744
+00:58:11.445 --> 00:58:11.595
+
+745
+00:58:19.865 --> 00:58:20.155
+Okay.
+
+746
+00:58:20.855 --> 00:58:22.955
+Any more question? We are 45 time.
+
+747
+00:58:23.015 --> 00:58:26.965
+Now I
+
+748
+00:58:26.965 --> 00:58:28.085
+total half an hour.
+
+749
+00:58:31.115 --> 00:58:34.255
+So next class, an hour we'll see policy gradient.
+
+750
+00:58:34.925 --> 00:58:37.925
+That will be much more harder.
+
+751
+00:58:38.405 --> 00:58:40.045
+Mathematical parts are there.
+
+752
+00:58:53.995 --> 00:58:56.575
+You want this uh, whiteboard thing?
+
+753
+00:58:57.735 --> 00:58:59.475
+Yes sir. Yes sir.
+
+754
+00:59:01.575 --> 00:59:02.835
+So let me just download
+
+755
+00:59:02.835 --> 00:59:05.945
+and give it to you right now how
+
+756
+00:59:05.965 --> 00:59:08.065
+to share it.
+
+757
+00:59:45.625 --> 00:59:46.965
+Let me send it now itself.
+
+758
+01:00:03.165 --> 01:00:04.625
+So when, what is that called?
+
+759
+01:00:04.725 --> 01:00:07.185
+Uh, Saturdays very active for you, right?
+
+760
+01:00:09.765 --> 01:00:11.945
+Yes. Right from morning nine o'clock till, uh,
+
+761
+01:00:12.055 --> 01:00:13.345
+evening nine 15, sir.
+
+762
+01:00:13.845 --> 01:00:18.785
+Oh, that's why Saturday I will take lesser amount of thing.
+
+763
+01:00:20.035 --> 01:00:24.265
+Thank you, sir. Because this course itself, a lot of
+
+764
+01:00:25.045 --> 01:00:26.265
+hurdle things are there.
+
+765
+01:00:32.185 --> 01:00:33.325
+Sir, if you could send,
+
+766
+01:00:33.325 --> 01:00:35.405
+because now we've finished some chapters,
+
+767
+01:00:35.405 --> 01:00:40.045
+if you could send us mo some mock assignment exams
+
+768
+01:00:40.075 --> 01:00:43.355
+because we mentioned this earlier as well.
+
+769
+01:00:43.825 --> 01:00:45.715
+Okay? You want to see mock question?
+
+770
+01:00:46.255 --> 01:00:48.475
+Yes, sir. Because of all the course,
+
+771
+01:00:48.985 --> 01:00:51.875
+because we have to understand what kind of questions come.
+
+772
+01:00:53.555 --> 01:00:56.225
+Okay? Actually for your course,
+
+773
+01:00:56.285 --> 01:01:00.225
+the question level will be somewhat different than my BTech.
+
+774
+01:01:00.505 --> 01:01:03.545
+I have not make the, so
+
+775
+01:01:03.545 --> 01:01:07.185
+Give a BTech first so that we know we get
+
+776
+01:01:07.285 --> 01:01:08.285
+Primed. I'll give
+
+777
+01:01:08.285 --> 01:01:10.865
+you my example from my BTech course.
+
+778
+01:01:11.525 --> 01:01:13.825
+Yes, sir. But we won clear the BTech also
+
+779
+01:01:13.825 --> 01:01:14.985
+give that release now.
+
+780
+01:01:15.925 --> 01:01:19.585
+No, no course exam questions are d
+
+781
+01:01:19.585 --> 01:01:20.985
+difficult, that's why I'm telling.
+
+782
+01:01:21.165 --> 01:01:23.505
+Oh, difficult. There. That's what, and
+
+783
+01:01:23.525 --> 01:01:24.985
+No issues, not record.
+
+784
+01:01:25.255 --> 01:01:26.945
+Give only questions.
+
+785
+01:01:29.695 --> 01:01:31.385
+This is sounding like an oxymoron.
+
+786
+01:01:35.295 --> 01:01:37.305
+What is the meaning of oxygen? I'm not sure.
+
+787
+01:01:39.245 --> 01:01:40.425
+Let me show you the,
+
+788
+01:01:45.785 --> 01:01:48.205
+So final exam is theoretical, right?
+
+789
+01:01:48.205 --> 01:01:50.245
+Like pen and paper and not m cqs, right?
+
+790
+01:01:52.915 --> 01:01:56.825
+Yeah. Your question pattern is basically five.
+
+791
+01:01:57.305 --> 01:02:01.495
+Question one, mark 10, question two, mark
+
+792
+01:02:02.915 --> 01:02:04.135
+one question five, mark,
+
+793
+01:02:08.215 --> 01:02:10.435
+you are going to break our hands in writing, sir,
+
+794
+01:02:11.865 --> 01:02:15.805
+If we know what to write, okay, look at the questions.
+
+795
+01:02:16.235 --> 01:02:17.245
+Look at that paper.
+
+796
+01:02:17.635 --> 01:02:20.925
+Here is a sample question from your BTech level.
+
+797
+01:02:22.415 --> 01:02:25.545
+This is the November month I have taken back email.
+
+798
+01:02:27.455 --> 01:02:28.995
+Sir, can you please share this with us?
+
+799
+01:02:37.205 --> 01:02:38.385
+Uh, you'll do one thing,
+
+800
+01:02:38.845 --> 01:02:40.025
+but your question level will be
+
+801
+01:02:40.885 --> 01:02:42.585
+lesser difficulty level than this.
+
+802
+01:02:42.615 --> 01:02:46.765
+Okay? Okay. Let me download.
+
+803
+01:02:46.765 --> 01:02:49.245
+And you want this to be shared? Yes, sir.
+
+804
+01:02:49.545 --> 01:02:52.805
+You can take a screenshot. You just take a screenshot. Okay.
+
+805
+01:02:53.225 --> 01:02:54.645
+You can share it in our chat, sir.
+
+806
+01:02:54.785 --> 01:02:56.445
+So we can complete or just
+
+807
+01:02:56.745 --> 01:02:57.805
+Put it in presentation mode.
+
+808
+01:02:57.805 --> 01:02:58.965
+You can take a screenshot, sir. Everybody,
+
+809
+01:02:58.985 --> 01:03:01.365
+You take a screenshot because that sharing is
+
+810
+01:03:03.365 --> 01:03:04.385
+not an ethical thing.
+
+811
+01:03:04.965 --> 01:03:06.865
+So you can put it in the presentation mode
+
+812
+01:03:06.965 --> 01:03:08.305
+so we can have the company ah, yeah, yeah.
+
+813
+01:03:08.325 --> 01:03:09.145
+I'm downloading it.
+
+814
+01:03:21.425 --> 01:03:22.765
+So you can see better form.
+
+815
+01:03:25.395 --> 01:03:28.015
+Yes sir. Can you do more? Mm-hmm.
+
+816
+01:03:31.695 --> 01:03:35.345
+Zoom out so that we can take all in one page. Yeah,
+
+817
+01:03:35.485 --> 01:03:36.485
+One page. All in one page.
+
+818
+01:03:36.485 --> 01:03:36.885
+
+819
+01:03:41.475 --> 01:03:45.445
+Yeah. Just scroll up sir. Crawling up. Yeah.
+
+820
+01:03:45.445 --> 01:03:45.925
+Yeah, that's tough.
+
+821
+01:03:58.685 --> 01:04:00.725
+I like this kind of question. Become, okay,
+
+822
+01:04:13.465 --> 01:04:15.125
+you are going to have one five mark.
+
+823
+01:04:15.365 --> 01:04:17.325
+Question 10, two marks question
+
+824
+01:04:18.305 --> 01:04:22.245
+and one, uh, mean one mark question five times.
+
+825
+01:04:23.715 --> 01:04:26.295
+So five plus 20, 25 plus
+
+826
+01:04:26.325 --> 01:04:29.485
+5 30, 30
+
+827
+01:04:29.545 --> 01:04:32.365
+Is one mark and two monks will be just like two,
+
+828
+01:04:32.365 --> 01:04:33.485
+three sentences, right?
+
+829
+01:04:33.485 --> 01:04:36.445
+Mm-hmm. Yes, yes. Okay. 30
+
+830
+01:04:38.345 --> 01:04:39.345
+Is suffering. We are also
+
+831
+01:04:39.345 --> 01:04:42.325
+suffering, sir. Hmm? What is a dilemma?
+
+832
+01:04:42.455 --> 01:04:44.885
+Every al algorithm is suffering. We are also suffering.
+
+833
+01:04:46.065 --> 01:04:48.285
+Ah, yes. Yes
+
+834
+01:04:52.505 --> 01:04:53.505
+Sir. Three marks and all.
+
+835
+01:04:53.505 --> 01:04:55.245
+How much answers do you expect, sir?
+
+836
+01:04:55.745 --> 01:04:57.565
+Be a will not be there before you.
+
+837
+01:04:58.075 --> 01:05:00.445
+Okay. Okay. Only for BTech level.
+
+838
+01:05:00.645 --> 01:05:04.345
+I had for BTech.
+
+839
+01:05:05.165 --> 01:05:10.015
+For BTech. I wanted students to scratch their head.
+
+840
+01:05:10.755 --> 01:05:13.455
+That's fine. So five max question.
+
+841
+01:05:13.455 --> 01:05:17.295
+How many were we out of? Four.
+
+842
+01:05:18.585 --> 01:05:20.495
+Outta three or four, you'll get, uh,
+
+843
+01:05:20.575 --> 01:05:21.855
+I mean you have to answer only one.
+
+844
+01:05:23.365 --> 01:05:25.495
+Okay. I think out of three I'll be providing.
+
+845
+01:05:26.115 --> 01:05:27.375
+So we get option
+
+846
+01:05:27.395 --> 01:05:29.095
+To choose the question, right?
+
+847
+01:05:29.195 --> 01:05:30.195
+Sir?
+
+848
+01:05:31.665 --> 01:05:33.365
+For two marks question, no option.
+
+849
+01:05:33.985 --> 01:05:36.445
+You have 10 question you have to answer 10 question.
+
+850
+01:05:37.795 --> 01:05:39.475
+Okay. For five,
+
+851
+01:05:39.655 --> 01:05:41.275
+for one more question, I have no option.
+
+852
+01:05:41.335 --> 01:05:42.355
+You have five question.
+
+853
+01:05:42.415 --> 01:05:44.315
+You have to answer five question from that.
+
+854
+01:05:45.335 --> 01:05:47.875
+So is it 400 marks or 50 marks?
+
+855
+01:05:49.845 --> 01:05:52.935
+30 marks. I think 30. Okay, sir.
+
+856
+01:05:54.415 --> 01:05:58.315
+So this five marks will be of some, uh, proof we to solve
+
+857
+01:05:58.375 --> 01:06:00.835
+or something like what will be the pattern of this?
+
+858
+01:06:00.865 --> 01:06:01.865
+Five more question, sir?
+
+859
+01:06:03.645 --> 01:06:07.395
+Um, yeah, some kind of logical proof will be there.
+
+860
+01:06:07.815 --> 01:06:10.715
+You may not, okay. Uh, not, uh, you may not be able
+
+861
+01:06:10.715 --> 01:06:11.835
+to write the full mathematics,
+
+862
+01:06:11.835 --> 01:06:16.355
+but yeah, logical, logical, uh, step by step things,
+
+863
+01:06:17.425 --> 01:06:18.425
+Okay? Not like solving
+
+864
+01:06:18.425 --> 01:06:19.955
+this frozen
+
+865
+01:06:19.985 --> 01:06:21.355
+lake problem or something like that. No,
+
+866
+01:06:21.355 --> 01:06:22.355
+Sir. No, no, not, not,
+
+867
+01:06:22.355 --> 01:06:22.915
+no,
+
+868
+01:06:22.975 --> 01:06:23.975
+Not okay sir. Okay, sir.
+
+869
+01:06:23.975 --> 01:06:24.715
+I
+
+870
+01:06:24.715 --> 01:06:25.835
+Just don't give ideas to that.
+
+871
+01:06:25.835 --> 01:06:26.835
+Okay?
+
+872
+01:06:27.295 --> 01:06:28.675
+No, no, I'm not done giving ideas.
+
+873
+01:06:28.855 --> 01:06:31.795
+I'm just preempting should not be a bouncer on the last day.
+
+874
+01:06:31.795 --> 01:06:32.795
+That's why.
+
+875
+01:06:36.715 --> 01:06:39.375
+Excuse me, sir. By the way, uh, sir,
+
+876
+01:06:39.395 --> 01:06:42.015
+are there any te dates for nem?
+
+877
+01:06:43.995 --> 01:06:45.495
+No, I have no idea about it.
+
+878
+01:06:47.055 --> 01:06:51.205
+Uh, excuse me, sir. Mm, sir.
+
+879
+01:06:51.205 --> 01:06:55.365
+I have a doubt actually. Uh, based on this reinforcement,
+
+880
+01:06:55.745 --> 01:06:57.605
+uh, learning, uh, method,
+
+881
+01:06:57.745 --> 01:07:00.085
+do we have any skill assessment techniques,
+
+882
+01:07:03.325 --> 01:07:04.495
+Real time skill assessment?
+
+883
+01:07:05.395 --> 01:07:09.015
+Yes. Something has, has something been developed so far?
+
+884
+01:07:10.405 --> 01:07:14.985
+Mm, they are, that is what the current, uh, top
+
+885
+01:07:15.505 --> 01:07:20.025
+companies they're trying to do, like mock into, like
+
+886
+01:07:20.505 --> 01:07:24.705
+whenever you go nowadays, uh, to give an interview, uh,
+
+887
+01:07:25.115 --> 01:07:27.785
+it'll not be taken the interview by a human being,
+
+888
+01:07:29.705 --> 01:07:34.205
+so it'll be taken by some system which is trained with,
+
+889
+01:07:35.025 --> 01:07:36.605
+uh, the previous question.
+
+890
+01:07:39.455 --> 01:07:40.455
+So those are there?
+
+891
+01:07:41.615 --> 01:07:44.555
+Yes, sir. Like, my question is, is there any libraries
+
+892
+01:07:45.755 --> 01:07:47.975
+of such sort in Python to do this?
+
+893
+01:07:47.975 --> 01:07:51.295
+Just like how we have in gym, import gym or mm-hmm.
+
+894
+01:07:51.995 --> 01:07:54.095
+So something like that. If we have any libraries,
+
+895
+01:07:54.095 --> 01:07:55.375
+and I think it would be better.
+
+896
+01:07:55.485 --> 01:07:56.895
+Yeah, I'm not aware of it,
+
+897
+01:07:56.955 --> 01:07:58.495
+but there are a lot of companies
+
+898
+01:07:58.495 --> 01:07:59.935
+who are developing software for that.
+
+899
+01:08:02.755 --> 01:08:03.935
+You can search on your own.
+
+900
+01:08:03.955 --> 01:08:06.975
+You can give me some of the liabilities.
+
+901
+01:08:07.035 --> 01:08:08.335
+If you can say, I don't have time
+
+902
+01:08:08.335 --> 01:08:12.775
+because my time is paid for, uh, trying
+
+903
+01:08:12.775 --> 01:08:15.015
+to write some research paper Hmm.
+
+904
+01:08:15.585 --> 01:08:20.445
+To modify this enforcement learning for some particular type
+
+905
+01:08:20.445 --> 01:08:22.725
+of objective algorithmically.
+
+906
+01:08:23.325 --> 01:08:25.205
+I don't have time for thinking about
+
+907
+01:08:25.205 --> 01:08:26.365
+the application and all.
+
+908
+01:08:27.225 --> 01:08:30.125
+If you can find the particular library from hanging
+
+909
+01:08:30.195 --> 01:08:32.285
+face can give it to me.
+
+910
+01:08:32.485 --> 01:08:35.995
+I can check and I can tell you. Yes, sir. Thank you.
+
+911
+01:08:41.275 --> 01:08:44.165
+Okay. So you can when up the class to then,
+
+912
+01:08:44.505 --> 01:08:45.505
+Sir? Uh, when is the
+
+913
+01:08:45.505 --> 01:08:47.245
+exam? Sorry, I joined a little late.
+
+914
+01:08:47.425 --> 01:08:51.985
+Um, so missed the communication. Uh, MIDEM exam.
+
+915
+01:08:53.905 --> 01:08:55.885
+Mid, same. We don't have midem.
+
+916
+01:08:56.005 --> 01:08:58.885
+I think we have NEM only. Okay,
+
+917
+01:08:58.885 --> 01:09:01.325
+So this question pattern is for the NEM exam? Ah,
+
+918
+01:09:01.385 --> 01:09:02.385
+Yes. Yes. Okay. Okay.
+
+919
+01:09:02.385 --> 01:09:03.405
+Okay, sir. Thank you.
+
+920
+01:09:05.105 --> 01:09:07.235
+Your nem pattern is basically five.
+
+921
+01:09:08.235 --> 01:09:10.235
+Question one, mark 10, question two,
+
+922
+01:09:10.235 --> 01:09:11.995
+mark one, question five, mark.
+
+923
+01:09:12.925 --> 01:09:14.255
+Okay, sir. Okay, Thank you.
+
+924
+01:09:14.295 --> 01:09:16.575
+I thought of making three question five mark,
+
+925
+01:09:16.675 --> 01:09:19.255
+but I thought it'll become a torture on you.
+
+926
+01:09:20.555 --> 01:09:25.115
+Yeah, thank you.
+
+927
+01:09:25.665 --> 01:09:27.275
+Okay. Thank you sir.
+
+928
+01:09:27.855 --> 01:09:31.475
+Sir, in the LMS in this, uh,
+
+929
+01:09:31.475 --> 01:09:33.185
+this forum,
+
+930
+01:09:33.475 --> 01:09:34.425
+Which one? What?
+
+931
+01:09:34.575 --> 01:09:36.185
+Showing now in the screen? No,
+
+932
+01:09:36.185 --> 01:09:38.545
+No, no, no, no, no, no, no.
+
+933
+01:09:39.755 --> 01:09:41.255
+You take a screenshot. That's it.
+
+934
+01:09:41.375 --> 01:09:42.575
+I cannot share it over her.
+
+935
+01:09:42.795 --> 01:09:46.375
+Um, any kind of this gonna unethical practice. That's right.
+
+936
+01:09:47.815 --> 01:09:50.635
+Oh, no, no. I thought that it's a, uh, it's a kind
+
+937
+01:09:50.635 --> 01:09:52.315
+of a sample paper you are showing.
+
+938
+01:09:53.015 --> 01:09:54.015
+Mm. Inside.
+
+939
+01:09:55.585 --> 01:09:57.635
+Yeah, like this kind of question will be coming up
+
+940
+01:09:57.635 --> 01:09:58.755
+for your five mark question.
+
+941
+01:09:58.755 --> 01:10:00.315
+That's why I wanted to show you to,
+
+942
+01:10:02.375 --> 01:10:03.375
+Okay.
+
+943
+01:10:03.755 --> 01:10:08.365
+Okay, sir. Thank you, sir. Thank you. Thank you, sir. Huh?
+
+944
+01:10:09.435 --> 01:10:11.125
+Yeah. Thank you, sir. Thank you, sir.
+
+945
+01:10:11.155 --> 01:10:14.255
+What is the exam duration, sir? 90 minutes.
+
+946
+01:10:15.035 --> 01:10:16.175
+90 minutes, okay. And
+
+947
+01:10:16.195 --> 01:10:19.135
+Uh, just to confirm, this is for nem, right?
+
+948
+01:10:19.635 --> 01:10:21.535
+So nem exam? Mm-hmm.
+
+949
+01:10:21.535 --> 01:10:24.175
+Yeah, yeah, yeah.
+
+950
+01:10:25.965 --> 01:10:27.815
+Okay, fine. I hope all
+
+951
+01:10:27.815 --> 01:10:30.015
+of you're attending your quizzes properly, right?
+
+952
+01:10:30.795 --> 01:10:31.795
+Yes. Yes.
+
+953
+01:10:32.725 --> 01:10:34.105
+One quiz got missed. Actually,
+
+954
+01:10:34.185 --> 01:10:36.505
+there was some problem other time we even raised this thing
+
+955
+01:10:36.535 --> 01:10:38.625
+also, but it was not able to enable.
+
+956
+01:10:38.625 --> 01:10:40.905
+And then I missed that date that I was not able
+
+957
+01:10:40.905 --> 01:10:42.545
+to quit be a projector thing that we are not able
+
+958
+01:10:42.545 --> 01:10:44.065
+to log in that issue was this
+
+959
+01:10:44.065 --> 01:10:45.665
+Whose, which date is,
+
+960
+01:10:46.525 --> 01:10:48.345
+So it was quiz number. Uh, I just tell,
+
+961
+01:10:49.125 --> 01:10:49.345
+Oh,
+
+962
+01:11:01.505 --> 01:11:02.915
+It's a quiz number seven, sir.
+
+963
+01:11:03.405 --> 01:11:04.635
+Seven. Yes, sir.
+
+964
+01:11:04.655 --> 01:11:07.115
+So the plan is those who are missing the quizzes
+
+965
+01:11:07.255 --> 01:11:11.235
+for them will have a, um, quiz at the end
+
+966
+01:11:12.505 --> 01:11:14.985
+that will basically cover all topics.
+
+967
+01:11:16.295 --> 01:11:18.955
+And let's say some people have lost two quiz,
+
+968
+01:11:18.955 --> 01:11:20.315
+some people have lost three quiz,
+
+969
+01:11:20.315 --> 01:11:22.155
+some people have lost one quiz and all.
+
+970
+01:11:22.695 --> 01:11:26.675
+So I, I will have, uh, something like six marks
+
+971
+01:11:26.675 --> 01:11:28.475
+or nine marks quiz at the end,
+
+972
+01:11:29.215 --> 01:11:34.075
+and it'll be, the score will be, uh, interpolated,
+
+973
+01:11:34.765 --> 01:11:36.275
+let's say it is nine mark squeeze.
+
+974
+01:11:36.275 --> 01:11:37.635
+And you have missed only one quiz.
+
+975
+01:11:37.775 --> 01:11:40.235
+So one third of the marks will be taken for that.
+
+976
+01:11:40.235 --> 01:11:41.875
+Suppose you have mark missed two quiz.
+
+977
+01:11:41.875 --> 01:11:43.155
+That means six marks is missed.
+
+978
+01:11:43.895 --> 01:11:46.275
+So six marks will be taken from this nine mark,
+
+979
+01:11:46.275 --> 01:11:47.555
+squeeze that you have made it out.
+
+980
+01:11:47.625 --> 01:11:49.075
+Suppose you have lost three quiz,
+
+981
+01:11:49.735 --> 01:11:51.355
+so entire thing will be coming
+
+982
+01:11:51.575 --> 01:11:53.035
+to your account for that. Okay?
+
+983
+01:11:53.795 --> 01:11:55.655
+Yes. That will be good, sir. Thank you.
+
+984
+01:11:55.905 --> 01:11:59.295
+Thank you, sir. Okay, fine. Thank you.
+
+985
+01:12:00.235 --> 01:12:02.695
+Sir. What is the percentage of that quiz, sir?
+
+986
+01:12:02.755 --> 01:12:06.015
+So like, nem have 30 mark, so what is the percentage for
+
+987
+01:12:06.015 --> 01:12:08.175
+that quiz and quiz I,
+
+988
+01:12:08.515 --> 01:12:09.515
+36 months?
+
+989
+01:12:09.615 --> 01:12:10.855
+I think 12 quizzes are there.
+
+990
+01:12:11.565 --> 01:12:14.495
+Okay. Each quiz Three. Three marks.
+
+991
+01:12:14.495 --> 01:12:17.255
+So I think 36 percentage, 36 marks are there.
+
+992
+01:12:19.195 --> 01:12:24.045
+Okay. Rest 40, like 30 plus 36. 56. So Aaron, 34
+
+993
+01:12:24.355 --> 01:12:27.045
+That I forgot your weight was given in the beginning.
+
+994
+01:12:27.795 --> 01:12:30.325
+Okay. Okay. I Have forgotten that. Okay, sir.
+
+995
+01:12:30.765 --> 01:12:32.645
+I think. Okay. Thank you.
+
+996
+01:12:33.115 --> 01:12:34.445
+Yeah, thank you sir. Thank you,
+
+997
+01:12:34.445 --> 01:12:37.495
+Sir. Thank you, sir.
+
+998
+01:12:38.085 --> 01:12:41.155
+Okay, thank you. So, uh.

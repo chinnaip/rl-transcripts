@@ -1,0 +1,4805 @@
+WEBVTT
+
+NOTE
+Video URL: https://vimeo.com/1147546393
+Reinforcement Learning Live Session 9 - 17-12-2025
+
+1
+00:00:06.105 --> 00:00:08.365
+Any of you have used, uh, Microsoft Whiteboard?
+
+2
+00:00:10.065 --> 00:00:14.755
+Yes, sir. Okay, just a second just
+
+3
+00:00:14.775 --> 00:00:16.555
+to help me to set up this.
+
+4
+00:00:31.225 --> 00:00:34.125
+So which one should
+
+5
+00:00:34.165 --> 00:00:38.675
+I from here?
+
+6
+00:00:43.575 --> 00:00:45.155
+So I've used the download version,
+
+7
+00:00:45.295 --> 00:00:48.155
+so you can just click on the new whiteboard and then,
+
+8
+00:00:51.495 --> 00:00:52.495
+Then which version?
+
+9
+00:00:53.845 --> 00:00:56.625
+Uh, you can start with the blank Converser.
+
+10
+00:00:57.405 --> 00:01:02.065
+Uh, on the right side top, it's there on the, on the box.
+
+11
+00:01:03.315 --> 00:01:04.905
+Start with blank Canvas.
+
+12
+00:01:06.275 --> 00:01:07.745
+Right Top This one.
+
+13
+00:01:12.155 --> 00:01:14.225
+Start with blank. Yes sir. Yes sir.
+
+14
+00:01:15.015 --> 00:01:17.875
+Okay, so now I can go ahead and write?
+
+15
+00:01:18.375 --> 00:01:18.795
+Yes sir.
+
+16
+00:01:23.125 --> 00:01:24.495
+Okay. Let me just write something
+
+17
+00:01:24.495 --> 00:01:28.735
+here, do the topics.
+
+18
+00:01:31.005 --> 00:01:31.615
+Okay, fine.
+
+19
+00:01:40.155 --> 00:01:41.725
+Okay, good. Thank you.
+
+20
+00:01:43.415 --> 00:01:45.995
+Now how can I do this?
+
+21
+00:02:02.545 --> 00:02:05.885
+My name is not showing right here. I just rename.
+
+22
+00:02:15.205 --> 00:02:19.775
+Okay, so now I just need to dis uh,
+
+23
+00:02:20.035 --> 00:02:21.375
+put this into, okay, fine.
+
+24
+00:02:21.375 --> 00:02:22.855
+Now this in the background. So
+
+25
+00:02:22.855 --> 00:02:24.695
+how can I make this into background now?
+
+26
+00:02:24.725 --> 00:02:29.705
+Yeah. Okay, here, hide floating control. Okay, fine.
+
+27
+00:02:31.975 --> 00:02:34.585
+Okay, so I hope most of you have joined.
+
+28
+00:02:37.035 --> 00:02:38.215
+How many have joined till now?
+
+29
+00:02:38.835 --> 00:02:40.055
+27 sir.
+
+30
+00:02:41.535 --> 00:02:45.585
+Okay, so let us start almost time is six 20, um, six 30.
+
+31
+00:02:46.965 --> 00:02:49.535
+Okay, so today's topic is from today onward.
+
+32
+00:02:49.535 --> 00:02:52.945
+We'll be getting into, let me write
+
+33
+00:02:52.945 --> 00:02:54.105
+down the background here.
+
+34
+00:02:55.405 --> 00:02:58.695
+How to erase this. Erase this.
+
+35
+00:03:01.695 --> 00:03:02.225
+What is the
+
+36
+00:03:13.955 --> 00:03:15.325
+This is the, no.
+
+37
+00:03:15.545 --> 00:03:16.725
+Oh, no. So that's not
+
+38
+00:03:16.745 --> 00:03:20.785
+the here.
+
+39
+00:03:20.905 --> 00:03:25.845
+I think this is the, no, this one
+
+40
+00:03:26.485 --> 00:03:27.845
+I think under, you'll have to do yes.
+
+41
+00:03:28.315 --> 00:03:30.155
+This one, no.
+
+42
+00:03:33.445 --> 00:03:34.445
+And undo.
+
+43
+00:03:36.495 --> 00:03:39.675
+Yes sir. We need to select it and do and do.
+
+44
+00:03:42.205 --> 00:03:45.945
+But uh, okay. This let us know. Okay.
+
+45
+00:03:45.945 --> 00:03:48.305
+So to today's topic is model free.
+
+46
+00:03:52.285 --> 00:03:54.525
+I mean to downward the topic is model
+
+47
+00:03:54.635 --> 00:03:55.925
+free reinforcement learning.
+
+48
+00:03:57.525 --> 00:03:59.385
+So it has, uh,
+
+49
+00:03:59.515 --> 00:04:01.465
+model three means you don't have any
+
+50
+00:04:01.465 --> 00:04:02.705
+knowledge about the environment.
+
+51
+00:04:02.925 --> 00:04:07.385
+You don't know what is the transition probability from one
+
+52
+00:04:07.385 --> 00:04:08.905
+state to the neighboring state.
+
+53
+00:04:10.485 --> 00:04:15.265
+You don't have any like in case of uh, frozen lake problem,
+
+54
+00:04:15.925 --> 00:04:18.785
+we have a knowledge about the environment
+
+55
+00:04:18.855 --> 00:04:22.865
+that if I am at a state of one, I can go to,
+
+56
+00:04:23.485 --> 00:04:27.305
+if I take a left hand side movement, I can be any state
+
+57
+00:04:28.525 --> 00:04:31.915
+which is just left of me with 0.3 priority
+
+58
+00:04:31.935 --> 00:04:33.635
+or which is just upside of me.
+
+59
+00:04:33.745 --> 00:04:38.115
+0.33 priority and downside of me 0.33 priority, like that.
+
+60
+00:04:38.545 --> 00:04:40.315
+This knowledge is not available to you.
+
+61
+00:04:40.855 --> 00:04:44.355
+So you know only that there is a greed available to you.
+
+62
+00:04:45.435 --> 00:04:47.495
+You are starting from any particular state.
+
+63
+00:04:48.165 --> 00:04:49.575
+Your objective is to
+
+64
+00:04:51.185 --> 00:04:53.025
+maximize your expected discounted reward,
+
+65
+00:04:53.925 --> 00:04:58.415
+whether you are able to reach your final state
+
+66
+00:04:58.555 --> 00:04:59.695
+and that is the goal.
+
+67
+00:04:59.695 --> 00:05:03.495
+State or not, it is depending on the trajectory.
+
+68
+00:05:03.495 --> 00:05:07.535
+Trajectory means. Okay, let me write down
+
+69
+00:05:07.535 --> 00:05:09.055
+what is called trajectory also.
+
+70
+00:05:09.395 --> 00:05:10.735
+So what is experience?
+
+71
+00:05:11.395 --> 00:05:15.685
+So experience is
+
+72
+00:05:18.455 --> 00:05:22.765
+it is a topple of current state
+
+73
+00:05:23.945 --> 00:05:27.605
+action at the, so T here T is your
+
+74
+00:05:28.505 --> 00:05:30.085
+uh, suffix, okay?
+
+75
+00:05:30.425 --> 00:05:34.245
+ST means state at the time of T
+
+76
+00:05:35.335 --> 00:05:39.715
+action taken when you are in the state of st, okay,
+
+77
+00:05:40.565 --> 00:05:44.915
+state action and then reward and the time of T
+
+78
+00:05:47.245 --> 00:05:49.625
+and then next state, that is your
+
+79
+00:05:51.425 --> 00:05:52.665
+T plus one.
+
+80
+00:05:53.525 --> 00:05:55.345
+So state action reward state.
+
+81
+00:05:56.725 --> 00:05:59.905
+So this, the next state is T plus one means at you have
+
+82
+00:05:59.905 --> 00:06:00.905
+taken one decision.
+
+83
+00:06:01.085 --> 00:06:03.305
+So one time step has elapsed.
+
+84
+00:06:03.365 --> 00:06:06.825
+So you are now having the time has gone to T plus one at
+
+85
+00:06:06.825 --> 00:06:09.185
+that point of time, which state you are belonging to.
+
+86
+00:06:09.765 --> 00:06:13.145
+So capital A stands for your set of all possible state.
+
+87
+00:06:13.145 --> 00:06:16.305
+Okay? So you are basically capital A
+
+88
+00:06:17.655 --> 00:06:18.755
+for the g grided problem.
+
+89
+00:06:18.985 --> 00:06:22.395
+0, 1, 2, 3, up to 15. Number of states are there.
+
+90
+00:06:24.255 --> 00:06:26.675
+You will be in any one of the 15 state
+
+91
+00:06:27.055 --> 00:06:31.475
+as time T goes on time, T is basically, so this is the top.
+
+92
+00:06:32.455 --> 00:06:36.235
+So time T will be starting from zero.
+
+93
+00:06:37.515 --> 00:06:39.905
+It'll be ending up theoretically infinity,
+
+94
+00:06:40.045 --> 00:06:41.745
+but there is a upper limit value,
+
+95
+00:06:41.745 --> 00:06:44.025
+which is very large value theoretically is infinity.
+
+96
+00:06:44.285 --> 00:06:49.185
+So it means that you are taking a decision at the time of T.
+
+97
+00:06:49.765 --> 00:06:51.385
+So you are taking sequential decision
+
+98
+00:06:51.725 --> 00:06:54.065
+and there is a upper limit value, let's say
+
+99
+00:06:54.065 --> 00:06:55.465
+around 10,000 or something.
+
+100
+00:06:55.805 --> 00:06:59.065
+So you are allowed to take 10,000 number of decision,
+
+101
+00:06:59.645 --> 00:07:04.385
+but you will be into one of these finite state only.
+
+102
+00:07:04.975 --> 00:07:07.585
+This G grid only, you are not, your state space is
+
+103
+00:07:08.285 --> 00:07:10.265
+not in finite, although your time
+
+104
+00:07:11.215 --> 00:07:12.745
+over which you are taking a decision
+
+105
+00:07:12.925 --> 00:07:15.185
+and can be flowing through infinity also.
+
+106
+00:07:15.415 --> 00:07:17.025
+Okay? So that is what we mean to say.
+
+107
+00:07:17.085 --> 00:07:21.385
+So ST means at time of tea in which state you are belonging
+
+108
+00:07:21.385 --> 00:07:23.705
+to, what is the action you have taken on
+
+109
+00:07:23.705 --> 00:07:24.705
+that particular instant?
+
+110
+00:07:24.705 --> 00:07:26.105
+What is the reward you have drawn?
+
+111
+00:07:27.285 --> 00:07:28.905
+Reward is one step reward.
+
+112
+00:07:28.905 --> 00:07:32.565
+Okay, and what is the next state you are landing into?
+
+113
+00:07:32.945 --> 00:07:34.285
+So this is called experience.
+
+114
+00:07:34.285 --> 00:07:36.725
+Then what is called trajectory,
+
+115
+00:07:44.485 --> 00:07:44.775
+okay?
+
+116
+00:07:44.835 --> 00:07:48.705
+So trajectory is set off
+
+117
+00:07:50.145 --> 00:07:50.815
+experience,
+
+118
+00:07:56.295 --> 00:07:56.645
+right?
+
+119
+00:07:57.025 --> 00:07:59.365
+So you are allowed to draw as many as experience
+
+120
+00:08:00.545 --> 00:08:04.005
+as your time is elapsing from 0 1, 2, 3.
+
+121
+00:08:04.005 --> 00:08:06.245
+It is like that you're allowed to take.
+
+122
+00:08:06.625 --> 00:08:08.765
+So all of those experience bound
+
+123
+00:08:09.005 --> 00:08:10.325
+together is called the trajectory.
+
+124
+00:08:11.905 --> 00:08:14.165
+If you meet the final goal state here,
+
+125
+00:08:14.195 --> 00:08:16.605
+that is your 15th state, this is your goal state.
+
+126
+00:08:16.825 --> 00:08:19.045
+If you're landing into the goal state, then
+
+127
+00:08:19.945 --> 00:08:23.765
+one trajectory has ended, you restart your game again.
+
+128
+00:08:23.985 --> 00:08:26.405
+So you are drawing another experience, okay?
+
+129
+00:08:26.505 --> 00:08:29.445
+If you have not met your goal state, you are going to take
+
+130
+00:08:30.825 --> 00:08:33.245
+uh, the number of decision allowed
+
+131
+00:08:33.245 --> 00:08:35.165
+by the upper limit value of infinity.
+
+132
+00:08:35.715 --> 00:08:37.685
+Okay? The infinity has the upper limit value.
+
+133
+00:08:38.265 --> 00:08:41.125
+So that is called trajectory. What is our objective here?
+
+134
+00:08:41.145 --> 00:08:45.005
+In case of model free model free model based for anything,
+
+135
+00:08:45.065 --> 00:08:48.565
+um, for a reinforcement learning, the objective is to
+
+136
+00:08:50.645 --> 00:08:55.445
+maximize your expected sum of discounted reward.
+
+137
+00:08:55.475 --> 00:08:58.795
+Okay? So maximization of
+
+138
+00:09:01.995 --> 00:09:06.095
+expected sum of discounted reward.
+
+139
+00:09:06.095 --> 00:09:07.935
+What is the sum of discounted reward?
+
+140
+00:09:07.955 --> 00:09:11.695
+It is written like this sum of discounted reward.
+
+141
+00:09:12.115 --> 00:09:16.995
+So gamma to the power T reward is
+
+142
+00:09:18.055 --> 00:09:20.155
+this one, okay?
+
+143
+00:09:21.495 --> 00:09:25.445
+T is from zero to infinity.
+
+144
+00:09:27.155 --> 00:09:29.885
+Okay? So this is the job every time we do
+
+145
+00:09:30.755 --> 00:09:33.405
+this is a general objective function maximization
+
+146
+00:09:33.405 --> 00:09:35.165
+of expected sum of discounted reward
+
+147
+00:09:35.465 --> 00:09:37.205
+and this ion is happening
+
+148
+00:09:38.395 --> 00:09:40.685
+overall possible policy, okay?
+
+149
+00:09:40.685 --> 00:09:43.165
+You you like, uh, you have already seen
+
+150
+00:09:43.165 --> 00:09:47.165
+for model-based algorithm for last few, like last one month,
+
+151
+00:09:47.165 --> 00:09:48.725
+we have been doing model-based problem
+
+152
+00:09:48.955 --> 00:09:51.405
+that are called MDP markup vision process.
+
+153
+00:09:51.985 --> 00:09:53.125
+In that case, we have been
+
+154
+00:09:53.405 --> 00:09:57.685
+provided with all the transition
+
+155
+00:09:58.685 --> 00:10:01.125
+function related is already known to us, okay?
+
+156
+00:10:01.465 --> 00:10:03.525
+So in that case also we have done it
+
+157
+00:10:03.525 --> 00:10:07.205
+by using value ation policy ation, even for that also
+
+158
+00:10:07.205 --> 00:10:08.885
+that objective function is same.
+
+159
+00:10:09.035 --> 00:10:10.565
+That is maximization of this
+
+160
+00:10:10.585 --> 00:10:11.685
+and this maximize is going
+
+161
+00:10:11.685 --> 00:10:13.565
+to happen over all possible policy.
+
+162
+00:10:13.635 --> 00:10:15.525
+That means you start with any random policy,
+
+163
+00:10:16.345 --> 00:10:19.485
+you evaluate the policy, you do a policy improvement,
+
+164
+00:10:19.545 --> 00:10:22.205
+you get a new policy, again, you evaluate the policy
+
+165
+00:10:22.905 --> 00:10:25.365
+at every evaluation of new, new, new policy,
+
+166
+00:10:25.705 --> 00:10:29.445
+you are improving your state value function.
+
+167
+00:10:30.155 --> 00:10:34.195
+That is v state value function.
+
+168
+00:10:35.035 --> 00:10:38.655
+V of is i
+
+169
+00:10:39.595 --> 00:10:43.895
+si stands for where I is basically 0 1, 2, 3, up to 15.
+
+170
+00:10:43.965 --> 00:10:46.375
+Okay? At every new policy you get
+
+171
+00:10:46.925 --> 00:10:48.855
+your value function computed
+
+172
+00:10:48.855 --> 00:10:51.775
+for every state this is going to be increasing.
+
+173
+00:10:52.355 --> 00:10:57.215
+So you are basically finding out this maximizing over
+
+174
+00:10:57.515 --> 00:10:58.615
+all possible policy.
+
+175
+00:10:58.795 --> 00:11:01.775
+So that is what is the main objective we do
+
+176
+00:11:02.035 --> 00:11:04.375
+for doing this objective we have defined
+
+177
+00:11:05.535 --> 00:11:07.085
+value function, okay?
+
+178
+00:11:07.585 --> 00:11:10.985
+So value function definition is value
+
+179
+00:11:13.305 --> 00:11:14.485
+for the state of A.
+
+180
+00:11:15.715 --> 00:11:18.015
+So this state of A is a smallest, okay?
+
+181
+00:11:18.855 --> 00:11:22.585
+That means if I start the game from the state of smallest,
+
+182
+00:11:23.695 --> 00:11:25.425
+then what is the value for me
+
+183
+00:11:25.445 --> 00:11:28.185
+to start the game from the smallest state?
+
+184
+00:11:28.335 --> 00:11:30.545
+Okay? So this one is retaining like this.
+
+185
+00:11:31.725 --> 00:11:36.415
+So okay,
+
+186
+00:11:36.825 --> 00:11:38.975
+maximizing is not required right now too.
+
+187
+00:11:44.545 --> 00:11:45.895
+There should be erase out here.
+
+188
+00:11:46.375 --> 00:11:49.655
+I am doing some mistakes sometime back also for
+
+189
+00:11:49.655 --> 00:11:52.335
+that I am not having any handle here to erase it.
+
+190
+00:11:55.075 --> 00:11:58.755
+So your value function is basically
+
+191
+00:12:00.435 --> 00:12:04.685
+expected sum of discounted reward, okay?
+
+192
+00:12:04.795 --> 00:12:09.335
+This T is equal to zero two infinity drama to the body.
+
+193
+00:12:10.635 --> 00:12:13.615
+Uh, T given that you have
+
+194
+00:12:14.365 --> 00:12:15.775
+started your game,
+
+195
+00:12:16.695 --> 00:12:19.735
+T is basically small s this is your value
+
+196
+00:12:20.015 --> 00:12:21.905
+function, okay?
+
+197
+00:12:23.955 --> 00:12:26.045
+Look at this. One is your objective that you want
+
+198
+00:12:26.045 --> 00:12:27.685
+to do over all possible policy,
+
+199
+00:12:27.865 --> 00:12:30.485
+but to start with we are not going to assume.
+
+200
+00:12:30.485 --> 00:12:33.165
+So whenever we're doing maximum over this all possible
+
+201
+00:12:33.165 --> 00:12:37.325
+policy, we are going to achieve a optimal value function.
+
+202
+00:12:37.385 --> 00:12:40.725
+But whereas this one, this is called just a value function.
+
+203
+00:12:41.235 --> 00:12:45.045
+Okay? So if I don't do this maximizing overall possible
+
+204
+00:12:45.045 --> 00:12:47.685
+policy, if I just keep this part alone,
+
+205
+00:12:48.075 --> 00:12:49.725
+this is called value function, okay?
+
+206
+00:12:49.725 --> 00:12:51.645
+So there are two things to be understood.
+
+207
+00:12:51.645 --> 00:12:53.925
+One is called optimal value function,
+
+208
+00:12:53.925 --> 00:12:55.125
+another one is called normal,
+
+209
+00:12:55.755 --> 00:12:58.405
+just a hello function and their differences.
+
+210
+00:12:59.715 --> 00:13:02.205
+This is called V start
+
+211
+00:13:02.385 --> 00:13:05.265
+of A, okay?
+
+212
+00:13:05.695 --> 00:13:09.675
+This, this one. So V start means anything V
+
+213
+00:13:09.775 --> 00:13:12.635
+as star means it is a optimal function, okay?
+
+214
+00:13:13.215 --> 00:13:15.555
+If you don't have any start, that means it is a normal case.
+
+215
+00:13:16.295 --> 00:13:17.675
+So overall possible policy,
+
+216
+00:13:17.995 --> 00:13:19.875
+whenever you're finding out the maximization
+
+217
+00:13:19.875 --> 00:13:21.835
+of this quantity, and
+
+218
+00:13:22.115 --> 00:13:25.315
+whenever we say it is value function computed at a state
+
+219
+00:13:25.315 --> 00:13:29.395
+of ace, that means you are interested to find this quantity
+
+220
+00:13:30.515 --> 00:13:34.265
+whenever your game is starting at the state of is
+
+221
+00:13:36.365 --> 00:13:38.095
+this part, this is a given.
+
+222
+00:13:38.725 --> 00:13:42.055
+This bar, vertical bar means condition on the fact
+
+223
+00:13:42.055 --> 00:13:45.325
+that your game is starting at the time of T
+
+224
+00:13:46.915 --> 00:13:48.495
+you are starting from the state of smallest
+
+225
+00:13:48.875 --> 00:13:51.375
+and for this particular state only you are interested
+
+226
+00:13:51.375 --> 00:13:53.775
+to find out what is the optimal value function
+
+227
+00:13:54.355 --> 00:13:56.255
+and t is equal to a
+
+228
+00:13:56.385 --> 00:13:59.135
+where T is initialized from zero to infinity.
+
+229
+00:13:59.245 --> 00:14:01.695
+Okay? So this is the value function.
+
+230
+00:14:01.695 --> 00:14:03.335
+Next, optimal value function expression.
+
+231
+00:14:03.335 --> 00:14:06.305
+This is the value function expression. Okay?
+
+232
+00:14:08.025 --> 00:14:10.165
+So this is the already thing.
+
+233
+00:14:10.165 --> 00:14:13.125
+You have done it we'll be ly encountering this
+
+234
+00:14:14.025 --> 00:14:17.575
+and there are a lot of, uh, is there where to go
+
+235
+00:14:17.575 --> 00:14:20.015
+to next page or I have to go just drag.
+
+236
+00:14:26.245 --> 00:14:27.405
+I want to, do you wanna
+
+237
+00:14:27.465 --> 00:14:28.645
+Go to next screen?
+
+238
+00:14:29.225 --> 00:14:32.845
+Uh, yes. Uh, actually you can move it um,
+
+239
+00:14:32.995 --> 00:14:35.795
+with your touch pad on laptop.
+
+240
+00:14:36.335 --> 00:14:37.755
+You can just scroll up.
+
+241
+00:14:39.295 --> 00:14:41.315
+You can select somewhere in the empty space
+
+242
+00:14:41.335 --> 00:14:44.595
+and uh, just go to the right or bottom and you can, yeah,
+
+243
+00:14:47.535 --> 00:14:48.535
+Okay.
+
+244
+00:14:50.595 --> 00:14:55.065
+Okay. So, so for model three
+
+245
+00:14:56.795 --> 00:14:59.025
+we have four methods.
+
+246
+00:15:02.015 --> 00:15:02.765
+Model three,
+
+247
+00:15:06.185 --> 00:15:07.045
+we have four methods.
+
+248
+00:15:07.265 --> 00:15:10.875
+The first method is called Monte Carlo.
+
+249
+00:15:15.635 --> 00:15:18.645
+Okay? Second method is called TD learning.
+
+250
+00:15:18.945 --> 00:15:21.685
+It is called temporal deference learning. Okay?
+
+251
+00:15:22.295 --> 00:15:26.545
+Third method is called multi
+
+252
+00:15:27.305 --> 00:15:28.985
+learning Q learning.
+
+253
+00:15:35.335 --> 00:15:39.745
+Fourth method is called deep Q learning.
+
+254
+00:15:40.485 --> 00:15:43.505
+We, we will be cohorting everything in this
+
+255
+00:15:43.505 --> 00:15:45.785
+course, okay?
+
+256
+00:15:45.875 --> 00:15:50.215
+There are four ways to do that in TD learning.
+
+257
+00:15:50.265 --> 00:15:51.935
+There are various variation.
+
+258
+00:15:52.115 --> 00:15:53.935
+One is there are multiple variation.
+
+259
+00:15:53.955 --> 00:15:56.655
+One is called we start with TD zero.
+
+260
+00:15:58.235 --> 00:16:00.135
+TD zero means the time argument is zero.
+
+261
+00:16:00.605 --> 00:16:05.415
+Then next one is called TD one, like that TD end
+
+262
+00:16:07.345 --> 00:16:10.035
+that is this in the bracket, N stands
+
+263
+00:16:10.135 --> 00:16:12.355
+for N can be 0, 1, 2, 3, anything.
+
+264
+00:16:13.225 --> 00:16:17.035
+This n stands for the time instant in the future, okay?
+
+265
+00:16:18.645 --> 00:16:21.145
+And coming, uh, combining all of them.
+
+266
+00:16:21.375 --> 00:16:25.995
+This is called TD Lambda learning.
+
+267
+00:16:31.165 --> 00:16:35.295
+This has been invented, uh, 1920 itself.
+
+268
+00:16:36.045 --> 00:16:38.895
+Long time back Monte Carlo destination.
+
+269
+00:16:39.005 --> 00:16:43.655
+This has been invented somewhere in 1940s.
+
+270
+00:16:47.095 --> 00:16:51.045
+Q learning 19, uh,
+
+271
+00:16:53.525 --> 00:16:54.975
+sixties onward.
+
+272
+00:16:55.045 --> 00:16:57.535
+Okay? Then deep fuel learning is
+
+273
+00:16:57.535 --> 00:17:01.535
+after deep learning has came up, the first application of
+
+274
+00:17:02.555 --> 00:17:04.375
+it has been originate.
+
+275
+00:17:04.575 --> 00:17:06.495
+I mean the deep queue learning has been started.
+
+276
+00:17:06.495 --> 00:17:09.295
+Experimentation from 2010 onward.
+
+277
+00:17:09.295 --> 00:17:12.735
+But the first successful application of Deep Q learning
+
+278
+00:17:12.955 --> 00:17:17.875
+to solve a AI game, that game is called Atari Game
+
+279
+00:17:22.615 --> 00:17:24.625
+Game in 2013.
+
+280
+00:17:24.625 --> 00:17:28.065
+It has been solved by using Deep Q learning from Google
+
+281
+00:17:28.105 --> 00:17:31.355
+DeepMind and uh,
+
+282
+00:17:32.005 --> 00:17:35.155
+after the success of this Atari game using Deep Q learning
+
+283
+00:17:35.975 --> 00:17:38.325
+the same team, okay?
+
+284
+00:17:38.385 --> 00:17:43.225
+The same team they have from Google DeepMind,
+
+285
+00:17:43.335 --> 00:17:47.595
+they have joined into OpenAI mainly.
+
+286
+00:17:48.495 --> 00:17:52.545
+Uh, those people like John School, man, Peter Abel,
+
+287
+00:17:54.765 --> 00:17:57.515
+David Sil, all of these are pioneer
+
+288
+00:17:57.655 --> 00:17:59.395
+of deep learning and they're not.
+
+289
+00:18:00.475 --> 00:18:03.885
+They're within the age of 40, 40, 41, 42 like that.
+
+290
+00:18:05.015 --> 00:18:09.835
+These people, they have came up with the idea called
+
+291
+00:18:12.935 --> 00:18:17.875
+PPO algorithm, which has been implemented by Google,
+
+292
+00:18:17.975 --> 00:18:20.915
+uh, OpenAI in 2021.
+
+293
+00:18:21.415 --> 00:18:24.595
+The first application of PPO in the language model was in
+
+294
+00:18:25.105 --> 00:18:26.955
+chat GPT, okay?
+
+295
+00:18:28.795 --> 00:18:30.565
+This extension of this from here only,
+
+296
+00:18:31.565 --> 00:18:35.665
+and that has revolutionized the LLM part till now all
+
+297
+00:18:35.665 --> 00:18:37.025
+of these Google DeepMind people,
+
+298
+00:18:37.025 --> 00:18:40.705
+they have been heavily invested on the time on bot model BRT
+
+299
+00:18:40.705 --> 00:18:44.025
+model and they thought that transformer has,
+
+300
+00:18:44.465 --> 00:18:48.145
+transformer has actually innovated from Google DeepMind only
+
+301
+00:18:49.785 --> 00:18:52.355
+that the famous paper attention is all you need.
+
+302
+00:18:52.375 --> 00:18:56.475
+But that paper did not have anything training involving
+
+303
+00:18:56.475 --> 00:18:59.475
+with reinforcement learning where these people, they,
+
+304
+00:18:59.485 --> 00:19:02.675
+after seeing the success of bot model from transformer,
+
+305
+00:19:02.675 --> 00:19:06.395
+they came up with PP algorithm from they joined the open ai,
+
+306
+00:19:06.395 --> 00:19:09.035
+they revolutionized the whole field.
+
+307
+00:19:09.535 --> 00:19:13.435
+Now, almost all of the white, I mean LLM has
+
+308
+00:19:14.055 --> 00:19:17.595
+become success because of application
+
+309
+00:19:17.595 --> 00:19:18.595
+of reinforcement learning,
+
+310
+00:19:18.745 --> 00:19:21.115
+deep reinforcement learning into language model
+
+311
+00:19:24.205 --> 00:19:25.705
+and that is also a big barrier
+
+312
+00:19:26.045 --> 00:19:28.145
+for training it any normal system.
+
+313
+00:19:33.785 --> 00:19:35.995
+Okay, so we'll start with now Monte Carlo
+
+314
+00:19:35.995 --> 00:19:38.545
+and TD learning, we,
+
+315
+00:19:38.725 --> 00:19:41.545
+in our course we'll be finishing up with DQ learning.
+
+316
+00:19:42.325 --> 00:19:45.945
+If time is there, I will try to touch you up on, um,
+
+317
+00:19:46.205 --> 00:19:48.585
+policy gradient that will PPO came from a
+
+318
+00:19:48.585 --> 00:19:49.945
+theorem called policy gradient.
+
+319
+00:19:49.945 --> 00:19:52.505
+If time is there, we'll get into that, okay?
+
+320
+00:20:04.745 --> 00:20:09.315
+Okay, so, so I have given the name
+
+321
+00:20:09.315 --> 00:20:11.835
+of the professors from whom I am being inspired
+
+322
+00:20:12.015 --> 00:20:13.395
+for making this PPT.
+
+323
+00:20:13.395 --> 00:20:14.875
+You can go through their lectures.
+
+324
+00:20:14.875 --> 00:20:17.115
+It is available in YouTube if you have time.
+
+325
+00:20:17.745 --> 00:20:21.275
+Okay, so, uh, what is
+
+326
+00:20:22.855 --> 00:20:26.625
+Billman equation or we call it as a billman equation update
+
+327
+00:20:26.645 --> 00:20:28.265
+for estimating our value function.
+
+328
+00:20:28.895 --> 00:20:31.345
+Okay? So we require that thing.
+
+329
+00:20:32.755 --> 00:20:34.895
+So we know that our objective is
+
+330
+00:20:34.895 --> 00:20:38.015
+to look at this value function, ex expression here.
+
+331
+00:20:38.045 --> 00:20:39.815
+This one, this one I already wrote here.
+
+332
+00:20:41.725 --> 00:20:42.725
+I have already wrote it here.
+
+333
+00:20:42.755 --> 00:20:46.995
+Okay, look at here, I have already wrote it here.
+
+334
+00:20:48.065 --> 00:20:49.115
+This is our objective
+
+335
+00:20:49.735 --> 00:20:53.275
+to estimate the value function, okay?
+
+336
+00:20:53.495 --> 00:20:57.275
+Now if you take this expression
+
+337
+00:20:58.175 --> 00:21:02.625
+and just split the submission, so T to zero
+
+338
+00:21:02.625 --> 00:21:06.625
+to infinity split the sum, put T to zero, you get R zero
+
+339
+00:21:07.335 --> 00:21:10.905
+plus T to one, two infinity remaining as it is here, okay?
+
+340
+00:21:11.625 --> 00:21:13.865
+T is equal to one, two infinity remaining as it is,
+
+341
+00:21:14.635 --> 00:21:17.295
+and now you have got into a new state called a desk.
+
+342
+00:21:17.525 --> 00:21:20.095
+That means one time has elapsed.
+
+343
+00:21:20.095 --> 00:21:22.775
+So you have taken one decision, you have landed up
+
+344
+00:21:22.775 --> 00:21:26.615
+to new state called a desk at what time it is on the time
+
+345
+00:21:26.635 --> 00:21:28.855
+of a, I mean it is time of one.
+
+346
+00:21:29.515 --> 00:21:30.975
+So we call it S one.
+
+347
+00:21:32.975 --> 00:21:34.695
+S zero is basically you started your game.
+
+348
+00:21:35.255 --> 00:21:39.495
+S one is after one timestamp, you have got into a new state.
+
+349
+00:21:39.595 --> 00:21:41.935
+We denoted by a variable called S one,
+
+350
+00:21:42.355 --> 00:21:44.895
+but the value of the variable is S desk here, okay?
+
+351
+00:21:46.445 --> 00:21:49.775
+With that you can again write this same thing.
+
+352
+00:21:50.215 --> 00:21:51.815
+Actually this is, I'm going to explain it.
+
+353
+00:21:51.815 --> 00:21:53.615
+For many of you may feel it is boring.
+
+354
+00:21:53.935 --> 00:21:56.695
+I mean it may be not easily
+
+355
+00:21:58.865 --> 00:22:01.455
+understood by everyone, but still is regard
+
+356
+00:22:01.455 --> 00:22:05.175
+because beman is the one of the most important contribution
+
+357
+00:22:06.035 --> 00:22:07.815
+in this field has happened
+
+358
+00:22:07.815 --> 00:22:12.575
+because of Billman, Richard Bellman, those of you
+
+359
+00:22:12.595 --> 00:22:16.295
+who have remember dynamic programming algorithm in the
+
+360
+00:22:16.295 --> 00:22:20.315
+algorithm theory, there are two ways
+
+361
+00:22:20.315 --> 00:22:21.395
+to solve any kind of algorithm.
+
+362
+00:22:21.395 --> 00:22:23.395
+One is greedy and another kind dynamic programming.
+
+363
+00:22:23.395 --> 00:22:25.795
+Billman is the person who invented dynamic
+
+364
+00:22:25.825 --> 00:22:27.035
+programming, okay?
+
+365
+00:22:27.375 --> 00:22:30.355
+And it has a huge, uh, the innovation
+
+366
+00:22:30.535 --> 00:22:33.635
+of dynamic programming came from this theor only.
+
+367
+00:22:33.745 --> 00:22:37.575
+That is value function estimation. Okay?
+
+368
+00:22:37.835 --> 00:22:42.095
+So coming back here, so you're expressing,
+
+369
+00:22:42.195 --> 00:22:43.695
+you just split it up this submission,
+
+370
+00:22:44.915 --> 00:22:46.455
+you got this expectation now.
+
+371
+00:22:47.075 --> 00:22:51.965
+Now look at here, expectation operator appli applied on
+
+372
+00:22:51.995 --> 00:22:54.205
+this particular quantity, okay?
+
+373
+00:22:54.225 --> 00:22:57.685
+So expectation of R zero, R zero is a value,
+
+374
+00:22:57.825 --> 00:22:59.765
+it is a single value, scaler value.
+
+375
+00:22:59.825 --> 00:23:01.525
+So expectation means average.
+
+376
+00:23:01.525 --> 00:23:04.525
+Average of a constant value is again the same constant,
+
+377
+00:23:04.525 --> 00:23:05.845
+so odd zero will remain the same,
+
+378
+00:23:06.345 --> 00:23:08.365
+but expectation for this thing,
+
+379
+00:23:10.175 --> 00:23:13.905
+this is called the value function for the new state of isde.
+
+380
+00:23:15.275 --> 00:23:18.245
+Okay? So I just write it here for your reference.
+
+381
+00:23:26.495 --> 00:23:29.685
+So what we're saying here is the definition
+
+382
+00:23:29.685 --> 00:23:30.765
+of value function is
+
+383
+00:23:35.805 --> 00:23:39.215
+expectation of R zero
+
+384
+00:23:39.805 --> 00:23:40.975
+plus gamma.
+
+385
+00:23:45.575 --> 00:23:47.835
+Um, this comma has to be not
+
+386
+00:23:56.555 --> 00:24:00.955
+T times step one onward gaa, this followed
+
+387
+00:24:01.015 --> 00:24:05.885
+by rt, given that S one is equal
+
+388
+00:24:05.905 --> 00:24:07.325
+to S desk, okay?
+
+389
+00:24:07.715 --> 00:24:11.225
+This is what we have, we are here at, okay,
+
+390
+00:24:12.455 --> 00:24:16.785
+so from here, this is the expectation operator.
+
+391
+00:24:17.325 --> 00:24:19.185
+So this expectation
+
+392
+00:24:19.285 --> 00:24:23.115
+of R zero is basically same.
+
+393
+00:24:23.255 --> 00:24:27.915
+You can write them here plus expectation
+
+394
+00:24:29.095 --> 00:24:33.805
+of this T equal 2 1 2
+
+395
+00:24:33.805 --> 00:24:37.605
+infinity gamma power of this rt.
+
+396
+00:24:42.355 --> 00:24:45.325
+This is a test. Now what is this part?
+
+397
+00:24:48.165 --> 00:24:48.695
+This part,
+
+398
+00:24:54.345 --> 00:24:58.515
+this part is nothing but look at value function,
+
+399
+00:24:58.575 --> 00:25:02.055
+opt end at the state of ace is this thing, okay?
+
+400
+00:25:02.675 --> 00:25:07.655
+And for this, it is nothing but value function, okay?
+
+401
+00:25:07.795 --> 00:25:10.735
+At the state of S dash, no, the state of S dash
+
+402
+00:25:11.055 --> 00:25:12.335
+provided that I start the game,
+
+403
+00:25:13.175 --> 00:25:15.175
+I start the game from the S desk, okay?
+
+404
+00:25:15.175 --> 00:25:19.895
+Still, now it is saying that one time has elapsed, so I have
+
+405
+00:25:19.895 --> 00:25:24.405
+to take into account of starting the game from the S desk.
+
+406
+00:25:24.705 --> 00:25:29.035
+For that I just apply tweak. Actually I'm not applying.
+
+407
+00:25:29.105 --> 00:25:32.755
+This is the theorem beman had invented for explanation.
+
+408
+00:25:32.835 --> 00:25:37.395
+I only telling like that this gamma one
+
+409
+00:25:38.645 --> 00:25:40.775
+I am taking it out.
+
+410
+00:25:42.005 --> 00:25:45.975
+Then here it becomes gamma to the T minus one here, right?
+
+411
+00:25:46.005 --> 00:25:50.615
+This submission T is equal to one, two infinity gamma
+
+412
+00:25:50.615 --> 00:25:54.195
+to the part T minus of one, okay?
+
+413
+00:25:54.865 --> 00:25:57.295
+Then R of T
+
+414
+00:25:58.345 --> 00:26:00.445
+or is one of is test.
+
+415
+00:26:01.065 --> 00:26:05.825
+So here this T minus of one you can consider this two minus
+
+416
+00:26:05.885 --> 00:26:07.065
+of one is zero here.
+
+417
+00:26:07.125 --> 00:26:09.025
+So now you are able to reset your game
+
+418
+00:26:09.025 --> 00:26:10.265
+from the state of S test.
+
+419
+00:26:11.405 --> 00:26:15.255
+Okay? So now you can say that this expression can be reduced
+
+420
+00:26:15.315 --> 00:26:19.755
+to this expectation of odd zero agreement
+
+421
+00:26:19.815 --> 00:26:21.435
+as it is this plus gamma.
+
+422
+00:26:22.395 --> 00:26:25.725
+This one is nothing but your value function obtained at the
+
+423
+00:26:25.725 --> 00:26:27.775
+state of ACE test.
+
+424
+00:26:28.785 --> 00:26:33.105
+Okay? So recursively you, if I want
+
+425
+00:26:33.105 --> 00:26:35.705
+to compute the value for the state of ace,
+
+426
+00:26:36.385 --> 00:26:38.025
+I need the value for the next date.
+
+427
+00:26:38.365 --> 00:26:41.975
+So recursive computation, okay, so we are falling back
+
+428
+00:26:41.975 --> 00:26:45.085
+to the same thing last in the case of model based
+
+429
+00:26:45.795 --> 00:26:48.205
+like in value at policy attrition also.
+
+430
+00:26:49.435 --> 00:26:50.895
+So that is what is based here.
+
+431
+00:26:51.315 --> 00:26:55.125
+So we are reducing these two value function optin
+
+432
+00:26:55.125 --> 00:26:57.605
+for the SD, this is called billman equation.
+
+433
+00:26:58.105 --> 00:27:01.125
+The relation between the value function
+
+434
+00:27:01.125 --> 00:27:04.285
+between two consecutive state, okay?
+
+435
+00:27:04.825 --> 00:27:07.485
+In other way, if you remember from your model-based
+
+436
+00:27:07.725 --> 00:27:11.765
+learning, this can be written in this
+
+437
+00:27:11.765 --> 00:27:13.555
+manner, okay?
+
+438
+00:27:16.615 --> 00:27:19.705
+Just to keep you uh, properly
+
+439
+00:27:19.705 --> 00:27:22.225
+with your model-based learning, we can just consider
+
+440
+00:27:23.055 --> 00:27:25.585
+here I'm only involving pie of a here,
+
+441
+00:27:26.345 --> 00:27:27.715
+this pie of ace means what?
+
+442
+00:27:28.135 --> 00:27:30.875
+At the state of ace, what is my policy?
+
+443
+00:27:31.975 --> 00:27:34.355
+So policy means mapping from state to action.
+
+444
+00:27:34.535 --> 00:27:36.715
+So pie of ace is basically one of the actions
+
+445
+00:27:36.715 --> 00:27:38.635
+that you can take it in the state of ace.
+
+446
+00:27:39.695 --> 00:27:41.975
+So that this thing
+
+447
+00:27:42.635 --> 00:27:45.695
+and this thing, it has no difference in the meaning.
+
+448
+00:27:45.845 --> 00:27:49.635
+Only thing I have replaced this bio face with a, okay,
+
+449
+00:27:49.975 --> 00:27:54.925
+so this till unit one, we have been heavily dealing
+
+450
+00:27:54.955 --> 00:27:56.205
+with this expression, okay?
+
+451
+00:27:56.945 --> 00:28:00.325
+But this knowledge is not known to us in case
+
+452
+00:28:00.325 --> 00:28:02.395
+of model free learning.
+
+453
+00:28:03.225 --> 00:28:04.355
+That means the probability
+
+454
+00:28:04.895 --> 00:28:07.475
+of getting into a new state is desk from the
+
+455
+00:28:07.475 --> 00:28:08.715
+current state of ace.
+
+456
+00:28:10.485 --> 00:28:14.505
+Okay? So this is unknown to us.
+
+457
+00:28:14.735 --> 00:28:17.585
+That is why we will not be able to write this expression
+
+458
+00:28:17.605 --> 00:28:19.825
+for our model free learning algorithm.
+
+459
+00:28:21.585 --> 00:28:25.515
+Okay? So you have seen already all those, uh, your,
+
+460
+00:28:25.695 --> 00:28:27.435
+uh, do I have it here?
+
+461
+00:28:28.815 --> 00:28:29.835
+Uh, no.
+
+462
+00:28:34.615 --> 00:28:37.025
+This dictionary I have written already, right?
+
+463
+00:28:37.045 --> 00:28:39.345
+So under state of ace, if you take action a,
+
+464
+00:28:39.565 --> 00:28:42.985
+you may get into any one of those next possible states.
+
+465
+00:28:43.455 --> 00:28:45.865
+This knowledge is not available to us in case
+
+466
+00:28:45.865 --> 00:28:49.095
+of model free reinforcement learning.
+
+467
+00:28:49.245 --> 00:28:51.535
+Okay? So we are going to take the help of estimation
+
+468
+00:28:52.735 --> 00:28:53.755
+how to do that now.
+
+469
+00:28:54.535 --> 00:28:57.415
+So the estimation is basically let me,
+
+470
+00:28:58.355 --> 00:29:00.415
+before getting into Q function
+
+471
+00:29:00.435 --> 00:29:02.175
+and all, let me go into
+
+472
+00:29:02.845 --> 00:29:04.695
+what is called montecarlo estimation.
+
+473
+00:29:05.555 --> 00:29:08.095
+So here is a Montecarlo estimation, okay?
+
+474
+00:29:09.665 --> 00:29:11.965
+So look at Montecarlo estimation, what does it say?
+
+475
+00:29:12.535 --> 00:29:15.605
+Since we don't have any knowledge about the next state
+
+476
+00:29:15.735 --> 00:29:19.165
+transition probability, what we do is we take a whole
+
+477
+00:29:19.935 --> 00:29:22.765
+projectile till we reach the end of the game.
+
+478
+00:29:23.025 --> 00:29:26.525
+Either I may reach to the desired goal state
+
+479
+00:29:26.745 --> 00:29:28.725
+or if I do not reach the desired goal state
+
+480
+00:29:29.235 --> 00:29:32.645
+when my upper limit of trial is over, my game is stopped at
+
+481
+00:29:32.645 --> 00:29:34.045
+that point of time, if I have reached
+
+482
+00:29:34.045 --> 00:29:36.605
+that desired goal state, my reward is going to be one else,
+
+483
+00:29:36.905 --> 00:29:38.525
+my reward is going to be remaining zero.
+
+484
+00:29:38.755 --> 00:29:41.260
+Okay? So the reward is basically
+
+485
+00:29:42.435 --> 00:29:44.165
+over one episode.
+
+486
+00:29:44.705 --> 00:29:48.665
+The reward is basically do the submission for
+
+487
+00:29:49.735 --> 00:29:52.565
+every new state transition that you do.
+
+488
+00:29:53.545 --> 00:29:55.405
+So normally we don't have any reward
+
+489
+00:29:55.765 --> 00:29:58.405
+whenever we are landing into intermediate state only when we
+
+490
+00:29:58.425 --> 00:30:02.285
+get into the final goal state, we get a reward of one.
+
+491
+00:30:03.755 --> 00:30:05.775
+So this reward you are taking
+
+492
+00:30:06.035 --> 00:30:08.895
+for if I write it, it'll become like this.
+
+493
+00:30:17.605 --> 00:30:22.395
+So your reward sigma means
+
+494
+00:30:23.175 --> 00:30:24.675
+sum of all the reward, okay?
+
+495
+00:30:24.735 --> 00:30:27.155
+So this is basically gamma reward.
+
+496
+00:30:27.575 --> 00:30:30.875
+For every times step you have taken, T is equal
+
+497
+00:30:30.875 --> 00:30:32.275
+to zero two infinity.
+
+498
+00:30:33.255 --> 00:30:36.995
+So if you split them up, so R zero, this is
+
+499
+00:30:36.995 --> 00:30:38.915
+for only one particular episode, okay?
+
+500
+00:30:41.265 --> 00:30:44.115
+R zero plus gamma
+
+501
+00:30:47.975 --> 00:30:52.265
+gamma R one, like that
+
+502
+00:30:53.345 --> 00:30:56.575
+gamma square or two like that, it'll go on,
+
+503
+00:30:56.905 --> 00:30:58.255
+it'll end up at gamma.
+
+504
+00:30:58.305 --> 00:31:01.415
+Let's say you have ended up at gamma
+
+505
+00:31:02.565 --> 00:31:04.345
+and then rn, okay?
+
+506
+00:31:05.445 --> 00:31:09.655
+This den is the upper limit of your trial.
+
+507
+00:31:09.845 --> 00:31:13.775
+Once your trial is over after n number of attempt, okay?
+
+508
+00:31:14.395 --> 00:31:17.945
+RN can be one
+
+509
+00:31:18.805 --> 00:31:20.895
+or zero, okay?
+
+510
+00:31:21.195 --> 00:31:24.015
+But it has been multiplied by gamma is basically,
+
+511
+00:31:24.805 --> 00:31:26.275
+let's say it is 0.9.
+
+512
+00:31:27.675 --> 00:31:32.455
+So 0.9 to the part of n in be, we can keep it anything
+
+513
+00:31:32.675 --> 00:31:33.895
+as per your experiment.
+
+514
+00:31:34.525 --> 00:31:37.895
+Okay? So the final reward of one, if you're getting,
+
+515
+00:31:38.345 --> 00:31:41.735
+it'll be multiplied by very small quantity come up out of N.
+
+516
+00:31:41.835 --> 00:31:43.735
+So that is the only thing that you can draw
+
+517
+00:31:43.755 --> 00:31:45.535
+as your R sigma, okay?
+
+518
+00:31:45.715 --> 00:31:46.935
+Uh, use that r sigma
+
+519
+00:31:48.565 --> 00:31:50.745
+and then you compute your value function.
+
+520
+00:31:50.845 --> 00:31:52.545
+So how you're writing a value function.
+
+521
+00:31:54.545 --> 00:31:59.415
+So we knew
+
+522
+00:32:00.585 --> 00:32:01.085
+for the
+
+523
+00:32:06.775 --> 00:32:11.715
+ST estimates the value function to be computed at the state
+
+524
+00:32:11.815 --> 00:32:16.185
+of at the state where you are deciding at a time
+
+525
+00:32:16.185 --> 00:32:17.265
+of t st.
+
+526
+00:32:18.015 --> 00:32:22.105
+This one will be drawn, written like this old
+
+527
+00:32:22.125 --> 00:32:24.795
+of st again,
+
+528
+00:32:25.115 --> 00:32:28.515
+remember ST means the state in which you are at the time
+
+529
+00:32:28.515 --> 00:32:30.335
+of T, okay?
+
+530
+00:32:31.885 --> 00:32:33.445
+T is flowing from zero to infinity.
+
+531
+00:32:34.515 --> 00:32:38.045
+Only thing is your notations are quite defined from the
+
+532
+00:32:38.295 --> 00:32:41.445
+model based, like in case of MDB in the unit one.
+
+533
+00:32:41.515 --> 00:32:46.365
+Okay? Here, this multiplied by you are taking a number of
+
+534
+00:32:47.725 --> 00:32:48.885
+decision to be taken, okay?
+
+535
+00:32:48.945 --> 00:32:53.885
+So divide by one by n then R sigma
+
+536
+00:32:55.985 --> 00:33:00.885
+minus v old of
+
+537
+00:33:03.385 --> 00:33:05.005
+T, this is ending.
+
+538
+00:33:05.675 --> 00:33:09.445
+This formula is known as Monte Carlo estimate of your
+
+539
+00:33:10.825 --> 00:33:12.575
+model based reinforcement learning.
+
+540
+00:33:12.645 --> 00:33:13.975
+What is a physical meaning?
+
+541
+00:33:14.115 --> 00:33:18.215
+The physical meaning is I want to update my value function,
+
+542
+00:33:18.415 --> 00:33:20.335
+estimate and below function estimation.
+
+543
+00:33:20.335 --> 00:33:23.095
+Okay? So V of st I'm going to update.
+
+544
+00:33:24.795 --> 00:33:29.505
+So for that, once I update, I'll be landing into a new value
+
+545
+00:33:29.885 --> 00:33:32.895
+of the state called st.
+
+546
+00:33:33.125 --> 00:33:35.655
+This is denoted as v new st. Okay?
+
+547
+00:33:36.315 --> 00:33:39.135
+So this is the update and how this application is happening.
+
+548
+00:33:40.795 --> 00:33:42.175
+So on the right hand side,
+
+549
+00:33:42.595 --> 00:33:44.295
+so this is assignment operator, okay?
+
+550
+00:33:44.295 --> 00:33:47.415
+So this is an assignment that means your new function,
+
+551
+00:33:47.475 --> 00:33:51.385
+new value function is computed in this manner
+
+552
+00:33:51.775 --> 00:33:54.065
+that you take the old estimate
+
+553
+00:33:56.145 --> 00:33:57.525
+update by a small quantity.
+
+554
+00:33:57.675 --> 00:34:00.445
+This is called update quantity update by a small quantity.
+
+555
+00:34:00.475 --> 00:34:03.205
+What is that quantity? So quantity is basically
+
+556
+00:34:05.035 --> 00:34:08.295
+for every state you can write your value function
+
+557
+00:34:08.295 --> 00:34:09.935
+to be in this manner for every state,
+
+558
+00:34:10.995 --> 00:34:12.845
+this is your expression for every state,
+
+559
+00:34:13.505 --> 00:34:14.755
+this is your expression, okay?
+
+560
+00:34:16.055 --> 00:34:20.995
+For every state you are going to get from that expression.
+
+561
+00:34:22.825 --> 00:34:25.885
+If that estimation is a correct estimation,
+
+562
+00:34:26.355 --> 00:34:30.715
+then it'll be exactly equal with r sigma, okay?
+
+563
+00:34:31.375 --> 00:34:33.755
+If that estimation is not a correct estimation,
+
+564
+00:34:34.105 --> 00:34:35.355
+that means you have some error
+
+565
+00:34:35.375 --> 00:34:39.675
+and the error quantities r sigma minus of this part.
+
+566
+00:34:40.255 --> 00:34:44.555
+So that is your error if you take that error into account,
+
+567
+00:34:44.735 --> 00:34:47.775
+divide by one by N, yeah.
+
+568
+00:34:47.775 --> 00:34:50.975
+Hello? Hello? Yeah. Hello?
+
+569
+00:34:53.805 --> 00:34:54.155
+Hello,
+
+570
+00:34:58.465 --> 00:34:58.815
+hello?
+
+571
+00:35:02.245 --> 00:35:03.245
+Hello?
+
+572
+00:35:05.515 --> 00:35:07.675
+I think someone mic was open sir.
+
+573
+00:35:09.445 --> 00:35:13.135
+Okay, so are you able to see the dashboard, um, whiteboard
+
+574
+00:35:13.135 --> 00:35:14.655
+because you're trying to connect?
+
+575
+00:35:15.435 --> 00:35:17.375
+Yes sir. Yes sir. It's visible.
+
+576
+00:35:18.605 --> 00:35:19.655
+Okay. Okay, fine.
+
+577
+00:35:21.075 --> 00:35:22.895
+So just like your machine learning algorithm,
+
+578
+00:35:23.155 --> 00:35:26.855
+we are updating every parameter by the help
+
+579
+00:35:26.995 --> 00:35:29.935
+of some kind of, uh, gradient,
+
+580
+00:35:30.335 --> 00:35:31.575
+istic, gradient descent and all.
+
+581
+00:35:31.575 --> 00:35:34.015
+Okay? So here also it is having a, a kind
+
+582
+00:35:34.015 --> 00:35:35.255
+of analogous meaning here.
+
+583
+00:35:35.915 --> 00:35:38.365
+So here you're not going to apply any gradient,
+
+584
+00:35:38.365 --> 00:35:41.185
+you're not going to apply any delivery operator, okay?
+
+585
+00:35:41.185 --> 00:35:45.665
+What we're applying here is we in every state, we are going
+
+586
+00:35:45.665 --> 00:35:47.265
+to estimate our value, okay?
+
+587
+00:35:47.285 --> 00:35:49.825
+So we want to estimate value
+
+588
+00:35:50.005 --> 00:35:52.285
+for every state is okay?
+
+589
+00:35:52.555 --> 00:35:57.505
+This is nothing but your expected sum
+
+590
+00:35:57.525 --> 00:36:02.045
+of discounted reward given
+
+591
+00:36:02.075 --> 00:36:06.125
+that you are starting your game from s for every state,
+
+592
+00:36:06.125 --> 00:36:08.085
+it is written like this, okay?
+
+593
+00:36:08.435 --> 00:36:11.965
+This one, this value is going to be
+
+594
+00:36:14.615 --> 00:36:17.005
+equal with this quantity.
+
+595
+00:36:17.945 --> 00:36:19.805
+If your value estimation is perfect,
+
+596
+00:36:20.665 --> 00:36:22.605
+if it is not a perfect, there is some error.
+
+597
+00:36:22.875 --> 00:36:26.105
+That error quantity only this much, okay?
+
+598
+00:36:26.565 --> 00:36:29.305
+Now what you do is you divide this error quantity
+
+599
+00:36:29.565 --> 00:36:31.585
+by total number of decision you have taken
+
+600
+00:36:31.645 --> 00:36:33.705
+to reach your final goal.
+
+601
+00:36:33.775 --> 00:36:36.705
+Your final goal, maybe goal state
+
+602
+00:36:36.885 --> 00:36:39.905
+or you may be handling landing into some kind
+
+603
+00:36:39.905 --> 00:36:41.425
+of intermediate step, okay?
+
+604
+00:36:41.635 --> 00:36:44.145
+After taking in number of decision, so
+
+605
+00:36:44.395 --> 00:36:46.905
+after taking in number of decision, so it does divide it
+
+606
+00:36:46.905 --> 00:36:50.105
+by end, this is called aging quantity, okay?
+
+607
+00:36:50.535 --> 00:36:51.985
+This is how we are updating it.
+
+608
+00:36:53.005 --> 00:36:55.705
+So we don't have so much of complicated
+
+609
+00:36:56.345 --> 00:36:58.385
+relation just like in our unit one
+
+610
+00:36:58.385 --> 00:37:00.385
+because we don't have any knowledge about our
+
+611
+00:37:01.325 --> 00:37:02.425
+uh, environment.
+
+612
+00:37:02.565 --> 00:37:06.145
+So we take a simplistic measure
+
+613
+00:37:06.365 --> 00:37:09.705
+to compute our value function estimation by the this,
+
+614
+00:37:09.815 --> 00:37:12.465
+this method is called Monica estimation, okay?
+
+615
+00:37:15.055 --> 00:37:17.235
+So one of the uh, difficulty
+
+616
+00:37:17.255 --> 00:37:19.635
+for Monte estimation is you have to
+
+617
+00:37:20.425 --> 00:37:23.275
+roll out one single trajectory, okay?
+
+618
+00:37:23.275 --> 00:37:25.515
+Your trajectory means set of all experience.
+
+619
+00:37:25.625 --> 00:37:27.715
+That means you are gonna take any number of decision
+
+620
+00:37:28.345 --> 00:37:29.395
+that is called one trajectory.
+
+621
+00:37:30.815 --> 00:37:34.595
+You after finishing up of any number of decision,
+
+622
+00:37:36.125 --> 00:37:38.745
+you just have the knowledge about whether you have reached
+
+623
+00:37:38.775 --> 00:37:40.665
+your desired goal state or not.
+
+624
+00:37:40.685 --> 00:37:42.825
+You have reached the goal state, you get the reward
+
+625
+00:37:42.825 --> 00:37:45.135
+of one, okay?
+
+626
+00:37:45.905 --> 00:37:49.275
+That reward you will have to multiply with gamma part of N
+
+627
+00:37:50.905 --> 00:37:52.925
+and raised all the reward at zero here.
+
+628
+00:37:53.345 --> 00:37:56.255
+So that is your R sigma, right?
+
+629
+00:37:56.875 --> 00:38:00.575
+So that is your R sigma, that r sigma minus
+
+630
+00:38:00.715 --> 00:38:03.535
+of your any initial value that you have considered.
+
+631
+00:38:03.555 --> 00:38:06.615
+So we are going to initialize for all the state this v hold
+
+632
+00:38:06.615 --> 00:38:08.615
+of ST to zero only.
+
+633
+00:38:09.165 --> 00:38:13.535
+Okay? Then take this difference divide
+
+634
+00:38:13.675 --> 00:38:17.055
+by end and update that to the previous value.
+
+635
+00:38:17.335 --> 00:38:18.535
+Previous value was zero here.
+
+636
+00:38:18.555 --> 00:38:20.975
+So zero plus of some very small
+
+637
+00:38:21.255 --> 00:38:22.415
+positive quantity that we get.
+
+638
+00:38:22.415 --> 00:38:25.575
+That is our new estimate for that particular state.
+
+639
+00:38:26.475 --> 00:38:28.855
+So like that for every state will be computing this
+
+640
+00:38:29.745 --> 00:38:33.885
+and then this value function is keep on increasing,
+
+641
+00:38:33.885 --> 00:38:36.445
+increasing at some point of time,
+
+642
+00:38:36.615 --> 00:38:39.965
+there will no more increment of the value function than the
+
+643
+00:38:40.595 --> 00:38:42.805
+then the ion is stopping.
+
+644
+00:38:43.925 --> 00:38:45.535
+That is what convergence criteria.
+
+645
+00:38:46.365 --> 00:38:48.665
+So it is called multicolor estimate. Okay?
+
+646
+00:38:52.115 --> 00:38:54.215
+So let me go back to the P here.
+
+647
+00:38:56.335 --> 00:38:58.435
+So this is what I have written it here.
+
+648
+00:38:59.915 --> 00:39:03.555
+V, old V new sk. We look at here.
+
+649
+00:39:03.795 --> 00:39:06.875
+V knew I have written st here instead of sk.
+
+650
+00:39:07.385 --> 00:39:09.115
+This is what is written here. Okay?
+
+651
+00:39:10.455 --> 00:39:12.835
+Now you already know something called Q function, right?
+
+652
+00:39:14.895 --> 00:39:18.435
+Q function is basically having committed
+
+653
+00:39:18.555 --> 00:39:20.995
+to a particular action at a particular state.
+
+654
+00:39:22.715 --> 00:39:27.215
+The value of taking that action is called Q function.
+
+655
+00:39:27.795 --> 00:39:30.215
+So the Q function can also be up updated
+
+656
+00:39:30.435 --> 00:39:32.295
+by using the same trick.
+
+657
+00:39:32.635 --> 00:39:36.805
+The trick is called you measure your error, divide
+
+658
+00:39:36.805 --> 00:39:39.285
+that error by total number of decision that you have taken,
+
+659
+00:39:40.455 --> 00:39:44.685
+okay, and update that with the old value.
+
+660
+00:39:46.305 --> 00:39:50.995
+Okay? Now look at when are you going to uh, see
+
+661
+00:39:50.995 --> 00:39:52.835
+that your algorithm has converged.
+
+662
+00:39:52.945 --> 00:39:57.355
+That means just q, new q new or venue.
+
+663
+00:39:57.835 --> 00:40:00.315
+Anything, anything you look at, anything person you look at.
+
+664
+00:40:01.055 --> 00:40:02.675
+So this V knew
+
+665
+00:40:02.815 --> 00:40:04.875
+and V hold are going to be different
+
+666
+00:40:05.785 --> 00:40:08.395
+only when this error is a positive
+
+667
+00:40:08.395 --> 00:40:11.115
+error, okay?
+
+668
+00:40:11.115 --> 00:40:14.435
+There is no question of having a negative error here, okay?
+
+669
+00:40:14.435 --> 00:40:15.755
+Because we are going to get
+
+670
+00:40:16.315 --> 00:40:19.075
+intermediate status having zero reward only.
+
+671
+00:40:19.095 --> 00:40:22.075
+The last state is having a positive reward of one.
+
+672
+00:40:22.255 --> 00:40:26.535
+So, and this V hold is initialized to zero, okay?
+
+673
+00:40:26.795 --> 00:40:28.735
+So we are not going to have any negative reward.
+
+674
+00:40:28.885 --> 00:40:30.375
+This update quantity is not going
+
+675
+00:40:30.375 --> 00:40:31.775
+to be negative at any point of time.
+
+676
+00:40:32.955 --> 00:40:36.305
+So if this is a non-zero quantity,
+
+677
+00:40:37.015 --> 00:40:40.545
+your V new is going to be different than V old.
+
+678
+00:40:41.925 --> 00:40:43.135
+When this becomes
+
+679
+00:40:44.325 --> 00:40:48.265
+after a long time of isolation, when this r sigma
+
+680
+00:40:48.265 --> 00:40:52.655
+and V old becomes equal at that point of time, your V new
+
+681
+00:40:52.655 --> 00:40:55.335
+and v old are going to be equal, okay?
+
+682
+00:40:55.795 --> 00:40:59.135
+So this v new is basically your updated value.
+
+683
+00:41:00.315 --> 00:41:03.515
+Whenever we have completed one ation, this v new is going
+
+684
+00:41:03.515 --> 00:41:05.155
+to be reassigned to V old
+
+685
+00:41:05.775 --> 00:41:08.355
+and then you update another new thing.
+
+686
+00:41:08.945 --> 00:41:11.395
+This is how we go on, I'll show you the program later on.
+
+687
+00:41:11.395 --> 00:41:12.715
+Okay? So this is the basic pillar
+
+688
+00:41:12.715 --> 00:41:16.085
+of your Monte estimation Here.
+
+689
+00:41:16.125 --> 00:41:18.405
+It says every single step you took to victory
+
+690
+00:41:18.545 --> 00:41:20.085
+or defeat is equally important.
+
+691
+00:41:22.435 --> 00:41:25.145
+So that means suppose you are rolling
+
+692
+00:41:25.205 --> 00:41:26.505
+out a chase game, okay?
+
+693
+00:41:26.945 --> 00:41:28.745
+Actually this, uh, deep,
+
+694
+00:41:29.695 --> 00:41:32.025
+deep Q learning has came up from this uh,
+
+695
+00:41:32.465 --> 00:41:33.485
+t learning learning algorithm.
+
+696
+00:41:33.645 --> 00:41:36.705
+I will show you that, uh, what I want
+
+697
+00:41:36.705 --> 00:41:39.145
+to say is chase game by ai.
+
+698
+00:41:39.415 --> 00:41:43.585
+This can also be solved using deep Q learning mechanism.
+
+699
+00:41:44.435 --> 00:41:47.305
+It'll take long time to train the model, okay?
+
+700
+00:41:47.325 --> 00:41:51.025
+But, uh, chase game has been solved
+
+701
+00:41:51.085 --> 00:41:52.745
+by using deep Q learning also.
+
+702
+00:41:56.865 --> 00:41:59.395
+Okay, so why did I say that actually?
+
+703
+00:42:00.425 --> 00:42:05.085
+Because I wanted to emphasize this language,
+
+704
+00:42:05.515 --> 00:42:08.955
+this line, every step you took to victory
+
+705
+00:42:09.015 --> 00:42:10.355
+or defeat is equally important.
+
+706
+00:42:10.415 --> 00:42:13.875
+So let's say you are playing a chase game. In a chase game.
+
+707
+00:42:13.875 --> 00:42:17.085
+Let's say you have taken, if you are
+
+708
+00:42:18.175 --> 00:42:21.995
+not a expert player, let's say you have taken 300, uh,
+
+709
+00:42:22.045 --> 00:42:24.675
+300 steps to defeat your
+
+710
+00:42:26.265 --> 00:42:29.965
+either defeat or you get defeated by your partner, okay?
+
+711
+00:42:30.705 --> 00:42:34.085
+So you in the middle of the game,
+
+712
+00:42:34.295 --> 00:42:36.205
+let's say you have taken a brilliant step,
+
+713
+00:42:37.965 --> 00:42:41.985
+but at the end of game you have taken a blunt step,
+
+714
+00:42:43.565 --> 00:42:45.105
+but the, for the brilliant step,
+
+715
+00:42:45.745 --> 00:42:48.975
+whatever reward you are supposed to get, okay?
+
+716
+00:42:49.005 --> 00:42:51.975
+Mean reward means the brilliant step will take you to the
+
+717
+00:42:52.795 --> 00:42:55.975
+uh, to take you to your victory much quicker.
+
+718
+00:42:57.285 --> 00:42:59.625
+But in after taking billion step in the middle,
+
+719
+00:42:59.725 --> 00:43:01.185
+you have taken uh, not in the middle.
+
+720
+00:43:01.485 --> 00:43:04.225
+At the end of your game, you have taken a blunt step
+
+721
+00:43:04.255 --> 00:43:05.825
+that has resulted to defeat.
+
+722
+00:43:06.645 --> 00:43:10.225
+So the, the Montecarlo estimation, one
+
+723
+00:43:10.225 --> 00:43:13.345
+of the biggest drawback from Montecarlo estimation is it'll
+
+724
+00:43:13.915 --> 00:43:18.025
+apply a weight on every step that you have taken
+
+725
+00:43:18.595 --> 00:43:20.705
+throughout your trajectory equally.
+
+726
+00:43:20.845 --> 00:43:24.475
+And that weight value is one by in, as I told you this one
+
+727
+00:43:24.475 --> 00:43:26.715
+by in basically your weighting quantity.
+
+728
+00:43:27.505 --> 00:43:31.365
+This is your error quantity, this error you are divide
+
+729
+00:43:31.505 --> 00:43:35.385
+by your dividing by in, okay?
+
+730
+00:43:35.885 --> 00:43:37.625
+So that is one of the biggest drawback
+
+731
+00:43:37.685 --> 00:43:39.665
+for Monte Carlo TD learning.
+
+732
+00:43:39.735 --> 00:43:41.425
+They try to overcome this drawback
+
+733
+00:43:45.675 --> 00:43:47.575
+and uh, actually Monte Carlo estimation
+
+734
+00:43:47.675 --> 00:43:48.895
+is one of the biggest benefit.
+
+735
+00:43:48.995 --> 00:43:52.255
+It has no bias. Even though it is like you have taken an
+
+736
+00:43:52.255 --> 00:43:56.735
+intelligent step, it'll wait that inte step by one by end
+
+737
+00:43:57.435 --> 00:43:59.135
+you have taken a blunt step.
+
+738
+00:43:59.225 --> 00:44:01.735
+It'll wait that inline step by again one by end.
+
+739
+00:44:01.735 --> 00:44:04.015
+So it is not applying any bias on
+
+740
+00:44:04.035 --> 00:44:05.215
+any step that you have taken.
+
+741
+00:44:09.485 --> 00:44:14.245
+Okay? Now what is called TD learning? TD learning.
+
+742
+00:44:14.565 --> 00:44:18.015
+TD learning is basically instead of waiting
+
+743
+00:44:18.315 --> 00:44:22.055
+for the whole projectile to end, projectile means you are
+
+744
+00:44:22.755 --> 00:44:25.975
+uh, either meeting the upper limit of number of decision
+
+745
+00:44:26.035 --> 00:44:28.855
+to be taken or you have reached the goal state within the
+
+746
+00:44:28.865 --> 00:44:30.695
+upper limit of your number of decision.
+
+747
+00:44:31.475 --> 00:44:33.845
+Instead of waiting for the projectile to end.
+
+748
+00:44:34.905 --> 00:44:37.085
+TD learning applies one trick.
+
+749
+00:44:37.155 --> 00:44:41.135
+That is after taking one step,
+
+750
+00:44:41.945 --> 00:44:44.895
+it'll allow you to update your value function.
+
+751
+00:44:45.505 --> 00:44:47.915
+That is what it's called TD learning mechanism.
+
+752
+00:44:51.775 --> 00:44:55.235
+I will state it again what I have told you.
+
+753
+00:44:56.295 --> 00:44:58.555
+Our objective here is to update our value function
+
+754
+00:44:58.555 --> 00:44:59.715
+or queue function every time.
+
+755
+00:44:59.945 --> 00:45:04.605
+Okay? Our value function definition is value
+
+756
+00:45:04.925 --> 00:45:07.445
+function for the state of SK is given here.
+
+757
+00:45:08.495 --> 00:45:10.565
+Value function means expected sum
+
+758
+00:45:10.565 --> 00:45:11.765
+of discounted reward, okay?
+
+759
+00:45:12.785 --> 00:45:15.845
+And from the billman billman equation, you know that
+
+760
+00:45:16.415 --> 00:45:18.605
+value function optin at the state of SK
+
+761
+00:45:19.265 --> 00:45:21.045
+can be computed by the value function.
+
+762
+00:45:21.055 --> 00:45:24.165
+Optin at the state of SK plus one K
+
+763
+00:45:24.165 --> 00:45:26.965
+and k plus one are the two consecutive states
+
+764
+00:45:27.585 --> 00:45:31.805
+by taking one decision at every time step, okay?
+
+765
+00:45:32.585 --> 00:45:35.045
+So if you know the value function for the next step,
+
+766
+00:45:37.365 --> 00:45:40.625
+you can reuse that value, multiply that with gamma add
+
+767
+00:45:40.655 --> 00:45:42.065
+with the reward that you have opt
+
+768
+00:45:42.165 --> 00:45:44.505
+for one single transition for, okay?
+
+769
+00:45:45.565 --> 00:45:49.395
+Use that as your your sample.
+
+770
+00:45:50.915 --> 00:45:53.575
+So look at this expectation operator, we are going
+
+771
+00:45:53.575 --> 00:45:57.475
+to drop in case of temporal defense learning.
+
+772
+00:45:58.935 --> 00:46:03.555
+So what I am saying, instead of finding out for all possible
+
+773
+00:46:04.335 --> 00:46:08.255
+action that I can think of under my policy,
+
+774
+00:46:09.015 --> 00:46:11.815
+I just take only one action I get into next date.
+
+775
+00:46:13.105 --> 00:46:16.065
+I take that as one sample as representation
+
+776
+00:46:16.965 --> 00:46:18.065
+of my expectation.
+
+777
+00:46:18.065 --> 00:46:19.865
+Expect means your average value, okay?
+
+778
+00:46:19.935 --> 00:46:22.585
+Instead of taking average value, I take only one sample
+
+779
+00:46:23.325 --> 00:46:27.145
+and I use that sample to update my value function.
+
+780
+00:46:27.445 --> 00:46:30.705
+So look at here this language, treat the single sample
+
+781
+00:46:31.405 --> 00:46:33.825
+you get as representative of the distribution.
+
+782
+00:46:36.205 --> 00:46:40.295
+It's very important language. What is your distribution?
+
+783
+00:46:40.295 --> 00:46:43.255
+Basically distribution means you take into account
+
+784
+00:46:43.255 --> 00:46:45.815
+of multiple sample, then you find out
+
+785
+00:46:45.815 --> 00:46:47.975
+what is the mean means average
+
+786
+00:46:48.595 --> 00:46:52.145
+and what is there standard deviation, okay?
+
+787
+00:46:52.175 --> 00:46:53.905
+Instead of thinking about all this thing,
+
+788
+00:46:53.905 --> 00:46:55.185
+you just take only one sample
+
+789
+00:46:56.405 --> 00:46:58.185
+and then you update your value function.
+
+790
+00:47:00.035 --> 00:47:02.495
+So you take one single sample as a representative
+
+791
+00:47:03.075 --> 00:47:04.295
+of your distribution
+
+792
+00:47:04.435 --> 00:47:07.695
+and apply an incremental update to reduce billman error.
+
+793
+00:47:08.235 --> 00:47:11.265
+So your sample is basically the
+
+794
+00:47:12.285 --> 00:47:13.825
+one step transition reward.
+
+795
+00:47:13.845 --> 00:47:15.465
+So currently you're in a state of A,
+
+796
+00:47:15.525 --> 00:47:19.605
+you have taken a action, it is pie of a,
+
+797
+00:47:20.545 --> 00:47:24.125
+you have landed up into the next state called a dash, okay?
+
+798
+00:47:24.745 --> 00:47:25.885
+And the a dash state.
+
+799
+00:47:26.265 --> 00:47:31.105
+You have already computed this value, okay?
+
+800
+00:47:32.085 --> 00:47:34.345
+Use that as your experience
+
+801
+00:47:34.345 --> 00:47:37.405
+to update your value function.
+
+802
+00:47:37.425 --> 00:47:39.685
+So your value function objection remains
+
+803
+00:47:39.745 --> 00:47:40.885
+the same expression here.
+
+804
+00:47:40.885 --> 00:47:44.675
+Look at here till now, in case
+
+805
+00:47:44.675 --> 00:47:48.395
+of Monica estimate we have been writing R Sigma here.
+
+806
+00:47:49.755 --> 00:47:52.355
+R sigma means you are completing the whole projectile.
+
+807
+00:47:52.855 --> 00:47:55.075
+Go to the end of your game, see
+
+808
+00:47:55.075 --> 00:47:56.275
+what is the reward you are getting.
+
+809
+00:47:57.855 --> 00:48:00.725
+Divide that reward, I mean not divide.
+
+810
+00:48:00.995 --> 00:48:04.485
+Take that reward, subtract with the current value function,
+
+811
+00:48:04.705 --> 00:48:05.805
+divide that with N.
+
+812
+00:48:05.805 --> 00:48:07.085
+That is your aion quantity.
+
+813
+00:48:07.505 --> 00:48:10.645
+But here in this case, you don't wait for end of the game,
+
+814
+00:48:11.225 --> 00:48:13.405
+you just take one single transition, go
+
+815
+00:48:13.405 --> 00:48:15.205
+to the next state called SK plus one.
+
+816
+00:48:15.865 --> 00:48:17.765
+At that state, you have already
+
+817
+00:48:17.765 --> 00:48:19.325
+computed the previous estimate.
+
+818
+00:48:19.325 --> 00:48:20.765
+That is why it is called V old.
+
+819
+00:48:21.385 --> 00:48:24.885
+So previous estimate of your value function, use
+
+820
+00:48:24.885 --> 00:48:29.205
+that estimate, multiply that with gamma, okay?
+
+821
+00:48:31.585 --> 00:48:33.515
+Take this value RK plus this thing.
+
+822
+00:48:34.295 --> 00:48:38.105
+Take subtraction from the current testing.
+
+823
+00:48:38.105 --> 00:48:42.395
+That is your view, old of sk and multiply that with alpha.
+
+824
+00:48:42.445 --> 00:48:45.675
+Alpha is something learning quantity less than one.
+
+825
+00:48:45.735 --> 00:48:48.115
+It is between zero and one.
+
+826
+00:48:48.115 --> 00:48:50.595
+This alpha update that
+
+827
+00:48:50.595 --> 00:48:53.115
+with your old function you get a new estimate
+
+828
+00:48:53.175 --> 00:48:54.635
+for your value function.
+
+829
+00:48:54.635 --> 00:48:58.095
+That is all td zero learning.
+
+830
+00:48:59.235 --> 00:49:01.565
+Zero means you have taken only one decision.
+
+831
+00:49:05.755 --> 00:49:08.055
+Sir, right hand side should be escape plus one.
+
+832
+00:49:08.115 --> 00:49:09.375
+No, I mean,
+
+833
+00:49:09.635 --> 00:49:13.055
+or we knew SK is equal to be old sk,
+
+834
+00:49:13.675 --> 00:49:16.055
+we still at the state SK is it
+
+835
+00:49:16.725 --> 00:49:19.215
+Here you are talking No right hand side sir.
+
+836
+00:49:19.585 --> 00:49:21.415
+Sorry, left hand side. Left hand side, sir.
+
+837
+00:49:21.675 --> 00:49:24.295
+Oh, left hand side. This one, okay,
+
+838
+00:49:24.315 --> 00:49:25.375
+no, it'll not be like that.
+
+839
+00:49:25.375 --> 00:49:29.055
+That is why I will come across many time
+
+840
+00:49:29.855 --> 00:49:31.695
+I reexplain this why I'm writing this.
+
+841
+00:49:31.885 --> 00:49:35.335
+Yeah. So because this expression has both SK
+
+842
+00:49:35.475 --> 00:49:37.375
+and SK plus one, so mm-hmm
+
+843
+00:49:37.515 --> 00:49:39.815
+Mm-hmm I write it like this.
+
+844
+00:49:42.175 --> 00:49:46.265
+Look at in case of our traditional unit one knowledge,
+
+845
+00:49:46.815 --> 00:49:50.775
+what we have been doing, we have been writing V of
+
+846
+00:49:51.375 --> 00:49:52.615
+K plus one here, right?
+
+847
+00:49:53.915 --> 00:49:58.815
+For the state of A, this K stands for number of iteration
+
+848
+00:50:00.065 --> 00:50:02.125
+you are going through to update your value here.
+
+849
+00:50:02.395 --> 00:50:03.605
+Okay? So I just write it here.
+
+850
+00:50:03.745 --> 00:50:07.205
+So it was like this value function for this was
+
+851
+00:50:09.345 --> 00:50:11.605
+pie of A given A.
+
+852
+00:50:12.035 --> 00:50:15.305
+Then this is OA,
+
+853
+00:50:15.775 --> 00:50:17.105
+this is O a's test.
+
+854
+00:50:20.815 --> 00:50:23.495
+Actually many of you'll be having a question
+
+855
+00:50:23.495 --> 00:50:27.875
+that why I'm repeatedly writing so much
+
+856
+00:50:27.875 --> 00:50:30.915
+of expression and all what is the use of all this thing.
+
+857
+00:50:33.775 --> 00:50:36.375
+I will show you after finishing up of pure learning
+
+858
+00:50:36.375 --> 00:50:39.495
+and all what is a use case in language modeling, okay?
+
+859
+00:50:42.545 --> 00:50:46.045
+It has taken 70 years for reinforcement learning
+
+860
+00:50:46.985 --> 00:50:48.925
+to be applied into language model
+
+861
+00:50:49.995 --> 00:50:52.415
+and many of you, those who are from industry,
+
+862
+00:50:52.415 --> 00:50:53.615
+they always say what is the use
+
+863
+00:50:53.615 --> 00:50:54.855
+of all this learning and all?
+
+864
+00:50:55.615 --> 00:50:59.675
+So do not be in a hurry. Okay?
+
+865
+00:50:59.735 --> 00:51:04.355
+So this is what our usual notation here. Thisk means
+
+866
+00:51:10.475 --> 00:51:13.625
+value function for the state of at the iteration of
+
+867
+00:51:19.355 --> 00:51:23.595
+at iteration, at key iteration.
+
+868
+00:51:24.295 --> 00:51:28.375
+The value for
+
+869
+00:51:29.575 --> 00:51:32.205
+state of is okay here.
+
+870
+00:51:32.265 --> 00:51:34.205
+Now we are going to write it in a defined manner.
+
+871
+00:51:37.425 --> 00:51:40.905
+Here we are going to update this
+
+872
+00:51:42.705 --> 00:51:46.805
+like this value for the
+
+873
+00:51:47.865 --> 00:51:51.665
+new estimate for the state of sk.
+
+874
+00:51:54.285 --> 00:51:58.255
+This SK is one state from where you are starting your game.
+
+875
+00:51:58.765 --> 00:52:01.455
+Here also you are starting your game from state of A. Okay?
+
+876
+00:52:02.175 --> 00:52:06.235
+Now for doing this, you are doing this assignment operator,
+
+877
+00:52:06.535 --> 00:52:08.835
+you, you are updating your estimate, okay?
+
+878
+00:52:09.455 --> 00:52:14.195
+So you have initialized your old estimate with zero old
+
+879
+00:52:15.295 --> 00:52:17.755
+for the same state.
+
+880
+00:52:18.895 --> 00:52:20.395
+So this is your old estimate.
+
+881
+00:52:20.815 --> 00:52:23.355
+You want to arrive to your new estimate, okay?
+
+882
+00:52:23.615 --> 00:52:26.595
+How we are going to do, if you do some update
+
+883
+00:52:26.735 --> 00:52:28.115
+of new knowledge, okay?
+
+884
+00:52:29.505 --> 00:52:32.325
+So the knowledge is basically coming from this quantity
+
+885
+00:52:32.515 --> 00:52:37.365
+that is alpha is a learning rate alpha multiplied by
+
+886
+00:52:39.775 --> 00:52:44.195
+in case of uh, Montecarlo, we write here R Sigma
+
+887
+00:52:45.545 --> 00:52:49.425
+minus of V, old of
+
+888
+00:52:50.485 --> 00:52:55.365
+is, this is for Monte Carlo estimate, okay?
+
+889
+00:52:56.325 --> 00:53:00.225
+For Monte Carlo alpha is one by end in case of TD learning,
+
+890
+00:53:05.955 --> 00:53:08.835
+in case of TD learning, this will be
+
+891
+00:53:18.635 --> 00:53:23.265
+old actually, what is our objective is
+
+892
+00:53:23.265 --> 00:53:26.885
+to estimate the value for a state called sk.
+
+893
+00:53:27.315 --> 00:53:31.245
+Okay? This SK can be a state from zero to 15,
+
+894
+00:53:31.525 --> 00:53:32.845
+anything within your grid, okay?
+
+895
+00:53:33.265 --> 00:53:35.365
+For every state it is applicable this relation.
+
+896
+00:53:36.225 --> 00:53:40.885
+So I'm updating the estimation of the state of SK
+
+897
+00:53:41.425 --> 00:53:43.965
+by some knowledge that I'm gaining
+
+898
+00:53:44.295 --> 00:53:46.285
+after completing one experiment.
+
+899
+00:53:46.795 --> 00:53:49.125
+This is called Monte Carlo mc.
+
+900
+00:53:50.355 --> 00:53:53.255
+If I complete one experiment, that means one episode.
+
+901
+00:53:53.255 --> 00:53:56.255
+If I complete, I am going to get this value that is R sigma.
+
+902
+00:53:56.525 --> 00:54:00.515
+Whereas TD learning, they do not wait for completion
+
+903
+00:54:00.515 --> 00:54:01.955
+of a episode.
+
+904
+00:54:02.505 --> 00:54:06.315
+What it does, RK, that is the
+
+905
+00:54:06.825 --> 00:54:10.555
+immediate reward you have obtained for taking one single
+
+906
+00:54:11.115 --> 00:54:12.525
+decision, okay?
+
+907
+00:54:13.145 --> 00:54:15.045
+So you have taken one single decision,
+
+908
+00:54:15.345 --> 00:54:16.805
+you are getting into a new state.
+
+909
+00:54:18.035 --> 00:54:20.245
+That new state, whenever you are getting, you have
+
+910
+00:54:20.245 --> 00:54:22.245
+to multiply that with a discount of your
+
+911
+00:54:22.965 --> 00:54:24.005
+discount factor here.
+
+912
+00:54:24.755 --> 00:54:27.285
+Then you have a value function available for it
+
+913
+00:54:27.865 --> 00:54:31.045
+for the new state called SK plus one.
+
+914
+00:54:31.045 --> 00:54:34.245
+Because this SK plus one stands for you have taken one
+
+915
+00:54:35.005 --> 00:54:38.285
+decision while you have started your game from sk.
+
+916
+00:54:38.285 --> 00:54:40.485
+So one decision means k plus one
+
+917
+00:54:41.305 --> 00:54:43.845
+is your index in your number of decision, okay?
+
+918
+00:54:43.905 --> 00:54:46.885
+So this one is your old estimate,
+
+919
+00:54:48.435 --> 00:54:53.275
+old estimate of this, this minus of this will remain same
+
+920
+00:54:53.275 --> 00:54:56.415
+as it is this was your old
+
+921
+00:54:56.655 --> 00:54:59.765
+estimate or sk.
+
+922
+00:55:01.155 --> 00:55:05.335
+You have to take help of the next state value,
+
+923
+00:55:06.725 --> 00:55:07.475
+which is called
+
+924
+00:55:12.075 --> 00:55:13.465
+value at next step.
+
+925
+00:55:13.815 --> 00:55:17.745
+Next step value at next state. Okay?
+
+926
+00:55:18.415 --> 00:55:21.385
+This one, so what does it mean physically?
+
+927
+00:55:23.265 --> 00:55:25.845
+So now you have got it why I'm adding it here like that
+
+928
+00:55:36.095 --> 00:55:37.465
+Ruby, Ruby Ner, right?
+
+929
+00:55:38.005 --> 00:55:39.005
+She asked me,
+
+930
+00:55:43.205 --> 00:55:44.195
+Hello? Yes sir.
+
+931
+00:55:44.865 --> 00:55:48.805
+Okay? Again, next day we'll have difficulty understanding
+
+932
+00:55:48.805 --> 00:55:52.005
+that I know because not it for BTech student, those
+
+933
+00:55:52.005 --> 00:55:55.525
+who are in for your academic, for them it is difficult
+
+934
+00:55:55.585 --> 00:55:57.005
+for you, it is going to be difficult.
+
+935
+00:55:57.125 --> 00:56:00.165
+I know that. So do not be hesitating for that. Okay?
+
+936
+00:56:01.025 --> 00:56:03.405
+So I'm just going to tell you the physical meaning of this.
+
+937
+00:56:03.625 --> 00:56:07.285
+The physical meaning is, let's say you are at the state
+
+938
+00:56:07.285 --> 00:56:11.035
+of SK just writing it here.
+
+939
+00:56:11.035 --> 00:56:14.945
+Like let's say this is your G grid word.
+
+940
+00:56:22.535 --> 00:56:25.555
+This is agreed word, okay? It has,
+
+941
+00:56:33.955 --> 00:56:35.385
+let's say you are in the state of here,
+
+942
+00:56:37.085 --> 00:56:39.655
+this is your SK right now, okay?
+
+943
+00:56:42.345 --> 00:56:45.405
+You are interested to find out value function optin.
+
+944
+00:56:46.495 --> 00:56:48.145
+When I'm the state of here,
+
+945
+00:56:48.215 --> 00:56:48.545
+this is
+
+946
+00:56:48.545 --> 00:56:53.425
+0, 1, 2, 3, 4, like that.
+
+947
+00:56:53.425 --> 00:56:56.825
+It is. So when I am here, I want to find out
+
+948
+00:56:56.825 --> 00:57:00.155
+what is my value for remaining in this state.
+
+949
+00:57:00.155 --> 00:57:02.275
+If I start my game from the state of one,
+
+950
+00:57:04.425 --> 00:57:08.615
+TT learning says that you take a random action, go
+
+951
+00:57:08.615 --> 00:57:09.655
+to next state.
+
+952
+00:57:09.885 --> 00:57:11.895
+That is SK plus one is on next date.
+
+953
+00:57:12.235 --> 00:57:15.935
+So your next date can be this state, it can be this state,
+
+954
+00:57:16.675 --> 00:57:18.535
+it can be this state, okay?
+
+955
+00:57:19.395 --> 00:57:22.495
+And right now you come out of your knowledge about that.
+
+956
+00:57:23.935 --> 00:57:25.375
+I want to move this side.
+
+957
+00:57:26.695 --> 00:57:28.425
+I'll be really getting into this state
+
+958
+00:57:28.535 --> 00:57:33.225
+with 0.33 probability, 0.33 probability,
+
+959
+00:57:34.005 --> 00:57:35.305
+or I may be landing up
+
+960
+00:57:35.405 --> 00:57:37.585
+to this state called 0.33 probability,
+
+961
+00:57:37.765 --> 00:57:40.705
+or I may be landing up to this state called 0.3.
+
+962
+00:57:41.285 --> 00:57:45.715
+So this thing is no longer applicable Here.
+
+963
+00:57:46.735 --> 00:57:50.065
+Here it says that we don't have any knowledge about our
+
+964
+00:57:50.125 --> 00:57:51.185
+uh, environment.
+
+965
+00:57:51.575 --> 00:57:53.825
+Okay? So what we do, we take a random action,
+
+966
+00:57:54.645 --> 00:57:57.025
+get into next state from the next state.
+
+967
+00:57:57.025 --> 00:57:59.825
+Again, we take a random action, get into next state like
+
+968
+00:57:59.825 --> 00:58:03.865
+that if I do a trajectory
+
+969
+00:58:03.915 --> 00:58:05.225
+completion, okay?
+
+970
+00:58:07.125 --> 00:58:10.265
+So that the trajectory is basically consisting
+
+971
+00:58:10.265 --> 00:58:12.705
+of state action, state action, state action, okay?
+
+972
+00:58:13.125 --> 00:58:16.865
+So I just draw random sample from every state.
+
+973
+00:58:17.935 --> 00:58:22.745
+So that is called one trajectory I consider for all those
+
+974
+00:58:23.635 --> 00:58:26.295
+random action for each and every state to be one policy.
+
+975
+00:58:27.645 --> 00:58:31.315
+So one policy is basically for every
+
+976
+00:58:34.555 --> 00:58:38.895
+e probability of a given a for
+
+977
+00:58:39.915 --> 00:58:41.375
+all the as, okay?
+
+978
+00:58:41.605 --> 00:58:45.295
+This is called policy. I just draw a random policy.
+
+979
+00:58:46.575 --> 00:58:50.135
+I can use that policy to find out my value function here.
+
+980
+00:58:51.605 --> 00:58:55.835
+Okay? That is what we are going to do it here in the case
+
+981
+00:58:55.835 --> 00:58:57.155
+of TD learning.
+
+982
+00:58:57.895 --> 00:58:59.395
+So what is the physical meaning of this?
+
+983
+00:58:59.515 --> 00:59:02.165
+TD learning is basically, I go back here.
+
+984
+00:59:02.575 --> 00:59:04.485
+Let's say I'm in a state of one here.
+
+985
+00:59:04.985 --> 00:59:08.295
+So my SK is basically one, okay?
+
+986
+00:59:08.595 --> 00:59:10.935
+So at that point of time value function,
+
+987
+00:59:11.075 --> 00:59:13.975
+for one I write it.
+
+988
+00:59:14.315 --> 00:59:18.545
+We knew, we knew for the state of one is going
+
+989
+00:59:18.545 --> 00:59:20.265
+to be computed like this.
+
+990
+00:59:29.495 --> 00:59:34.155
+Use the old estimate of the state of one plus
+
+991
+00:59:35.085 --> 00:59:36.595
+alpha, something less than zero.
+
+992
+00:59:36.715 --> 00:59:37.955
+I mean it's between zero and one.
+
+993
+00:59:38.975 --> 00:59:43.035
+This the immediate reward that you have taken
+
+994
+00:59:43.585 --> 00:59:45.515
+from the state of one that is R one
+
+995
+00:59:46.955 --> 00:59:50.745
+plus gamma multiplied by value,
+
+996
+00:59:51.645 --> 00:59:55.545
+obtain as per the old estimate of the next date.
+
+997
+00:59:55.615 --> 00:59:59.865
+Your next date can be two, five or zero. Okay?
+
+998
+01:00:00.565 --> 01:00:02.825
+So let's say you have landed up into state of two,
+
+999
+01:00:04.895 --> 01:00:06.755
+you are not going to consider for all possible,
+
+1000
+01:00:07.575 --> 01:00:10.455
+for all possible next date, okay?
+
+1001
+01:00:10.925 --> 01:00:12.975
+Like in case of our um,
+
+1002
+01:00:13.645 --> 01:00:16.375
+unit one knowledge we have considered here
+
+1003
+01:00:16.375 --> 01:00:18.535
+for all possible cases, okay?
+
+1004
+01:00:19.625 --> 01:00:21.235
+This is, we are not going to apply it here.
+
+1005
+01:00:23.645 --> 01:00:28.465
+So we are going to consider only one sample, this
+
+1006
+01:00:29.435 --> 01:00:33.505
+minus your previous estimate.
+
+1007
+01:00:33.505 --> 01:00:36.315
+That is old estimate of the state
+
+1008
+01:00:36.315 --> 01:00:38.715
+of one rosa bracket.
+
+1009
+01:00:40.105 --> 01:00:43.235
+Okay? So this is your, this says that actually
+
+1010
+01:00:44.175 --> 01:00:46.795
+if we don't have any knowledge while I am in the state
+
+1011
+01:00:46.795 --> 01:00:50.915
+of one, I don't have any knowledge of my full environment,
+
+1012
+01:00:50.945 --> 01:00:53.595
+neither I have full knowledge when I'm in a state
+
+1013
+01:00:53.595 --> 01:00:57.955
+of two also, but I believe that well I am in a state of one.
+
+1014
+01:00:58.415 --> 01:01:01.155
+If I take one decision, I go to any other next state,
+
+1015
+01:01:01.375 --> 01:01:03.435
+any other next state, not particular two, okay?
+
+1016
+01:01:03.535 --> 01:01:05.235
+It can be five, it can be zero.
+
+1017
+01:01:05.235 --> 01:01:09.645
+Also, my belief is something that if I take one
+
+1018
+01:01:10.325 --> 01:01:12.725
+decision and go to next state,
+
+1019
+01:01:13.315 --> 01:01:17.365
+that state might have a better view of the end
+
+1020
+01:01:17.365 --> 01:01:19.565
+of the game than my current state.
+
+1021
+01:01:19.675 --> 01:01:21.445
+That is the whole feeling here, okay?
+
+1022
+01:01:22.785 --> 01:01:24.825
+So it is like this, you can consider
+
+1023
+01:01:24.825 --> 01:01:26.905
+that you are a human being.
+
+1024
+01:01:27.485 --> 01:01:29.825
+You are exploring your unknown world.
+
+1025
+01:01:30.765 --> 01:01:35.565
+So instead of not doing anything, you take one action,
+
+1026
+01:01:37.155 --> 01:01:41.215
+you take one action, you are getting to a next possible uh,
+
+1027
+01:01:41.305 --> 01:01:46.255
+state al you are, you are, you are exploding your world into
+
+1028
+01:01:47.535 --> 01:01:49.295
+a big, uh,
+
+1029
+01:01:50.895 --> 01:01:52.865
+like big cave.
+
+1030
+01:01:52.895 --> 01:01:55.425
+Like if you suppose you have gone to ata, el
+
+1031
+01:01:56.405 --> 01:01:59.835
+or any other big cave, okay?
+
+1032
+01:01:59.835 --> 01:02:01.635
+There are a lot of rooms.
+
+1033
+01:02:03.145 --> 01:02:06.165
+You don't know which room will have a exit path near
+
+1034
+01:02:06.185 --> 01:02:07.325
+to that room.
+
+1035
+01:02:07.545 --> 01:02:10.115
+You don't know it. So instead of living
+
+1036
+01:02:11.935 --> 01:02:14.955
+in a particular room, not taking any decision rather than
+
+1037
+01:02:14.955 --> 01:02:16.595
+that, you take one action
+
+1038
+01:02:17.695 --> 01:02:19.485
+and then you go, you are believing that
+
+1039
+01:02:19.515 --> 01:02:22.405
+that room might be having a better path to the exit path.
+
+1040
+01:02:23.245 --> 01:02:27.305
+So you use that uh, belief
+
+1041
+01:02:28.915 --> 01:02:30.935
+and then you update your old estimate.
+
+1042
+01:02:31.925 --> 01:02:35.425
+It may happen that your belief is landing you into a much
+
+1043
+01:02:35.455 --> 01:02:36.505
+more difficult world.
+
+1044
+01:02:37.445 --> 01:02:41.345
+So you experience, you are gaining experience that
+
+1045
+01:02:42.325 --> 01:02:45.465
+the new room that you have chosen in this manner
+
+1046
+01:02:46.045 --> 01:02:49.705
+is not the good room to be explored in my next trial.
+
+1047
+01:02:50.615 --> 01:02:54.995
+Okay? And that is how this agent explores the world.
+
+1048
+01:02:59.305 --> 01:03:02.695
+So it'll take multiple random sample
+
+1049
+01:03:03.555 --> 01:03:06.495
+for every sample it is going to remember his old estimate
+
+1050
+01:03:07.755 --> 01:03:10.775
+and then it'll keep on updating its old estimate.
+
+1051
+01:03:13.935 --> 01:03:16.605
+It'll take long time for you to understand.
+
+1052
+01:03:17.265 --> 01:03:19.365
+That's the next week. I will show you the program
+
+1053
+01:03:19.395 --> 01:03:20.485
+involving this thing.
+
+1054
+01:03:20.635 --> 01:03:20.925
+Okay?
+
+1055
+01:03:25.075 --> 01:03:26.175
+Do you have any other question?
+
+1056
+01:03:27.985 --> 01:03:29.355
+Time is seven 30 almost.
+
+1057
+01:03:32.795 --> 01:03:34.405
+I'll download it. I'll share it to
+
+1058
+01:03:34.405 --> 01:03:35.405
+You. This one,
+
+1059
+01:03:35.405 --> 01:03:38.165
+is it from the same Gring book or somewhere else?
+
+1060
+01:03:39.825 --> 01:03:41.525
+No, no, it is from the gring book only.
+
+1061
+01:03:42.045 --> 01:03:43.485
+I will share you my PPT,
+
+1062
+01:03:43.595 --> 01:03:45.605
+this p pt I have, I will share it to you.
+
+1063
+01:03:46.265 --> 01:03:49.325
+Let me, uh, this PPT will be remaining constant
+
+1064
+01:03:49.345 --> 01:03:51.605
+for next four, five days of lecture.
+
+1065
+01:03:52.865 --> 01:03:55.285
+Let me download this, how to download this dashboard
+
+1066
+01:03:55.345 --> 01:03:56.525
+and just share it to you.
+
+1067
+01:04:02.725 --> 01:04:03.075
+Share
+
+1068
+01:04:08.685 --> 01:04:11.925
+group name, but there's no way
+
+1069
+01:04:11.925 --> 01:04:14.045
+to uh, download it.
+
+1070
+01:04:17.665 --> 01:04:19.525
+Uh, I think you can click on the share
+
+1071
+01:04:19.525 --> 01:04:20.845
+and use that copy link.
+
+1072
+01:04:20.935 --> 01:04:21.935
+There was something.
+
+1073
+01:04:23.695 --> 01:04:26.145
+Copy link means I have to provide a email id.
+
+1074
+01:04:26.885 --> 01:04:28.545
+No, no. Below below sir.
+
+1075
+01:04:28.655 --> 01:04:31.185
+Yeah, on the button there's a copy link. Yeah,
+
+1076
+01:04:31.255 --> 01:04:32.255
+Copy link.
+
+1077
+01:04:34.405 --> 01:04:35.785
+You can put it in the chat. Probably
+
+1078
+01:04:40.245 --> 01:04:43.905
+The link is copied, but how can I download it? Uh,
+
+1079
+01:04:44.165 --> 01:04:46.545
+Can you click on the down arrow next
+
+1080
+01:04:46.545 --> 01:04:50.055
+to whiteboard? Uh, not here.
+
+1081
+01:04:50.965 --> 01:04:53.295
+Just try copying this link on the chat. Let's see.
+
+1082
+01:04:53.295 --> 01:04:55.055
+We can, if we can access it on the cloud,
+
+1083
+01:04:57.355 --> 01:05:00.415
+Uh, you can go back and uh, download this one sir.
+
+1084
+01:05:00.765 --> 01:05:02.815
+Here. Trying to reconnect changes.
+
+1085
+01:05:06.035 --> 01:05:07.175
+Let me share. First of all,
+
+1086
+01:05:07.415 --> 01:05:09.695
+I don't think sharing will work beyond it.
+
+1087
+01:05:09.855 --> 01:05:11.935
+I mean the moment I close this session, right,
+
+1088
+01:05:11.985 --> 01:05:14.255
+it'll not be okay. Send,
+
+1089
+01:05:15.255 --> 01:05:16.255
+No, no, no. Uh, you
+
+1090
+01:05:16.255 --> 01:05:17.925
+have to copy and paste the link
+
+1091
+01:05:18.305 --> 01:05:20.645
+and we will check, uh, if the link works.
+
+1092
+01:05:20.955 --> 01:05:22.885
+Yeah. Okay. You can paste in the chat.
+
+1093
+01:05:23.645 --> 01:05:24.755
+Where is the chat word?
+
+1094
+01:05:27.105 --> 01:05:29.095
+Third below. Just check in your zoom.
+
+1095
+01:05:30.705 --> 01:05:35.355
+Zoom? Mm-hmm. Click on escape. Okay. Chat
+
+1096
+01:05:43.045 --> 01:05:44.125
+download all of you right now
+
+1097
+01:05:44.125 --> 01:05:46.085
+because the moment I close this session, right,
+
+1098
+01:05:46.115 --> 01:05:48.005
+this will be not be available.
+
+1099
+01:05:58.325 --> 01:06:01.105
+It is wanting our Microsoft accounts. Let's see. Yeah.
+
+1100
+01:06:02.695 --> 01:06:06.495
+Um, It's doubtful. Let's see
+
+1101
+01:06:08.145 --> 01:06:09.525
+You try, let me down.
+
+1102
+01:06:09.585 --> 01:06:10.685
+Um, save it from here.
+
+1103
+01:06:11.685 --> 01:06:12.985
+No, for me it didn't work
+
+1104
+01:06:12.985 --> 01:06:15.465
+because the account domain named brand match
+
+1105
+01:06:16.085 --> 01:06:20.505
+Access it, it needs a Microsoft account.
+
+1106
+01:06:20.775 --> 01:06:21.775
+Yeah.
+
+1107
+01:06:22.455 --> 01:06:24.185
+With the same domain as service.
+
+1108
+01:06:24.805 --> 01:06:26.705
+So you go to the, go to the share sir.
+
+1109
+01:06:26.805 --> 01:06:29.505
+Uh, once again and uh, click on that uh,
+
+1110
+01:06:29.745 --> 01:06:31.105
+settings. Button on the share
+
+1111
+01:06:31.625 --> 01:06:32.625
+Settings.
+
+1112
+01:06:33.325 --> 01:06:35.905
+Go to the share. Yeah. Yeah. Export. Export, export.
+
+1113
+01:06:35.905 --> 01:06:37.625
+Exactly sir. Export
+
+1114
+01:06:39.485 --> 01:06:40.485
+As an image. Yes sir.
+
+1115
+01:06:40.485 --> 01:06:44.785
+High resolution and export. High resolution, sir.
+
+1116
+01:06:46.285 --> 01:06:47.285
+Export
+
+1117
+01:06:51.655 --> 01:06:53.195
+You should have done in PDF.
+
+1118
+01:06:56.675 --> 01:06:59.775
+Oh, this is only page by page. No, no,
+
+1119
+01:06:59.775 --> 01:07:00.775
+No. Uh, that's
+
+1120
+01:07:00.775 --> 01:07:02.615
+just the title of the whiteboard
+
+1121
+01:07:03.325 --> 01:07:04.325
+Page. Operator. I
+
+1122
+01:07:04.325 --> 01:07:05.175
+think it'll have everything.
+
+1123
+01:07:08.195 --> 01:07:10.735
+One p and G file will have everything. Yeah.
+
+1124
+01:07:11.475 --> 01:07:12.575
+No, not uh, yeah. Okay.
+
+1125
+01:07:17.075 --> 01:07:20.095
+See Everything. Is there C
+
+1126
+01:07:21.205 --> 01:07:22.205
+Is there?
+
+1127
+01:07:24.395 --> 01:07:26.325
+Okay, I'm sending it to you right now.
+
+1128
+01:07:27.545 --> 01:07:30.275
+This is uh, CT D one.
+
+1129
+01:07:33.775 --> 01:07:36.255
+I will ask my T tier to upload it.
+
+1130
+01:07:38.445 --> 01:07:41.625
+See one. Today's date is 17th.
+
+1131
+01:07:51.435 --> 01:07:53.005
+Okay, I'll share from there,
+
+1132
+01:07:56.715 --> 01:07:57.715
+Sir. And one more
+
+1133
+01:07:57.715 --> 01:07:59.695
+question is in the exam, what kind
+
+1134
+01:07:59.695 --> 01:08:00.735
+of questions will we get?
+
+1135
+01:08:00.795 --> 01:08:02.655
+Sir? Can you give us a sample assessment?
+
+1136
+01:08:03.535 --> 01:08:05.855
+I mean non-graded assignment,
+
+1137
+01:08:06.165 --> 01:08:07.415
+This kind of, this kind of thing.
+
+1138
+01:08:07.415 --> 01:08:10.935
+Only the internal meaning of this relation.
+
+1139
+01:08:12.145 --> 01:08:14.275
+Some expression will be given whether this
+
+1140
+01:08:14.275 --> 01:08:15.285
+is correct or wrong,
+
+1141
+01:08:16.855 --> 01:08:18.065
+That we need an assignment.
+
+1142
+01:08:18.205 --> 01:08:21.025
+Can the TA prepare one so that we can try?
+
+1143
+01:08:21.095 --> 01:08:24.145
+Because otherwise we get heart attacks in the final exam.
+
+1144
+01:08:25.435 --> 01:08:27.985
+Okay, fine. Okay.
+
+1145
+01:08:27.985 --> 01:08:31.305
+So I'll give you one assignment, uh, for this kind of thing,
+
+1146
+01:08:31.305 --> 01:08:34.145
+which will be coming as your exam pattern, okay?
+
+1147
+01:08:35.035 --> 01:08:37.585
+Right. Thank you sir. Okay.
+
+1148
+01:08:38.745 --> 01:08:40.465
+Actually, you do not take that much heavily
+
+1149
+01:08:41.215 --> 01:08:44.025
+that cause you uh, that kind
+
+1150
+01:08:44.725 --> 01:08:46.705
+Sir, last year, I mean last semester we
+
+1151
+01:08:46.705 --> 01:08:48.785
+faced all types of attacks. That's why,
+
+1152
+01:08:49.245 --> 01:08:51.785
+Uh, no, no, you don't worry about it
+
+1153
+01:08:51.785 --> 01:08:56.305
+because as I've told you, uh, reinforcement learning, uh,
+
+1154
+01:08:56.605 --> 01:08:58.625
+is having a lot of mathematical thing.
+
+1155
+01:08:58.645 --> 01:09:00.785
+But I will not take you that way.
+
+1156
+01:09:00.945 --> 01:09:03.425
+I will try to explain all the individual variable
+
+1157
+01:09:03.425 --> 01:09:04.545
+thing and how they're related.
+
+1158
+01:09:05.765 --> 01:09:08.265
+And you, your exam also to becoming like that only
+
+1159
+01:09:09.005 --> 01:09:11.225
+do not be out of anything that
+
+1160
+01:09:12.485 --> 01:09:14.145
+I'm not teaching you too many things.
+
+1161
+01:09:14.285 --> 01:09:16.865
+I'm teaching very, very, right. So this quantity,
+
+1162
+01:09:18.535 --> 01:09:22.395
+Yes, And I don't like to put burden on any people.
+
+1163
+01:09:22.725 --> 01:09:24.715
+Those who are, I mean coming from
+
+1164
+01:09:24.725 --> 01:09:27.555
+after a long time from their academia,
+
+1165
+01:09:29.955 --> 01:09:32.455
+we share this now, actually I'll forget
+
+1166
+01:09:33.475 --> 01:09:36.055
+And last semester, so we had a subject on maths.
+
+1167
+01:09:36.155 --> 01:09:39.255
+It was very difficult. Ariel seems more difficult than that
+
+1168
+01:09:41.125 --> 01:09:43.095
+Will be much more difficult than maths.
+
+1169
+01:09:43.605 --> 01:09:47.455
+That is uh, okay, let me write the mail
+
+1170
+01:09:47.455 --> 01:09:49.855
+because I have another class.
+
+1171
+01:09:49.975 --> 01:09:50.655
+I forget it.
+
+1172
+01:09:57.865 --> 01:10:00.475
+Yeah, you can drop, drop out, yeah. Yeah. Thank you sir.
+
+1173
+01:10:00.865 --> 01:10:04.705
+Okay. Okay. See you on Sunday. I mean how Saturday, right?
+
+1174
+01:10:09.715 --> 01:10:12.695
+Uh, so you'll will be coming to the merchant, sir,
+
+1175
+01:10:12.695 --> 01:10:14.255
+campus merchant on Saturday.
+
+1176
+01:10:16.135 --> 01:10:17.135
+Saturday.
+
+1177
+01:10:20.055 --> 01:10:21.735
+Saturday class will be there, sir, for us,
+
+1178
+01:10:21.795 --> 01:10:22.795
+No, no, no, no. Plus
+
+1179
+01:10:22.795 --> 01:10:24.735
+not with the, because you have this thing, right?
+
+1180
+01:10:24.915 --> 01:10:28.615
+Uh, okay. Campus visit there, right? Yeah. Okay.
+
+1181
+01:10:29.245 --> 01:10:33.775
+What things I should do here? I have given and
+
+1182
+01:10:33.795 --> 01:10:35.615
+Uh, those are class notes
+
+1183
+01:10:35.675 --> 01:10:37.935
+and all we, we have to submit. Uh
+
+1184
+01:10:38.395 --> 01:10:39.395
+Oh, yes. Yeah, you
+
+1185
+01:10:39.395 --> 01:10:42.095
+submit, you submit by the due time.
+
+1186
+01:10:42.355 --> 01:10:43.775
+It is open till Sunday.
+
+1187
+01:10:43.955 --> 01:10:45.735
+So you submit submitted by Friday, Saturday,
+
+1188
+01:10:45.755 --> 01:10:46.775
+or whatever time you have.
+
+1189
+01:10:47.365 --> 01:10:52.295
+Okay, sir, on Sunday, Sunday there will be no quiz, right?
+
+1190
+01:10:53.275 --> 01:10:56.135
+No, no quiz will be open from tonight itself.
+
+1191
+01:10:56.845 --> 01:10:58.015
+Okay? You can attend it
+
+1192
+01:10:58.015 --> 01:11:01.055
+before you come to the campus if you don't have time, okay?
+
+1193
+01:11:01.195 --> 01:11:03.895
+Oh, okay sir, that's fine. That should be okay. Thank
+
+1194
+01:11:03.895 --> 01:11:04.895
+You. So today I
+
+1195
+01:11:04.895 --> 01:11:06.975
+didn't teach you anything on program side, right?
+
+1196
+01:11:06.995 --> 01:11:10.815
+So it is fine. It's only these two things. Okay, fine.
+
+1197
+01:11:13.665 --> 01:11:17.115
+Okay. Thank you. Thank you, sir. Yeah, thank you sir.
+
+1198
+01:11:17.165 --> 01:11:18.955
+Thank you sir. Thank you sir.
+
+1199
+01:11:21.815 --> 01:11:24.465
+Yeah, thank you sir. Thank you. Okay. You can quit.
+
+1200
+01:11:24.645 --> 01:11:25.025
+No problem.

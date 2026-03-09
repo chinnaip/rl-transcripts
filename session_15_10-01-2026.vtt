@@ -1,0 +1,4573 @@
+WEBVTT
+
+NOTE
+Video URL: https://vimeo.com/1153119381
+Reinforcement Learning Live Session 15 - 10-01-2026
+
+1
+00:13:21.965 --> 00:13:22.315
+Hello.
+
+2
+00:13:25.275 --> 00:13:27.285
+Good afternoon, sir. Good afternoon, sir.
+
+3
+00:13:27.955 --> 00:13:29.005
+Good, a good afternoon.
+
+4
+00:13:58.525 --> 00:14:00.915
+Good afternoon, good afternoon.
+
+5
+00:14:07.615 --> 00:14:12.335
+Give me a moment. Let me open up my Google notebook.
+
+6
+00:15:32.235 --> 00:15:33.015
+Uh, what should you,
+
+7
+00:16:27.465 --> 00:16:30.805
+So you have received my, uh, PDF last night.
+
+8
+00:16:30.925 --> 00:16:33.925
+I think I have sent her, they might have uploaded till now.
+
+9
+00:16:33.925 --> 00:16:37.195
+Have you received it? Chapter eight and nine PDF?
+
+10
+00:16:43.025 --> 00:16:46.105
+I haven't checked it for sure. Check it out.
+
+11
+00:16:46.645 --> 00:16:48.225
+No, because yesterday night,
+
+12
+00:16:48.225 --> 00:16:50.705
+8:00 PM I have sent by email to them.
+
+13
+00:16:52.845 --> 00:16:56.575
+Okay, so let me open from my end this PDF
+
+14
+00:16:57.185 --> 00:16:58.515
+chapter eight and nine.
+
+15
+00:17:19.565 --> 00:17:20.995
+Lemme do the sharings
+
+16
+00:17:23.165 --> 00:17:24.635
+Until card poor learning.
+
+17
+00:17:24.665 --> 00:17:25.665
+It's there, sir.
+
+18
+00:17:27.525 --> 00:17:30.565
+Okay. Probably they'll send it today,
+
+19
+00:17:31.655 --> 00:17:32.655
+Maybe sir.
+
+20
+00:17:43.125 --> 00:17:44.545
+So you're able to see the screen.
+
+21
+00:17:44.855 --> 00:17:48.025
+This is chapter eight that I have sent. Yes sir.
+
+22
+00:17:52.615 --> 00:17:54.065
+This is chapter eight and nine.
+
+23
+00:17:54.185 --> 00:17:56.385
+I have extracted, I have sent it to you.
+
+24
+00:17:57.965 --> 00:18:00.985
+So this is, we are into deep reinforcement learning.
+
+25
+00:18:01.085 --> 00:18:02.945
+So this chapter eight on what this is
+
+26
+00:18:04.465 --> 00:18:05.625
+a deep reinforcement learning.
+
+27
+00:18:05.625 --> 00:18:07.745
+However, we are into the only value based
+
+28
+00:18:07.975 --> 00:18:09.185
+deep reinforcement learning.
+
+29
+00:18:10.925 --> 00:18:12.015
+Okay? So, uh,
+
+30
+00:18:15.535 --> 00:18:17.585
+just give, let me give you a brief,
+
+31
+00:18:17.815 --> 00:18:22.665
+what we have done the last two days, that is
+
+32
+00:18:25.285 --> 00:18:27.225
+the same problem of frozen lake.
+
+33
+00:18:27.715 --> 00:18:30.025
+Using Q learning, we are going
+
+34
+00:18:30.025 --> 00:18:31.985
+to solve the same problem using neural network.
+
+35
+00:18:31.985 --> 00:18:34.745
+That is why that is called as deep reinforcement learning.
+
+36
+00:18:36.155 --> 00:18:37.495
+But till now what we have learned
+
+37
+00:18:37.635 --> 00:18:42.545
+is this part.
+
+38
+00:18:47.925 --> 00:18:52.355
+So supervised, supervised learning,
+
+39
+00:18:52.585 --> 00:18:54.235
+this is part of your machine learning.
+
+40
+00:18:55.975 --> 00:19:00.185
+Okay? Then any planning problem that cannot be solved
+
+41
+00:19:00.205 --> 00:19:02.265
+by machine learning, which is solved
+
+42
+00:19:02.285 --> 00:19:03.465
+by reinforcement learning.
+
+43
+00:19:04.785 --> 00:19:07.425
+Examples of reinforcement learning are bandaid, bandaid,
+
+44
+00:19:07.425 --> 00:19:10.065
+basically you basically, you have this three party walking,
+
+45
+00:19:10.165 --> 00:19:11.785
+uh, one directional floor,
+
+46
+00:19:13.355 --> 00:19:16.055
+and then we have tabular reinforcement learning.
+
+47
+00:19:16.125 --> 00:19:18.415
+Tabular reinforcement learning means it is model based
+
+48
+00:19:18.615 --> 00:19:23.145
+reinforcement learning within the policy ation.
+
+49
+00:19:24.295 --> 00:19:26.885
+After that is we are now into model three.
+
+50
+00:19:27.345 --> 00:19:29.605
+Inside model three, we have done it using formula.
+
+51
+00:19:29.735 --> 00:19:32.055
+Based from this week onward,
+
+52
+00:19:32.055 --> 00:19:34.255
+we are getting into deep reinforcement learning.
+
+53
+00:19:34.845 --> 00:19:37.375
+Okay, so this chapter 8, 9, 10, 11, 12
+
+54
+00:19:48.075 --> 00:19:51.015
+for deep reinforcement learning, as I told, we are going
+
+55
+00:19:51.015 --> 00:19:52.015
+to use neural network.
+
+56
+00:19:53.125 --> 00:19:55.945
+So for that I had shown you,
+
+57
+00:19:59.555 --> 00:20:01.965
+yeah, so this, these are the two type of
+
+58
+00:20:08.145 --> 00:20:10.135
+scars or how I'm not able to move it out.
+
+59
+00:20:29.615 --> 00:20:33.445
+Okay. For, uh, we have solved
+
+60
+00:20:36.165 --> 00:20:40.095
+Your, we have solved taxi using
+
+61
+00:20:40.115 --> 00:20:41.255
+normal Q learning.
+
+62
+00:20:42.475 --> 00:20:45.465
+Today I, I want to show you using deep Q learning.
+
+63
+00:20:45.805 --> 00:20:50.405
+So as I told you, you are going to be using a neural network
+
+64
+00:20:51.595 --> 00:20:53.125
+that will accept your state.
+
+65
+00:20:54.155 --> 00:20:57.565
+Your state can be defined by the number of variables.
+
+66
+00:20:58.445 --> 00:21:00.215
+Like for carpool, you have
+
+67
+00:21:02.285 --> 00:21:04.175
+four elements in your state.
+
+68
+00:21:04.795 --> 00:21:07.815
+In case of frozen lake, your state is defined
+
+69
+00:21:07.875 --> 00:21:10.015
+by one particular new medical value.
+
+70
+00:21:10.505 --> 00:21:14.215
+Today, we'll show you by using, uh, frozen leg, okay?
+
+71
+00:21:14.275 --> 00:21:17.945
+And the output of the neural network is the number
+
+72
+00:21:17.965 --> 00:21:20.745
+of action possible for that environment.
+
+73
+00:21:21.445 --> 00:21:24.585
+In case of you have only two actions, either you go forward
+
+74
+00:21:24.725 --> 00:21:26.715
+or go back, okay?
+
+75
+00:21:27.415 --> 00:21:30.835
+And uh, these are the two neuron used for two
+
+76
+00:21:31.425 --> 00:21:32.475
+different action
+
+77
+00:21:32.935 --> 00:21:35.795
+and the value that is generated by this neural network
+
+78
+00:21:37.465 --> 00:21:38.555
+from the neurons,
+
+79
+00:21:38.555 --> 00:21:41.035
+these values are basically called as Q function.
+
+80
+00:21:41.035 --> 00:21:44.295
+So Qs, MI, okay, so we are going
+
+81
+00:21:44.295 --> 00:21:47.855
+to predict the queue function for the entire
+
+82
+00:21:48.745 --> 00:21:50.635
+environment for the frozen lake
+
+83
+00:21:50.635 --> 00:21:52.275
+or cart pull or whatever it is.
+
+84
+00:21:52.705 --> 00:21:57.015
+Okay? So this has
+
+85
+00:21:57.015 --> 00:21:58.295
+already been done last week.
+
+86
+00:21:58.435 --> 00:22:02.365
+Uh, last class. So as I told you are going to have your
+
+87
+00:22:04.515 --> 00:22:08.885
+cost function by which you are going to make your, uh,
+
+88
+00:22:09.165 --> 00:22:13.685
+learning is going
+
+89
+00:22:13.685 --> 00:22:14.725
+back again and again.
+
+90
+00:22:23.805 --> 00:22:28.625
+So look at for using any
+
+91
+00:22:28.625 --> 00:22:31.865
+kind of neural network, you have to come up with a, uh,
+
+92
+00:22:31.965 --> 00:22:34.145
+for this neur networks are basically supervised learning.
+
+93
+00:22:34.725 --> 00:22:36.825
+So you have to come up with a cost function
+
+94
+00:22:37.865 --> 00:22:40.725
+and you have to come up with the desired value
+
+95
+00:22:42.535 --> 00:22:43.865
+that you're trying to predict.
+
+96
+00:22:46.035 --> 00:22:48.725
+Yeah. So what are the desired value you are going
+
+97
+00:22:48.725 --> 00:22:50.485
+to use it for?
+
+98
+00:22:50.505 --> 00:22:51.925
+Now, we'll assume that
+
+99
+00:22:52.985 --> 00:22:56.605
+we are already having the real queue values available to us.
+
+100
+00:22:57.465 --> 00:23:00.565
+If we have the valuable, uh, values are available to us,
+
+101
+00:23:01.225 --> 00:23:04.325
+how can we train a neural network that can be used
+
+102
+00:23:04.865 --> 00:23:06.005
+to predict those values?
+
+103
+00:23:07.575 --> 00:23:09.785
+Okay? How we are going to get the value.
+
+104
+00:23:10.445 --> 00:23:14.105
+Uh, the real value is basically by using normal Q learning.
+
+105
+00:23:15.635 --> 00:23:18.045
+Okay? Now you may have a question that if I'm going
+
+106
+00:23:18.245 --> 00:23:20.125
+to use normal fuel learning, then why should I go
+
+107
+00:23:20.145 --> 00:23:21.205
+for this deep fuel learning?
+
+108
+00:23:22.345 --> 00:23:25.725
+And the answer is basically the main reason
+
+109
+00:23:25.825 --> 00:23:28.165
+for any deep learning framework is
+
+110
+00:23:29.675 --> 00:23:34.445
+if you have access to sample of any real values,
+
+111
+00:23:35.145 --> 00:23:39.935
+you can train a neural network by which you can predict the
+
+112
+00:23:40.755 --> 00:23:42.495
+uh, uh,
+
+113
+00:23:43.855 --> 00:23:46.365
+whatever value you are going to mimic.
+
+114
+00:23:47.595 --> 00:23:51.125
+Okay? So you just require the set of values.
+
+115
+00:23:51.985 --> 00:23:54.645
+If you have access to them, you can train a network
+
+116
+00:23:54.795 --> 00:23:56.165
+that can generate that pattern.
+
+117
+00:23:56.265 --> 00:23:58.805
+So that is the main reason of any deep learning framework.
+
+118
+00:23:59.075 --> 00:24:01.485
+Okay? So as I told you yesterday, last class I told you,
+
+119
+00:24:02.355 --> 00:24:06.235
+suppose you are using chat GPT Azure agent.
+
+120
+00:24:06.545 --> 00:24:08.355
+Okay? So you are asking any question,
+
+121
+00:24:08.355 --> 00:24:09.435
+it is giving you the answer.
+
+122
+00:24:09.775 --> 00:24:13.195
+You assume that those answers are correct. Okay?
+
+123
+00:24:13.455 --> 00:24:16.155
+Now you have access to the answers for many questions.
+
+124
+00:24:16.155 --> 00:24:17.915
+So question and answer, question answer pair.
+
+125
+00:24:18.495 --> 00:24:20.195
+You want to do a reverse scenario.
+
+126
+00:24:20.195 --> 00:24:23.075
+That is you want to build a separate agent
+
+127
+00:24:23.655 --> 00:24:26.075
+by looking at this question and answer pairs.
+
+128
+00:24:27.315 --> 00:24:30.685
+Okay? So for that you are going to develop some um,
+
+129
+00:24:31.035 --> 00:24:33.525
+deep learning architecture that is going
+
+130
+00:24:33.525 --> 00:24:36.565
+to mimic the chat GBT kind of thing.
+
+131
+00:24:37.285 --> 00:24:41.415
+So for that you just require this question and answer pair.
+
+132
+00:24:41.715 --> 00:24:43.775
+So you just have, you need to have access
+
+133
+00:24:43.775 --> 00:24:45.055
+to the real values.
+
+134
+00:24:45.595 --> 00:24:47.255
+So that is what I have given you the
+
+135
+00:24:47.255 --> 00:24:48.615
+explanation, yes, last course.
+
+136
+00:24:50.235 --> 00:24:53.965
+Okay? So for that we need to come up with the
+
+137
+00:24:55.275 --> 00:24:57.965
+cost function that will help to
+
+138
+00:24:58.795 --> 00:25:01.085
+make your prediction near to the real value.
+
+139
+00:25:01.465 --> 00:25:03.165
+So for every cost, uh, most
+
+140
+00:25:03.165 --> 00:25:05.245
+of the cases we are using means squared error.
+
+141
+00:25:06.065 --> 00:25:10.265
+So for means squared error, our cost function will be
+
+142
+00:25:10.775 --> 00:25:12.465
+your, this is your target value,
+
+143
+00:25:12.575 --> 00:25:14.865
+this reward plus gamma multiplied
+
+144
+00:25:14.865 --> 00:25:18.945
+by maximizing overall possible action for the Q function.
+
+145
+00:25:20.665 --> 00:25:21.925
+But this is a target value.
+
+146
+00:25:22.635 --> 00:25:25.935
+You're taking subtraction with the prediction value.
+
+147
+00:25:27.045 --> 00:25:28.785
+So these values are keep on changing,
+
+148
+00:25:28.895 --> 00:25:31.225
+whereas this target value will not be changing.
+
+149
+00:25:31.775 --> 00:25:34.945
+Okay? So this, if this is your cost function
+
+150
+00:25:34.945 --> 00:25:38.065
+that is subtraction between them whole square
+
+151
+00:25:39.085 --> 00:25:41.185
+and this subtraction is going to be taken
+
+152
+00:25:41.285 --> 00:25:45.745
+for all possible values of state action, reward,
+
+153
+00:25:46.405 --> 00:25:47.785
+and next date, okay?
+
+154
+00:25:47.925 --> 00:25:49.305
+The state action reward
+
+155
+00:25:49.305 --> 00:25:53.225
+and next date for all possible actions, state
+
+156
+00:25:53.325 --> 00:25:55.185
+and next date, you are going
+
+157
+00:25:55.185 --> 00:25:57.505
+to take this subtraction, do the submission.
+
+158
+00:25:57.505 --> 00:25:59.425
+Again, that becomes your expectation.
+
+159
+00:25:59.445 --> 00:26:00.865
+So this is called mean square error.
+
+160
+00:26:01.485 --> 00:26:03.985
+If this is the cost function, we need
+
+161
+00:26:03.985 --> 00:26:06.625
+to apply gradient dis design technique
+
+162
+00:26:08.915 --> 00:26:12.175
+so that you can update your neural weight, weight parameter.
+
+163
+00:26:12.175 --> 00:26:14.935
+This neural weight are denoted by hea. Okay?
+
+164
+00:26:15.315 --> 00:26:17.175
+So this is your gradient operation.
+
+165
+00:26:17.275 --> 00:26:20.255
+So gradient in the last class I have already shown you,
+
+166
+00:26:21.215 --> 00:26:25.235
+let me open up, open up the Microsoft whiteboard.
+
+167
+00:26:39.815 --> 00:26:40.955
+Let me open the whiteboard.
+
+168
+00:26:42.395 --> 00:26:42.515
+I
+
+169
+00:26:49.235 --> 00:26:50.285
+Last plus it was
+
+170
+00:27:17.295 --> 00:27:19.725
+after doing this recap, I will go into the
+
+171
+00:27:21.525 --> 00:27:22.585
+python notebook.
+
+172
+00:27:22.765 --> 00:27:24.385
+Uh, it is not enlarging,
+
+173
+00:27:34.545 --> 00:27:34.835
+Okay?
+
+174
+00:27:44.215 --> 00:27:46.545
+Okay, so just remember from the last class,
+
+175
+00:27:46.685 --> 00:27:51.455
+I'm just doing a, we are going to use gradient descent.
+
+176
+00:27:51.515 --> 00:27:53.865
+So gradient descents, basically
+
+177
+00:27:55.185 --> 00:27:56.765
+the weight parameter you are updating.
+
+178
+00:27:57.575 --> 00:28:00.595
+So the weight parameter at the ation t plus one will be
+
+179
+00:28:00.595 --> 00:28:02.715
+getting updated by the previous estimate
+
+180
+00:28:02.715 --> 00:28:06.355
+of weight parameter at the hydration of T minus of your
+
+181
+00:28:06.865 --> 00:28:09.395
+post derivative, of your loss function.
+
+182
+00:28:10.215 --> 00:28:12.115
+So foster derivative in case of,
+
+183
+00:28:15.045 --> 00:28:19.705
+in case of Q learning, this is Q study
+
+184
+00:28:20.265 --> 00:28:24.165
+a easier desired value provided to you,
+
+185
+00:28:24.585 --> 00:28:26.765
+and this is your prediction.
+
+186
+00:28:28.135 --> 00:28:30.025
+Take the derivative with respect to theta.
+
+187
+00:28:30.085 --> 00:28:32.985
+So this one time it'll be coming down in the ground
+
+188
+00:28:33.125 --> 00:28:37.295
+and then ative of this term, ative of this time,
+
+189
+00:28:37.295 --> 00:28:38.495
+as I told this is constant.
+
+190
+00:28:39.035 --> 00:28:40.575
+So this ator is gonna zero,
+
+191
+00:28:41.035 --> 00:28:43.855
+and here the ator will be gradient of this thing.
+
+192
+00:28:44.605 --> 00:28:48.495
+So this is gradient of the cost, uh, not cost one.
+
+193
+00:28:48.495 --> 00:28:50.375
+This is gradient of your Q function.
+
+194
+00:28:52.315 --> 00:28:54.835
+Gradient of your Q function is also unknown parameter.
+
+195
+00:28:56.385 --> 00:28:59.405
+So that is where we are getting stuck here, okay?
+
+196
+00:29:00.625 --> 00:29:03.205
+So there are a lot of approximation methods are there,
+
+197
+00:29:03.615 --> 00:29:06.245
+which says that this gradient of this Q function,
+
+198
+00:29:06.265 --> 00:29:11.075
+you can just assume that forget about this
+
+199
+00:29:11.075 --> 00:29:13.275
+gradient operation, just have this value
+
+200
+00:29:13.275 --> 00:29:15.155
+because we don't have any access to
+
+201
+00:29:15.895 --> 00:29:17.755
+any parametric function of Q.
+
+202
+00:29:17.905 --> 00:29:19.995
+Because Q function basically coming to you
+
+203
+00:29:19.995 --> 00:29:23.275
+as a sample valve, you don't have any parameter, uh, means
+
+204
+00:29:24.375 --> 00:29:29.275
+uh, so suppose lets me write it here if you want to say that
+
+205
+00:29:33.105 --> 00:29:38.015
+Q function, the
+
+206
+00:29:38.055 --> 00:29:39.215
+queue function is basically
+
+207
+00:29:44.095 --> 00:29:46.895
+a comm, a parameterized by theta.
+
+208
+00:29:46.925 --> 00:29:49.495
+This semicolon means it is parameterized by the,
+
+209
+00:29:50.765 --> 00:29:54.585
+if the Q function is some kind of function, let's say
+
+210
+00:29:55.865 --> 00:29:58.515
+a theta
+
+211
+00:30:01.425 --> 00:30:04.645
+square plus a theta,
+
+212
+00:30:05.145 --> 00:30:08.405
+if it is in this kind of form, you can take a derivative
+
+213
+00:30:08.405 --> 00:30:10.955
+of this thing, okay?
+
+214
+00:30:11.305 --> 00:30:15.965
+Just consider if it is available in this kind of form,
+
+215
+00:30:15.965 --> 00:30:17.285
+you can take a derivative of this,
+
+216
+00:30:17.345 --> 00:30:21.445
+but you have only the values for this function
+
+217
+00:30:22.825 --> 00:30:24.925
+for a particular is for a particular A,
+
+218
+00:30:25.065 --> 00:30:26.245
+you have some real value.
+
+219
+00:30:26.245 --> 00:30:30.405
+Let's say the 0.23 or 0.5
+
+220
+00:30:30.505 --> 00:30:33.645
+or any values, how can you take the derivative of this?
+
+221
+00:30:33.645 --> 00:30:36.365
+That is the main problem for ways there are various kind
+
+222
+00:30:36.365 --> 00:30:37.525
+of approximation techniques.
+
+223
+00:30:38.515 --> 00:30:41.365
+However, in our uh, two days
+
+224
+00:30:41.365 --> 00:30:42.885
+and tomorrow's lecture, I'm going
+
+225
+00:30:42.945 --> 00:30:45.365
+to talk about deep Q learning
+
+226
+00:30:46.235 --> 00:30:48.045
+without taking this derivative and all.
+
+227
+00:30:49.705 --> 00:30:54.685
+Okay? So that is basically the method is now
+
+228
+00:30:57.585 --> 00:30:58.445
+by the help of
+
+229
+00:31:01.695 --> 00:31:02.915
+two neural network.
+
+230
+00:31:07.555 --> 00:31:10.455
+So there are two neural network that we're going to maintain
+
+231
+00:31:15.035 --> 00:31:17.815
+by which we're going to solve this essentially.
+
+232
+00:31:17.875 --> 00:31:19.415
+It also involves a deploy memory,
+
+233
+00:31:24.365 --> 00:31:24.655
+okay?
+
+234
+00:31:24.675 --> 00:31:27.215
+We are, we are going to avoid this gradient technique, okay?
+
+235
+00:31:27.215 --> 00:31:30.095
+That is why we're going to take two neural networks.
+
+236
+00:31:30.275 --> 00:31:34.935
+So here the techniques are basically we'll maintain
+
+237
+00:31:35.475 --> 00:31:36.575
+two neural networks.
+
+238
+00:31:36.575 --> 00:31:39.295
+So first neural network is basically these are the input
+
+239
+00:31:39.365 --> 00:31:43.375
+neurons, all these up to whatever number
+
+240
+00:31:43.435 --> 00:31:44.895
+of states you are having, okay?
+
+241
+00:31:46.325 --> 00:31:49.135
+This input size is entirely depending whatever number
+
+242
+00:31:49.155 --> 00:31:51.175
+of states are having you are having for
+
+243
+00:31:51.175 --> 00:31:52.295
+that particular environment.
+
+244
+00:31:52.825 --> 00:31:57.215
+After that, you will get into defining your
+
+245
+00:31:58.445 --> 00:32:01.815
+multi-layer perceptron like these, whatever number
+
+246
+00:32:01.815 --> 00:32:03.495
+of intermediate states you want.
+
+247
+00:32:04.565 --> 00:32:09.255
+Finally, this is your Frozen leg problem.
+
+248
+00:32:09.435 --> 00:32:13.095
+We are having only four elements in your output layer.
+
+249
+00:32:13.525 --> 00:32:15.655
+This four stands for four possible actions. Okay?
+
+250
+00:32:15.875 --> 00:32:20.135
+So this network is called training network
+
+251
+00:32:20.715 --> 00:32:24.585
+or or policy network,
+
+252
+00:32:27.215 --> 00:32:28.215
+Okay?
+
+253
+00:32:28.645 --> 00:32:30.705
+The exact same structure will be there
+
+254
+00:32:30.765 --> 00:32:35.155
+for another neur network, okay?
+
+255
+00:32:35.175 --> 00:32:36.995
+You have to replicate their architecture,
+
+256
+00:32:37.315 --> 00:32:39.565
+whatever you are using in their training, training network.
+
+257
+00:32:40.585 --> 00:32:43.045
+And the output layer is only four elements.
+
+258
+00:32:43.045 --> 00:32:44.925
+This is your output layer.
+
+259
+00:32:44.995 --> 00:32:48.215
+This network is called target
+
+260
+00:32:48.245 --> 00:32:50.415
+network, okay?
+
+261
+00:32:50.795 --> 00:32:54.815
+In the target network we are, okay, so what is your input
+
+262
+00:32:54.815 --> 00:32:59.695
+and output for a frozen leg
+
+263
+00:32:59.695 --> 00:33:03.415
+problem, your input should be of the dimension.
+
+264
+00:33:06.405 --> 00:33:08.895
+Your input should be of the dimension 16.
+
+265
+00:33:10.225 --> 00:33:11.495
+There will be 16 nos here
+
+266
+00:33:11.495 --> 00:33:13.935
+because you have four, four cross four grid
+
+267
+00:33:13.935 --> 00:33:17.175
+of your frozen leg, total number of states possibilities,
+
+268
+00:33:17.555 --> 00:33:18.775
+fif 16, okay?
+
+269
+00:33:19.475 --> 00:33:22.255
+You have to encode each and every state.
+
+270
+00:33:22.715 --> 00:33:25.455
+So you are having this four cross, four grid,
+
+271
+00:33:28.725 --> 00:33:29.945
+1, 2, 3,
+
+272
+00:33:30.965 --> 00:33:33.105
+Um, Two, three.
+
+273
+00:33:33.935 --> 00:33:35.345
+This cell is zero,
+
+274
+00:33:35.415 --> 00:33:39.425
+this cell is 1, 2, 3, 4, and all.
+
+275
+00:33:39.455 --> 00:33:42.505
+Okay? So you have to encode, let's say I'm going to encode
+
+276
+00:33:43.085 --> 00:33:44.185
+the state number four.
+
+277
+00:33:44.685 --> 00:33:46.705
+So in that case, out of these 16 nodes,
+
+278
+00:33:47.005 --> 00:33:49.145
+the fourth element is going to be set
+
+279
+00:33:49.145 --> 00:33:50.425
+to be one rest dollar zero.
+
+280
+00:33:50.445 --> 00:33:54.785
+So it is one hot encoding wherever state you are going to,
+
+281
+00:33:54.785 --> 00:33:57.665
+whichever state you are going to encode, just make
+
+282
+00:33:57.665 --> 00:34:00.105
+that particular neuron to be one rest all at zero.
+
+283
+00:34:00.125 --> 00:34:03.105
+So that is your input, encoding and your output.
+
+284
+00:34:03.385 --> 00:34:06.345
+Encoding is for every state you are going
+
+285
+00:34:06.345 --> 00:34:11.345
+to have four possible election, up, down, right, left,
+
+286
+00:34:11.365 --> 00:34:15.385
+and all this stands for your up,
+
+287
+00:34:16.215 --> 00:34:17.825
+down, left, right?
+
+288
+00:34:18.295 --> 00:34:21.255
+Okay. So
+
+289
+00:34:23.715 --> 00:34:27.975
+the value predicted by every neuron is called Q
+
+290
+00:34:28.035 --> 00:34:29.215
+of is comm A.
+
+291
+00:34:30.555 --> 00:34:34.255
+So A stands for your input state.
+
+292
+00:34:34.575 --> 00:34:37.695
+A stands for your output actions
+
+293
+00:34:38.595 --> 00:34:40.575
+the value predicted by this neuron.
+
+294
+00:34:40.575 --> 00:34:42.695
+That neuron is basically your key of this.
+
+295
+00:34:43.245 --> 00:34:46.775
+This value you have to, for the target network, you have
+
+296
+00:34:46.775 --> 00:34:51.015
+to fit them on the target network.
+
+297
+00:34:52.155 --> 00:34:53.895
+You have to feed those values
+
+298
+00:34:59.595 --> 00:35:03.375
+in the same as you know that our formula,
+
+299
+00:35:09.435 --> 00:35:13.595
+this Q function formula is going to be,
+
+300
+00:35:16.335 --> 00:35:17.715
+You already have that formula, right?
+
+301
+00:35:17.715 --> 00:35:20.075
+That is Q of S comm, a
+
+302
+00:35:23.555 --> 00:35:28.515
+Q of S comm, a plus the learning rate
+
+303
+00:35:29.115 --> 00:35:33.355
+multiplied by reward plus gamma multiplied by
+
+304
+00:35:34.885 --> 00:35:39.485
+maximization over next, uh, actions.
+
+305
+00:35:40.975 --> 00:35:42.565
+Simulation of this for
+
+306
+00:35:49.185 --> 00:35:53.205
+you are going to take one action.
+
+307
+00:35:53.545 --> 00:35:58.445
+So you are going to be into new state S dash
+
+308
+00:35:59.265 --> 00:36:03.335
+and all possible a dash from here,
+
+309
+00:36:03.565 --> 00:36:08.135
+this minus of here, old ua, this thing, this is
+
+310
+00:36:08.135 --> 00:36:09.855
+what we existing format that we're using.
+
+311
+00:36:09.915 --> 00:36:13.615
+So this part is called target
+
+312
+00:36:16.395 --> 00:36:18.655
+And the whole thing is called the error, okay?
+
+313
+00:36:18.715 --> 00:36:20.975
+By which we're adjusting our current estimate.
+
+314
+00:36:21.435 --> 00:36:24.135
+So this target value, we have to have access
+
+315
+00:36:24.675 --> 00:36:27.255
+to it beforehand, before we start our training.
+
+316
+00:36:27.795 --> 00:36:29.575
+So this target value, we need to compute
+
+317
+00:36:30.925 --> 00:36:33.545
+and feed that into this neural network
+
+318
+00:36:33.645 --> 00:36:34.785
+of target neural network.
+
+319
+00:36:35.775 --> 00:36:40.025
+Okay? And that value, we are going to store it
+
+320
+00:36:40.525 --> 00:36:44.705
+and we are going to train this neural network so
+
+321
+00:36:44.705 --> 00:36:49.515
+that the output of this uh, training network
+
+322
+00:36:50.175 --> 00:36:53.675
+should be close to the output of the target neural network.
+
+323
+00:36:54.305 --> 00:36:56.395
+Okay? That is our main objective here.
+
+324
+00:36:56.935 --> 00:37:00.915
+So whatever we do is basically we are going to assume
+
+325
+00:37:00.915 --> 00:37:03.795
+that we have access to the DLQ hellos,
+
+326
+00:37:05.355 --> 00:37:07.955
+DLQ hellos and the role real qs will be stored
+
+327
+00:37:07.955 --> 00:37:10.355
+inside the target networks output space.
+
+328
+00:37:11.425 --> 00:37:15.195
+Okay? Then we are going to train the
+
+329
+00:37:15.915 --> 00:37:18.095
+policy network or training network so
+
+330
+00:37:18.095 --> 00:37:21.415
+that the output predicted by the policy network will be
+
+331
+00:37:21.415 --> 00:37:23.455
+as close as possible to the target network.
+
+332
+00:37:23.685 --> 00:37:27.335
+Once it has become almost very close to this,
+
+333
+00:37:27.405 --> 00:37:29.415
+then I will f in new example.
+
+334
+00:37:30.275 --> 00:37:32.735
+New example means, what is the example here?
+
+335
+00:37:33.225 --> 00:37:34.375
+State and action pair.
+
+336
+00:37:35.915 --> 00:37:39.455
+For every state, I'm having four possible action
+
+337
+00:37:39.455 --> 00:37:41.015
+to be chosen, okay?
+
+338
+00:37:41.265 --> 00:37:43.615
+Let's say any state like
+
+339
+00:37:45.355 --> 00:37:50.045
+I have total 16 states, 16 is my uh, last stage.
+
+340
+00:37:50.625 --> 00:37:51.885
+So zero to 15.
+
+341
+00:37:51.985 --> 00:37:56.925
+So 15 state reward is coming to be one for all other state,
+
+342
+00:37:56.925 --> 00:37:58.245
+the reward is going to be zero.
+
+343
+00:37:59.865 --> 00:38:02.725
+So let's say before that state it is 14.
+
+344
+00:38:04.145 --> 00:38:08.585
+14, any action call a this value,
+
+345
+00:38:08.845 --> 00:38:12.545
+I'm getting it from a pre-computer value.
+
+346
+00:38:12.925 --> 00:38:17.265
+So that is my, this is called QStar is a real value
+
+347
+00:38:17.265 --> 00:38:19.145
+that I'm getting by using some formula
+
+348
+00:38:19.655 --> 00:38:22.625
+from q learning normal Q learning, I store that value.
+
+349
+00:38:23.215 --> 00:38:25.105
+Then I use that value
+
+350
+00:38:25.605 --> 00:38:28.955
+to train my training network here.
+
+351
+00:38:30.255 --> 00:38:32.435
+So for that, let's say this is my training network.
+
+352
+00:38:32.575 --> 00:38:33.275
+So I write at
+
+353
+00:38:33.515 --> 00:38:38.325
+QTR training network.
+
+354
+00:38:38.705 --> 00:38:42.885
+For that, this value will be
+
+355
+00:38:44.625 --> 00:38:46.845
+as near as to the
+
+356
+00:38:49.135 --> 00:38:50.365
+after completion of training.
+
+357
+00:38:50.375 --> 00:38:53.445
+It'll become near to the real value, okay?
+
+358
+00:38:53.875 --> 00:38:57.085
+Then I will fetch a new sample, new sample
+
+359
+00:38:57.745 --> 00:39:00.645
+for every time sample means basically you are taking
+
+360
+00:39:01.285 --> 00:39:05.325
+a action under the current state, a random action,
+
+361
+00:39:05.705 --> 00:39:06.725
+1, 2, 3, anything.
+
+362
+00:39:06.945 --> 00:39:09.965
+You get into some new state that becomes a new sample.
+
+363
+00:39:10.055 --> 00:39:12.325
+Under the new sample machine, you are going to a new state.
+
+364
+00:39:12.625 --> 00:39:14.565
+For the new state. Also you have access
+
+365
+00:39:14.565 --> 00:39:17.765
+to the all possible action from a pre-computer value.
+
+366
+00:39:18.305 --> 00:39:20.165
+Use that value as your payer
+
+367
+00:39:20.225 --> 00:39:21.765
+of example to train this network.
+
+368
+00:39:24.705 --> 00:39:28.285
+So this will go on repeatedly until for every state,
+
+369
+00:39:29.385 --> 00:39:33.325
+the all possible outcome for a particular state is as near
+
+370
+00:39:33.385 --> 00:39:34.845
+as to the target network.
+
+371
+00:39:37.705 --> 00:39:40.405
+So that is what is our objective.
+
+372
+00:39:40.985 --> 00:39:42.285
+Uh, I will show you the
+
+373
+00:39:45.785 --> 00:39:46.965
+Python code now.
+
+374
+00:39:53.345 --> 00:39:56.905
+So I'm going to make a neural network architecture,
+
+375
+00:39:57.035 --> 00:40:00.545
+which is best multiline, a multilayer perception network.
+
+376
+00:40:00.735 --> 00:40:04.185
+Okay? So this class is called deep Q network.
+
+377
+00:40:05.285 --> 00:40:07.945
+In the deep, I'm accepting input states,
+
+378
+00:40:08.815 --> 00:40:13.545
+what are my hidden states and what are my output space.
+
+379
+00:40:14.095 --> 00:40:17.385
+That means all possible actions from my
+
+380
+00:40:18.435 --> 00:40:19.505
+queue network.
+
+381
+00:40:19.855 --> 00:40:24.145
+Okay? So then my output space, then I configure.
+
+382
+00:40:24.255 --> 00:40:28.985
+Then I make this uh, architecture that I'm taking
+
+383
+00:40:30.745 --> 00:40:35.545
+a linear layer from the neural network, two parameters,
+
+384
+00:40:36.035 --> 00:40:38.905
+input state and then the hidden state.
+
+385
+00:40:39.855 --> 00:40:43.545
+This is the first layer. Then I have a output layer
+
+386
+00:40:43.545 --> 00:40:45.425
+that is hidden state, getting connected
+
+387
+00:40:45.425 --> 00:40:47.065
+to the output space, okay?
+
+388
+00:40:47.555 --> 00:40:49.225
+There have only two layer ment.
+
+389
+00:40:50.495 --> 00:40:53.665
+Then after I just connect the input to the output space.
+
+390
+00:40:56.725 --> 00:40:59.225
+So the play memory, what is it I will get,
+
+391
+00:40:59.385 --> 00:41:01.905
+I will talk about it after explanation
+
+392
+00:41:01.905 --> 00:41:03.385
+of the environmental architecture.
+
+393
+00:41:03.385 --> 00:41:05.385
+Okay? So D play memory plays a major role
+
+394
+00:41:05.975 --> 00:41:09.585
+because we need to train our neural network
+
+395
+00:41:09.895 --> 00:41:11.265
+with a large number of samples.
+
+396
+00:41:12.135 --> 00:41:14.665
+Samples means you have state
+
+397
+00:41:14.765 --> 00:41:19.345
+and action pair those samples you to collect it from your
+
+398
+00:41:20.255 --> 00:41:24.395
+pre computed values, put them into a memory area.
+
+399
+00:41:26.215 --> 00:41:28.835
+So then whenever you are taking a new sample,
+
+400
+00:41:28.975 --> 00:41:30.035
+you insert into memory.
+
+401
+00:41:31.055 --> 00:41:34.525
+Once the memory is larger than your mini batch size,
+
+402
+00:41:35.715 --> 00:41:38.925
+then you start fetching the samples from your memory area.
+
+403
+00:41:40.015 --> 00:41:43.785
+Then those samples will be feed to your deep Q network.
+
+404
+00:41:44.215 --> 00:41:47.235
+Okay, I will talk about this later.
+
+405
+00:41:47.695 --> 00:41:51.315
+Let me tell you about the neural network architecture.
+
+406
+00:41:52.525 --> 00:41:55.225
+So this is a hyper parameters like learning rate discount
+
+407
+00:41:55.225 --> 00:41:57.275
+factor, okay?
+
+408
+00:41:57.335 --> 00:41:59.275
+So, uh, network syncing rate,
+
+409
+00:42:00.505 --> 00:42:03.075
+network syncing rate is basically, as I told you,
+
+410
+00:42:03.175 --> 00:42:05.355
+we are going to use this all the time here.
+
+411
+00:42:07.095 --> 00:42:09.995
+We are going to take the value from our target network
+
+412
+00:42:10.095 --> 00:42:11.195
+for the output space.
+
+413
+00:42:12.095 --> 00:42:15.115
+We are going to train this network so
+
+414
+00:42:15.115 --> 00:42:18.075
+that this value predicted by our training network should be
+
+415
+00:42:18.095 --> 00:42:19.795
+as close as possible to the output,
+
+416
+00:42:20.615 --> 00:42:23.155
+pre output given from your target network.
+
+417
+00:42:23.785 --> 00:42:25.075
+Once this training is done,
+
+418
+00:42:25.585 --> 00:42:27.795
+that means this value is very near to the target network.
+
+419
+00:42:28.785 --> 00:42:33.155
+Then the weight of this network is going to be
+
+420
+00:42:33.985 --> 00:42:36.195
+copy rover, the target network.
+
+421
+00:42:38.195 --> 00:42:43.085
+Okay? So let me tell you once again
+
+422
+00:42:43.635 --> 00:42:45.525
+this copy, why do we need to do,
+
+423
+00:42:46.115 --> 00:42:49.885
+because first is we need to have access
+
+424
+00:42:49.885 --> 00:42:54.245
+to our real examples that we are providing it by computation
+
+425
+00:42:54.245 --> 00:42:55.685
+of normal Q learning formula.
+
+426
+00:42:56.975 --> 00:42:58.245
+After that, we are trying
+
+427
+00:42:58.245 --> 00:43:02.365
+to making a network which will be trained so
+
+428
+00:43:02.365 --> 00:43:03.765
+that the predictive valve will be
+
+429
+00:43:03.765 --> 00:43:04.925
+as nearest to the real valve.
+
+430
+00:43:05.755 --> 00:43:07.805
+Then we need to save this thing
+
+431
+00:43:07.875 --> 00:43:10.845
+because I'm going to feed another example
+
+432
+00:43:12.155 --> 00:43:15.935
+and that feeding will further change the weights over here.
+
+433
+00:43:17.025 --> 00:43:21.115
+In that case, I will be losing uh, the mapping
+
+434
+00:43:21.255 --> 00:43:23.115
+for the particular state and action pair.
+
+435
+00:43:23.535 --> 00:43:26.035
+So what I'll do is I'll copy this into the target network.
+
+436
+00:43:26.905 --> 00:43:29.335
+After that, I get in a new sample
+
+437
+00:43:29.435 --> 00:43:30.975
+for another state and action pair.
+
+438
+00:43:31.605 --> 00:43:34.455
+That sample, I'll be using it here to train this network.
+
+439
+00:43:34.665 --> 00:43:37.495
+Again, once that training is done,
+
+440
+00:43:37.495 --> 00:43:40.575
+then again I will take the weight of this train network.
+
+441
+00:43:41.455 --> 00:43:46.375
+I will just do it a uh, copying all
+
+442
+00:43:46.375 --> 00:43:48.935
+of this layer by layer weight to this target network.
+
+443
+00:43:49.475 --> 00:43:52.295
+So for that there is a parameter called network sync rate,
+
+444
+00:43:52.645 --> 00:43:53.935
+network sync rate.
+
+445
+00:43:54.365 --> 00:43:55.575
+That is this parameter.
+
+446
+00:43:56.205 --> 00:43:57.255
+This defines that
+
+447
+00:43:58.405 --> 00:44:02.795
+after how many steps you want to sync the
+
+448
+00:44:03.675 --> 00:44:07.135
+training network to the target network, okay?
+
+449
+00:44:08.905 --> 00:44:11.635
+Then play memory size. These are hyper parameters.
+
+450
+00:44:11.905 --> 00:44:14.635
+Play memory size means what are the total number
+
+451
+00:44:14.635 --> 00:44:17.195
+of samples you are going to insert as
+
+452
+00:44:17.195 --> 00:44:20.035
+and when you fetch a new sample, you're going
+
+453
+00:44:20.035 --> 00:44:22.155
+to set them into your memory.
+
+454
+00:44:22.625 --> 00:44:24.515
+Your memory is basically this replay memory.
+
+455
+00:44:24.655 --> 00:44:26.715
+Insert this memory, you're going to insert it
+
+456
+00:44:27.265 --> 00:44:29.235
+maximum capacity of the memories.
+
+457
+00:44:29.855 --> 00:44:32.005
+1000 mini batch size.
+
+458
+00:44:33.385 --> 00:44:35.845
+You already know deep learning that you are going
+
+459
+00:44:35.845 --> 00:44:37.445
+to do batch gradient descent.
+
+460
+00:44:38.345 --> 00:44:42.965
+So out of these thousand samples, you are going
+
+461
+00:44:42.965 --> 00:44:44.565
+to randomly take 32 samples.
+
+462
+00:44:45.355 --> 00:44:48.865
+Those 32 samples are basically input and output pair.
+
+463
+00:44:50.055 --> 00:44:53.345
+They'll be used for training your deep Q network.
+
+464
+00:44:57.305 --> 00:45:01.765
+The loss function is n nm means squared error,
+
+465
+00:45:01.935 --> 00:45:06.205
+which is defined under neur network of PyTorch
+
+466
+00:45:07.515 --> 00:45:09.565
+optimizer will be defining it later on.
+
+467
+00:45:09.765 --> 00:45:13.325
+Normally we're using Adam optimizer. So what are the action?
+
+468
+00:45:13.605 --> 00:45:18.365
+Possible actions are lift here it is going LDRU
+
+469
+00:45:19.475 --> 00:45:21.005
+lift down, right
+
+470
+00:45:21.025 --> 00:45:24.675
+and up, which is encoded at 0 1 2 3,
+
+471
+00:45:25.755 --> 00:45:27.125
+lift down, right?
+
+472
+00:45:27.125 --> 00:45:28.125
+And up 0 1, 2, 3.
+
+473
+00:45:32.605 --> 00:45:34.375
+Then we are getting into a training loop.
+
+474
+00:45:36.715 --> 00:45:40.175
+So training is consisting of what are the steps.
+
+475
+00:45:41.305 --> 00:45:44.735
+First is you have to set your input layer
+
+476
+00:45:45.845 --> 00:45:48.695
+with the particular state you are currently living in.
+
+477
+00:45:50.115 --> 00:45:53.595
+Then that state is going to be
+
+478
+00:45:54.735 --> 00:45:57.225
+feeding to the input layer of network.
+
+479
+00:45:57.315 --> 00:45:58.425
+It'll have some prediction.
+
+480
+00:45:59.055 --> 00:46:02.555
+That prediction will be an incorrect prediction, okay?
+
+481
+00:46:03.695 --> 00:46:06.635
+So what we do is that prediction will
+
+482
+00:46:06.845 --> 00:46:09.395
+after training it has to be as near as possible
+
+483
+00:46:09.395 --> 00:46:14.315
+to the output space so that we have it basically,
+
+484
+00:46:14.775 --> 00:46:18.755
+uh, optimization loop by which are going to optimize that.
+
+485
+00:46:20.135 --> 00:46:23.115
+Um, output space of your prediction should be as near
+
+486
+00:46:23.115 --> 00:46:26.315
+as possible to the true the values of your predict, uh,
+
+487
+00:46:26.315 --> 00:46:28.035
+two values of your target network.
+
+488
+00:46:29.095 --> 00:46:31.025
+Okay? So this remains as usual.
+
+489
+00:46:31.985 --> 00:46:34.485
+You get the number of states from your environment,
+
+490
+00:46:34.745 --> 00:46:38.405
+get the number of actions for a particular state
+
+491
+00:46:38.465 --> 00:46:39.965
+so you get all possible things.
+
+492
+00:46:40.195 --> 00:46:45.165
+Yeah. Then you have this silent greed strategy
+
+493
+00:46:45.595 --> 00:46:48.885
+grid as means if your random value that you are generating,
+
+494
+00:46:48.905 --> 00:46:51.885
+if it is less than silent, in that case you are going
+
+495
+00:46:51.885 --> 00:46:54.855
+to do a exploration strategy.
+
+496
+00:46:55.475 --> 00:46:58.815
+If it is bigger than il, the random value is bigger than il.
+
+497
+00:46:59.515 --> 00:47:03.455
+You are going to take the help of the previously stored q
+
+498
+00:47:04.195 --> 00:47:07.925
+uh function values to choose your next possible action.
+
+499
+00:47:09.255 --> 00:47:14.175
+Okay? Now we are
+
+500
+00:47:14.175 --> 00:47:16.745
+going to have this memory.
+
+501
+00:47:17.165 --> 00:47:18.825
+You are getting it from replay memory,
+
+502
+00:47:19.775 --> 00:47:22.385
+this replay memories defined over here,
+
+503
+00:47:22.735 --> 00:47:24.025
+this replay memory I think,
+
+504
+00:47:24.025 --> 00:47:26.625
+but you can consider it as a fast in,
+
+505
+00:47:26.625 --> 00:47:27.825
+fast out storage space.
+
+506
+00:47:28.705 --> 00:47:31.745
+Whatever you insert, it'll be inserted at the end
+
+507
+00:47:32.165 --> 00:47:36.325
+and whatever you are, uh, basically extracting,
+
+508
+00:47:36.335 --> 00:47:40.245
+it'll be extracted from the head of the queue like that.
+
+509
+00:47:40.425 --> 00:47:42.205
+It is basically a three four structure.
+
+510
+00:47:47.705 --> 00:47:50.575
+After that, we are going to take this DQN class
+
+511
+00:47:51.315 --> 00:47:54.975
+to instant share your policy network and target network.
+
+512
+00:47:55.875 --> 00:47:59.585
+There has to be, they have to be same architecture, okay?
+
+513
+00:48:00.395 --> 00:48:04.505
+After that, you are going to assign the values of your
+
+514
+00:48:05.125 --> 00:48:07.625
+target dqs output layer.
+
+515
+00:48:08.875 --> 00:48:12.565
+Okay? So what you do you first step is as I told you,
+
+516
+00:48:12.565 --> 00:48:15.525
+we are going to make a syn syn up that is
+
+517
+00:48:16.445 --> 00:48:18.685
+syncing from the policy network to target network.
+
+518
+00:48:18.835 --> 00:48:20.965
+Like this diagram. Every time we are,
+
+519
+00:48:21.595 --> 00:48:23.445
+once a training is done, we are going
+
+520
+00:48:23.445 --> 00:48:24.605
+to copy from here to here.
+
+521
+00:48:24.625 --> 00:48:27.725
+So this copying is basically taken at the first stage itself
+
+522
+00:48:28.455 --> 00:48:29.805
+right after initialization.
+
+523
+00:48:30.905 --> 00:48:35.745
+So when you're doing copying, what you do, you use this
+
+524
+00:48:37.395 --> 00:48:40.235
+PyTorch function called state underscore DICT
+
+525
+00:48:40.605 --> 00:48:41.875
+state under dictionary.
+
+526
+00:48:42.955 --> 00:48:46.785
+It'll return all the weight related to the
+
+527
+00:48:48.255 --> 00:48:49.585
+neur letter architecture.
+
+528
+00:48:50.245 --> 00:48:53.905
+And then if you're calling this load state dictionary,
+
+529
+00:48:54.515 --> 00:48:58.345
+these functions are GE getting called from a object called
+
+530
+00:48:58.525 --> 00:49:00.505
+target, DQN target, DQN.
+
+531
+00:49:00.945 --> 00:49:04.065
+It is a class, it is object of this class, okay?
+
+532
+00:49:07.825 --> 00:49:09.175
+After that you just define
+
+533
+00:49:09.175 --> 00:49:11.575
+what are the optimization algorithm you are using.
+
+534
+00:49:11.575 --> 00:49:13.335
+That is Adam optimizer
+
+535
+00:49:13.795 --> 00:49:16.215
+and on which parameter you are going
+
+536
+00:49:16.215 --> 00:49:17.895
+to do the training look at, we are going
+
+537
+00:49:17.895 --> 00:49:19.455
+to train on policy DQN.
+
+538
+00:49:19.835 --> 00:49:21.015
+We have two neural network.
+
+539
+00:49:21.155 --> 00:49:23.655
+One is policy, one is policy DQ one,
+
+540
+00:49:23.655 --> 00:49:25.135
+other one is target, DQN.
+
+541
+00:49:25.715 --> 00:49:27.535
+So we are going to use policy
+
+542
+00:49:27.775 --> 00:49:30.765
+DQN, okay?
+
+543
+00:49:31.355 --> 00:49:33.725
+This parameters on which we're going to do the training.
+
+544
+00:49:34.875 --> 00:49:38.465
+After that we keep on collecting the epi reward return
+
+545
+00:49:39.045 --> 00:49:43.265
+for ev every episode, this reward, we are going
+
+546
+00:49:43.265 --> 00:49:46.305
+to make a list of reward
+
+547
+00:49:47.325 --> 00:49:49.135
+collector over all possible episode.
+
+548
+00:49:49.165 --> 00:49:50.735
+Okay? So this is episode history.
+
+549
+00:49:52.325 --> 00:49:54.425
+Now we are going to start our two loops.
+
+550
+00:49:54.555 --> 00:49:58.145
+First loop is the outer loop is we are
+
+551
+00:49:58.695 --> 00:50:00.545
+looping over the number of episodes
+
+552
+00:50:01.825 --> 00:50:05.885
+and the inner loop is for one particular episode
+
+553
+00:50:06.535 --> 00:50:09.575
+until we hit the terminal state
+
+554
+00:50:09.995 --> 00:50:13.185
+or we are hitting the ation truncation state.
+
+555
+00:50:14.095 --> 00:50:16.425
+Till that point of time, we keep on doing
+
+556
+00:50:17.035 --> 00:50:20.345
+state action reward, state action reward like that, okay?
+
+557
+00:50:20.485 --> 00:50:25.455
+So we require two loops inside the inner loop.
+
+558
+00:50:25.675 --> 00:50:27.645
+So before that we have this, this we have
+
+559
+00:50:27.645 --> 00:50:29.485
+to set this termination condition,
+
+560
+00:50:29.485 --> 00:50:31.165
+transmission condition to be false.
+
+561
+00:50:31.735 --> 00:50:36.295
+We're initializing our state to be environment variables.
+
+562
+00:50:36.715 --> 00:50:38.815
+We are resetting it to any, uh,
+
+563
+00:50:39.285 --> 00:50:41.215
+normality is resetting to zero state.
+
+564
+00:50:41.355 --> 00:50:44.295
+So the state you are providing here in the third bracket,
+
+565
+00:50:44.595 --> 00:50:48.015
+you are going to resetting to this particular state.
+
+566
+00:50:48.085 --> 00:50:52.105
+Okay? So your state is initialized to zero.
+
+567
+00:50:52.515 --> 00:50:56.405
+After that you are your zero state is not a al state,
+
+568
+00:50:56.425 --> 00:50:57.525
+not a ation state.
+
+569
+00:50:57.665 --> 00:50:59.405
+So we are inside this inner loop.
+
+570
+00:51:00.145 --> 00:51:03.285
+In the inner loop we are taking the help of F.
+
+571
+00:51:03.285 --> 00:51:08.135
+Silent strategy is called whether you want
+
+572
+00:51:08.135 --> 00:51:11.065
+to do exploitation or exploitation.
+
+573
+00:51:11.305 --> 00:51:13.825
+Exploitation means you are not going
+
+574
+00:51:13.825 --> 00:51:15.945
+to use your previous knowledge.
+
+575
+00:51:16.405 --> 00:51:18.105
+You are going to explore the world.
+
+576
+00:51:18.725 --> 00:51:20.585
+So the condition is set by like this.
+
+577
+00:51:22.135 --> 00:51:24.195
+If the random value generated
+
+578
+00:51:24.935 --> 00:51:29.485
+by the random number generated is less than the IL epsilon,
+
+579
+00:51:29.485 --> 00:51:30.725
+maximum value is one, okay?
+
+580
+00:51:31.065 --> 00:51:33.925
+And after every episode, the AL value will come down.
+
+581
+00:51:35.255 --> 00:51:37.115
+So the random value is less than il.
+
+582
+00:51:37.945 --> 00:51:41.435
+Then you are going to do the random exploration.
+
+583
+00:51:42.615 --> 00:51:44.195
+If this is not true,
+
+584
+00:51:44.195 --> 00:51:46.435
+that means this value is bigger than epsilon.
+
+585
+00:51:46.455 --> 00:51:48.995
+You are going to now go back to your previous knowledge.
+
+586
+00:51:49.255 --> 00:51:54.125
+So that is called your exploitation strategy.
+
+587
+00:51:54.425 --> 00:51:57.605
+So exploitation means you are going to take the next action.
+
+588
+00:51:57.705 --> 00:51:59.525
+So look at every time I'm setting the action
+
+589
+00:52:00.745 --> 00:52:01.975
+based on either random
+
+590
+00:52:02.235 --> 00:52:04.175
+or based on the previous knowledge, if I'm going
+
+591
+00:52:04.175 --> 00:52:05.575
+to use previous knowledge, I have
+
+592
+00:52:05.575 --> 00:52:08.445
+to use this policy DQN, okay?
+
+593
+00:52:08.445 --> 00:52:10.085
+From the from the policy DQN.
+
+594
+00:52:11.005 --> 00:52:13.785
+So policy D can only provide you output.
+
+595
+00:52:14.585 --> 00:52:16.075
+What are the length of your output?
+
+596
+00:52:16.135 --> 00:52:18.955
+It is only four out of four possible action.
+
+597
+00:52:19.215 --> 00:52:22.595
+You are choosing the ARG max. Look at here, AR max.
+
+598
+00:52:23.735 --> 00:52:25.555
+So maximum value return
+
+599
+00:52:25.655 --> 00:52:30.275
+by the policy network is four possible values
+
+600
+00:52:30.455 --> 00:52:31.835
+out of which maximum choosing.
+
+601
+00:52:32.495 --> 00:52:35.205
+Assign that to your action. Okay?
+
+602
+00:52:35.935 --> 00:52:37.355
+So that is your next action.
+
+603
+00:52:37.355 --> 00:52:39.875
+You have got it under that action,
+
+604
+00:52:40.015 --> 00:52:43.235
+you are now taking your next state and reward.
+
+605
+00:52:43.935 --> 00:52:48.035
+So all stepping onto action, it'll return you next state
+
+606
+00:52:48.575 --> 00:52:50.745
+and your reward fine.
+
+607
+00:52:51.325 --> 00:52:53.305
+So this next state reward
+
+608
+00:52:53.845 --> 00:52:55.865
+and the state, you have that termination state
+
+609
+00:52:55.885 --> 00:52:59.185
+or ation state, whichever is happening, it'll be there.
+
+610
+00:52:59.695 --> 00:53:03.425
+Okay? So all those values, you are putting it as a topple
+
+611
+00:53:04.185 --> 00:53:06.325
+and you are appending that into your memory.
+
+612
+00:53:08.445 --> 00:53:09.945
+So memory is defined here.
+
+613
+00:53:11.685 --> 00:53:13.665
+It is a deep play memory, okay?
+
+614
+00:53:13.765 --> 00:53:17.835
+It is basically you keep on inserting your
+
+615
+00:53:18.285 --> 00:53:20.555
+experience topple into your memory.
+
+616
+00:53:21.585 --> 00:53:25.165
+Then you go to the, yeah, you
+
+617
+00:53:26.415 --> 00:53:30.505
+update your state variable to the new state, okay?
+
+618
+00:53:33.105 --> 00:53:36.635
+And then we have not got into the training loop.
+
+619
+00:53:36.635 --> 00:53:40.185
+The training loop is basically this optimization function
+
+620
+00:53:40.185 --> 00:53:43.345
+to be kicked in this optimization function
+
+621
+00:53:43.345 --> 00:53:47.025
+to be kicked in based on a condition called if the
+
+622
+00:53:47.985 --> 00:53:50.085
+number of experience double
+
+623
+00:53:50.635 --> 00:53:52.325
+that you have inserted into the memory.
+
+624
+00:53:53.455 --> 00:53:55.435
+If the experience is sufficiently large,
+
+625
+00:53:55.455 --> 00:53:58.325
+it is greater than minimal size then
+
+626
+00:53:59.225 --> 00:54:02.715
+and another condition is if at least one
+
+627
+00:54:02.715 --> 00:54:05.915
+of the experiences having a positive reward.
+
+628
+00:54:07.455 --> 00:54:09.195
+If you have got lot of experience
+
+629
+00:54:09.255 --> 00:54:11.755
+but none of the experience has got a positive reward,
+
+630
+00:54:11.755 --> 00:54:12.755
+then there is no point
+
+631
+00:54:12.755 --> 00:54:14.595
+of doing the training of your neural network.
+
+632
+00:54:15.415 --> 00:54:18.815
+Okay? If these two condition are true,
+
+633
+00:54:18.845 --> 00:54:20.735
+then only you go ahead and training.
+
+634
+00:54:21.195 --> 00:54:24.445
+So for training you require
+
+635
+00:54:26.415 --> 00:54:29.475
+at least a mini batch size of experience.
+
+636
+00:54:30.055 --> 00:54:31.395
+So this mini batch size I think,
+
+637
+00:54:31.415 --> 00:54:34.595
+but under the memory you have a lot of experience.
+
+638
+00:54:34.595 --> 00:54:37.905
+From there you are sampling with
+
+639
+00:54:37.905 --> 00:54:39.065
+the size of mini batch size.
+
+640
+00:54:39.065 --> 00:54:40.345
+That is set with 32.
+
+641
+00:54:40.345 --> 00:54:43.985
+So 32 samples, your aging 30 phase, 32 sample.
+
+642
+00:54:44.035 --> 00:54:45.345
+It'll be stored in the minibatch.
+
+643
+00:54:45.775 --> 00:54:48.425
+This minibatch is basically containing your input
+
+644
+00:54:48.425 --> 00:54:50.925
+and output pair, okay?
+
+645
+00:54:51.315 --> 00:54:53.765
+Then this input and output pair, you are sending it
+
+646
+00:54:53.865 --> 00:54:55.405
+to your optimizing function.
+
+647
+00:54:56.195 --> 00:54:57.975
+Now look at this optimization function.
+
+648
+00:54:58.275 --> 00:55:01.855
+The way we're calling this optimize is quite different from
+
+649
+00:55:02.395 --> 00:55:04.535
+any deep learning, uh,
+
+650
+00:55:05.135 --> 00:55:09.095
+training we have done right there from LSTM or Jan
+
+651
+00:55:10.075 --> 00:55:13.015
+or uh, transformer whatever till now we have
+
+652
+00:55:13.845 --> 00:55:17.295
+this one is looking quite different, okay?
+
+653
+00:55:18.375 --> 00:55:21.035
+Inside this look at whenever we do optimize
+
+654
+00:55:21.035 --> 00:55:24.235
+and write, we optimize onto some neural network.
+
+655
+00:55:25.275 --> 00:55:27.655
+So we call that neural network dot optimize.
+
+656
+00:55:27.845 --> 00:55:30.375
+That optimize will accept argument
+
+657
+00:55:30.445 --> 00:55:32.575
+what automation algorithm we're using like Adam
+
+658
+00:55:33.115 --> 00:55:35.095
+or it can be using rm S prop, anything
+
+659
+00:55:36.455 --> 00:55:38.235
+the parameters for the optimization.
+
+660
+00:55:38.935 --> 00:55:41.195
+So those parameters are part of that object
+
+661
+00:55:41.335 --> 00:55:42.795
+by which you're calling optimize.
+
+662
+00:55:43.135 --> 00:55:44.995
+But here in this case, we are calling this
+
+663
+00:55:45.465 --> 00:55:47.155
+self optimize, okay?
+
+664
+00:55:47.665 --> 00:55:51.395
+This self optimiz, we look at we
+
+665
+00:55:52.595 --> 00:55:55.845
+this self optimize look at this is optimizer here,
+
+666
+00:55:56.075 --> 00:55:58.355
+this is different from the self.
+
+667
+00:55:59.535 --> 00:56:04.045
+You will see that this self optimiz there is a variable.
+
+668
+00:56:04.665 --> 00:56:07.645
+It is optimized. We have not defined its
+
+669
+00:56:08.625 --> 00:56:09.675
+type of the argument.
+
+670
+00:56:09.905 --> 00:56:10.595
+Look at here.
+
+671
+00:56:18.395 --> 00:56:20.655
+So here optimizer we have set it to be none.
+
+672
+00:56:23.195 --> 00:56:28.065
+Okay? So yeah, so with self
+
+673
+00:56:28.625 --> 00:56:29.905
+optimize that we're using here
+
+674
+00:56:36.235 --> 00:56:38.615
+you went, you just crossed it a little bit above.
+
+675
+00:56:39.595 --> 00:56:43.495
+Mm-hmm There is no definition we are calling it.
+
+676
+00:56:43.715 --> 00:56:46.575
+So, so there was a definition optimize.
+
+677
+00:56:46.585 --> 00:56:49.015
+There is a definition, but scroll down a little bit.
+
+678
+00:56:49.015 --> 00:56:52.995
+It was there sir actually. Hmm, it is there. It is there.
+
+679
+00:56:53.115 --> 00:56:54.795
+I know because I have written that.
+
+680
+00:56:55.915 --> 00:56:59.525
+What I'm trying to say is this, for every thing
+
+681
+00:56:59.525 --> 00:57:04.285
+that you are using, you, if it is a uh, NN dot
+
+682
+00:57:05.005 --> 00:57:08.235
+function, we specify it specifically.
+
+683
+00:57:08.695 --> 00:57:10.915
+That's what I'm trying to see that I'm trying
+
+684
+00:57:10.915 --> 00:57:15.235
+to show you also like this optimizer that you are using
+
+685
+00:57:15.745 --> 00:57:19.315
+this optimizer, we are specifying that what kind of
+
+686
+00:57:19.975 --> 00:57:22.475
+object it is that is fetching from the torch.
+
+687
+00:57:23.785 --> 00:57:27.915
+Okay? So like that this self dot optimize,
+
+688
+00:57:28.455 --> 00:57:31.115
+it is our own user defined function.
+
+689
+00:57:31.215 --> 00:57:34.795
+It is not something that we are taking any
+
+690
+00:57:35.315 --> 00:57:36.355
+existing torch object.
+
+691
+00:57:36.895 --> 00:57:38.435
+That's what I'm trying to show you.
+
+692
+00:57:39.935 --> 00:57:42.025
+This self dot optimize, we have a definition,
+
+693
+00:57:42.685 --> 00:57:46.505
+but prior to that we don't, we have not set any torch
+
+694
+00:57:47.125 --> 00:57:51.905
+dot some function to e be used for the server optimize.
+
+695
+00:57:51.935 --> 00:57:53.305
+Okay? So there is a definition.
+
+696
+00:57:53.305 --> 00:57:54.665
+The definition will be below.
+
+697
+00:57:56.385 --> 00:57:58.355
+This is the definition of optimize, okay?
+
+698
+00:57:59.225 --> 00:58:01.805
+So for doing this optimization, this is the main brain
+
+699
+00:58:01.825 --> 00:58:03.645
+of this deep Q neur network.
+
+700
+00:58:03.865 --> 00:58:06.805
+So as I told you, this is quite different from the
+
+701
+00:58:06.875 --> 00:58:09.485
+traditional deep learning of all of you
+
+702
+00:58:09.485 --> 00:58:12.165
+that you have done it either Jan or VIE
+
+703
+00:58:12.505 --> 00:58:13.725
+or transformer like that.
+
+704
+00:58:16.355 --> 00:58:20.085
+Okay? So here inside this we are taking three argument,
+
+705
+00:58:20.355 --> 00:58:22.085
+what is the input output period.
+
+706
+00:58:22.085 --> 00:58:25.965
+In the batch format your policy, this is called the network
+
+707
+00:58:26.235 --> 00:58:27.845
+that you are trying to optimize
+
+708
+00:58:27.985 --> 00:58:29.485
+and this is the target network.
+
+709
+00:58:29.755 --> 00:58:30.765
+This target network,
+
+710
+00:58:30.865 --> 00:58:32.285
+you are not going to do an optimization.
+
+711
+00:58:32.285 --> 00:58:33.885
+You are setting the value of output
+
+712
+00:58:33.885 --> 00:58:35.085
+space for the target network.
+
+713
+00:58:35.905 --> 00:58:37.365
+Use that output space
+
+714
+00:58:37.425 --> 00:58:39.565
+to train this particular policy be given.
+
+715
+00:58:39.715 --> 00:58:43.975
+Okay? So the number of states are basically already defined
+
+716
+00:58:44.075 --> 00:58:47.585
+by your input feature of this policy.
+
+717
+00:58:47.785 --> 00:58:49.105
+DQN input.
+
+718
+00:58:49.105 --> 00:58:51.545
+Feature is set out to be 16
+
+719
+00:58:51.615 --> 00:58:54.745
+because that is your input, uh,
+
+720
+00:58:54.855 --> 00:58:56.145
+neurons that you're accepting.
+
+721
+00:58:57.105 --> 00:58:59.525
+So you have a list of current queue list
+
+722
+00:58:59.545 --> 00:59:01.405
+and target queue list, okay?
+
+723
+00:59:01.765 --> 00:59:05.285
+I will show you how these two PAs will be getting updated.
+
+724
+00:59:07.705 --> 00:59:12.395
+Now look at here, this objective
+
+725
+00:59:12.395 --> 00:59:15.635
+of this optimized function is to train this policy DQN
+
+726
+00:59:15.935 --> 00:59:19.525
+by the help of, so for any particular neural network
+
+727
+00:59:19.625 --> 00:59:23.605
+to be trained, you would require input output pair.
+
+728
+00:59:24.225 --> 00:59:26.805
+The input is basically your state
+
+729
+00:59:26.805 --> 00:59:28.405
+that you're feeding to this policy.
+
+730
+00:59:28.605 --> 00:59:31.245
+DQN and output is coming from
+
+731
+00:59:31.995 --> 00:59:34.125
+pre-specified value of target DQN.
+
+732
+00:59:34.425 --> 00:59:37.325
+Now how to set that target, please specify below
+
+733
+00:59:37.325 --> 00:59:39.285
+that is my objective to show you here.
+
+734
+00:59:40.675 --> 00:59:43.975
+So look at this pre-specified of target queue
+
+735
+00:59:44.675 --> 00:59:48.175
+is this given here target queue, this target queue,
+
+736
+00:59:48.895 --> 00:59:52.915
+I am computing from this variable call target, okay?
+
+737
+00:59:53.465 --> 00:59:54.715
+What is the definition of target?
+
+738
+00:59:55.275 --> 00:59:57.275
+A target is defined over here.
+
+739
+01:00:00.695 --> 01:00:04.465
+Okay? So this target is basically exactly this formula
+
+740
+01:00:04.655 --> 01:00:06.865
+that all of the time we're using, okay?
+
+741
+01:00:07.415 --> 01:00:11.195
+This part, if the next state
+
+742
+01:00:12.135 --> 01:00:15.715
+is a terminal state in that terminal state,
+
+743
+01:00:15.955 --> 01:00:18.075
+whatever word is there, you use that as your target.
+
+744
+01:00:19.055 --> 01:00:22.155
+If the next state is not a terminal state, in that case
+
+745
+01:00:22.935 --> 01:00:24.355
+you are going to write this formula.
+
+746
+01:00:26.755 --> 01:00:28.685
+Okay? So that is,
+
+747
+01:00:31.535 --> 01:00:35.835
+so if the next state is a terminal state, in that case this,
+
+748
+01:00:35.985 --> 01:00:38.515
+this condition will be setting out to be terminal state.
+
+749
+01:00:38.625 --> 01:00:41.955
+True, okay? In that case, whatever reward is returned
+
+750
+01:00:41.955 --> 01:00:43.875
+for the ssta, you use it at target.
+
+751
+01:00:44.665 --> 01:00:48.965
+If that is not true, then what you do, you say it that,
+
+752
+01:00:48.975 --> 01:00:50.725
+don't worry gradient descent
+
+753
+01:00:50.785 --> 01:00:52.365
+for finding out the target value
+
+754
+01:00:52.755 --> 01:00:55.765
+because all of these target value that are fetching, uh,
+
+755
+01:00:55.765 --> 01:00:59.685
+from a tensor, if this particular tens cell is under
+
+756
+01:01:00.005 --> 01:01:02.685
+training, then in that case you'll be facing a travel.
+
+757
+01:01:02.785 --> 01:01:06.325
+So you set this to where no gradient descent required.
+
+758
+01:01:06.985 --> 01:01:08.485
+So you use that formula.
+
+759
+01:01:08.625 --> 01:01:11.885
+So reward plus gamma, I mean discount factor multiplied
+
+760
+01:01:11.885 --> 01:01:14.665
+by your this target DQN.
+
+761
+01:01:14.695 --> 01:01:17.395
+Look at this target, okay?
+
+762
+01:01:17.395 --> 01:01:19.555
+I have not shown you this function,
+
+763
+01:01:19.975 --> 01:01:22.595
+how I'm doing the state encoding of a neural network.
+
+764
+01:01:23.415 --> 01:01:27.905
+So that encoding is done by this function state to DQN input
+
+765
+01:01:28.515 --> 01:01:30.625
+state to DQN input is given here.
+
+766
+01:01:30.775 --> 01:01:33.465
+Look at here. This is the encoding of your input state.
+
+767
+01:01:34.715 --> 01:01:37.055
+If you are passing any particular state
+
+768
+01:01:37.675 --> 01:01:40.815
+as your input argument, that will accept the argument
+
+769
+01:01:40.835 --> 01:01:42.055
+of a single integer.
+
+770
+01:01:42.435 --> 01:01:45.695
+You have total 16 states starting from zero to 15,
+
+771
+01:01:46.165 --> 01:01:50.175
+whichever state you are going to feed to a new network,
+
+772
+01:01:50.915 --> 01:01:52.495
+you need to make it as a vector.
+
+773
+01:01:53.455 --> 01:01:56.235
+So from a single number to vector formation, that is done
+
+774
+01:01:56.235 --> 01:01:57.675
+by this particular function.
+
+775
+01:01:58.255 --> 01:02:00.315
+So it'll accept argument of a single
+
+776
+01:02:01.765 --> 01:02:04.115
+state number ranging from zero to 15.
+
+777
+01:02:05.125 --> 01:02:09.135
+It'll format tenser of the size of total number
+
+778
+01:02:09.135 --> 01:02:11.455
+of state total 30 16, okay?
+
+779
+01:02:12.315 --> 01:02:15.095
+And this tens for that particular element,
+
+780
+01:02:15.465 --> 01:02:17.295
+which you're passing your number
+
+781
+01:02:17.475 --> 01:02:18.815
+of hello from your argument.
+
+782
+01:02:18.815 --> 01:02:21.285
+That is going to set to be one rest dollar zero.
+
+783
+01:02:21.705 --> 01:02:25.525
+So it is a one hot encoding like this. Okay?
+
+784
+01:02:25.545 --> 01:02:27.405
+So this one is going to be
+
+785
+01:02:28.545 --> 01:02:30.295
+Azure input for your neural network.
+
+786
+01:02:30.595 --> 01:02:32.855
+So whenever I, we are calling this neural network,
+
+787
+01:02:35.245 --> 01:02:38.665
+we are calling any particular neural network, okay?
+
+788
+01:02:38.665 --> 01:02:43.025
+So policy DQN, this neural network will accept
+
+789
+01:02:43.535 --> 01:02:45.745
+what is your input that you're feeding to neural network.
+
+790
+01:02:45.745 --> 01:02:46.905
+The input is your state.
+
+791
+01:02:47.005 --> 01:02:48.945
+The state has to be encoded with this.
+
+792
+01:02:50.115 --> 01:02:51.615
+So it is a vector return
+
+793
+01:02:51.915 --> 01:02:54.015
+and that vector is going to be accepted for the input
+
+794
+01:02:54.015 --> 01:02:55.095
+of this neural network.
+
+795
+01:02:56.095 --> 01:02:58.625
+That is what we're doing it here for reward function.
+
+796
+01:02:58.695 --> 01:03:01.145
+Also, this is our reward function assignment.
+
+797
+01:03:02.245 --> 01:03:06.065
+So you are going to feed a particular new state
+
+798
+01:03:07.085 --> 01:03:10.345
+inside that new state you have
+
+799
+01:03:12.155 --> 01:03:14.175
+all possible action possible from the new state.
+
+800
+01:03:14.175 --> 01:03:17.375
+Also, you are taking the maximum out of that
+
+801
+01:03:18.295 --> 01:03:22.975
+and then that maximum, hello whatever it is returned
+
+802
+01:03:22.995 --> 01:03:24.095
+by the target network.
+
+803
+01:03:25.035 --> 01:03:27.815
+You are using that to find out your dword.
+
+804
+01:03:27.815 --> 01:03:30.465
+This formula only. This
+
+805
+01:03:30.465 --> 01:03:35.465
+formula, okay?
+
+806
+01:03:35.635 --> 01:03:37.475
+So look at the, there is a max argument here.
+
+807
+01:03:37.735 --> 01:03:42.595
+You are getting the maximum from the target DQN.
+
+808
+01:03:42.905 --> 01:03:44.155
+That is the only difference
+
+809
+01:03:44.155 --> 01:03:45.555
+that I want to draw your attention.
+
+810
+01:03:46.375 --> 01:03:51.135
+We are having a pre computed Q function without the
+
+811
+01:03:51.135 --> 01:03:52.135
+knowledge of neural network.
+
+812
+01:03:52.275 --> 01:03:53.575
+You can understand this.
+
+813
+01:03:54.675 --> 01:03:57.885
+When we are going to do deep Q learning this value,
+
+814
+01:03:57.945 --> 01:04:00.485
+we are getting it from the target, this thing,
+
+815
+01:04:00.605 --> 01:04:03.925
+this target neural network, the target neural network.
+
+816
+01:04:04.675 --> 01:04:06.925
+Basically we're not doing a training here.
+
+817
+01:04:07.775 --> 01:04:11.255
+That is why we require this no grad
+
+818
+01:04:11.255 --> 01:04:13.245
+statement, okay?
+
+819
+01:04:15.515 --> 01:04:18.135
+So we get the target value from this
+
+820
+01:04:20.215 --> 01:04:22.995
+and this target value is assigned under your
+
+821
+01:04:27.745 --> 01:04:29.525
+target queue action.
+
+822
+01:04:30.595 --> 01:04:34.405
+This target queue action, you are making it to your list.
+
+823
+01:04:34.545 --> 01:04:36.845
+Now because why this list is required,
+
+824
+01:04:37.515 --> 01:04:42.415
+because we are going to make a mini batch, mini batch
+
+825
+01:04:42.415 --> 01:04:43.415
+of size 32.
+
+826
+01:04:44.155 --> 01:04:47.655
+So for 32 number of input sample, I need
+
+827
+01:04:47.655 --> 01:04:49.495
+to have 32 number of output values.
+
+828
+01:04:50.625 --> 01:04:53.685
+So for target queue I have 32 number of input sample.
+
+829
+01:04:53.805 --> 01:04:56.485
+I have 32 number of output values that become my
+
+830
+01:04:58.435 --> 01:05:00.305
+batch output space.
+
+831
+01:05:01.175 --> 01:05:04.395
+Now batch input space is going to be here. Policy network.
+
+832
+01:05:06.315 --> 01:05:10.395
+This is what is your current queue? Current queue.
+
+833
+01:05:11.115 --> 01:05:12.535
+So current queue is basically
+
+834
+01:05:13.865 --> 01:05:15.455
+these values will be incorrect.
+
+835
+01:05:15.815 --> 01:05:17.525
+Estimate, fine, let it be
+
+836
+01:05:17.525 --> 01:05:20.805
+because this is what is our target to refine it.
+
+837
+01:05:21.745 --> 01:05:23.805
+So I need to make this list so
+
+838
+01:05:23.805 --> 01:05:25.805
+that it'll become the exact minimum size.
+
+839
+01:05:26.425 --> 01:05:27.525
+So I'm appending
+
+840
+01:05:27.705 --> 01:05:29.725
+of this current queue value into the current queue
+
+841
+01:05:29.755 --> 01:05:31.405
+list, okay?
+
+842
+01:05:31.435 --> 01:05:33.765
+This current queue list will be incorrect value.
+
+843
+01:05:33.765 --> 01:05:35.485
+However, this target queue list,
+
+844
+01:05:35.565 --> 01:05:36.805
+this is going to be a correct value.
+
+845
+01:05:37.265 --> 01:05:39.925
+Now, after that, what I do, I have
+
+846
+01:05:39.925 --> 01:05:42.405
+to make this current Q list value.
+
+847
+01:05:42.815 --> 01:05:45.405
+After the training, these values should be as near
+
+848
+01:05:45.425 --> 01:05:47.085
+as possible to the target Q list.
+
+849
+01:05:47.345 --> 01:05:49.325
+So for that I make this
+
+850
+01:05:49.385 --> 01:05:53.535
+and this as my P off values
+
+851
+01:05:53.795 --> 01:05:55.215
+to be optimized.
+
+852
+01:05:55.315 --> 01:05:57.375
+So look at this, I'm making a loss function.
+
+853
+01:05:57.475 --> 01:05:59.945
+Now this loss function is basically
+
+854
+01:06:00.565 --> 01:06:03.145
+the first one is my my own estimate,
+
+855
+01:06:03.195 --> 01:06:04.705
+which is an incorrect estimate
+
+856
+01:06:05.205 --> 01:06:07.545
+and this is my target, which is a correct test,
+
+857
+01:06:07.575 --> 01:06:09.145
+correct values provided to you.
+
+858
+01:06:10.765 --> 01:06:14.465
+So this is a means squared error loss function.
+
+859
+01:06:14.465 --> 01:06:16.425
+We have already defined NN MSC loss.
+
+860
+01:06:16.965 --> 01:06:18.585
+So we are going to find out the means square
+
+861
+01:06:18.585 --> 01:06:19.705
+error between these two.
+
+862
+01:06:20.455 --> 01:06:23.385
+That will become my loss function assignment
+
+863
+01:06:23.605 --> 01:06:26.345
+and then I will do a standard method
+
+864
+01:06:26.445 --> 01:06:29.825
+of doing self optimizer, zero admins,
+
+865
+01:06:29.895 --> 01:06:33.625
+your neural network all of the way
+
+866
+01:06:33.765 --> 01:06:35.665
+to become zero by assigning.
+
+867
+01:06:35.805 --> 01:06:38.625
+By by calling these functions silver word optimizer do zero
+
+868
+01:06:38.655 --> 01:06:40.945
+grad, all of the neural network will become zero
+
+869
+01:06:41.645 --> 01:06:44.505
+and then you do it backward.
+
+870
+01:06:44.765 --> 01:06:45.785
+Uh, back propagation.
+
+871
+01:06:45.785 --> 01:06:47.825
+That is done by lost or backward
+
+872
+01:06:49.245 --> 01:06:50.715
+after doing the back propagation.
+
+873
+01:06:51.575 --> 01:06:54.365
+Now you take a gradient descent,
+
+874
+01:06:54.995 --> 01:06:58.125
+that means you shift your parameter by every little bit.
+
+875
+01:06:58.625 --> 01:07:01.925
+You get a new parameter. On those new parameters.
+
+876
+01:07:01.985 --> 01:07:05.045
+You are now going to do again back propagation.
+
+877
+01:07:05.185 --> 01:07:09.815
+And then so this is a standard loop of your PyTorch.
+
+878
+01:07:10.315 --> 01:07:13.615
+Mm-hmm. So that is your optimization function.
+
+879
+01:07:14.965 --> 01:07:16.415
+This is the optimization function.
+
+880
+01:07:18.745 --> 01:07:21.075
+This optimization function is getting called from.
+
+881
+01:07:24.955 --> 01:07:26.415
+It is getting called from where?
+
+882
+01:07:27.045 --> 01:07:29.295
+Here inside the main training loop.
+
+883
+01:07:30.025 --> 01:07:31.195
+This is the main training loop.
+
+884
+01:07:32.825 --> 01:07:34.635
+This is the main training loop, okay?
+
+885
+01:07:34.925 --> 01:07:36.315
+Definition trained function.
+
+886
+01:07:40.255 --> 01:07:43.395
+It is getting called only when the conditions are made.
+
+887
+01:07:43.395 --> 01:07:48.315
+The condition is the memory should be having
+
+888
+01:07:48.435 --> 01:07:49.755
+a sufficient number of samples,
+
+889
+01:07:51.835 --> 01:07:53.815
+at least it should be bigger than the mini batch size.
+
+890
+01:07:54.995 --> 01:07:57.815
+And all of the, at least, at least one
+
+891
+01:07:57.815 --> 01:08:00.215
+of the experience should be having a positive reward.
+
+892
+01:08:00.215 --> 01:08:02.255
+Then only there is a meaningfulness
+
+893
+01:08:02.635 --> 01:08:04.215
+of your doing the training.
+
+894
+01:08:04.215 --> 01:08:05.495
+Otherwise no need to do training.
+
+895
+01:08:06.965 --> 01:08:08.855
+Once one step of training is done,
+
+896
+01:08:08.885 --> 01:08:11.895
+then you decay your AL values.
+
+897
+01:08:13.225 --> 01:08:16.245
+So every episode goes on, your AL value is falling down
+
+898
+01:08:17.185 --> 01:08:19.925
+and for every episode you are
+
+899
+01:08:21.075 --> 01:08:24.635
+appending your return value.
+
+900
+01:08:25.905 --> 01:08:27.165
+It is SAL history.
+
+901
+01:08:27.625 --> 01:08:29.125
+For every episode also you are going
+
+902
+01:08:29.125 --> 01:08:30.725
+to append your reward value, okay?
+
+903
+01:08:31.665 --> 01:08:33.235
+Some of reward, you are doing this.
+
+904
+01:08:33.295 --> 01:08:34.315
+Yes, some of reward
+
+905
+01:08:34.815 --> 01:08:36.795
+for a part episode you are attaching them.
+
+906
+01:08:37.095 --> 01:08:40.325
+That's it. Okay?
+
+907
+01:08:40.385 --> 01:08:43.275
+So this, you can train it,
+
+908
+01:08:44.575 --> 01:08:45.725
+it'll not take much time
+
+909
+01:08:45.725 --> 01:08:49.725
+because we're using a pre computed value from this target.
+
+910
+01:08:58.265 --> 01:08:58.885
+So how the
+
+911
+01:08:58.885 --> 01:09:00.325
+Target, uh, DQ
+
+912
+01:09:00.325 --> 01:09:04.865
+and uh, uh, we expect the values would be uh, correct.
+
+913
+01:09:05.165 --> 01:09:06.165
+Uh,
+
+914
+01:09:09.115 --> 01:09:11.035
+We're using a formula of this thing.
+
+915
+01:09:11.975 --> 01:09:14.985
+Look at the, I'll show you. Let, yeah.
+
+916
+01:09:16.225 --> 01:09:20.715
+So this formula is not exactly mimic of this
+
+917
+01:09:20.715 --> 01:09:22.555
+because we don't have this subtraction
+
+918
+01:09:22.645 --> 01:09:25.905
+value in this code.
+
+919
+01:09:27.575 --> 01:09:30.765
+We have set it to be, if it is a terminal state,
+
+920
+01:09:31.155 --> 01:09:33.965
+this is correct, but if it is a non terminal state,
+
+921
+01:09:34.855 --> 01:09:36.945
+this one we, we are not doing a subtraction.
+
+922
+01:09:37.125 --> 01:09:38.585
+We are just doing reward plus
+
+923
+01:09:39.555 --> 01:09:43.525
+your discount factor multiplied by maximum Q,
+
+924
+01:09:43.925 --> 01:09:46.525
+functional return by your target DQN.
+
+925
+01:09:46.715 --> 01:09:49.285
+Okay? So this formula,
+
+926
+01:09:50.185 --> 01:09:54.095
+we have not taken into account of this subtraction
+
+927
+01:09:55.765 --> 01:09:58.655
+because uh, I just wanted
+
+928
+01:09:58.755 --> 01:10:03.315
+to see whether the neur network is able to train
+
+929
+01:10:04.785 --> 01:10:07.425
+considering the value in the target are a correct value,
+
+930
+01:10:09.075 --> 01:10:10.075
+Okay?
+
+931
+01:10:10.345 --> 01:10:11.365
+It may not be correct.
+
+932
+01:10:11.625 --> 01:10:15.245
+We, there is a trouble, uh, for doing this subtraction.
+
+933
+01:10:15.255 --> 01:10:17.525
+There is a trouble because I'm going
+
+934
+01:10:17.525 --> 01:10:19.605
+to update my current estimate.
+
+935
+01:10:20.065 --> 01:10:21.205
+The current estimate is not
+
+936
+01:10:21.205 --> 01:10:22.925
+yet completed from the Neval network.
+
+937
+01:10:22.945 --> 01:10:24.805
+That's why there was a trouble for me.
+
+938
+01:10:25.715 --> 01:10:28.175
+That's why I chose not to do that.
+
+939
+01:10:28.195 --> 01:10:31.615
+Now my objective here is to suppose I have access
+
+940
+01:10:31.615 --> 01:10:33.935
+to the correct value then can I use them
+
+941
+01:10:35.185 --> 01:10:39.515
+when my programming, whether it is able to train it or not,
+
+942
+01:10:41.355 --> 01:10:42.355
+Okay?
+
+943
+01:10:45.985 --> 01:10:48.425
+I think that is why reinforcement learning, it is
+
+944
+01:10:49.665 --> 01:10:52.335
+still evolving for every algorithm.
+
+945
+01:10:52.845 --> 01:10:56.295
+Just 2021, there's a new algorithm came up from open ai.
+
+946
+01:10:57.255 --> 01:11:00.315
+As I told you, this is not going to be possible.
+
+947
+01:11:00.705 --> 01:11:03.575
+This part gradient of this is not possible
+
+948
+01:11:03.575 --> 01:11:05.135
+because you have access to only sample.
+
+949
+01:11:06.035 --> 01:11:07.895
+We don't have any access to any kind of
+
+950
+01:11:08.575 --> 01:11:09.775
+parametrized function.
+
+951
+01:11:14.295 --> 01:11:18.675
+So in 2021, OpenAI has came up
+
+952
+01:11:18.675 --> 01:11:21.755
+with this algorithm called PPO Pro principle, uh,
+
+953
+01:11:22.155 --> 01:11:23.715
+proximal policy optimization.
+
+954
+01:11:23.945 --> 01:11:28.035
+Okay? In 2024,
+
+955
+01:11:28.315 --> 01:11:30.955
+I mean just last year when deep seek came up
+
+956
+01:11:32.025 --> 01:11:34.915
+deep has given another algorithm called GRPO.
+
+957
+01:11:34.915 --> 01:11:37.395
+It's a group relative policy optimization.
+
+958
+01:11:38.245 --> 01:11:41.055
+That algorithm has overtaken PPO also.
+
+959
+01:11:42.655 --> 01:11:46.165
+So there are a lot of active research going on
+
+960
+01:11:47.575 --> 01:11:48.955
+who are trying to overcome that problem.
+
+961
+01:11:52.545 --> 01:11:54.785
+GRPO has been invented from deep SIPP from China.
+
+962
+01:11:56.025 --> 01:11:57.265
+PPO has come up from
+
+963
+01:12:00.735 --> 01:12:02.105
+Open AI in USA.
+
+964
+01:12:03.955 --> 01:12:06.695
+But the thing is GRPO has beaten PPO
+
+965
+01:12:06.795 --> 01:12:09.255
+and that is why there is a very
+
+966
+01:12:10.595 --> 01:12:12.135
+big um, debate.
+
+967
+01:12:12.425 --> 01:12:15.695
+China is also about taking USA in AI domain.
+
+968
+01:12:18.335 --> 01:12:22.625
+Okay? So after doing this training, you see that this is the
+
+969
+01:12:26.255 --> 01:12:29.335
+episode count, how many episode I have trained it.
+
+970
+01:12:30.865 --> 01:12:33.985
+Thousand episode slippery is set to be true here. Okay?
+
+971
+01:12:35.185 --> 01:12:36.265
+Thousand episode I have trained
+
+972
+01:12:36.285 --> 01:12:38.465
+and tasting, I have done it for 10 episode.
+
+973
+01:12:39.095 --> 01:12:42.525
+Okay? So for a thousand episode,
+
+974
+01:12:44.205 --> 01:12:45.665
+my reward has evolved.
+
+975
+01:12:47.025 --> 01:12:48.035
+This is the reward
+
+976
+01:12:48.955 --> 01:12:50.855
+for every episode we have plotted up, okay?
+
+977
+01:12:51.115 --> 01:12:54.895
+So as the episode goes on, the reward is going up, okay?
+
+978
+01:12:56.225 --> 01:12:59.285
+And your, this is the episode count
+
+979
+01:13:00.545 --> 01:13:02.805
+and this one is your F silent
+
+980
+01:13:03.845 --> 01:13:06.965
+decaying F is decaying fine.
+
+981
+01:13:08.155 --> 01:13:10.895
+Now what is the output that is shown over here?
+
+982
+01:13:11.815 --> 01:13:15.785
+That is, this is the state zero, zero is the state,
+
+983
+01:13:16.335 --> 01:13:18.065
+last value is here 15.
+
+984
+01:13:18.765 --> 01:13:21.665
+So this is state count, okay? 0 0 2 15.
+
+985
+01:13:22.915 --> 01:13:25.145
+Under state of zero, your
+
+986
+01:13:26.625 --> 01:13:28.465
+Q function is prescribing.
+
+987
+01:13:28.565 --> 01:13:29.865
+You should take a right action.
+
+988
+01:13:31.025 --> 01:13:35.415
+Okay, and what are your Q value possible here?
+
+989
+01:13:35.415 --> 01:13:39.055
+Under state of S And that is your zero.
+
+990
+01:13:39.565 --> 01:13:40.535
+This are the queue
+
+991
+01:13:40.665 --> 01:13:45.615
+halls, Okay?
+
+992
+01:13:45.635 --> 01:13:49.935
+So look at the highest value belong to which 0.2.
+
+993
+01:13:50.405 --> 01:13:53.575
+Okay, 0.2. So what are my state encoding?
+
+994
+01:13:53.605 --> 01:13:57.935
+0, 1, 2, 3. So the state number two stands for what?
+
+995
+01:13:58.095 --> 01:14:02.425
+Encoding. The encoding has been done already here.
+
+996
+01:14:03.755 --> 01:14:06.845
+Yeah. 0, 1, 2, 3, right?
+
+997
+01:14:07.075 --> 01:14:08.605
+Okay, so it is prescribing that
+
+998
+01:14:08.705 --> 01:14:10.445
+and that state of zero you have.
+
+999
+01:14:10.625 --> 01:14:13.485
+So just look at it. What is it? 0 1, 2, 3.
+
+1000
+01:14:13.545 --> 01:14:17.115
+Uh, just let me copy this,
+
+1001
+01:14:17.495 --> 01:14:19.195
+but I don't go back again and again.
+
+1002
+01:14:27.585 --> 01:14:32.035
+Okay? This is your actions. Now your output,
+
+1003
+01:14:37.205 --> 01:14:40.385
+the output, this let's say next it zero one.
+
+1004
+01:14:42.185 --> 01:14:45.925
+The zero one, the prescription coming out from the
+
+1005
+01:14:45.925 --> 01:14:47.045
+queue function is right.
+
+1006
+01:14:47.555 --> 01:14:51.205
+Look at the value possible for the state
+
+1007
+01:14:51.205 --> 01:14:53.245
+of one, what is the highest value?
+
+1008
+01:14:53.515 --> 01:14:56.505
+0.24. 0.24 stands for?
+
+1009
+01:14:56.505 --> 01:15:00.545
+Right again, because here this is this index, right?
+
+1010
+01:15:01.175 --> 01:15:02.625
+Similarly for state of two,
+
+1011
+01:15:02.625 --> 01:15:04.225
+what is the highest value coming out?
+
+1012
+01:15:04.575 --> 01:15:08.745
+0.19 here, what is that value sign here is, right?
+
+1013
+01:15:08.775 --> 01:15:10.185
+Like that. It goes on, okay,
+
+1014
+01:15:10.185 --> 01:15:11.705
+for every state it is prescribing
+
+1015
+01:15:11.705 --> 01:15:13.105
+what action you should take it.
+
+1016
+01:15:19.265 --> 01:15:21.125
+So can you explain for the 12, well,
+
+1017
+01:15:22.405 --> 01:15:24.025
+12 Fourth line.
+
+1018
+01:15:24.165 --> 01:15:25.165
+Fourth line.
+
+1019
+01:15:25.995 --> 01:15:27.985
+Which one? In the output or
+
+1020
+01:15:28.405 --> 01:15:29.405
+No? Uh,
+
+1021
+01:15:29.405 --> 01:15:31.185
+before training, sir, there, um,
+
+1022
+01:15:32.295 --> 01:15:33.295
+In the output sir.
+
+1023
+01:15:33.465 --> 01:15:35.235
+Then you would answer In the output
+
+1024
+01:15:35.235 --> 01:15:37.155
+itself. Fourth line.
+
+1025
+01:15:37.155 --> 01:15:38.835
+Fourth. Yeah. Fourth line here.
+
+1026
+01:15:39.495 --> 01:15:40.875
+Fourth line. This line? Yeah,
+
+1027
+01:15:40.945 --> 01:15:41.875
+This one sir? Yeah,
+
+1028
+01:15:42.505 --> 01:15:43.505
+This line?
+
+1029
+01:15:43.695 --> 01:15:45.195
+Yes. Yes. Okay.
+
+1030
+01:15:45.195 --> 01:15:46.275
+So at the state of 12,
+
+1031
+01:15:48.655 --> 01:15:51.155
+what are the values?
+
+1032
+01:15:52.435 --> 01:15:56.925
+Q value, these are the values. Which is the highest value?
+
+1033
+01:15:57.925 --> 01:16:02.765
+0.07. 0.07 stands for? Left.
+
+1034
+01:16:03.515 --> 01:16:05.125
+Left, yes. Okay, left.
+
+1035
+01:16:06.065 --> 01:16:09.605
+So it is, this is a result of your maximization
+
+1036
+01:16:10.315 --> 01:16:13.495
+from this list like that
+
+1037
+01:16:13.515 --> 01:16:15.455
+for every state it is the enterprise like this.
+
+1038
+01:16:15.885 --> 01:16:20.415
+From this list, what is the maximized value? 0.24. Right?
+
+1039
+01:16:20.485 --> 01:16:24.615
+0.24 belong two action. Top list, right?
+
+1040
+01:16:26.635 --> 01:16:27.765
+Okay. Understood sir.
+
+1041
+01:16:30.285 --> 01:16:33.335
+Okay, so that is for every state, what is the action?
+
+1042
+01:16:33.395 --> 01:16:37.225
+You must take it. Now, once you have got this,
+
+1043
+01:16:37.365 --> 01:16:39.145
+you can make a pathfinding algorithm.
+
+1044
+01:16:39.615 --> 01:16:44.045
+Pathfinding algorithm means starting from zero. Okay?
+
+1045
+01:16:44.455 --> 01:16:47.845
+Which state? You must go so that you can reach 15.
+
+1046
+01:16:48.955 --> 01:16:49.655
+Can you tell me
+
+1047
+01:16:54.495 --> 01:16:56.675
+or uh, and you just need to follow RR.
+
+1048
+01:16:57.375 --> 01:16:59.435
+You just need to follow this, this policy action.
+
+1049
+01:16:59.465 --> 01:17:01.675
+Zero zero R. Zero zero r.
+
+1050
+01:17:01.745 --> 01:17:06.605
+Okay, so what is the right of your 0, 0 1?
+
+1051
+01:17:06.825 --> 01:17:09.125
+The state of one. You go to the state of one again,
+
+1052
+01:17:09.360 --> 01:17:10.365
+right again, right?
+
+1053
+01:17:10.365 --> 01:17:12.805
+What the right of hand is 2, 2, 2, 2.
+
+1054
+01:17:12.815 --> 01:17:15.645
+After two it's taking, right? You go into three.
+
+1055
+01:17:16.135 --> 01:17:19.015
+After three you go into, right?
+
+1056
+01:17:20.505 --> 01:17:22.765
+So after three, if you go into right,
+
+1057
+01:17:24.155 --> 01:17:27.005
+then you'll be hitting the wall, you 1, 2, 3,
+
+1058
+01:17:27.665 --> 01:17:28.845
+you'll be hitting the wall.
+
+1059
+01:17:29.645 --> 01:17:32.975
+However, since the slippery environment,
+
+1060
+01:17:33.835 --> 01:17:37.735
+you will be somehow getting into some other uh, state.
+
+1061
+01:17:39.225 --> 01:17:42.625
+Okay? Like that it goes on, yeah,
+
+1062
+01:17:43.875 --> 01:17:46.095
+if I said this to be slippery, to be false, okay?
+
+1063
+01:17:46.275 --> 01:17:50.725
+In that case it'll take much lesser time.
+
+1064
+01:17:53.165 --> 01:17:57.225
+If I just do this, it'll take much lesser time.
+
+1065
+01:18:11.485 --> 01:18:13.095
+This program I'll not be sharing
+
+1066
+01:18:13.095 --> 01:18:16.175
+because I'm not fully completed of the part.
+
+1067
+01:18:16.495 --> 01:18:19.295
+I just did that. Not a hurry.
+
+1068
+01:18:21.665 --> 01:18:26.035
+So this is after training. Training is not completed.
+
+1069
+01:18:29.585 --> 01:18:31.965
+So look at here. Zero, zero D, you go
+
+1070
+01:18:31.965 --> 01:18:33.765
+to down, what is the down of zero?
+
+1071
+01:18:33.765 --> 01:18:38.275
+Zero. There is four state from four you go to again down,
+
+1072
+01:18:39.055 --> 01:18:41.735
+what is the down of four again?
+
+1073
+01:18:41.735 --> 01:18:44.215
+Eight state after A getting into eight, you go
+
+1074
+01:18:44.215 --> 01:18:46.335
+to right, it is nine.
+
+1075
+01:18:46.805 --> 01:18:49.055
+Nine. You go to right 10.
+
+1076
+01:18:49.515 --> 01:18:53.215
+At 10 you go to down, which down of 10 is 14. 14.
+
+1077
+01:18:54.095 --> 01:18:58.695
+14 you go to right, you go to 15. 15 you go to left.
+
+1078
+01:18:58.955 --> 01:19:02.405
+So 15 is a target state, okay? Zero to 15.
+
+1079
+01:19:02.545 --> 01:19:06.695
+So looking at target state, okay? So that is how it goes on.
+
+1080
+01:19:06.715 --> 01:19:08.295
+If it is a non-slip environment,
+
+1081
+01:19:08.295 --> 01:19:09.495
+how about a slippery environment?
+
+1082
+01:19:10.715 --> 01:19:13.215
+It is not straightforward like this, this, this, that,
+
+1083
+01:19:13.215 --> 01:19:14.655
+that you go to 15
+
+1084
+01:19:16.045 --> 01:19:17.045
+Sir. In the target
+
+1085
+01:19:17.045 --> 01:19:18.825
+state we should have the reward as one.
+
+1086
+01:19:18.845 --> 01:19:19.845
+No sir.
+
+1087
+01:19:20.685 --> 01:19:22.465
+The target state. Yes. Okay.
+
+1088
+01:19:22.465 --> 01:19:24.825
+This, this doesn't stand for reward. Reward.
+
+1089
+01:19:25.285 --> 01:19:27.665
+No s saying yes sir. I'm just saying.
+
+1090
+01:19:27.665 --> 01:19:29.585
+But in target state, uh, we should have something
+
+1091
+01:19:29.585 --> 01:19:30.905
+where we should get bin because
+
+1092
+01:19:30.905 --> 01:19:32.505
+otherwise it is again showing us left.
+
+1093
+01:19:33.645 --> 01:19:38.565
+No, it may show as left once you have reached your uh,
+
+1094
+01:19:38.835 --> 01:19:43.645
+termination state of 15, even though it your state
+
+1095
+01:19:44.305 --> 01:19:45.845
+action may say you take a lift,
+
+1096
+01:19:45.865 --> 01:19:47.485
+but you are not gonna take any more action
+
+1097
+01:19:47.485 --> 01:19:49.365
+because you have reached your destination. Yes.
+
+1098
+01:19:49.505 --> 01:19:51.325
+So then, then there's not be any
+
+1099
+01:19:51.325 --> 01:19:52.925
+recommendation should terminate sir. So
+
+1100
+01:19:53.625 --> 01:19:56.365
+No, this recommendation, this is a simple if condition,
+
+1101
+01:19:56.715 --> 01:19:59.765
+whoever is producing the highest hello, it'll output
+
+1102
+01:19:59.765 --> 01:20:03.165
+that it itself at termination condition.
+
+1103
+01:20:03.265 --> 01:20:05.005
+You may suppress this output at all.
+
+1104
+01:20:05.385 --> 01:20:07.485
+Yes sir. Is we should suppress that output that,
+
+1105
+01:20:07.795 --> 01:20:09.125
+That you can do it in a code.
+
+1106
+01:20:09.425 --> 01:20:10.525
+Yes it is. Okay.
+
+1107
+01:20:11.265 --> 01:20:12.685
+So and basically we should take
+
+1108
+01:20:12.685 --> 01:20:14.845
+that trained recommendation like
+
+1109
+01:20:14.845 --> 01:20:17.765
+because we have two set up, uh, recommendation one is random
+
+1110
+01:20:17.825 --> 01:20:19.605
+before training and there is a train.
+
+1111
+01:20:19.905 --> 01:20:20.925
+So we go
+
+1112
+01:20:20.925 --> 01:20:23.645
+for the path evaluation based on the trained recommendation
+
+1113
+01:20:23.645 --> 01:20:28.125
+Trained, yes, yes, this is, it has been shown in the
+
+1114
+01:20:29.005 --> 01:20:30.165
+starting itself before 20.
+
+1115
+01:20:30.715 --> 01:20:32.445
+It's a random thing that we have initialized.
+
+1116
+01:20:36.845 --> 01:20:37.135
+Okay,
+
+1117
+01:20:42.025 --> 01:20:44.685
+so when is your session ending?
+
+1118
+01:20:46.475 --> 01:20:48.405
+This is 10th of January
+
+1119
+01:20:49.515 --> 01:20:51.295
+22nd, second February, sir.
+
+1120
+01:20:52.045 --> 01:20:53.185
+22nd February.
+
+1121
+01:20:53.685 --> 01:20:55.385
+So we have three weeks
+
+1122
+01:20:55.645 --> 01:20:57.945
+and in the February also we are going to get
+
+1123
+01:20:58.985 --> 01:21:02.205
+1, 2, 3, 3, 3, 6 weeks are there, okay,
+
+1124
+01:21:02.265 --> 01:21:06.275
+so six weeks means six into two 12 classes.
+
+1125
+01:21:08.025 --> 01:21:12.305
+Okay? Okay, fine.
+
+1126
+01:21:13.885 --> 01:21:15.945
+So if you don't have more doubt we can
+
+1127
+01:21:17.215 --> 01:21:18.755
+end the two days class then here.
+
+1128
+01:21:24.615 --> 01:21:27.235
+Sir, can you go to the code output?
+
+1129
+01:21:28.695 --> 01:21:30.555
+Uh, closed it just now. Oh,
+
+1130
+01:21:53.095 --> 01:21:57.315
+So here in the last line, uh, for the policy trained,
+
+1131
+01:21:57.975 --> 01:21:59.915
+uh, in the 14th state.
+
+1132
+01:22:00.295 --> 01:22:04.115
+Mm-hmm. Why is it taking our sir? It should take down right?
+
+1133
+01:22:04.295 --> 01:22:07.795
+So based on it, the maximum value is uh, 1.01
+
+1134
+01:22:08.055 --> 01:22:09.795
+and it'll be down, right?
+
+1135
+01:22:12.305 --> 01:22:17.125
+Let me see. State and code. L-D-R-U-L-D-R-U.
+
+1136
+01:22:17.505 --> 01:22:20.285
+So maximum hello? LDR one.
+
+1137
+01:22:21.445 --> 01:22:22.945
+So that is the how it is R
+
+1138
+01:22:24.955 --> 01:22:26.255
+Oh, okay. Okay, got it.
+
+1139
+01:22:26.655 --> 01:22:29.675
+LDRU. Got it.
+
+1140
+01:22:40.395 --> 01:22:43.245
+Okay. So if you don't have anyone doubt, we can
+
+1141
+01:22:43.945 --> 01:22:48.285
+end the session today. Thank you.
+
+1142
+01:22:48.855 --> 01:22:52.205
+Thank you sir. Thank you sir. Sir.

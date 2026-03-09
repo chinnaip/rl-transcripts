@@ -1,0 +1,4088 @@
+WEBVTT
+
+NOTE
+Video URL: https://vimeo.com/1140833327
+Reinforcement Learning Live Session 3 - 26-11-2025
+
+1
+00:08:36.975 --> 00:08:38.515
+We have any TAs in the call?
+
+2
+00:08:39.785 --> 00:08:44.705
+Is this meeting on today? Yes, sir. Wait a minute.
+
+3
+00:08:44.735 --> 00:08:47.345
+I'll check. Check in with sir. Sure. Thank you.
+
+4
+00:13:31.885 --> 00:13:33.115
+Hello? Hello?
+
+5
+00:13:36.275 --> 00:13:38.825
+Hello. Hello sir. Good evening.
+
+6
+00:13:39.575 --> 00:13:40.745
+Good evening sir. Good evening.
+
+7
+00:13:40.905 --> 00:13:44.545
+Actually, there was a software update in this process of uh,
+
+8
+00:13:45.055 --> 00:13:46.545
+getting into the LMS portal.
+
+9
+00:13:48.265 --> 00:13:51.625
+I was not able to log in through the usual link.
+
+10
+00:13:52.295 --> 00:13:54.345
+Then I had to call to the support team
+
+11
+00:13:54.405 --> 00:13:56.785
+and they had given their credential.
+
+12
+00:13:56.805 --> 00:13:58.665
+Now I have logged in using their credential,
+
+13
+00:14:00.705 --> 00:14:02.365
+so I got laid by 15 minutes.
+
+14
+00:14:04.415 --> 00:14:08.635
+Okay, so all
+
+15
+00:14:08.635 --> 00:14:10.075
+of your login has worked properly?
+
+16
+00:14:11.955 --> 00:14:13.535
+Yes, yes, yes sir.
+
+17
+00:14:14.435 --> 00:14:15.855
+So there was one change in
+
+18
+00:14:15.855 --> 00:14:17.455
+process, but yeah, it worked fine. Yeah.
+
+19
+00:14:18.425 --> 00:14:20.245
+So you are getting through LMS portal
+
+20
+00:14:20.245 --> 00:14:21.525
+itself. Your, um, your
+
+21
+00:14:21.705 --> 00:14:23.565
+Yes. Coming from
+
+22
+00:14:23.625 --> 00:14:25.725
+LMS portal last week you, for me this week it failed.
+
+23
+00:14:27.445 --> 00:14:29.905
+So actually we were told to register in Zoom using our
+
+24
+00:14:30.015 --> 00:14:31.345
+triplet email
+
+25
+00:14:31.405 --> 00:14:33.185
+and then thereafter we are to log through Zoom.
+
+26
+00:14:35.115 --> 00:14:36.215
+Mm. Okay.
+
+27
+00:14:36.315 --> 00:14:39.615
+But I, I used to log in through LMS portal directly.
+
+28
+00:14:39.615 --> 00:14:40.615
+There is a meeting link.
+
+29
+00:14:44.225 --> 00:14:46.615
+Okay. Okay.
+
+30
+00:14:46.615 --> 00:14:50.495
+So today I'll do with the, uh, numerical example,
+
+31
+00:14:50.565 --> 00:14:53.875
+that real time example, uh, with the
+
+32
+00:14:55.565 --> 00:14:56.875
+robot movement in a floor.
+
+33
+00:14:56.945 --> 00:14:59.625
+Okay, so let me open a
+
+34
+00:14:59.795 --> 00:15:03.985
+particular example.
+
+35
+00:16:09.855 --> 00:16:12.915
+So, uh, the plan is basically to show you
+
+36
+00:16:13.905 --> 00:16:17.595
+what is the environment in which every, uh, like
+
+37
+00:16:17.595 --> 00:16:20.755
+for two day's class, the agent is moving on.
+
+38
+00:16:21.805 --> 00:16:26.705
+It is a, there are two example called frozen lake.
+
+39
+00:16:28.365 --> 00:16:30.585
+The agent is moving in a frozen lake.
+
+40
+00:16:35.715 --> 00:16:38.175
+So we'll start with one simple example
+
+41
+00:16:38.345 --> 00:16:41.015
+today, okay?
+
+42
+00:16:41.965 --> 00:16:44.785
+How the environment looks like, uh, with the python also
+
+43
+00:16:44.805 --> 00:16:48.185
+and uh, in the normal, okay?
+
+44
+00:16:48.285 --> 00:16:50.185
+So the plan is here,
+
+45
+00:17:06.055 --> 00:17:07.555
+let me show you a simplest,
+
+46
+00:17:22.865 --> 00:17:23.155
+Okay?
+
+47
+00:17:24.825 --> 00:17:25.845
+So, uh,
+
+48
+00:17:26.225 --> 00:17:29.605
+the simplest example is called bandi to walk problem.
+
+49
+00:17:30.795 --> 00:17:32.525
+Next example is called uh,
+
+50
+00:17:34.085 --> 00:17:36.735
+uh, frozen lake.
+
+51
+00:17:36.735 --> 00:17:38.855
+Okay? So we'll go with the simplest example
+
+52
+00:17:39.955 --> 00:17:44.295
+before getting into uh, what is called stochastic policy on
+
+53
+00:17:44.295 --> 00:17:46.495
+what is called optimal policy.
+
+54
+00:17:46.855 --> 00:17:50.805
+I will show you the example of a numerical example.
+
+55
+00:17:51.035 --> 00:17:52.685
+Then I will show you the definition.
+
+56
+00:17:55.195 --> 00:17:57.835
+Actually in the last class, whatever I have shown you,
+
+57
+00:17:58.815 --> 00:18:00.395
+it is basically fast forward mode.
+
+58
+00:18:00.395 --> 00:18:03.275
+Basically when I teach the direct classroom at
+
+59
+00:18:03.275 --> 00:18:04.475
+that position, I do that.
+
+60
+00:18:04.495 --> 00:18:08.195
+But let me give you a proper feeling of a environment first.
+
+61
+00:18:09.215 --> 00:18:11.115
+So this is very simplest example is
+
+62
+00:18:11.115 --> 00:18:12.955
+called bandit work problem.
+
+63
+00:18:14.555 --> 00:18:17.785
+This is how it is. This is a deterministic case.
+
+64
+00:18:18.045 --> 00:18:20.585
+So there are only three state here, zero, one and two,
+
+65
+00:18:21.645 --> 00:18:25.265
+and the agent is starting from the state of zero.
+
+66
+00:18:27.215 --> 00:18:30.265
+Okay? And this, uh, zero
+
+67
+00:18:30.405 --> 00:18:32.905
+and two, these two states are called terminal state.
+
+68
+00:18:32.905 --> 00:18:35.185
+That means once you get into the state of zero
+
+69
+00:18:35.365 --> 00:18:37.785
+or two, you'll never be able to go out
+
+70
+00:18:37.785 --> 00:18:39.425
+of this two state, okay?
+
+71
+00:18:39.455 --> 00:18:42.945
+Zero or two. So your agent is
+
+72
+00:18:44.125 --> 00:18:47.065
+living in any one of these three state.
+
+73
+00:18:47.965 --> 00:18:50.585
+So naturally it cannot start with the state of zero
+
+74
+00:18:50.585 --> 00:18:51.905
+because it is a terminal state.
+
+75
+00:18:51.925 --> 00:18:53.705
+It can never come out of status of zero.
+
+76
+00:18:53.705 --> 00:18:55.225
+So it'll start from state of one.
+
+77
+00:18:56.005 --> 00:18:57.265
+It is a deterministic case.
+
+78
+00:18:57.265 --> 00:18:58.825
+That is what is called bandit walk problem.
+
+79
+00:18:59.865 --> 00:19:01.745
+I have shared this PDF to you, okay?
+
+80
+00:19:01.745 --> 00:19:04.505
+This is a chapter two PDF today.
+
+81
+00:19:04.505 --> 00:19:05.665
+We'll finish up chapter two.
+
+82
+00:19:07.515 --> 00:19:11.175
+So, uh, it is a deterministic case.
+
+83
+00:19:11.235 --> 00:19:13.815
+So with probability one, you can go from one
+
+84
+00:19:13.815 --> 00:19:16.055
+to zero state, okay?
+
+85
+00:19:17.035 --> 00:19:19.815
+And if you want to move on the left hand side,
+
+86
+00:19:20.235 --> 00:19:22.415
+you will be really landing into the state,
+
+87
+00:19:22.425 --> 00:19:25.295
+which is lying on the left hand side of the state of one.
+
+88
+00:19:25.685 --> 00:19:29.255
+Okay? If you are really moving into, if you really want
+
+89
+00:19:29.255 --> 00:19:32.655
+to move in the right hand side state with probability one,
+
+90
+00:19:32.655 --> 00:19:33.895
+you'll be landing to the state,
+
+91
+00:19:33.895 --> 00:19:35.775
+which is lying on the right hand side of you.
+
+92
+00:19:35.875 --> 00:19:39.485
+So this is called deterministic case, okay, fine.
+
+93
+00:19:40.065 --> 00:19:43.485
+So in this case, how the uh, problem is described,
+
+94
+00:19:44.375 --> 00:19:48.005
+it'll be described because the environment is known to you.
+
+95
+00:19:48.145 --> 00:19:49.485
+We are working on a problem
+
+96
+00:19:49.545 --> 00:19:51.045
+of course, reinforcement learning.
+
+97
+00:19:51.095 --> 00:19:52.925
+We're not in the deep reinforcement learning.
+
+98
+00:19:53.345 --> 00:19:54.765
+In the deep reinforcement learning,
+
+99
+00:19:54.825 --> 00:19:57.845
+we assume the environment, all the state
+
+100
+00:19:57.865 --> 00:19:59.765
+to state transition is not known to us.
+
+101
+00:20:00.075 --> 00:20:02.015
+Okay? Here.
+
+102
+00:20:02.195 --> 00:20:04.885
+Now, so how the
+
+103
+00:20:06.105 --> 00:20:08.355
+problem is described in terms of a table.
+
+104
+00:20:08.935 --> 00:20:12.835
+So the table is basically this table is called transition
+
+105
+00:20:13.915 --> 00:20:15.485
+probability description table.
+
+106
+00:20:16.265 --> 00:20:17.525
+So it has few columns.
+
+107
+00:20:17.525 --> 00:20:19.805
+The columns are what is the current state,
+
+108
+00:20:20.625 --> 00:20:22.595
+what is the action you are taking the current state,
+
+109
+00:20:22.595 --> 00:20:24.315
+what is the next state you are getting into?
+
+110
+00:20:24.865 --> 00:20:27.555
+What is the transition probability involving from this
+
+111
+00:20:27.585 --> 00:20:29.235
+current state to the next state?
+
+112
+00:20:29.815 --> 00:20:32.515
+And what is the signal that is called statewide signal.
+
+113
+00:20:33.255 --> 00:20:36.115
+So for current state, you're taking action, you are going
+
+114
+00:20:36.115 --> 00:20:39.125
+to get a reward signal, okay?
+
+115
+00:20:39.355 --> 00:20:43.245
+This reward signal for our uh, case.
+
+116
+00:20:43.665 --> 00:20:46.365
+In this case of course of reinforcement, we assume
+
+117
+00:20:46.365 --> 00:20:48.285
+that this reward signal is known to us.
+
+118
+00:20:48.785 --> 00:20:51.005
+But in the real life example, this reward,
+
+119
+00:20:51.155 --> 00:20:53.485
+statewise reward signal is not known to us.
+
+120
+00:20:53.875 --> 00:20:55.565
+Only when you complete your game, you,
+
+121
+00:20:55.865 --> 00:20:57.085
+you are going to get your reward.
+
+122
+00:20:57.085 --> 00:20:58.765
+Otherwise, in the, like you,
+
+123
+00:20:58.765 --> 00:21:00.285
+when you're play playing a chase game,
+
+124
+00:21:01.025 --> 00:21:02.685
+you do not receive any reward
+
+125
+00:21:03.485 --> 00:21:05.535
+till the time you complete again.
+
+126
+00:21:06.745 --> 00:21:10.835
+Okay? So here in this case the transition prob description,
+
+127
+00:21:11.935 --> 00:21:14.475
+the meaning is currently you're in the state of zero.
+
+128
+00:21:14.975 --> 00:21:18.035
+You take a action that is left side action.
+
+129
+00:21:18.535 --> 00:21:21.195
+So left side action is enumerated by zero,
+
+130
+00:21:21.535 --> 00:21:24.435
+and right side action is enumerated by the fellow of one.
+
+131
+00:21:24.935 --> 00:21:27.115
+So the state of zero, you're taking left hand side.
+
+132
+00:21:27.135 --> 00:21:28.395
+The next state is again zero
+
+133
+00:21:28.395 --> 00:21:30.915
+because it zero is a terminal state.
+
+134
+00:21:31.055 --> 00:21:34.235
+You can never go out of zero state irrespective
+
+135
+00:21:34.295 --> 00:21:35.555
+of the action that you take.
+
+136
+00:21:35.695 --> 00:21:39.995
+And what is the probability from uh, uh, zero, zero state
+
+137
+00:21:40.415 --> 00:21:42.515
+to zero state under the action of left?
+
+138
+00:21:42.935 --> 00:21:47.535
+The poverty is one, okay? And the reward signal is zero.
+
+139
+00:21:48.285 --> 00:21:52.215
+Similarly, if you consider the state of one, so state
+
+140
+00:21:52.215 --> 00:21:53.535
+of one is a non-term state.
+
+141
+00:21:53.535 --> 00:21:54.695
+That means you take action,
+
+142
+00:21:55.475 --> 00:21:56.935
+you are going to change your state.
+
+143
+00:21:56.935 --> 00:21:58.935
+Really, you are not going to remaining in the same state.
+
+144
+00:21:58.955 --> 00:22:02.175
+So under the state of one, you take action of lift.
+
+145
+00:22:03.495 --> 00:22:07.505
+What is the next step going to be? The zero state. Okay?
+
+146
+00:22:07.505 --> 00:22:09.425
+What is the probability for this to happen?
+
+147
+00:22:09.725 --> 00:22:13.065
+The probability is one, okay?
+
+148
+00:22:13.285 --> 00:22:15.065
+And the reward signal is zero. Here.
+
+149
+00:22:16.285 --> 00:22:18.775
+Similarly, when you take a right side movement from the
+
+150
+00:22:18.775 --> 00:22:20.735
+state of one, you go into the state of two
+
+151
+00:22:20.795 --> 00:22:24.055
+and your reward value is plus one.
+
+152
+00:22:24.055 --> 00:22:27.495
+That means basically this G state is called gold state.
+
+153
+00:22:28.005 --> 00:22:30.895
+This G, it is the state is gold state.
+
+154
+00:22:30.925 --> 00:22:32.575
+Once you have reached the goal state, you're going
+
+155
+00:22:32.575 --> 00:22:33.655
+to get a plus one reward.
+
+156
+00:22:33.805 --> 00:22:35.375
+Else. You would not receive any reward.
+
+157
+00:22:37.955 --> 00:22:40.415
+So this problem is the simplest problem.
+
+158
+00:22:41.415 --> 00:22:44.225
+This problem will be somewhat made difficult
+
+159
+00:22:44.245 --> 00:22:48.995
+by using the assumption called stochastic bandit
+
+160
+00:22:49.255 --> 00:22:51.115
+or it is called bandit slippery walk problem.
+
+161
+00:22:52.055 --> 00:22:53.195
+So what is slippery walk?
+
+162
+00:22:54.275 --> 00:22:58.035
+Slippery walk is basically, so this is your H state.
+
+163
+00:22:58.495 --> 00:23:01.915
+The state of zero H means hole. There is a hole.
+
+164
+00:23:02.265 --> 00:23:03.555
+Once you get into the state of zero,
+
+165
+00:23:03.555 --> 00:23:04.915
+you'll never able to come out.
+
+166
+00:23:05.185 --> 00:23:08.275
+This G state is called gold state and ace is a star state.
+
+167
+00:23:08.855 --> 00:23:12.275
+So sleeper walk environment, what we assume is you want to
+
+168
+00:23:12.985 --> 00:23:17.605
+move on the right hand side direction with 0.8 probability,
+
+169
+00:23:17.705 --> 00:23:19.605
+you'll be really landing into the state,
+
+170
+00:23:19.605 --> 00:23:22.645
+which is on your right hand side with 0.2 probability
+
+171
+00:23:23.265 --> 00:23:26.125
+you will be going to the state previous two years,
+
+172
+00:23:26.395 --> 00:23:27.485
+current state, okay?
+
+173
+00:23:27.485 --> 00:23:29.685
+So it is called slippery. Your flow is slippery,
+
+174
+00:23:30.065 --> 00:23:31.085
+you may be falling in.
+
+175
+00:23:31.425 --> 00:23:34.565
+So your state transition diagram will become
+
+176
+00:23:35.955 --> 00:23:38.175
+uh, like this.
+
+177
+00:23:39.685 --> 00:23:42.025
+So at a state of one you take, you want
+
+178
+00:23:42.025 --> 00:23:43.825
+to make a move on the right hand side.
+
+179
+00:23:44.245 --> 00:23:45.845
+But look at, there is a gate here.
+
+180
+00:23:45.955 --> 00:23:49.865
+There's this gate stands for with 0.8 property.
+
+181
+00:23:50.455 --> 00:23:52.785
+This gate will open, you will go into the right hand side
+
+182
+00:23:52.895 --> 00:23:54.225
+with 0.2 property.
+
+183
+00:23:54.285 --> 00:23:55.385
+The gate remaining close,
+
+184
+00:23:55.385 --> 00:23:57.745
+you'll be landing into the left hand side state.
+
+185
+00:23:58.465 --> 00:24:00.835
+Similarly, from here to here, also there is a gate here.
+
+186
+00:24:01.415 --> 00:24:03.355
+You want to move on the left hand side
+
+187
+00:24:03.355 --> 00:24:05.675
+with 0.8 probability the gate is open.
+
+188
+00:24:05.675 --> 00:24:07.115
+So we'll go into the state of zero.
+
+189
+00:24:07.625 --> 00:24:11.835
+With 0.2 property, you'll be falling to the unintended
+
+190
+00:24:12.655 --> 00:24:14.435
+uh, unintended state.
+
+191
+00:24:14.545 --> 00:24:15.835
+Okay? So 0.2 prob.
+
+192
+00:24:15.855 --> 00:24:19.235
+So 0.2 property is something which is basically accounting
+
+193
+00:24:19.255 --> 00:24:22.315
+for your uncertainty in your environment.
+
+194
+00:24:23.555 --> 00:24:26.215
+So what is going to change is this
+
+195
+00:24:26.785 --> 00:24:30.055
+transition probative value under the same table.
+
+196
+00:24:30.605 --> 00:24:33.295
+Okay? So starting from a state of one,
+
+197
+00:24:33.755 --> 00:24:36.695
+you take a left hand side movement with 0.8 probability,
+
+198
+00:24:36.695 --> 00:24:38.335
+you'll be getting in the state of zero
+
+199
+00:24:40.085 --> 00:24:43.385
+or you may be lying, you may be landing into set
+
+200
+00:24:43.385 --> 00:24:44.625
+of two under the same.
+
+201
+00:24:44.755 --> 00:24:48.345
+These two condition with a 0.2 probability, all
+
+202
+00:24:48.345 --> 00:24:50.865
+of these basically encoded in python variables,
+
+203
+00:24:51.025 --> 00:24:52.145
+I will show you them also.
+
+204
+00:24:54.885 --> 00:24:57.185
+So this transition probability you compute
+
+205
+00:24:57.185 --> 00:24:58.705
+or how do we der this transition probability?
+
+206
+00:24:58.705 --> 00:25:02.225
+No, it is given to you. Okay? So it's a pre different thing.
+
+207
+00:25:02.485 --> 00:25:03.865
+It is pre different. That's why
+
+208
+00:25:03.865 --> 00:25:05.065
+the environment is known to you.
+
+209
+00:25:05.065 --> 00:25:06.705
+We call it the environment is known.
+
+210
+00:25:06.765 --> 00:25:09.425
+So we directly apply, these are called determinist.
+
+211
+00:25:09.445 --> 00:25:11.905
+Uh, these are called model based approach, okay?
+
+212
+00:25:11.965 --> 00:25:13.425
+You have the model known to you,
+
+213
+00:25:17.215 --> 00:25:19.765
+Sorry, in the second case, the probabilities of 0.2
+
+214
+00:25:19.765 --> 00:25:23.085
+and 0.8 makes sense, but in the first case, right?
+
+215
+00:25:23.265 --> 00:25:26.485
+Uh, the probabilities are both one. So how is it possible?
+
+216
+00:25:26.505 --> 00:25:28.445
+So there are two outcomes, okay?
+
+217
+00:25:28.515 --> 00:25:30.645
+Probability will be 0.5, point, right?
+
+218
+00:25:35.655 --> 00:25:38.225
+Let me go to that table here, right?
+
+219
+00:25:38.855 --> 00:25:42.945
+Yeah. So if we start from start, uh, for this uh,
+
+220
+00:25:43.085 --> 00:25:44.785
+one, one as the start,
+
+221
+00:25:45.435 --> 00:25:46.505
+Start state is one.
+
+222
+00:25:47.015 --> 00:25:49.145
+Yeah. So there are, you Take a left hand side movement,
+
+223
+00:25:49.245 --> 00:25:51.545
+you'll be going to the state of Jro Arizona,
+
+224
+00:25:51.545 --> 00:25:53.065
+a left whole state, okay?
+
+225
+00:25:53.525 --> 00:25:56.495
+Correct. What is the probability that
+
+226
+00:25:57.845 --> 00:25:59.665
+you are taking the action of jro only?
+
+227
+00:25:59.695 --> 00:26:03.425
+Okay? You are not taking any probabilistic action.
+
+228
+00:26:03.655 --> 00:26:06.305
+That means it is a deterministic case.
+
+229
+00:26:06.805 --> 00:26:07.825
+So taking this,
+
+230
+00:26:08.965 --> 00:26:11.545
+you are landing into the next state of whole state.
+
+231
+00:26:12.035 --> 00:26:13.705
+There is no other state that you can go.
+
+232
+00:26:13.705 --> 00:26:18.565
+That's why it is one probability you are,
+
+233
+00:26:18.665 --> 00:26:20.725
+uh, what you are saying is, I understand your question
+
+234
+00:26:21.315 --> 00:26:22.925
+from the state of one.
+
+235
+00:26:24.595 --> 00:26:27.285
+Yeah, this figure from the state of one,
+
+236
+00:26:28.765 --> 00:26:31.365
+I take a action of left hand side, okay?
+
+237
+00:26:32.295 --> 00:26:34.615
+I will be getting into surely state of zero only.
+
+238
+00:26:35.055 --> 00:26:37.095
+I will not get in the state
+
+239
+00:26:37.095 --> 00:26:38.855
+of any other thing other than zero.
+
+240
+00:26:38.855 --> 00:26:43.285
+That's why the prob is one here, okay? Okay.
+
+241
+00:26:44.785 --> 00:26:47.125
+It is not like you are flipping a coin toss
+
+242
+00:26:47.705 --> 00:26:50.325
+and decide what action you want to take
+
+243
+00:26:51.755 --> 00:26:53.735
+and given a particular action,
+
+244
+00:26:53.805 --> 00:26:55.415
+what is going to be your next date.
+
+245
+00:26:55.525 --> 00:26:57.775
+That is outcome of another coin tossing.
+
+246
+00:26:57.775 --> 00:27:00.125
+We don't have that thing, okay?
+
+247
+00:27:01.355 --> 00:27:01.925
+Okay, sir,
+
+248
+00:27:07.955 --> 00:27:10.835
+I have shared you the PDFI actually, I'll be walking you
+
+249
+00:27:10.835 --> 00:27:12.435
+through this PDF so that
+
+250
+00:27:13.705 --> 00:27:16.505
+whenever you go back at any point of time in this week,
+
+251
+00:27:16.655 --> 00:27:20.295
+open up this PDF, which is a
+
+252
+00:27:20.925 --> 00:27:22.575
+easy walkthrough for you, okay?
+
+253
+00:27:27.915 --> 00:27:30.245
+Okay. So this is the frozen lake environment.
+
+254
+00:27:31.525 --> 00:27:33.835
+Today, my objective is to explain your environment
+
+255
+00:27:33.855 --> 00:27:36.595
+and then I will tell you what is called uh,
+
+256
+00:27:37.285 --> 00:27:40.715
+stochastic policy and what is called optimal policy, okay?
+
+257
+00:27:40.715 --> 00:27:43.715
+Because when I teach the BTech student directly in my
+
+258
+00:27:43.715 --> 00:27:44.915
+classroom, I see there are a lot
+
+259
+00:27:44.915 --> 00:27:46.075
+of confusion among the students.
+
+260
+00:27:46.175 --> 00:27:48.795
+So I hope that might be the according to you.
+
+261
+00:27:48.815 --> 00:27:50.835
+So let me give you the proper foundation.
+
+262
+00:27:50.905 --> 00:27:54.075
+Then I get into, basically I did the yesterday last class
+
+263
+00:27:54.415 --> 00:27:55.715
+as a fast forward mode.
+
+264
+00:27:56.795 --> 00:27:59.755
+Okay? So what is a frozen lake environment?
+
+265
+00:28:00.725 --> 00:28:02.435
+There is a greed.
+
+266
+00:28:02.445 --> 00:28:04.395
+There is a lake, uh,
+
+267
+00:28:04.695 --> 00:28:06.955
+in which the agent is going to be moving, okay?
+
+268
+00:28:07.175 --> 00:28:09.435
+So there are, it is four plus four greed.
+
+269
+00:28:10.015 --> 00:28:12.915
+The whole environment is splitted in four plus four grid.
+
+270
+00:28:13.785 --> 00:28:18.675
+This grid number 5, 7, 11, and 12. They are terminal state.
+
+271
+00:28:18.675 --> 00:28:20.315
+That means there are some pit holes.
+
+272
+00:28:20.865 --> 00:28:22.115
+Once you get into this state,
+
+273
+00:28:22.115 --> 00:28:23.475
+you'll be never able to come out.
+
+274
+00:28:23.625 --> 00:28:25.635
+Okay? Rest, all states are non terminal.
+
+275
+00:28:25.635 --> 00:28:28.275
+That means you are here in any one of these state.
+
+276
+00:28:28.495 --> 00:28:30.995
+You can move into any other state,
+
+277
+00:28:31.415 --> 00:28:33.515
+any other state including the whole state also.
+
+278
+00:28:33.625 --> 00:28:36.515
+Okay? Your objective is to reach to the goal state.
+
+279
+00:28:37.935 --> 00:28:40.515
+So what is the environment that we can specify
+
+280
+00:28:41.135 --> 00:28:42.675
+the environment specific means?
+
+281
+00:28:43.025 --> 00:28:45.995
+What is the state? How many states you have?
+
+282
+00:28:47.265 --> 00:28:49.635
+What is the state to state transition?
+
+283
+00:28:49.895 --> 00:28:51.755
+We don't do any hop step and jump.
+
+284
+00:28:52.095 --> 00:28:54.155
+We can do transition to only the next state.
+
+285
+00:28:54.535 --> 00:28:57.355
+So from zero you can go one or you can go four.
+
+286
+00:28:58.775 --> 00:29:00.915
+You can never go down diagonally also. Okay?
+
+287
+00:29:00.915 --> 00:29:02.555
+So this is the description of your state
+
+288
+00:29:02.575 --> 00:29:04.875
+and state movement for each
+
+289
+00:29:04.875 --> 00:29:07.835
+and every state transition, what reward you are going to get
+
+290
+00:29:07.865 --> 00:29:09.475
+that has to be provided to you
+
+291
+00:29:11.235 --> 00:29:14.375
+and what is the probability that you want to move from
+
+292
+00:29:15.655 --> 00:29:18.665
+state zero under a particular action.
+
+293
+00:29:18.665 --> 00:29:20.665
+What is the probability you'll be landing into this state
+
+294
+00:29:20.765 --> 00:29:22.505
+or that state that we're going to describe
+
+295
+00:29:22.505 --> 00:29:24.585
+by transition probability, right?
+
+296
+00:29:24.845 --> 00:29:26.225
+So just read about this.
+
+297
+00:29:26.285 --> 00:29:29.305
+Uh, agent starts from each trial at the state of zero.
+
+298
+00:29:29.685 --> 00:29:33.125
+Second thing is the,
+
+299
+00:29:33.785 --> 00:29:35.205
+it is a slippery environment.
+
+300
+00:29:35.345 --> 00:29:39.605
+So frozen surface, missing the agent to unintended place.
+
+301
+00:29:40.395 --> 00:29:42.485
+So basically we are, as I told you,
+
+302
+00:29:43.485 --> 00:29:45.125
+reinforcement learning is used
+
+303
+00:29:45.185 --> 00:29:48.045
+for taking a sequential decision under
+
+304
+00:29:48.355 --> 00:29:50.325
+uncertainty in the environment.
+
+305
+00:29:52.895 --> 00:29:55.355
+So you want to move from, let's say from state one
+
+306
+00:29:55.355 --> 00:29:57.755
+to state two, but the floor is slippery,
+
+307
+00:29:58.775 --> 00:29:59.915
+it is a frozen lake.
+
+308
+00:30:00.135 --> 00:30:01.835
+It is having total ice.
+
+309
+00:30:02.695 --> 00:30:05.555
+So because of slippery you may be falling to here.
+
+310
+00:30:05.695 --> 00:30:08.045
+You may be falling to here, okay?
+
+311
+00:30:08.105 --> 00:30:09.445
+So that is what is called slippery.
+
+312
+00:30:10.955 --> 00:30:13.345
+Third one is agent will get class one
+
+313
+00:30:14.125 --> 00:30:16.225
+reward only when you reach the state of 15.
+
+314
+00:30:17.075 --> 00:30:18.585
+Apart from that, any one
+
+315
+00:30:18.585 --> 00:30:20.265
+of the intermediate cell has no reward.
+
+316
+00:30:22.625 --> 00:30:24.555
+Okay? So this is a whole state. It is saying.
+
+317
+00:30:26.755 --> 00:30:29.935
+Now we are going to show you the diagram
+
+318
+00:30:30.275 --> 00:30:31.535
+before I show you the,
+
+319
+00:30:35.765 --> 00:30:37.655
+okay, this is your state space
+
+320
+00:30:41.055 --> 00:30:44.175
+and this one I have a Python
+
+321
+00:30:45.185 --> 00:30:46.575
+dictionary to show you.
+
+322
+00:30:51.355 --> 00:30:54.655
+So this is your state space in which you're moving.
+
+323
+00:30:58.375 --> 00:31:00.835
+So every time you're encountering some concept,
+
+324
+00:31:00.835 --> 00:31:03.675
+something called markoff decision process, okay?
+
+325
+00:31:03.675 --> 00:31:05.275
+What is basically mark of property?
+
+326
+00:31:05.705 --> 00:31:08.555
+Mark of property, or most of you have heard this property
+
+327
+00:31:08.555 --> 00:31:11.475
+because all of you are working in AI domain.
+
+328
+00:31:12.935 --> 00:31:15.755
+So Marco properties, basically it is speci,
+
+329
+00:31:15.815 --> 00:31:17.395
+it is describing particular vehicle.
+
+330
+00:31:17.395 --> 00:31:20.635
+Vehicle lessness in your transition, okay?
+
+331
+00:31:21.395 --> 00:31:26.035
+Lessness means suppose you are currently at the state of st.
+
+332
+00:31:26.065 --> 00:31:27.635
+That means the current time is T.
+
+333
+00:31:27.975 --> 00:31:30.355
+You are right now at the state of st.
+
+334
+00:31:31.295 --> 00:31:35.035
+So ST does not mean always.
+
+335
+00:31:35.045 --> 00:31:36.515
+Let's say this is S zero, okay?
+
+336
+00:31:36.715 --> 00:31:39.955
+S zero means when you have started your game, you,
+
+337
+00:31:39.955 --> 00:31:42.275
+when you have started your game, it need not be
+
+338
+00:31:42.275 --> 00:31:43.875
+that you are starting from the always state zero.
+
+339
+00:31:43.895 --> 00:31:46.775
+You can start from anywhere in the game, okay?
+
+340
+00:31:48.195 --> 00:31:51.895
+So, uh, that is why ST is also a random variable,
+
+341
+00:31:53.415 --> 00:31:56.675
+but how we have reached to the state, particular state,
+
+342
+00:31:57.105 --> 00:31:59.795
+that is a result of some sequential decision.
+
+343
+00:32:00.805 --> 00:32:04.195
+Those decision has happened at a time TT minus one,
+
+344
+00:32:04.515 --> 00:32:06.515
+T minus two starting from zero.
+
+345
+00:32:06.665 --> 00:32:11.115
+Okay? Markup markup property says that irrespective
+
+346
+00:32:11.295 --> 00:32:13.755
+of the history, okay?
+
+347
+00:32:13.755 --> 00:32:16.155
+What is going to be your next state is totally
+
+348
+00:32:16.595 --> 00:32:17.795
+dependent on your current state.
+
+349
+00:32:17.815 --> 00:32:20.555
+It is not dependent on your past states from
+
+350
+00:32:20.555 --> 00:32:22.835
+where you have arrived to the present state.
+
+351
+00:32:23.065 --> 00:32:25.035
+That is what it's called mark of process
+
+352
+00:32:25.375 --> 00:32:26.955
+or mark of property.
+
+353
+00:32:27.305 --> 00:32:29.675
+Another way it is called memoryless property.
+
+354
+00:32:31.745 --> 00:32:33.645
+You are using all this transformer
+
+355
+00:32:33.645 --> 00:32:35.525
+and all for your to generation.
+
+356
+00:32:35.525 --> 00:32:36.765
+Next one prediction, okay?
+
+357
+00:32:36.785 --> 00:32:38.565
+It also having a mark of property.
+
+358
+00:32:41.305 --> 00:32:42.875
+This is the description of your
+
+359
+00:32:44.235 --> 00:32:46.375
+Uh, sir, I have one basic, uh, queries sir,
+
+360
+00:32:46.375 --> 00:32:48.535
+regarding this reinforcement learning basic concept
+
+361
+00:32:48.955 --> 00:32:50.815
+and as well as that Marco edition process.
+
+362
+00:32:51.355 --> 00:32:53.095
+Sir, you told me that Marco edition process,
+
+363
+00:32:53.235 --> 00:32:55.095
+the current state where you were, uh,
+
+364
+00:32:55.115 --> 00:32:57.975
+you are available is not depending upon your past history.
+
+365
+00:32:58.125 --> 00:33:00.175
+Whereas the reinforcement in the basic model,
+
+366
+00:33:00.175 --> 00:33:02.215
+which you are told that agent reacts with the environment
+
+367
+00:33:02.215 --> 00:33:05.495
+and get rewards accordingly adjust to reach the gold state.
+
+368
+00:33:05.875 --> 00:33:10.095
+Mm. So how come these two theories can go hand in hand?
+
+369
+00:33:11.155 --> 00:33:13.485
+Okay, fine. So as I told you,
+
+370
+00:33:13.545 --> 00:33:14.925
+if you look at this expression,
+
+371
+00:33:21.085 --> 00:33:24.335
+this is the probability of transitioning from st
+
+372
+00:33:24.335 --> 00:33:25.895
+to st plus one, okay?
+
+373
+00:33:27.135 --> 00:33:29.795
+In this transition probability, you don't have any reward
+
+374
+00:33:30.835 --> 00:33:32.085
+that we are talking about.
+
+375
+00:33:33.005 --> 00:33:35.985
+In case of reinforcement learning, our objective is to
+
+376
+00:33:36.785 --> 00:33:40.945
+maximize your expected sum of discounted reward
+
+377
+00:33:41.325 --> 00:33:44.305
+and the reward is given at the end of your game.
+
+378
+00:33:45.535 --> 00:33:48.025
+Okay? So when you complete your game,
+
+379
+00:33:48.165 --> 00:33:51.105
+you might have taken a lot of transition in between, okay?
+
+380
+00:33:51.605 --> 00:33:52.825
+In each of the transition,
+
+381
+00:33:53.445 --> 00:33:55.385
+you might have not received any reward.
+
+382
+00:33:55.725 --> 00:33:58.425
+At the end of your game, only were receiving a reward. Okay?
+
+383
+00:34:00.085 --> 00:34:05.015
+So at every transition you take, your reward is basically
+
+384
+00:34:06.015 --> 00:34:07.055
+discounted by gamma factor.
+
+385
+00:34:08.775 --> 00:34:12.705
+So Marco property is not associated
+
+386
+00:34:12.935 --> 00:34:14.785
+with the reward that you are getting.
+
+387
+00:34:15.045 --> 00:34:16.265
+How we are going to get the reward.
+
+388
+00:34:16.265 --> 00:34:19.505
+It is not described Marco. Property is not about it.
+
+389
+00:34:19.505 --> 00:34:20.865
+Marco property is about
+
+390
+00:34:21.525 --> 00:34:23.745
+it talks about currently we're in this state,
+
+391
+00:34:24.585 --> 00:34:27.445
+you take action, you get into the next state.
+
+392
+00:34:27.955 --> 00:34:30.045
+This part is independent of
+
+393
+00:34:30.795 --> 00:34:33.365
+what you have taken additional time, time point
+
+394
+00:34:33.365 --> 00:34:36.365
+of T minus on or T minus two or T minus three like that.
+
+395
+00:34:37.495 --> 00:34:39.035
+So, so this I've understood sir,
+
+396
+00:34:39.115 --> 00:34:41.315
+like Marco process property this understood,
+
+397
+00:34:41.315 --> 00:34:44.715
+but how we are using this concept where we are not able
+
+398
+00:34:44.715 --> 00:34:46.075
+to get a reward and that we using
+
+399
+00:34:46.075 --> 00:34:48.155
+it in reinforcement learning. That's what my,
+
+400
+00:34:48.665 --> 00:34:50.875
+Okay, the reward, reward calculation, I will show you,
+
+401
+00:34:50.975 --> 00:34:52.675
+we have a new medical example here
+
+402
+00:34:57.355 --> 00:34:58.445
+that reward calculation.
+
+403
+00:34:58.445 --> 00:34:59.445
+I'll show you.
+
+404
+00:35:01.245 --> 00:35:04.855
+Okay sir, I'll show you this book. It is having it.
+
+405
+00:35:10.895 --> 00:35:12.945
+This is about the environment description.
+
+406
+00:35:13.815 --> 00:35:18.145
+This is the chapter two. Let me show you
+
+407
+00:35:26.825 --> 00:35:27.995
+that reward calculation.
+
+408
+00:35:28.015 --> 00:35:31.235
+It, it has given you clear example. I'll show you that.
+
+409
+00:35:46.275 --> 00:35:50.535
+Yeah, yeah. So this is your
+
+410
+00:35:51.325 --> 00:35:53.295
+bandaid, slippery game problem.
+
+411
+00:35:53.445 --> 00:35:55.815
+Okay, so slippery walk, bandaid, slippery.
+
+412
+00:35:55.945 --> 00:35:59.375
+There are five states here you are starting from a state
+
+413
+00:35:59.375 --> 00:36:03.255
+of three in this, uh, h
+
+414
+00:36:03.555 --> 00:36:07.085
+and g, they are terminal state, okay?
+
+415
+00:36:08.545 --> 00:36:11.725
+1, 2, 3, 4, 5. They are non terminal state.
+
+416
+00:36:12.615 --> 00:36:15.045
+Let's say you are starting a game from state of three,
+
+417
+00:36:15.395 --> 00:36:16.685
+this state of three, okay?
+
+418
+00:36:16.715 --> 00:36:19.725
+This three number, so the environment says
+
+419
+00:36:19.725 --> 00:36:22.285
+that 50% is your success.
+
+420
+00:36:22.555 --> 00:36:23.565
+That means suppose,
+
+421
+00:36:23.795 --> 00:36:26.285
+suppose you are the state in currently you are
+
+422
+00:36:26.285 --> 00:36:27.525
+living in the state of four.
+
+423
+00:36:28.385 --> 00:36:30.965
+You are taking a movement on the right hand side direction,
+
+424
+00:36:31.615 --> 00:36:35.445
+50% probability you'll be running into state of five,
+
+425
+00:36:36.215 --> 00:36:37.755
+33% probability.
+
+426
+00:36:38.255 --> 00:36:39.715
+You'll be going to the state of three
+
+427
+00:36:40.605 --> 00:36:44.025
+and then 16% probability you are
+
+428
+00:36:45.255 --> 00:36:46.865
+remaining in the same state.
+
+429
+00:36:46.875 --> 00:36:48.065
+Under this environment,
+
+430
+00:36:48.165 --> 00:36:52.395
+let us calculate your reward.
+
+431
+00:36:53.735 --> 00:36:58.675
+Okay? So look at you are starting your game
+
+432
+00:36:59.215 --> 00:37:02.035
+at times step zero at which state you are.
+
+433
+00:37:05.425 --> 00:37:09.515
+S state number three, state number three, okay, three.
+
+434
+00:37:09.855 --> 00:37:12.365
+Three. What are your next state movement
+
+435
+00:37:12.385 --> 00:37:15.525
+and your action that is specified here from state three.
+
+436
+00:37:15.525 --> 00:37:16.565
+You are going to state four.
+
+437
+00:37:16.565 --> 00:37:20.515
+Look at here it is, state three, zero reward,
+
+438
+00:37:20.515 --> 00:37:22.155
+state four zero reward.
+
+439
+00:37:22.625 --> 00:37:26.355
+Then state five, state four, state five, state six,
+
+440
+00:37:26.605 --> 00:37:29.035
+state six is your giving plus reward.
+
+441
+00:37:29.035 --> 00:37:31.795
+So these are the state to state movement you have made.
+
+442
+00:37:32.265 --> 00:37:34.595
+Okay? Now how you calculate your reward.
+
+443
+00:37:35.455 --> 00:37:40.325
+So this gamma easier discount factor.
+
+444
+00:37:40.505 --> 00:37:43.365
+So it'll be starting with discount there,
+
+445
+00:37:43.565 --> 00:37:44.645
+I mean at the start.
+
+446
+00:37:44.825 --> 00:37:47.405
+So from state three you are going to state four.
+
+447
+00:37:48.075 --> 00:37:51.975
+What is that reward? Zero Reward multiplied by multiplied by
+
+448
+00:37:53.335 --> 00:37:57.355
+discount factor right now is one here, okay?
+
+449
+00:37:57.705 --> 00:38:01.425
+Then, then this part from four to
+
+450
+00:38:02.095 --> 00:38:05.025
+five you are going, it'll be discounted by 0.99.
+
+451
+00:38:05.085 --> 00:38:06.985
+The next reward itself is zero. Okay?
+
+452
+00:38:06.985 --> 00:38:10.985
+Because your zero reward is given here, then from five
+
+453
+00:38:11.165 --> 00:38:12.865
+to six, five to four,
+
+454
+00:38:12.865 --> 00:38:15.545
+again back again zero multiply by Kama square.
+
+455
+00:38:15.675 --> 00:38:17.105
+Gamma is basically 0.99.
+
+456
+00:38:17.105 --> 00:38:19.825
+So Kama square turning out to with this value then kama cube
+
+457
+00:38:20.545 --> 00:38:23.265
+multiplied by again from four
+
+458
+00:38:23.405 --> 00:38:25.505
+to five we are going multiplied by zero.
+
+459
+00:38:25.805 --> 00:38:29.025
+So like that if you keep on calculating every time you are,
+
+460
+00:38:29.535 --> 00:38:31.545
+your reward is diminishing by comma factor
+
+461
+00:38:32.205 --> 00:38:35.485
+and the last step reward is giving one which has been
+
+462
+00:38:35.685 --> 00:38:36.845
+multiplied by gamma TOI power
+
+463
+00:38:37.505 --> 00:38:41.085
+1, 2, 3, 4, 5, Goma to five.
+
+464
+00:38:41.225 --> 00:38:42.365
+You land into this.
+
+465
+00:38:42.585 --> 00:38:45.965
+So that is your gain when you are
+
+466
+00:38:46.085 --> 00:38:47.165
+starting from the state of three.
+
+467
+00:38:48.205 --> 00:38:50.695
+Okay? So this is the reward calculation,
+
+468
+00:38:50.755 --> 00:38:53.935
+but macro properties not talking about all this thing.
+
+469
+00:38:53.935 --> 00:38:57.815
+Marco only says that suppose you are right now at a state
+
+470
+00:38:57.815 --> 00:38:58.935
+of five, okay?
+
+471
+00:38:59.395 --> 00:39:00.895
+You have started from state of three.
+
+472
+00:39:01.875 --> 00:39:06.655
+So this reaching the state of five from the state
+
+473
+00:39:06.655 --> 00:39:10.455
+of four is independent of how you have arrived.
+
+474
+00:39:10.875 --> 00:39:14.335
+The state of four, this is what is the meaning
+
+475
+00:39:14.355 --> 00:39:17.645
+of Marco Ed.
+
+476
+00:39:17.645 --> 00:39:17.845
+Sir,
+
+477
+00:39:24.875 --> 00:39:25.525
+just a second.
+
+478
+00:39:28.135 --> 00:39:32.265
+Okay? So that was the calculation of the word.
+
+479
+00:39:32.285 --> 00:39:36.785
+Let me go back to your slippery, uh, your frozen leg
+
+480
+00:39:36.785 --> 00:39:38.145
+because my intention is to
+
+481
+00:39:39.175 --> 00:39:41.225
+explain you about this environment
+
+482
+00:39:41.415 --> 00:39:44.465
+with the Python file itself.
+
+483
+00:39:48.025 --> 00:39:52.815
+So yeah, so I was here, okay?
+
+484
+00:39:52.835 --> 00:39:54.335
+So this is your environment.
+
+485
+00:39:56.165 --> 00:40:01.095
+So we can take four actions from every state
+
+486
+00:40:01.915 --> 00:40:03.695
+up, down, left, right?
+
+487
+00:40:04.245 --> 00:40:08.375
+Okay? And we can go only to the next state.
+
+488
+00:40:08.795 --> 00:40:10.935
+You cannot do any jump from one to three.
+
+489
+00:40:13.085 --> 00:40:15.775
+This, this means that you are into a terminal state.
+
+490
+00:40:16.115 --> 00:40:17.815
+No matter what action you take,
+
+491
+00:40:17.915 --> 00:40:19.455
+you can never come out of this state.
+
+492
+00:40:20.515 --> 00:40:22.995
+So that is the uh,
+
+493
+00:40:23.635 --> 00:40:26.215
+diagrammatic explanation.
+
+494
+00:40:26.275 --> 00:40:29.715
+But in terms of, yeah,
+
+495
+00:40:33.385 --> 00:40:38.295
+okay, so your 0 0 1 2, 3 0
+
+496
+00:40:38.395 --> 00:40:40.055
+is basically left hand side action.
+
+497
+00:40:40.395 --> 00:40:42.295
+So zero one is downside like that.
+
+498
+00:40:42.295 --> 00:40:43.815
+It is not, it is denoted like that.
+
+499
+00:40:44.685 --> 00:40:47.255
+This are the black state, that means they're terminal state.
+
+500
+00:40:48.705 --> 00:40:50.205
+Now we are going to show you in the
+
+501
+00:40:51.795 --> 00:40:56.315
+table format, okay?
+
+502
+00:40:56.605 --> 00:40:59.235
+Since it is a slippery environment, it means that
+
+503
+00:40:59.905 --> 00:41:02.795
+currently you are in the state of ace, you're taking action
+
+504
+00:41:02.795 --> 00:41:05.885
+of a, A is a particular action.
+
+505
+00:41:06.455 --> 00:41:09.325
+Let's say A is basically left hand side movement, okay?
+
+506
+00:41:10.585 --> 00:41:14.305
+But the next state can be any one of the four state
+
+507
+00:41:14.305 --> 00:41:17.225
+because we are having a slippery environment, you want to,
+
+508
+00:41:17.245 --> 00:41:19.025
+you are taking a left hand side movement,
+
+509
+00:41:19.025 --> 00:41:21.665
+doesn't mean you'll be landing into the left hand side cell,
+
+510
+00:41:21.885 --> 00:41:23.985
+you may be landing into any one of the four cells.
+
+511
+00:41:24.575 --> 00:41:27.705
+That is what this sum of the all priorities one, okay?
+
+512
+00:41:28.975 --> 00:41:31.405
+Under slippery environment, we have
+
+513
+00:41:31.405 --> 00:41:33.405
+to assume this probabilistic movement.
+
+514
+00:41:34.795 --> 00:41:38.075
+So here is that explanation. Look at here.
+
+515
+00:41:38.955 --> 00:41:42.545
+Shall I follow this book very diligently.
+
+516
+00:41:44.115 --> 00:41:46.695
+So look at you are the state of 13, okay?
+
+517
+00:41:48.655 --> 00:41:51.335
+And you can take left,
+
+518
+00:41:51.445 --> 00:41:54.115
+that is zero, okay?
+
+519
+00:41:54.145 --> 00:41:56.555
+This zero is basically so all of you're able
+
+520
+00:41:56.555 --> 00:42:00.995
+to see the book properly in the yes, yes sir
+
+521
+00:42:01.545 --> 00:42:05.835
+here Z zero standing for the action you have taken.
+
+522
+00:42:07.005 --> 00:42:08.985
+So you have taken action on the left hand side
+
+523
+00:42:09.615 --> 00:42:12.625
+naturally under it probabilistic movement.
+
+524
+00:42:13.325 --> 00:42:18.105
+You may go here, you may go to the state of nine, you may,
+
+525
+00:42:18.685 --> 00:42:21.495
+you go and hit the wall
+
+526
+00:42:21.955 --> 00:42:24.655
+and you'll be falling back to 13 again.
+
+527
+00:42:25.315 --> 00:42:28.535
+Or you may go to the 14 state which is the right hand side
+
+528
+00:42:28.535 --> 00:42:32.495
+of, okay, now look at here the curve, okay?
+
+529
+00:42:32.495 --> 00:42:34.215
+There's a connectivity from state to state.
+
+530
+00:42:34.275 --> 00:42:37.215
+So you have taken action, action is zero.
+
+531
+00:42:37.625 --> 00:42:38.655
+There is a gate here.
+
+532
+00:42:38.675 --> 00:42:40.575
+You look at, there is a black spot here, okay?
+
+533
+00:42:40.765 --> 00:42:42.735
+This, this spot, there's a gate here
+
+534
+00:42:43.755 --> 00:42:46.285
+with 0.33 probability it'll open
+
+535
+00:42:46.705 --> 00:42:49.445
+and you'll be getting into the left side cell.
+
+536
+00:42:49.715 --> 00:42:52.965
+That is a desired your 0.33 priority.
+
+537
+00:42:52.965 --> 00:42:55.765
+You'll be going to this side cell that is 90 degree angle
+
+538
+00:42:55.875 --> 00:42:58.285
+with you on the other side
+
+539
+00:42:59.595 --> 00:43:03.415
+and 0.33 priority, 90 degree angle from your intent,
+
+540
+00:43:03.605 --> 00:43:05.335
+from your intended position.
+
+541
+00:43:05.845 --> 00:43:07.295
+That is on the, you are going
+
+542
+00:43:07.295 --> 00:43:09.015
+to hit the wall, you'll fall back here.
+
+543
+00:43:09.795 --> 00:43:11.775
+So there is no movement
+
+544
+00:43:11.775 --> 00:43:15.095
+that you can go from here under the action of left,
+
+545
+00:43:15.195 --> 00:43:16.455
+you cannot go to 14.
+
+546
+00:43:16.835 --> 00:43:18.895
+So I, we have suppressed the option that
+
+547
+00:43:19.965 --> 00:43:22.745
+the next possible state cannot be any one
+
+548
+00:43:22.745 --> 00:43:24.785
+of the four state, okay?
+
+549
+00:43:25.085 --> 00:43:27.545
+It is only between this three state
+
+550
+00:43:27.575 --> 00:43:28.985
+because you are taking action.
+
+551
+00:43:28.985 --> 00:43:32.185
+The left hand side with 90 degree angle, you can go here
+
+552
+00:43:32.185 --> 00:43:34.225
+with 90 degree angle down, you can go here.
+
+553
+00:43:34.685 --> 00:43:37.665
+You don't have an option to take by falling back
+
+554
+00:43:37.725 --> 00:43:40.025
+by 180 degree is not possible here.
+
+555
+00:43:40.025 --> 00:43:42.185
+Okay? So that is the environment that has been described
+
+556
+00:43:42.185 --> 00:43:44.425
+to you and has been given to you, okay?
+
+557
+00:43:44.425 --> 00:43:47.865
+Under this environment, if you want to operate agent,
+
+558
+00:43:48.245 --> 00:43:50.745
+and we want to see if we start from state of zero,
+
+559
+00:43:51.705 --> 00:43:56.265
+we take a random trial under this environment, uh,
+
+560
+00:43:56.895 --> 00:43:59.905
+what is our reward that we can get
+
+561
+00:44:00.885 --> 00:44:02.995
+after so many trial that we can make?
+
+562
+00:44:02.995 --> 00:44:04.995
+That is what is our objective here. Okay?
+
+563
+00:44:06.875 --> 00:44:10.335
+So look at here in this state of nine it can go here.
+
+564
+00:44:10.875 --> 00:44:14.425
+If you take action on the upside, you can go into the state
+
+565
+00:44:14.425 --> 00:44:16.665
+of five with 0.33 probability
+
+566
+00:44:17.555 --> 00:44:20.525
+with 0.33 probability under the same action
+
+567
+00:44:20.585 --> 00:44:25.235
+of upside movement, you'll falling to the state of eight
+
+568
+00:44:26.165 --> 00:44:28.875
+under the same action of upside movement with 0.3,
+
+569
+00:44:28.885 --> 00:44:31.565
+he'll be following the 10 uh, state, okay?
+
+570
+00:44:31.565 --> 00:44:34.565
+That is what is the meaning here of the environment.
+
+571
+00:44:34.865 --> 00:44:38.745
+Now we are going to specify that in terms of your table.
+
+572
+00:44:41.945 --> 00:44:45.065
+So there are cannot
+
+573
+00:44:45.165 --> 00:44:48.145
+and stick this example they're talking about, right?
+
+574
+00:44:48.145 --> 00:44:50.025
+It is basically the same thing that I have told you.
+
+575
+00:44:50.025 --> 00:44:52.745
+The the enforcement learning that has been generated,
+
+576
+00:44:53.365 --> 00:44:56.745
+it has been pioneered by S and bra.
+
+577
+00:44:56.975 --> 00:44:59.785
+They have observed a dog called Pablo dog.
+
+578
+00:45:00.025 --> 00:45:04.555
+I have told you last class, the same thing by hearing bill,
+
+579
+00:45:04.725 --> 00:45:08.685
+it'll start salvation after a long time of training.
+
+580
+00:45:10.505 --> 00:45:15.475
+When it, you make a bill, you give him a food, you do this
+
+581
+00:45:15.475 --> 00:45:16.715
+for one month or two month.
+
+582
+00:45:17.165 --> 00:45:21.115
+After that you just ring the bell, you don't give him food,
+
+583
+00:45:21.175 --> 00:45:22.275
+you make him to wait,
+
+584
+00:45:22.775 --> 00:45:27.065
+the dog will start salvation, yes.
+
+585
+00:45:29.675 --> 00:45:34.525
+Okay, so now we'll show you your uh, table format
+
+586
+00:45:34.705 --> 00:45:36.165
+of your environment.
+
+587
+00:45:36.265 --> 00:45:38.765
+Let me open up state of one
+
+588
+00:45:38.765 --> 00:45:40.365
+because it is in a single page, okay?
+
+589
+00:45:40.695 --> 00:45:44.305
+State of one. So this is a state of one
+
+590
+00:45:45.515 --> 00:45:48.875
+and do I have a diagram again?
+
+591
+00:45:50.335 --> 00:45:52.195
+So look at how many possibility we have
+
+592
+00:45:52.995 --> 00:45:55.955
+under uh, every state.
+
+593
+00:45:56.795 --> 00:45:59.395
+I can take any one of the action left, right up
+
+594
+00:45:59.395 --> 00:46:00.435
+and down anything, okay?
+
+595
+00:46:00.655 --> 00:46:02.635
+So just consider left side action.
+
+596
+00:46:03.215 --> 00:46:05.395
+So under any particular state,
+
+597
+00:46:05.395 --> 00:46:08.795
+any particular action you may be falling into any one
+
+598
+00:46:08.795 --> 00:46:12.875
+of the three states which is residing just neighboring state
+
+599
+00:46:12.975 --> 00:46:14.075
+to you, okay?
+
+600
+00:46:15.835 --> 00:46:17.795
+Starting and your current state is one,
+
+601
+00:46:17.815 --> 00:46:19.555
+you take a left hand side action,
+
+602
+00:46:20.715 --> 00:46:23.015
+you may be falling into the state of one back
+
+603
+00:46:23.085 --> 00:46:24.575
+with a 0.3 probability.
+
+604
+00:46:24.835 --> 00:46:29.755
+You may be going to the state of zero with 0.33 probability.
+
+605
+00:46:30.175 --> 00:46:31.635
+You may be going to the state of five.
+
+606
+00:46:31.935 --> 00:46:34.635
+So one zero and five with 0.33 probability.
+
+607
+00:46:34.945 --> 00:46:36.115
+Just go back to the diagram.
+
+608
+00:46:36.375 --> 00:46:39.975
+Now this thing is encoded in python also.
+
+609
+00:46:39.975 --> 00:46:42.055
+That also I will show you if time is there today.
+
+610
+00:46:42.315 --> 00:46:44.535
+Uh, what is time now seven 15,
+
+611
+00:46:52.035 --> 00:46:53.005
+look at another diagram.
+
+612
+00:46:55.135 --> 00:46:57.115
+You are in the state of one, okay?
+
+613
+00:46:58.135 --> 00:46:59.675
+You take a left hand side movement,
+
+614
+00:47:00.655 --> 00:47:01.995
+you take a left hand side movement.
+
+615
+00:47:02.905 --> 00:47:07.715
+Next it can be zero, it can be here by unintended
+
+616
+00:47:07.715 --> 00:47:09.115
+because of the flow is slippery
+
+617
+00:47:10.635 --> 00:47:14.455
+or you take a unintended action because flow is slippery.
+
+618
+00:47:14.515 --> 00:47:16.215
+It is on the, this side 90 degree angle.
+
+619
+00:47:16.955 --> 00:47:19.435
+So you'll be hitting the wall falling back to one again.
+
+620
+00:47:19.535 --> 00:47:20.715
+So zero, one and five.
+
+621
+00:47:20.715 --> 00:47:23.195
+These are the next step possibility since you have three
+
+622
+00:47:23.975 --> 00:47:26.875
+act, uh, three next step possibility equally probably
+
+623
+00:47:27.095 --> 00:47:28.155
+all the next three steps.
+
+624
+00:47:28.155 --> 00:47:31.365
+So 0.33 probability for each one of them, okay?
+
+625
+00:47:31.785 --> 00:47:33.685
+So like that we can see for two also
+
+626
+00:47:33.745 --> 00:47:36.205
+for two on the left hand side action.
+
+627
+00:47:36.865 --> 00:47:39.845
+The next step can be one, it can be two back again
+
+628
+00:47:39.845 --> 00:47:41.445
+because you're hitting the wall, you'll fall back
+
+629
+00:47:41.445 --> 00:47:42.885
+to two or it can be six.
+
+630
+00:47:43.385 --> 00:47:44.765
+All of them will be equal probability.
+
+631
+00:47:44.835 --> 00:47:46.125
+Just go back and tell your,
+
+632
+00:47:52.005 --> 00:47:55.175
+yeah, so two from two you can go to one
+
+633
+00:47:55.805 --> 00:47:57.135
+0.3 from two.
+
+634
+00:47:57.135 --> 00:47:59.135
+Under the left hand side you will go to two.
+
+635
+00:47:59.635 --> 00:48:02.135
+You are hitting the wall falling back from two under,
+
+636
+00:48:02.305 --> 00:48:04.135
+under the left hand side action you will go
+
+637
+00:48:04.135 --> 00:48:06.325
+to six to 0.3 report.
+
+638
+00:48:06.325 --> 00:48:08.325
+So like that you are going to in,
+
+639
+00:48:08.325 --> 00:48:11.245
+you might this from the in, uh, from the given diagram.
+
+640
+00:48:13.135 --> 00:48:16.705
+Now I'll show you the same thing under uh,
+
+641
+00:48:17.245 --> 00:48:21.255
+python, okay?
+
+642
+00:48:21.255 --> 00:48:23.295
+So this is how we describe that in the python.
+
+643
+00:48:24.575 --> 00:48:28.075
+So this, this problem is sir, one quick question here.
+
+644
+00:48:28.495 --> 00:48:30.755
+Can we go to the diagram quickly sir?
+
+645
+00:48:31.215 --> 00:48:34.915
+So it means the action where already has been performed,
+
+646
+00:48:35.125 --> 00:48:36.675
+it'll go into that direction.
+
+647
+00:48:36.675 --> 00:48:41.115
+Only means if it is in a no two then it'll move towards
+
+648
+00:48:41.815 --> 00:48:43.755
+second, it'll not go to the right.
+
+649
+00:48:44.305 --> 00:48:45.675
+Yeah. Now tell me what you are telling.
+
+650
+00:48:46.935 --> 00:48:48.955
+Yes sir. Uh, am I audible sir? Yeah,
+
+651
+00:48:49.115 --> 00:48:50.115
+I confirm. So,
+
+652
+00:48:50.115 --> 00:48:54.315
+uh, when I am at this state of one, then it can move
+
+653
+00:48:54.315 --> 00:48:57.635
+to left, right sir towards zero or down.
+
+654
+00:48:58.215 --> 00:49:01.395
+So as two has not, uh, still active,
+
+655
+00:49:01.785 --> 00:49:03.755
+then it'll not go to the right sir.
+
+656
+00:49:04.135 --> 00:49:05.515
+Um, is my understanding correct?
+
+657
+00:49:07.505 --> 00:49:10.965
+No, there are uh, you have said that I want
+
+658
+00:49:10.965 --> 00:49:13.565
+to go left right from one, yeah,
+
+659
+00:49:13.715 --> 00:49:15.405
+from one you want to go left.
+
+660
+00:49:16.465 --> 00:49:20.745
+So your desired cell is zero
+
+661
+00:49:21.855 --> 00:49:25.385
+fine, but since the flow is slippery, you are
+
+662
+00:49:26.345 --> 00:49:28.705
+movement can happen in 90 degree angle
+
+663
+00:49:28.765 --> 00:49:30.065
+of your desired direction.
+
+664
+00:49:30.125 --> 00:49:31.425
+So it'll be downside
+
+665
+00:49:31.445 --> 00:49:34.705
+or it can be upside here, okay? So, okay sir,
+
+666
+00:49:34.805 --> 00:49:37.385
+If you Hit, if you take a undesired
+
+667
+00:49:37.385 --> 00:49:41.545
+because of the floor slippery, that undesired is coming as
+
+668
+00:49:42.185 --> 00:49:44.025
+probably 0.33, you are hitting the wall,
+
+669
+00:49:44.025 --> 00:49:45.305
+you'll fall back to one again.
+
+670
+00:49:46.695 --> 00:49:47.825
+Okay sir, Come
+
+671
+00:49:49.595 --> 00:49:52.295
+Two is at 180 degrees so it can't move.
+
+672
+00:49:52.435 --> 00:49:54.175
+Ah, that is possibility.
+
+673
+00:49:55.235 --> 00:49:57.025
+There is no possibility. 180 degree,
+
+674
+00:49:57.725 --> 00:49:58.725
+Yes.
+
+675
+00:49:59.015 --> 00:50:01.505
+Okay, We got it. Thank you.
+
+676
+00:50:03.475 --> 00:50:05.455
+Now whatever I have told you,
+
+677
+00:50:05.485 --> 00:50:08.095
+I'll show you in here Python, uh,
+
+678
+00:50:08.155 --> 00:50:11.255
+how we are describing this environment in dictionary, okay?
+
+679
+00:50:11.255 --> 00:50:12.695
+So this is the simplest example.
+
+680
+00:50:12.765 --> 00:50:16.135
+That is I have only three state, let me show you the diagram
+
+681
+00:50:16.435 --> 00:50:19.615
+and so you can easily correlate them.
+
+682
+00:50:38.215 --> 00:50:40.355
+So this is the diagram here is a simplest case,
+
+683
+00:50:40.355 --> 00:50:42.995
+bandaid work problem three, state, zero, one
+
+684
+00:50:42.995 --> 00:50:47.635
+and two, action zero means it is left hand side action,
+
+685
+00:50:47.635 --> 00:50:50.935
+action one means right hand side action.
+
+686
+00:50:51.285 --> 00:50:55.455
+Okay, so we are going to describe this, okay?
+
+687
+00:50:55.555 --> 00:50:59.155
+So description is here currently.
+
+688
+00:50:59.695 --> 00:51:04.515
+So this is a dictionary. It has key and value pair.
+
+689
+00:51:05.055 --> 00:51:07.515
+So key are the states zero, one, and two.
+
+690
+00:51:07.535 --> 00:51:10.915
+So zero is here, one is here, okay, this is one
+
+691
+00:51:12.165 --> 00:51:16.855
+and again you have this zero, uh, two.
+
+692
+00:51:17.195 --> 00:51:18.255
+So these are three states.
+
+693
+00:51:19.585 --> 00:51:21.335
+Under each and every step we specify
+
+694
+00:51:21.725 --> 00:51:23.055
+what is the action you're gonna take.
+
+695
+00:51:23.075 --> 00:51:27.375
+So the first, so you now you, this is a key value pair
+
+696
+00:51:27.995 --> 00:51:30.055
+and the value you have again,
+
+697
+00:51:31.975 --> 00:51:34.175
+two key and value pair.
+
+698
+00:51:35.165 --> 00:51:37.065
+So key is now zero and one.
+
+699
+00:51:37.165 --> 00:51:41.495
+So this denotes what is the action you are taking, okay?
+
+700
+00:51:42.815 --> 00:51:44.555
+And if you take the action of zero,
+
+701
+00:51:44.665 --> 00:51:46.555
+that means you're taking a left hand side action.
+
+702
+00:51:46.555 --> 00:51:49.475
+Look at here, you take the action of zero,
+
+703
+00:51:49.935 --> 00:51:51.475
+taking a left hand side action.
+
+704
+00:51:51.705 --> 00:51:54.355
+Okay, so what is your next date?
+
+705
+00:51:54.665 --> 00:51:57.175
+Your next date is your zero.
+
+706
+00:51:57.485 --> 00:52:01.085
+Okay, let me explain from you from here.
+
+707
+00:52:01.625 --> 00:52:03.325
+So this is a state of one.
+
+708
+00:52:03.625 --> 00:52:05.845
+You are taking the action of zero.
+
+709
+00:52:05.845 --> 00:52:08.045
+That means you're taking a left hand side action.
+
+710
+00:52:08.545 --> 00:52:09.685
+So what is the next state?
+
+711
+00:52:10.155 --> 00:52:13.175
+Your next state is given here zero.
+
+712
+00:52:13.175 --> 00:52:15.175
+So the key hallel, you have four couple here,
+
+713
+00:52:15.725 --> 00:52:20.195
+this is the top first one is the probability,
+
+714
+00:52:21.225 --> 00:52:23.485
+second one is the next state.
+
+715
+00:52:25.085 --> 00:52:27.115
+Third one is your reward.
+
+716
+00:52:27.375 --> 00:52:31.595
+And fourth one is it is a flag whether it is a terminal
+
+717
+00:52:31.645 --> 00:52:34.435
+state, that means this state, the state of zero here,
+
+718
+00:52:34.465 --> 00:52:37.035
+whether this state is a terminal state
+
+719
+00:52:37.095 --> 00:52:38.555
+or it is a non terminal state.
+
+720
+00:52:38.555 --> 00:52:40.955
+If it is a terminal, then it is true If it is
+
+721
+00:52:40.955 --> 00:52:41.995
+non terminal, it is false.
+
+722
+00:52:42.305 --> 00:52:46.995
+Okay? So that is how we specify the state of one
+
+723
+00:52:47.615 --> 00:52:49.195
+on all possible actions.
+
+724
+00:52:49.735 --> 00:52:51.395
+So it can take zero or one.
+
+725
+00:52:51.695 --> 00:52:54.355
+Now tally with your, if it takes zero, you are going
+
+726
+00:52:54.355 --> 00:52:55.515
+to next state of zero.
+
+727
+00:52:56.555 --> 00:52:58.845
+Next state is zero here, okay, this one is zero.
+
+728
+00:52:59.805 --> 00:53:01.975
+What is the probability? The probability is one.
+
+729
+00:53:02.565 --> 00:53:03.695
+What is the reward?
+
+730
+00:53:03.695 --> 00:53:05.455
+You get, you get zero reward
+
+731
+00:53:05.875 --> 00:53:09.635
+and the state of zero is a terminal state, okay?
+
+732
+00:53:09.785 --> 00:53:13.875
+Like that you take a movement, that is one
+
+733
+00:53:14.065 --> 00:53:15.835
+that means you're taking a right hand side movement.
+
+734
+00:53:15.835 --> 00:53:18.155
+What is the next state? The next date is two.
+
+735
+00:53:18.975 --> 00:53:20.715
+The probability for that is one
+
+736
+00:53:21.135 --> 00:53:22.595
+and what is the reward for that?
+
+737
+00:53:22.895 --> 00:53:25.455
+The reward is one
+
+738
+00:53:25.455 --> 00:53:28.135
+because two is your gold state here, okay?
+
+739
+00:53:32.075 --> 00:53:33.605
+This is very simple to understand.
+
+740
+00:53:34.025 --> 00:53:35.325
+We will describe the same thing
+
+741
+00:53:35.385 --> 00:53:37.685
+for your slippery environment.
+
+742
+00:53:39.825 --> 00:53:43.565
+So the same thing I'm going to ex show you in this.
+
+743
+00:53:44.845 --> 00:53:45.945
+So this is the environment
+
+744
+00:53:47.195 --> 00:53:50.185
+for which the bandit slippery.
+
+745
+00:53:50.365 --> 00:53:54.235
+Now when it slippery says 80% action,
+
+746
+00:53:54.415 --> 00:53:57.235
+80% time you are going to get a success.
+
+747
+00:53:57.235 --> 00:53:58.995
+20% you're going to get a backward.
+
+748
+00:53:59.895 --> 00:54:02.955
+So let's explain the state of one again.
+
+749
+00:54:03.015 --> 00:54:06.835
+So state of one, it has two possible action, zero or one.
+
+750
+00:54:06.895 --> 00:54:11.405
+So zero or one. If you take the action of zero,
+
+751
+00:54:11.405 --> 00:54:13.085
+that means you're taking a left hand side action.
+
+752
+00:54:13.785 --> 00:54:15.405
+The next state is zero
+
+753
+00:54:15.405 --> 00:54:18.285
+because left hand side is state numbered by zero.
+
+754
+00:54:18.715 --> 00:54:19.765
+What is the probability?
+
+755
+00:54:19.765 --> 00:54:22.925
+Because you are taking a left hand side action,
+
+756
+00:54:24.025 --> 00:54:25.725
+you are really moving on the left hand side
+
+757
+00:54:25.725 --> 00:54:28.765
+with 0.8 probability, 0.2 probability.
+
+758
+00:54:29.105 --> 00:54:31.965
+You may be moving on to right hand side,
+
+759
+00:54:32.515 --> 00:54:34.805
+that is the probability is given here
+
+760
+00:54:35.845 --> 00:54:40.185
+and your next date is two, this next date is two fine.
+
+761
+00:54:42.345 --> 00:54:43.565
+And what is the reward? You get?
+
+762
+00:54:43.585 --> 00:54:45.045
+You get a reward of one
+
+763
+00:54:46.385 --> 00:54:50.795
+because when you from here you have taken a movement on this
+
+764
+00:54:50.795 --> 00:54:53.995
+side, but you have fallen back from this gate is closed,
+
+765
+00:54:54.015 --> 00:54:57.115
+you have fallen to here, you get a reward of plus one.
+
+766
+00:54:58.695 --> 00:55:00.585
+Okay? So like that it is given
+
+767
+00:55:00.695 --> 00:55:04.375
+here, alright?
+
+768
+00:55:06.705 --> 00:55:09.165
+And there is a gym package available.
+
+769
+00:55:10.115 --> 00:55:12.125
+This is gym package is come open ai.
+
+770
+00:55:12.145 --> 00:55:16.415
+So you just import uh, gym, you peep install gym
+
+771
+00:55:16.915 --> 00:55:18.775
+and you will get a gym package.
+
+772
+00:55:19.395 --> 00:55:22.695
+You call this function gym dot make bandi slippery walk
+
+773
+00:55:23.215 --> 00:55:24.615
+V zero, okay?
+
+774
+00:55:24.715 --> 00:55:26.735
+You'll be getting this environment, you don't have
+
+775
+00:55:26.735 --> 00:55:27.815
+to write it by yourself.
+
+776
+00:55:28.005 --> 00:55:31.175
+This I have written just for need to show you
+
+777
+00:55:31.995 --> 00:55:33.615
+how environment is encoded.
+
+778
+00:55:38.975 --> 00:55:40.465
+Time is 7 25. Now,
+
+779
+00:55:41.805 --> 00:55:43.505
+Excuse me sir, I have a doubt sir.
+
+780
+00:55:43.645 --> 00:55:47.505
+Mm, sir. Gym is a library or package, sir?
+
+781
+00:55:49.135 --> 00:55:51.465
+Gyms, a gym is a package.
+
+782
+00:55:51.565 --> 00:55:54.185
+You have to install gym,
+
+783
+00:55:54.215 --> 00:55:56.425
+then you get many libraries under package,
+
+784
+00:55:58.125 --> 00:55:59.125
+Okay?
+
+785
+00:55:59.965 --> 00:56:04.135
+Okay sir. So one, one more question, sir.
+
+786
+00:56:04.315 --> 00:56:05.795
+Mm sir.
+
+787
+00:56:05.865 --> 00:56:09.955
+This, uh, p whatever you have, uh, initialized.
+
+788
+00:56:10.335 --> 00:56:13.635
+Mm uh, what is the data structure sir? Uh,
+
+789
+00:56:14.615 --> 00:56:17.275
+Is a dictionary data Set dictionary. Okay sir. Got it.
+
+790
+00:56:17.275 --> 00:56:18.395
+Python dictionary. Okay.
+
+791
+00:56:18.895 --> 00:56:23.245
+And Python allows you to do the nesting of dictionary, okay?
+
+792
+00:56:23.555 --> 00:56:27.225
+This is Esthetic dictionary. Okay sir? Thank you sir.
+
+793
+00:56:27.655 --> 00:56:31.825
+Okay, so the next one is uh, your
+
+794
+00:56:32.365 --> 00:56:34.345
+frozen leg or slippery walk.
+
+795
+00:56:36.445 --> 00:56:37.735
+Okay? Slippery walk three.
+
+796
+00:56:38.775 --> 00:56:40.055
+I will show you frozen leg itself.
+
+797
+00:56:40.055 --> 00:56:42.625
+So that will be closing the class
+
+798
+00:56:42.655 --> 00:56:44.545
+with the proper completion.
+
+799
+00:56:46.455 --> 00:56:50.755
+Sir, here we are moving towards two then it is 180 degree
+
+800
+00:56:50.755 --> 00:56:52.235
+angle instead of 90.
+
+801
+00:56:52.285 --> 00:56:56.705
+Which one? Uh, sorry. In the example which we of
+
+802
+00:56:57.245 --> 00:56:58.345
+Oh yes, yes. Right, right.
+
+803
+00:56:58.925 --> 00:57:00.985
+So we are moving 180 degree,
+
+804
+00:57:01.335 --> 00:57:02.335
+Yeah. Yes, yes,
+
+805
+00:57:02.335 --> 00:57:04.185
+you are fine. You're right. You are right.
+
+806
+00:57:06.145 --> 00:57:09.375
+Yes. These are the environment given to you.
+
+807
+00:57:09.515 --> 00:57:12.655
+You can change anything accordingly.
+
+808
+00:57:12.655 --> 00:57:15.975
+You have to write that python dictionary.
+
+809
+00:57:16.645 --> 00:57:17.935
+Yeah, okay. Okay.
+
+810
+00:57:18.085 --> 00:57:21.535
+Here it is allowed because it is a simple linear movement.
+
+811
+00:57:22.075 --> 00:57:23.895
+In case of uh, frozen leg,
+
+812
+00:57:24.515 --> 00:57:26.095
+you can move here to here like that.
+
+813
+00:57:26.095 --> 00:57:27.935
+That's why we're restricting 180 degree.
+
+814
+00:57:29.815 --> 00:57:32.505
+Yeah. Yes, thank you.
+
+815
+00:57:35.585 --> 00:57:37.835
+Already time is seven 20.
+
+816
+00:57:39.685 --> 00:57:43.385
+Where is that diagram? Yeah, so this is the diagram.
+
+817
+00:57:49.515 --> 00:57:54.225
+Hmm. So in this diagram, if you look at from here,
+
+818
+00:57:54.425 --> 00:57:57.745
+I can, if I take a ference side action, I'm allowed to go
+
+819
+00:57:57.745 --> 00:58:02.065
+to nine, I'm allowed to take this side, not allowed.
+
+820
+00:58:02.065 --> 00:58:04.825
+Basically these are unintended action.
+
+821
+00:58:05.625 --> 00:58:08.485
+I will go back, fall back to 13 again. Okay?
+
+822
+00:58:08.875 --> 00:58:11.325
+This one I will show you in the python. Now
+
+823
+00:58:16.455 --> 00:58:17.515
+random walk,
+
+824
+00:58:21.865 --> 00:58:23.075
+yeah, so grid world.
+
+825
+00:58:40.085 --> 00:58:44.205
+Yeah. So here 33% chance is your
+
+826
+00:58:44.785 --> 00:58:47.005
+action is resulting into success.
+
+827
+00:58:47.005 --> 00:58:51.485
+That means it is taking to the desired direction, 66% chance
+
+828
+00:58:52.015 --> 00:58:54.005
+split evenly in right angle.
+
+829
+00:58:54.145 --> 00:58:55.805
+So this is the environment, okay?
+
+830
+00:58:57.065 --> 00:58:59.285
+We have four across four grid, 16 states
+
+831
+00:59:01.715 --> 00:59:03.975
+and you will get plus one reward under the reaching
+
+832
+00:59:03.975 --> 00:59:05.735
+of your goal state.
+
+833
+00:59:05.835 --> 00:59:07.455
+So how we are describing this now,
+
+834
+00:59:08.385 --> 00:59:10.335
+let's say we are currently at the state of zero.
+
+835
+00:59:11.665 --> 00:59:14.135
+Let's, I'll show you in some middle state, okay?
+
+836
+00:59:14.135 --> 00:59:15.895
+It is easy for you to understand.
+
+837
+00:59:17.845 --> 00:59:20.665
+So middle state, let's say it is eight I,
+
+838
+00:59:22.825 --> 00:59:25.955
+okay, eight and what is a state of eight?
+
+839
+00:59:26.925 --> 00:59:30.135
+Okay? And nine, nine is a middle state, which has a lot
+
+840
+00:59:30.135 --> 00:59:32.295
+of open ground nine, state of nine.
+
+841
+00:59:32.475 --> 00:59:35.095
+So look at here, this is my state of nine.
+
+842
+00:59:37.425 --> 00:59:38.565
+So this is state of nine,
+
+843
+00:59:40.015 --> 00:59:43.375
+it has all this.
+
+844
+00:59:47.395 --> 00:59:49.735
+So eight, nine.
+
+845
+00:59:52.345 --> 00:59:55.005
+So under the action of zero, act zero means
+
+846
+00:59:55.315 --> 00:59:58.155
+what is the zero action left hand side.
+
+847
+00:59:59.185 --> 01:00:03.115
+Okay? So you can 0.33 probably will be landing into eight.
+
+848
+01:00:04.555 --> 01:00:06.975
+So look at here, 0.33 probability
+
+849
+01:00:08.055 --> 01:00:09.875
+you will be landing into state of eight.
+
+850
+01:00:10.505 --> 01:00:11.635
+What is the reward you get?
+
+851
+01:00:11.735 --> 01:00:15.075
+Reward is zero, whether it is a terminal state,
+
+852
+01:00:15.785 --> 01:00:17.595
+whether eight is a terminal state.
+
+853
+01:00:17.895 --> 01:00:19.955
+No. So it is false here. Okay, look at here.
+
+854
+01:00:19.955 --> 01:00:23.405
+False, fine, that is how it is explained.
+
+855
+01:00:23.985 --> 01:00:28.645
+Say again from nine, you take a left hand side movement,
+
+856
+01:00:29.075 --> 01:00:32.525
+your desired direction is left hand side,
+
+857
+01:00:33.105 --> 01:00:36.405
+but with 0.33 priority you'll be falling into the downside.
+
+858
+01:00:36.505 --> 01:00:38.365
+So your next date will be 13.
+
+859
+01:00:39.345 --> 01:00:41.965
+So this one, your next date is 13. Okay?
+
+860
+01:00:42.195 --> 01:00:43.885
+What is the reward for that? Zero.
+
+861
+01:00:44.925 --> 01:00:49.215
+And is it a terminal state? 13 is not false.
+
+862
+01:00:49.605 --> 01:00:51.695
+Okay, so that is how it is encoded.
+
+863
+01:00:51.915 --> 01:00:53.375
+So it is a nest state dictionary.
+
+864
+01:00:54.145 --> 01:00:56.175
+Every action is encoded like this.
+
+865
+01:00:56.405 --> 01:00:57.535
+This is the current state,
+
+866
+01:00:57.565 --> 01:01:00.385
+nine is the current state you take action.
+
+867
+01:01:01.565 --> 01:01:04.775
+This is your probability of success
+
+868
+01:01:06.505 --> 01:01:08.605
+is the next date is the reward,
+
+869
+01:01:08.825 --> 01:01:12.755
+and this is that whether it is terminal or not fine.
+
+870
+01:01:13.305 --> 01:01:14.555
+That is how it is encoded.
+
+871
+01:01:16.325 --> 01:01:19.735
+Next class, I'll show you what is called policy, uh,
+
+872
+01:01:19.735 --> 01:01:21.775
+stochastic policy and what is called optimal policy.
+
+873
+01:01:23.885 --> 01:01:26.005
+Okay, fine sir.
+
+874
+01:01:26.245 --> 01:01:27.925
+A small certific can can share this
+
+875
+01:01:28.205 --> 01:01:30.045
+PD document I have already shared.
+
+876
+01:01:31.365 --> 01:01:34.545
+So in LMS we didn't get, it's not available, sir. Yes,
+
+877
+01:01:34.605 --> 01:01:35.605
+It is not available. Is the
+
+878
+01:01:35.605 --> 01:01:38.505
+ta, is the TA in the zoom
+
+879
+01:01:39.535 --> 01:01:40.555
+TA please help here.
+
+880
+01:01:42.225 --> 01:01:46.095
+Ta. Other TAs present?
+
+881
+01:01:46.315 --> 01:01:49.095
+Yes ma'am. Okay, I'm here sir.
+
+882
+01:01:49.485 --> 01:01:52.775
+Okay, fine. Fine. So I'll send you, uh, uh,
+
+883
+01:01:53.165 --> 01:01:54.735
+I'll reach out to my ta.
+
+884
+01:01:56.225 --> 01:02:00.765
+She, but I, I'll upload today only sir, that chapter two.
+
+885
+01:02:02.115 --> 01:02:06.795
+Okay. Okay, fine. Uh, yes sir. All the is within,
+
+886
+01:02:08.605 --> 01:02:10.665
+So already you are having a pdf F, right? Neha?
+
+887
+01:02:11.605 --> 01:02:15.865
+Yes sir. You have shared now all the PDFs via Gmail.
+
+888
+01:02:16.735 --> 01:02:21.205
+Okay, fine. Uh, sir, one more thing, uh,
+
+889
+01:02:21.305 --> 01:02:24.925
+one request more for even for the TA also actually, uh,
+
+890
+01:02:25.395 --> 01:02:29.365
+last week the assignment was submission was through form,
+
+891
+01:02:29.365 --> 01:02:30.445
+Google form, okay.
+
+892
+01:02:31.025 --> 01:02:34.525
+Uh, we would prefer if it is similar to other, uh,
+
+893
+01:02:35.095 --> 01:02:39.685
+other subjects where the notes are being submitted
+
+894
+01:02:39.685 --> 01:02:42.605
+through LMS, uh, LMS portal only.
+
+895
+01:02:43.455 --> 01:02:44.715
+So that helps actually.
+
+896
+01:02:46.095 --> 01:02:49.595
+And so if the ta uh, if you can,
+
+897
+01:02:50.295 --> 01:02:52.955
+if they can take care of it, it'll be helpful.
+
+898
+01:02:56.245 --> 01:02:59.375
+Okay. So currently you have uploaded to LMS portal?
+
+899
+01:03:00.755 --> 01:03:03.855
+No sir. No sir. Through Google form. We'll form.
+
+900
+01:03:05.995 --> 01:03:07.605
+Okay. I, uh, basically LMS portal
+
+901
+01:03:07.665 --> 01:03:08.805
+is undergoing some changes.
+
+902
+01:03:08.805 --> 01:03:13.635
+That's why Saturday night there was an update I will talk
+
+903
+01:03:13.635 --> 01:03:17.235
+to basically TA also do not have any control over it.
+
+904
+01:03:17.435 --> 01:03:21.435
+I have to talk to those support team. Okay?
+
+905
+01:03:23.925 --> 01:03:27.335
+Okay. Apart from that sir, excuse me,
+
+906
+01:03:30.065 --> 01:03:32.765
+Uh, could you please uh, give us some more time sir, soon
+
+907
+01:03:32.765 --> 01:03:34.645
+after the class to submit the assignment,
+
+908
+01:03:34.985 --> 01:03:39.405
+if not the same day, at least 24 hours after the class
+
+909
+01:03:39.405 --> 01:03:40.405
+Assignment? I have not
+
+910
+01:03:40.405 --> 01:03:41.645
+given, I have only asked you
+
+911
+01:03:41.645 --> 01:03:43.605
+to sub upload your class note,
+
+912
+01:03:43.885 --> 01:03:45.285
+whatever you are making. Yeah,
+
+913
+01:03:45.285 --> 01:03:46.405
+Class notes only, sir.
+
+914
+01:03:46.405 --> 01:03:48.165
+That's what I'm, I meant.
+
+915
+01:03:49.855 --> 01:03:51.065
+Okay, so Sunday night,
+
+916
+01:03:51.335 --> 01:03:53.665
+9:00 PM till 9:00 PM I have made it.
+
+917
+01:03:55.335 --> 01:03:57.425
+What about today's session? Okay, which three basis?
+
+918
+01:03:57.725 --> 01:04:00.505
+Uh, two, I mean two classes right in a week.
+
+919
+01:04:00.915 --> 01:04:03.585
+These two classes? Yes sir. Will upload it on Sunday night.
+
+920
+01:04:04.095 --> 01:04:07.165
+Okay, got it. Okay, sir,
+
+921
+01:04:07.505 --> 01:04:09.445
+Signed two classes. We need to actually
+
+922
+01:04:09.785 --> 01:04:11.565
+For Sunday night? Yes.
+
+923
+01:04:11.565 --> 01:04:12.845
+Yes, for Every week. Okay.
+
+924
+01:04:13.145 --> 01:04:15.525
+For week by week you upload? Yeah,
+
+925
+01:04:15.645 --> 01:04:16.645
+Yeah, sure, sure.
+
+926
+01:04:16.875 --> 01:04:18.405
+Combining two classes in a week.
+
+927
+01:04:18.405 --> 01:04:22.445
+Okay, sorry, I prepared, I've prepared the notes
+
+928
+01:04:22.465 --> 01:04:23.925
+but I was not able to upload.
+
+929
+01:04:26.005 --> 01:04:29.265
+So for today also they will be sharing this little
+
+930
+01:04:29.655 --> 01:04:30.655
+Form only. No, no,
+
+931
+01:04:30.655 --> 01:04:34.305
+no. It'll be shared to you by which media?
+
+932
+01:04:34.335 --> 01:04:35.505
+That I am not sure,
+
+933
+01:04:36.165 --> 01:04:39.305
+but it is, the due date is Sunday night, 9:00 PM
+
+934
+01:04:40.685 --> 01:04:42.365
+Probably I will send a mail to the support team
+
+935
+01:04:42.425 --> 01:04:44.645
+to make It is available on your LMS portal.
+
+936
+01:04:44.925 --> 01:04:48.045
+LMS portal only? Yeah, it gives a kind
+
+937
+01:04:48.045 --> 01:04:49.405
+of a due dates and everything.
+
+938
+01:04:49.425 --> 01:04:52.085
+So it is for us also, it's easy to track which has,
+
+939
+01:04:52.535 --> 01:04:55.165
+which has been submitted, which by pending et cetera.
+
+940
+01:04:55.555 --> 01:04:58.325
+Okay, fine. Then you'll share the Google
+
+941
+01:04:58.465 --> 01:04:59.885
+collab links as well.
+
+942
+01:05:00.955 --> 01:05:02.365
+Yeah, I will do that.
+
+943
+01:05:03.885 --> 01:05:05.875
+Sorry, the previous class as well sir,
+
+944
+01:05:05.875 --> 01:05:07.275
+because uh, we, it was
+
+945
+01:05:07.275 --> 01:05:08.315
+Difficult to find previous class.
+
+946
+01:05:08.355 --> 01:05:09.995
+I have not shown you any Google collab, right?
+
+947
+01:05:10.055 --> 01:05:13.245
+It was only PDF and my PPT.
+
+948
+01:05:14.325 --> 01:05:15.985
+Yes sir. No, the class summary sir.
+
+949
+01:05:15.985 --> 01:05:17.445
+We could not access it and it was
+
+950
+01:05:17.445 --> 01:05:18.685
+difficult to access the file.
+
+951
+01:05:18.685 --> 01:05:19.805
+Locate the file as well,
+
+952
+01:05:19.805 --> 01:05:20.805
+Sir. Last summary.
+
+953
+01:05:20.805 --> 01:05:21.155
+
+954
+01:05:21.835 --> 01:05:23.135
+Yes. For class summary. Yes sir.
+
+955
+01:05:25.975 --> 01:05:29.155
+Uh, last classes I have given you my PDF
+
+956
+01:05:30.345 --> 01:05:32.285
+and I have written something on my own style.
+
+957
+01:05:32.585 --> 01:05:33.885
+You want the stylist not sheet?
+
+958
+01:05:35.195 --> 01:05:38.215
+No sir. What he's asking is like we have prepared the
+
+959
+01:05:38.335 --> 01:05:40.735
+summary but we are not aware of the location
+
+960
+01:05:40.735 --> 01:05:43.095
+of the Google form, so we are not able to submit it.
+
+961
+01:05:43.635 --> 01:05:45.935
+So whether the first two classes summary,
+
+962
+01:05:46.075 --> 01:05:48.055
+we can submit through any other channel.
+
+963
+01:05:48.085 --> 01:05:50.735
+Like can we send it to you by email or something?
+
+964
+01:05:51.195 --> 01:05:52.495
+No, no, no. Don't send me by email.
+
+965
+01:05:53.835 --> 01:05:56.195
+I will give, um, give you time for that
+
+966
+01:05:56.825 --> 01:05:59.035
+because of LMS portal has a lot of change.
+
+967
+01:05:59.155 --> 01:06:01.515
+I myself to not log in, I face travel.
+
+968
+01:06:02.595 --> 01:06:05.795
+I will make it available through LMS portal only you submit
+
+969
+01:06:05.795 --> 01:06:07.275
+it there week by week basis.
+
+970
+01:06:07.305 --> 01:06:10.955
+Okay, so week one we are going to have totally 14 weeks.
+
+971
+01:06:10.955 --> 01:06:13.885
+Okay? So week one, week two, like
+
+972
+01:06:13.885 --> 01:06:15.725
+that you put it one single PDF file.
+
+973
+01:06:16.765 --> 01:06:18.805
+Okay sir. Okay. Do we need
+
+974
+01:06:18.805 --> 01:06:20.525
+to specify the date of the class?
+
+975
+01:06:21.155 --> 01:06:23.845
+Yeah, date of the class inside your note sheet?
+
+976
+01:06:24.555 --> 01:06:26.445
+Yeah. Okay. Okay, sure.
+
+977
+01:06:26.665 --> 01:06:28.205
+So for last week, uh,
+
+978
+01:06:28.205 --> 01:06:30.165
+class summary assignment you have mentioned
+
+979
+01:06:30.195 --> 01:06:31.325
+only for class two, right?
+
+980
+01:06:31.425 --> 01:06:34.245
+For class one you said it's not required? Hmm?
+
+981
+01:06:34.625 --> 01:06:39.545
+Uh, it's the first class. Yeah. Okay, sir. Yeah,
+
+982
+01:06:39.545 --> 01:06:40.545
+Yeah, correct. Fine.
+
+983
+01:06:40.975 --> 01:06:44.935
+Okay, sir. Sir, thank you sir.
+
+984
+01:06:45.385 --> 01:06:49.895
+First, so if we can submit both the notes this time,
+
+985
+01:06:50.045 --> 01:06:54.595
+this Sunday, last class Sunday today and next Sunday three
+
+986
+01:06:54.595 --> 01:06:55.595
+Classes. Okay, fine. Yeah, yeah,
+
+987
+01:06:55.595 --> 01:06:57.875
+fine. All three class. Okay, fine.
+
+988
+01:06:58.695 --> 01:07:00.555
+Not three. It is weekly basis. Okay.
+
+989
+01:07:00.575 --> 01:07:02.875
+So every week one file we upload
+
+990
+01:07:02.875 --> 01:07:04.355
+with the date of both the classes.
+
+991
+01:07:04.925 --> 01:07:08.795
+Let's say we're uploading only four pages, two pages for uh,
+
+992
+01:07:08.795 --> 01:07:11.595
+witness dec class, two pages for set the class, both
+
+993
+01:07:11.595 --> 01:07:13.395
+of them you have only single file.
+
+994
+01:07:14.505 --> 01:07:19.185
+So what's the word limit? Don't for
+
+995
+01:07:19.475 --> 01:07:21.585
+Other classes it's like one 50 words,
+
+996
+01:07:22.125 --> 01:07:24.265
+but now you mentioned two pages for each class.
+
+997
+01:07:24.805 --> 01:07:27.265
+Ah, I'm just giving example. Let's say you are, uh,
+
+998
+01:07:27.265 --> 01:07:29.905
+making two pages note for the witness dec class,
+
+999
+01:07:29.905 --> 01:07:32.265
+another two page note for the s deck class.
+
+1000
+01:07:32.285 --> 01:07:34.985
+In that case, you combine these two files,
+
+1001
+01:07:35.165 --> 01:07:36.465
+upload only single file,
+
+1002
+01:07:38.095 --> 01:07:39.095
+Okay, sir?
+
+1003
+01:07:39.165 --> 01:07:41.745
+Uh, part class you should not make it more
+
+1004
+01:07:41.745 --> 01:07:42.985
+than five pages.
+
+1005
+01:07:46.825 --> 01:07:49.205
+So it is only a hundred words for all other classes.
+
+1006
+01:07:49.465 --> 01:07:53.045
+So five pages means it'll be a lot of words I believe. Ah,
+
+1007
+01:07:53.345 --> 01:07:54.725
+So I have a maximum.
+
+1008
+01:07:55.095 --> 01:07:59.245
+There is no uh, lower limit, max limit is fine. Okay, sir,
+
+1009
+01:07:59.275 --> 01:08:00.405
+Will we have question?
+
+1010
+01:08:00.715 --> 01:08:02.525
+This quiz during this Saturday?
+
+1011
+01:08:05.125 --> 01:08:09.395
+Yeah, there the quiz every week there will be one quiz,
+
+1012
+01:08:10.225 --> 01:08:11.225
+Okay? Okay,
+
+1013
+01:08:11.225 --> 01:08:12.145
+sir.
+
+1014
+01:08:13.845 --> 01:08:18.805
+Quiz, uh, is On only Sunday, sir. Hmm? Yeah. Sunday.
+
+1015
+01:08:20.425 --> 01:08:23.555
+Yeah, sun, uh, Saturday night it gets activated.
+
+1016
+01:08:23.735 --> 01:08:25.715
+The time is still, yeah, Sunday evening
+
+1017
+01:08:26.185 --> 01:08:27.185
+Till Sunday evening.
+
+1018
+01:08:27.435 --> 01:08:29.715
+I think 8:00 PM till that time it'll be open.
+
+1019
+01:08:29.775 --> 01:08:30.875
+You can log in anytime,
+
+1020
+01:08:31.745 --> 01:08:36.745
+attempt it anytime till 8:00 PM
+
+1021
+01:08:37.845 --> 01:08:42.175
+Thank you sir. Okay, thanks a lot. Thank sir.

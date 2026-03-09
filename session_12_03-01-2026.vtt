@@ -1,0 +1,4905 @@
+WEBVTT
+
+NOTE
+Video URL: https://vimeo.com/1151156969
+Reinforcement Learning Live Session 12 - 03-01-2026
+
+1
+00:06:17.015 --> 00:06:20.385
+Hello. Good morning, sir.
+
+2
+00:06:21.015 --> 00:06:25.345
+Yeah, good morning. Happy
+
+3
+00:06:25.525 --> 00:06:28.185
+sir. Happy year sir.
+
+4
+00:06:28.335 --> 00:06:29.625
+Yeah, happy everyone.
+
+5
+00:06:34.655 --> 00:06:34.875
+So
+
+6
+00:06:39.445 --> 00:06:42.025
+23 participant has joined now.
+
+7
+00:06:44.515 --> 00:06:47.895
+So then the year ending, all of you have taken vacation?
+
+8
+00:06:49.885 --> 00:06:51.425
+Yes sir. Yeah. Yes sir.
+
+9
+00:06:52.545 --> 00:06:55.785
+Normally for, uh, for me at least, uh, the complete half
+
+10
+00:06:55.785 --> 00:06:57.305
+of December is completely shut down,
+
+11
+00:06:57.685 --> 00:06:58.985
+so you are just taken off.
+
+12
+00:06:59.975 --> 00:07:01.385
+Okay. So
+
+13
+00:07:01.405 --> 00:07:04.585
+Did you guys go out anywhere or even in the same place?
+
+14
+00:07:07.165 --> 00:07:09.495
+Yeah, I went out, I also went to the,
+
+15
+00:07:09.495 --> 00:07:12.815
+after our ING campus in my mission, I went out with kids,
+
+16
+00:07:12.875 --> 00:07:16.895
+uh, uh, to Humpy, AMI and all those places and came back.
+
+17
+00:07:18.735 --> 00:07:22.425
+Okay. Humpy AMI is just three hours from,
+
+18
+00:07:22.525 --> 00:07:23.905
+Uh, Or
+
+19
+00:07:24.055 --> 00:07:25.185
+Correct, correct, Correct.
+
+20
+00:07:26.785 --> 00:07:27.785
+Okay.
+
+21
+00:07:29.495 --> 00:07:31.025
+Someone went to Rames Rome.
+
+22
+00:07:33.965 --> 00:07:35.325
+I went to Rames Rome. Yeah,
+
+23
+00:07:36.335 --> 00:07:40.075
+So that train is going to that uh, p**n bridge.
+
+24
+00:07:40.755 --> 00:07:43.115
+I went by a car, like it was very hectic.
+
+25
+00:07:44.925 --> 00:07:46.745
+Oh, so you didn't go by train
+
+26
+00:07:47.215 --> 00:07:48.215
+Over to see?
+
+27
+00:07:49.205 --> 00:07:51.225
+No, I went by car, I went by the bridge,
+
+28
+00:07:51.445 --> 00:07:52.665
+but the traffic was there.
+
+29
+00:07:52.665 --> 00:07:54.185
+It's except one hour on the bridge.
+
+30
+00:07:56.175 --> 00:07:58.595
+Oh, okay. So you did not get time
+
+31
+00:07:58.595 --> 00:07:59.915
+to book that train ticket, I think,
+
+32
+00:08:00.385 --> 00:08:01.385
+Yeah, Yeah, correct.
+
+33
+00:08:02.985 --> 00:08:06.285
+Any, Every place is crowded. Sir. This holiday was
+
+34
+00:08:07.305 --> 00:08:08.305
+Too Much. Every
+
+35
+00:08:08.305 --> 00:08:10.165
+place, every place the church
+
+36
+00:08:10.165 --> 00:08:12.125
+to this place you take it was really crowded.
+
+37
+00:08:15.065 --> 00:08:19.185
+Oh. So basically most of the
+
+38
+00:08:22.165 --> 00:08:25.025
+CED work cultures like that year ending, they get only time.
+
+39
+00:08:25.265 --> 00:08:29.715
+I think apart from that, you don't get any more time.
+
+40
+00:08:32.545 --> 00:08:35.775
+For me, it was a full hectic, sir Jan
+
+41
+00:08:35.795 --> 00:08:37.615
+to December calendar year.
+
+42
+00:08:37.715 --> 00:08:40.295
+It was hectic work. Yesterday I got leave.
+
+43
+00:08:42.235 --> 00:08:45.135
+Oh, that means you don't get any, uh, scope
+
+44
+00:08:45.135 --> 00:08:47.055
+of in December. No,
+
+45
+00:08:47.055 --> 00:08:48.055
+Sir. Because
+
+46
+00:08:48.055 --> 00:08:50.575
+all we need to ca calculate area January
+
+47
+00:08:50.595 --> 00:08:53.855
+to December number, send them appraisal for in.
+
+48
+00:08:55.825 --> 00:09:00.455
+Okay, So I think I have not met you in this,
+
+49
+00:09:00.475 --> 00:09:01.535
+uh, campus.
+
+50
+00:09:02.395 --> 00:09:04.415
+No sir. I didn't came sir because I went to
+
+51
+00:09:05.195 --> 00:09:06.455
+During that period. Okay.
+
+52
+00:09:06.955 --> 00:09:09.165
+Okay. Okay. Uh, next emotion. I'll be there, sir.
+
+53
+00:09:10.735 --> 00:09:14.155
+Sir. Hardly, hardly, uh, 40% of us only came there, sir.
+
+54
+00:09:14.405 --> 00:09:17.835
+60% were didn't ta Yeah, that is expected.
+
+55
+00:09:19.655 --> 00:09:22.165
+40% coming is also a bigger number.
+
+56
+00:09:25.305 --> 00:09:27.085
+So that is why I'm not putting too much
+
+57
+00:09:27.115 --> 00:09:28.365
+load on the teaching side.
+
+58
+00:09:28.785 --> 00:09:33.125
+Um, so today my aim is
+
+59
+00:09:33.125 --> 00:09:36.525
+to show you something on q learning another example.
+
+60
+00:09:36.595 --> 00:09:39.405
+Till now, whatever we are doing is only with frozen lake.
+
+61
+00:09:41.725 --> 00:09:44.775
+Okay. So the today's problem is there not,
+
+62
+00:09:44.775 --> 00:09:45.855
+uh, quick question theory.
+
+63
+00:09:46.575 --> 00:09:50.215
+Hmm. Uh, sir, the frozen lake TD learning, uh,
+
+64
+00:09:50.695 --> 00:09:51.935
+notebook, uh, is not shared with us
+
+65
+00:09:54.395 --> 00:09:55.655
+TD learning. Uh,
+
+66
+00:09:56.485 --> 00:09:57.485
+Okay. Will
+
+67
+00:09:57.485 --> 00:09:59.975
+tell them. Okay sir,
+
+68
+00:10:01.425 --> 00:10:02.865
+I have mailed it to a two times.
+
+69
+00:10:05.425 --> 00:10:09.855
+It's not uploaded in sir. Okay.
+
+70
+00:10:14.105 --> 00:10:15.755
+Okay. Sir, you are able to see my screen?
+
+71
+00:10:19.325 --> 00:10:24.115
+Yes Sir. One experiment for another environment.
+
+72
+00:10:27.215 --> 00:10:29.755
+So let me see if the run has completed or not.
+
+73
+00:10:31.405 --> 00:10:32.665
+It is not yet completed.
+
+74
+00:10:36.775 --> 00:10:38.745
+Okay, so Let me go to
+
+75
+00:10:38.745 --> 00:10:39.025
+Your,
+
+76
+00:10:48.725 --> 00:10:50.985
+So today's exercise is basically it is called, uh,
+
+77
+00:10:51.845 --> 00:10:55.075
+So All of you, these are already simple,
+
+78
+00:10:55.195 --> 00:10:57.395
+simple example gym naia.
+
+79
+00:10:57.695 --> 00:10:58.835
+So it is gym now
+
+80
+00:10:59.785 --> 00:11:03.385
+Zoom Package, open AI
+
+81
+00:11:08.545 --> 00:11:09.965
+gym NAIA documentation.
+
+82
+00:11:12.265 --> 00:11:14.525
+So you, you are able to see my screen, right?
+
+83
+00:11:15.305 --> 00:11:16.645
+Yes sir. Yes sir.
+
+84
+00:11:17.065 --> 00:11:21.845
+So here we have, uh, Jim NAIA is a package from OpenAI.
+
+85
+00:11:22.625 --> 00:11:26.465
+You can, uh, use this import,
+
+86
+00:11:26.465 --> 00:11:27.665
+this gymnasium package
+
+87
+00:11:28.845 --> 00:11:32.305
+and it has many examples of environment
+
+88
+00:11:33.845 --> 00:11:35.715
+right now, whatever they're showing is
+
+89
+00:11:35.715 --> 00:11:40.155
+for this is the environment for,
+
+90
+00:11:40.655 --> 00:11:45.035
+uh, landing into moon or that they have environment.
+
+91
+00:11:48.685 --> 00:11:53.295
+This environment is named as lunar landing. Okay?
+
+92
+00:11:53.645 --> 00:11:55.615
+However, today I'm not going to do this.
+
+93
+00:11:55.775 --> 00:12:00.215
+I have a simple more example this, I'll do it after three
+
+94
+00:12:00.215 --> 00:12:03.095
+or four lectures for deep deep Q learning part.
+
+95
+00:12:03.445 --> 00:12:07.915
+Okay? So you go to this, uh, homepage
+
+96
+00:12:08.575 --> 00:12:11.615
+and look at, there are
+
+97
+00:12:15.255 --> 00:12:17.065
+environment like this.
+
+98
+00:12:19.115 --> 00:12:21.895
+So you can search, let's say we are going to,
+
+99
+00:12:22.165 --> 00:12:26.285
+today's task is basically taxi, the taxi pickup.
+
+100
+00:12:29.785 --> 00:12:32.685
+So the taxi environment will be here, I think to taxi.
+
+101
+00:12:41.295 --> 00:12:43.385
+Yeah. So this is the taxi environment
+
+102
+00:12:53.255 --> 00:12:55.825
+that will show you some graph for this environment.
+
+103
+00:12:56.075 --> 00:13:00.865
+After that, the graph is not shown here. Okay?
+
+104
+00:13:01.445 --> 00:13:05.185
+So the taxi environment is, I have a, uh,
+
+105
+00:13:11.005 --> 00:13:11.295
+here,
+
+106
+00:13:24.825 --> 00:13:28.115
+okay, so this is the Q learning for taxi environment.
+
+107
+00:13:28.225 --> 00:13:30.635
+What is that environment? Let me draw it to you.
+
+108
+00:13:34.985 --> 00:13:38.685
+And what is that? Microsoft White Book? Hmm?
+
+109
+00:14:03.365 --> 00:14:04.035
+Whiteboard
+
+110
+00:14:09.035 --> 00:14:09.755
+starting blank.
+
+111
+00:14:11.695 --> 00:14:16.295
+Okay, so today's is basically Q
+
+112
+00:14:16.855 --> 00:14:18.825
+learning or
+
+113
+00:14:26.105 --> 00:14:27.355
+Taxi environment.
+
+114
+00:14:28.055 --> 00:14:29.435
+The environment is like this.
+
+115
+00:14:29.485 --> 00:14:33.615
+There is a taxi five
+
+116
+00:14:33.665 --> 00:14:35.055
+cross, 5G grid.
+
+117
+00:14:45.895 --> 00:14:50.035
+So it is uh, five row, five column, five cross, 5G grid.
+
+118
+00:14:50.775 --> 00:14:54.245
+And for every, like if you can split it up like this,
+
+119
+00:14:55.485 --> 00:14:59.025
+there are location of, hmm,
+
+120
+00:15:01.765 --> 00:15:04.725
+customer to be picked up.
+
+121
+00:15:06.255 --> 00:15:10.255
+So the location of customer and dropping off.
+
+122
+00:15:11.965 --> 00:15:13.185
+So there's a taxi here.
+
+123
+00:15:21.075 --> 00:15:25.535
+So the environment is like this that you have
+
+124
+00:15:28.015 --> 00:15:31.385
+position of taxi, x, x coordinate.
+
+125
+00:15:31.415 --> 00:15:35.625
+Okay? X coordinate for taxi,
+
+126
+00:15:36.485 --> 00:15:38.185
+you have Y coordinate for taxi.
+
+127
+00:15:40.975 --> 00:15:42.345
+Okay? That means, hmm,
+
+128
+00:15:42.705 --> 00:15:45.345
+X coordinate is like this in the horizontal
+
+129
+00:15:45.925 --> 00:15:47.305
+and vertical is a white taxi.
+
+130
+00:15:47.445 --> 00:15:50.505
+So these are the two coordinate for your taxi location
+
+131
+00:15:53.605 --> 00:15:57.275
+and there is a position of
+
+132
+00:15:58.365 --> 00:15:59.935
+customer C, okay?
+
+133
+00:16:00.355 --> 00:16:03.135
+And there is a position of dropping
+
+134
+00:16:04.685 --> 00:16:05.825
+pc, pd, okay?
+
+135
+00:16:06.925 --> 00:16:07.145
+So
+
+136
+00:16:12.325 --> 00:16:15.245
+X taxi can be taking any value
+
+137
+00:16:17.865 --> 00:16:22.495
+from 0 1 2 up to all the way five, right?
+
+138
+00:16:22.515 --> 00:16:26.755
+So it is four because we have five positions in the X.
+
+139
+00:16:27.055 --> 00:16:29.475
+So similarly for Y also it has
+
+140
+00:16:33.425 --> 00:16:36.215
+zero one up to four
+
+141
+00:16:39.015 --> 00:16:43.995
+for customer location, customer can be
+
+142
+00:16:44.705 --> 00:16:45.955
+zero one.
+
+143
+00:16:46.375 --> 00:16:48.915
+So there are four places where customer can be living.
+
+144
+00:16:48.915 --> 00:16:50.755
+These are the four places of house.
+
+145
+00:16:52.665 --> 00:16:55.805
+In addition, if the customer is in the car,
+
+146
+00:16:56.385 --> 00:16:59.975
+so there are four positions, so let me light there.
+
+147
+00:17:00.085 --> 00:17:03.485
+0, 1, 2, 3.
+
+148
+00:17:04.225 --> 00:17:06.685
+And the fourth position it is in inside the car.
+
+149
+00:17:06.685 --> 00:17:10.645
+So customer can be located anywhere out of these four,
+
+150
+00:17:10.745 --> 00:17:14.875
+so it can be 0, 1, 2, 3, 4.
+
+151
+00:17:15.775 --> 00:17:19.105
+Okay? The customer location. Then dropping location.
+
+152
+00:17:22.785 --> 00:17:23.395
+What happened,
+
+153
+00:17:38.595 --> 00:17:41.955
+the dropping color.
+
+154
+00:17:49.985 --> 00:17:51.765
+So for dropping location, it is,
+
+155
+00:17:56.285 --> 00:18:00.225
+uh, so customer will be getting dropped at any one
+
+156
+00:18:00.225 --> 00:18:01.225
+of these four houses.
+
+157
+00:18:02.125 --> 00:18:05.225
+So it is 0, 1, 2, 3.
+
+158
+00:18:09.325 --> 00:18:12.375
+Okay? Now,
+
+159
+00:18:14.045 --> 00:18:18.665
+in your state, your basically, uh, we
+
+160
+00:18:19.285 --> 00:18:22.145
+all the time we are doing this q learning, we are going
+
+161
+00:18:22.145 --> 00:18:26.485
+to do Q function four A and a.
+
+162
+00:18:26.955 --> 00:18:31.605
+Okay? State here, your state is basically, this is
+
+163
+00:18:31.605 --> 00:18:33.125
+what is your state definition?
+
+164
+00:18:34.895 --> 00:18:39.245
+It is, it is
+
+165
+00:18:39.245 --> 00:18:40.285
+basically topple.
+
+166
+00:18:41.735 --> 00:18:46.125
+So the total dimension of your state is going to be, so
+
+167
+00:18:47.435 --> 00:18:49.445
+this is five here.
+
+168
+00:18:49.675 --> 00:18:54.665
+Five here under 3, 4, 5 here. Four here. Okay.
+
+169
+00:18:56.045 --> 00:18:58.615
+So it is basically this ace is
+
+170
+00:18:58.615 --> 00:19:01.065
+basically five cross.
+
+171
+00:19:01.855 --> 00:19:02.545
+Five cross.
+
+172
+00:19:09.995 --> 00:19:13.495
+So total volume is going to be 500 number of states.
+
+173
+00:19:15.275 --> 00:19:16.495
+So ACE is going to be taking
+
+174
+00:19:17.205 --> 00:19:19.775
+500 different possible value, okay?
+
+175
+00:19:20.235 --> 00:19:24.735
+And your queue function, whenever we are going to update it,
+
+176
+00:19:36.365 --> 00:19:38.185
+so we are going to update in the Q table.
+
+177
+00:19:39.825 --> 00:19:40.845
+The q table is
+
+178
+00:19:40.845 --> 00:19:45.075
+basically state and action.
+
+179
+00:19:45.215 --> 00:19:48.755
+So Q table means basically in this side it is state,
+
+180
+00:19:49.795 --> 00:19:51.255
+in this side it is action.
+
+181
+00:19:52.445 --> 00:19:56.905
+What are the action possible for a taxi to move left,
+
+182
+00:19:57.075 --> 00:19:58.345
+right, up, down.
+
+183
+00:19:59.935 --> 00:20:03.065
+And then another action,
+
+184
+00:20:03.065 --> 00:20:06.305
+another action is customer picking up.
+
+185
+00:20:06.945 --> 00:20:08.185
+Customer dropping. So there are
+
+186
+00:20:08.205 --> 00:20:09.665
+six possible action possible here.
+
+187
+00:20:09.695 --> 00:20:12.265
+Okay? So your action is basically
+
+188
+00:20:14.325 --> 00:20:18.745
+0, 1, 2, 3, no, zero stands
+
+189
+00:20:18.765 --> 00:20:19.945
+for left side movement.
+
+190
+00:20:20.565 --> 00:20:24.785
+One stands for, right? This is for down, this is for up.
+
+191
+00:20:25.755 --> 00:20:28.945
+After that customer pickup, customer dropped.
+
+192
+00:20:29.405 --> 00:20:32.265
+So here you can have pu that is pickup,
+
+193
+00:20:33.155 --> 00:20:34.895
+and then you have customer dropping.
+
+194
+00:20:34.995 --> 00:20:37.215
+So you have cd, you can have it
+
+195
+00:20:37.245 --> 00:20:40.895
+0, 1, 2, 3, 4, 5.
+
+196
+00:20:41.775 --> 00:20:45.905
+Okay? So you have six possible action here.
+
+197
+00:20:46.525 --> 00:20:47.445
+So here it is,
+
+198
+00:20:47.515 --> 00:20:52.515
+0, 1, 2, 3, 4, 5.
+
+199
+00:20:52.915 --> 00:20:57.015
+Okay, six possible action need in the state
+
+200
+00:20:57.085 --> 00:21:01.055
+what total possibilities, 500 defined possibility, okay?
+
+201
+00:21:02.385 --> 00:21:07.005
+Now the important thing here is that is why I would like
+
+202
+00:21:07.005 --> 00:21:08.895
+to focus here.
+
+203
+00:21:15.655 --> 00:21:19.655
+Look at here, the state, the state,
+
+204
+00:21:20.275 --> 00:21:24.175
+if we flatten them out, like, uh, x, x taxi,
+
+205
+00:21:24.515 --> 00:21:28.005
+it is taking five different values here
+
+206
+00:21:28.665 --> 00:21:32.725
+and y coordinate, it can take five different value.
+
+207
+00:21:33.185 --> 00:21:37.165
+So for each and every row, you can have like for a,
+
+208
+00:21:37.345 --> 00:21:42.115
+if you keep this constant row, okay, for this constant row,
+
+209
+00:21:42.415 --> 00:21:45.645
+you can have, uh, let's say it is like this,
+
+210
+00:21:45.645 --> 00:21:47.085
+it is basically Cartesian product.
+
+211
+00:21:47.555 --> 00:21:49.165
+Cartesian product. You all know, right?
+
+212
+00:21:50.715 --> 00:21:54.825
+For a particular X value, okay?
+
+213
+00:21:55.605 --> 00:21:58.295
+You can have five y values,
+
+214
+00:22:00.475 --> 00:22:03.955
+Y can have five values for each one of the y five value.
+
+215
+00:22:04.015 --> 00:22:07.645
+You can have four different values for cus
+
+216
+00:22:08.155 --> 00:22:10.845
+four different values for your dropping location
+
+217
+00:22:12.365 --> 00:22:14.665
+and five different values for your customer location.
+
+218
+00:22:14.725 --> 00:22:16.945
+It is basically a cart and product.
+
+219
+00:22:17.595 --> 00:22:20.965
+However, if I tell you that,
+
+220
+00:22:22.395 --> 00:22:25.815
+uh, most of the cases of your deep learning exercise,
+
+221
+00:22:26.275 --> 00:22:28.695
+if you want to fit any image to your neural network,
+
+222
+00:22:28.695 --> 00:22:30.775
+what you do to make it as a flat end,
+
+223
+00:22:31.525 --> 00:22:35.515
+let's say your image size is 64 plus 64,
+
+224
+00:22:35.615 --> 00:22:37.075
+it is a squared image.
+
+225
+00:22:37.455 --> 00:22:39.515
+If you wanna fit the image into your deep learning
+
+226
+00:22:39.515 --> 00:22:41.915
+framework, we'll make this a flat end
+
+227
+00:22:42.695 --> 00:22:46.155
+and then we fit it to some neurons of all of this, uh,
+
+228
+00:22:46.175 --> 00:22:47.275
+neural network, okay?
+
+229
+00:22:48.855 --> 00:22:53.305
+However, in this flattened concept, I have this Ian product.
+
+230
+00:22:53.445 --> 00:22:56.865
+If I do this flattening out, it is very difficult to say.
+
+231
+00:22:56.915 --> 00:23:00.745
+Let's say I, I, I have a state number called 380.
+
+232
+00:23:03.015 --> 00:23:06.155
+So it is very difficult to say what is the position of X
+
+233
+00:23:06.175 --> 00:23:08.725
+and Y from this three 80?
+
+234
+00:23:10.275 --> 00:23:12.045
+What is the particular hello of X and Y
+
+235
+00:23:12.905 --> 00:23:16.165
+and what is the particular hello for the customer location
+
+236
+00:23:16.265 --> 00:23:17.605
+and dropping location?
+
+237
+00:23:19.435 --> 00:23:21.725
+Okay? It's very difficult to say.
+
+238
+00:23:23.935 --> 00:23:25.865
+That doesn't mean it is not possible to say.
+
+239
+00:23:27.165 --> 00:23:31.555
+So as of now, in this queue table, we'll go ahead
+
+240
+00:23:31.555 --> 00:23:35.075
+with flattening operation, we'll make them flat.
+
+241
+00:23:35.655 --> 00:23:40.115
+So we have only 500 D of defined value, zero one up
+
+242
+00:23:40.115 --> 00:23:42.835
+to all the way up to 4 99
+
+243
+00:23:43.595 --> 00:23:45.645
+defined values in their state.
+
+244
+00:23:46.225 --> 00:23:49.685
+Uh, starting from zero all the way to here
+
+245
+00:23:50.345 --> 00:23:53.845
+and action will be six defined possible values of action.
+
+246
+00:23:54.195 --> 00:23:56.015
+Okay? However,
+
+247
+00:23:56.205 --> 00:23:58.455
+next lecture when we get into deep Q learning
+
+248
+00:23:58.755 --> 00:23:59.815
+by using the neural network.
+
+249
+00:24:00.475 --> 00:24:03.175
+In that case, we'll go ahead with this definition,
+
+250
+00:24:03.405 --> 00:24:05.615
+this many possibility.
+
+251
+00:24:05.965 --> 00:24:10.885
+Okay, So what is our Q learning rule?
+
+252
+00:24:15.295 --> 00:24:17.055
+Q learning rule is very simple.
+
+253
+00:24:20.825 --> 00:24:21.825
+It'll go down.
+
+254
+00:24:25.195 --> 00:24:30.085
+We sum all the action. What is three at the last?
+
+255
+00:24:32.855 --> 00:24:37.435
+So Q learning, so
+
+256
+00:24:37.455 --> 00:24:42.435
+for Q is comma A, this is the updated value.
+
+257
+00:24:42.575 --> 00:24:46.435
+So the new hello of Q learning, uh, Q function
+
+258
+00:24:46.695 --> 00:24:49.075
+for a particular state is a is going to be
+
+259
+00:24:51.655 --> 00:24:54.335
+assigned from the old value of
+
+260
+00:24:56.495 --> 00:24:58.555
+new function for the particulars,
+
+261
+00:25:01.555 --> 00:25:05.675
+let's say I'm going to compute it for SK state,
+
+262
+00:25:06.805 --> 00:25:07.805
+Okay?
+
+263
+00:25:09.615 --> 00:25:13.065
+K state. So this will remain this
+
+264
+00:25:13.165 --> 00:25:17.075
+for the K state old estimate is plus
+
+265
+00:25:18.195 --> 00:25:21.005
+learning rate multiplied by,
+
+266
+00:25:23.085 --> 00:25:25.175
+Yeah, reward, total reward.
+
+267
+00:25:25.175 --> 00:25:27.265
+Mm-hmm. Total reward, sir.
+
+268
+00:25:29.235 --> 00:25:32.835
+Hmm? So you are going to take
+
+269
+00:25:34.755 --> 00:25:37.915
+a, uh, one action under the state of sk.
+
+270
+00:25:38.455 --> 00:25:40.995
+So you are going to get into new state
+
+271
+00:25:41.165 --> 00:25:46.035
+where you are expecting a reward of RK plus
+
+272
+00:25:49.285 --> 00:25:53.235
+maximization over all the action
+
+273
+00:25:54.545 --> 00:25:56.955
+for the old estimate,
+
+274
+00:25:58.545 --> 00:26:01.405
+you are now getting into a new state is k plus one,
+
+275
+00:26:03.155 --> 00:26:04.155
+Okay?
+
+276
+00:26:04.555 --> 00:26:05.855
+You're getting a new state.
+
+277
+00:26:05.955 --> 00:26:09.715
+At the new state, you can execute any action,
+
+278
+00:26:09.825 --> 00:26:12.595
+find out whichever action is giving with the maximum reward.
+
+279
+00:26:12.705 --> 00:26:17.315
+Take that this one minus
+
+280
+00:26:17.535 --> 00:26:22.225
+of Q, old of your
+
+281
+00:26:23.775 --> 00:26:26.435
+SK and three.
+
+282
+00:26:27.535 --> 00:26:28.665
+This is what we have like,
+
+283
+00:26:30.905 --> 00:26:33.825
+Okay, Here is the Q learning rule.
+
+284
+00:26:34.005 --> 00:26:36.505
+We are going to implement, we have already implemented this
+
+285
+00:26:36.525 --> 00:26:41.035
+for our frozen Q lake, frozen lake Q learning.
+
+286
+00:26:41.605 --> 00:26:44.125
+We'll rerun, rerun the same function.
+
+287
+00:26:44.465 --> 00:26:45.645
+We don't have any more changes.
+
+288
+00:26:51.675 --> 00:26:53.095
+So now I show can you,
+
+289
+00:26:53.195 --> 00:26:55.335
+can you explain the function once again if
+
+290
+00:26:55.575 --> 00:26:57.415
+possible, this function?
+
+291
+00:26:57.675 --> 00:27:01.905
+Yes sir. Okay, so it is like this basically,
+
+292
+00:27:04.085 --> 00:27:06.395
+let's say this is a very simple case of your G grid.
+
+293
+00:27:07.835 --> 00:27:09.565
+This is a G grid world.
+
+294
+00:27:23.895 --> 00:27:26.145
+Your final destination is here, okay?
+
+295
+00:27:29.175 --> 00:27:33.945
+You are starting a game from here for any state.
+
+296
+00:27:34.095 --> 00:27:35.625
+This is your starting position, okay?
+
+297
+00:27:35.685 --> 00:27:39.465
+For any state of all of these positions, you want
+
+298
+00:27:39.465 --> 00:27:43.905
+to find out the Q value for a state, given
+
+299
+00:27:44.735 --> 00:27:46.865
+that you have committed a action.
+
+300
+00:27:47.645 --> 00:27:52.025
+So every state you are having so many possibility left,
+
+301
+00:27:52.115 --> 00:27:54.765
+right, up and down for every state,
+
+302
+00:27:59.395 --> 00:28:00.395
+Okay? You
+
+303
+00:28:00.395 --> 00:28:04.175
+are going to find out the uh, value
+
+304
+00:28:05.075 --> 00:28:08.775
+for a particular sale that is S state is
+
+305
+00:28:09.555 --> 00:28:13.695
+for a particular state, you want to compute the
+
+306
+00:28:15.665 --> 00:28:19.815
+value for taking any action in any direction like this.
+
+307
+00:28:20.695 --> 00:28:24.515
+Okay? So let's say if I want to find out Q hello
+
+308
+00:28:25.095 --> 00:28:26.475
+for a state called sk.
+
+309
+00:28:28.545 --> 00:28:30.855
+Given that I have taken an action called a,
+
+310
+00:28:30.985 --> 00:28:34.255
+let's say A is your right direction from this cell,
+
+311
+00:28:34.275 --> 00:28:36.095
+you are taking a right direction, okay?
+
+312
+00:28:38.355 --> 00:28:43.045
+Under slipper environment, you may be falling into this cell
+
+313
+00:28:43.465 --> 00:28:44.885
+or you may be falling into this cell,
+
+314
+00:28:44.945 --> 00:28:46.925
+or you may be falling into this cell, okay?
+
+315
+00:28:47.585 --> 00:28:51.095
+For every cell, for every next sale,
+
+316
+00:28:51.965 --> 00:28:56.655
+you already have a old value of Q that is made available
+
+317
+00:28:56.715 --> 00:28:58.335
+to you from here, okay?
+
+318
+00:28:58.795 --> 00:29:02.655
+So for every sale, you are already having a old estimate
+
+319
+00:29:02.655 --> 00:29:06.255
+of your Q value, right?
+
+320
+00:29:06.925 --> 00:29:11.185
+This old estimate is going to be helping you
+
+321
+00:29:11.205 --> 00:29:15.225
+to update your new estimate
+
+322
+00:29:15.565 --> 00:29:19.025
+for this particular sale or this particular state.
+
+323
+00:29:19.575 --> 00:29:23.715
+That is what is our objective here for doing that,
+
+324
+00:29:24.115 --> 00:29:26.595
+I have this equation to be performed, okay?
+
+325
+00:29:26.945 --> 00:29:30.785
+This equation means that you don't have,
+
+326
+00:29:33.005 --> 00:29:37.315
+uh, access to every, uh,
+
+327
+00:29:37.765 --> 00:29:41.285
+every like, um, until you complete your game,
+
+328
+00:29:41.385 --> 00:29:43.845
+you are not receiving the final reward, okay?
+
+329
+00:29:44.175 --> 00:29:46.925
+There is no reward coming at every indi uh,
+
+330
+00:29:46.925 --> 00:29:48.885
+intermediate state.
+
+331
+00:29:50.065 --> 00:29:54.005
+So how you want to compute the updated value 40,
+
+332
+00:29:54.005 --> 00:29:55.405
+this estimate of the Q health.
+
+333
+00:29:56.105 --> 00:29:59.745
+So you take a, either you do it q uh,
+
+334
+00:29:59.745 --> 00:30:00.865
+either do it TD learning
+
+335
+00:30:00.925 --> 00:30:03.675
+or you do a multi destination, okay?
+
+336
+00:30:04.675 --> 00:30:09.395
+TD learning means you are assuming that the next state
+
+337
+00:30:09.395 --> 00:30:10.875
+that you are transitioning into
+
+338
+00:30:10.875 --> 00:30:13.155
+that state might be having a better view
+
+339
+00:30:13.615 --> 00:30:16.355
+of the final destination than this current
+
+340
+00:30:17.005 --> 00:30:18.315
+state, uh, current state.
+
+341
+00:30:19.085 --> 00:30:20.455
+That is the meaning of Q learning.
+
+342
+00:30:21.235 --> 00:30:24.175
+And for Monte law it says that
+
+343
+00:30:24.875 --> 00:30:28.895
+you do all the experiment until you reach the final goal,
+
+344
+00:30:29.595 --> 00:30:30.775
+you manage the final goal
+
+345
+00:30:30.835 --> 00:30:33.255
+or you may not reach your total amount of trial is over.
+
+346
+00:30:33.275 --> 00:30:35.455
+So you have to, your game is over, you are going
+
+347
+00:30:35.455 --> 00:30:36.575
+to get a zero reward.
+
+348
+00:30:37.435 --> 00:30:40.375
+If you are getting, uh, to the final state at the end
+
+349
+00:30:40.375 --> 00:30:41.735
+of game, you're going to get a reward.
+
+350
+00:30:41.795 --> 00:30:42.935
+Now use that reward
+
+351
+00:30:43.315 --> 00:30:45.615
+to get it divided equally for every state.
+
+352
+00:30:45.805 --> 00:30:48.725
+That is the meaning of Montecarlo.
+
+353
+00:30:49.125 --> 00:30:52.045
+TTT learning do not use that.
+
+354
+00:30:52.945 --> 00:30:54.805
+And Q learning is basically called
+
+355
+00:30:56.215 --> 00:30:58.095
+TD learning applied on Q function.
+
+356
+00:30:58.835 --> 00:31:03.825
+So TD learning, if you apply on Q function,
+
+357
+00:31:04.085 --> 00:31:07.355
+it is called if you apply it on Q function,
+
+358
+00:31:07.975 --> 00:31:09.635
+it is called Q learning.
+
+359
+00:31:09.735 --> 00:31:12.995
+If you apply it on V function, it is called TD learning.
+
+360
+00:31:12.995 --> 00:31:17.725
+Normal TD learning, okay? And the update rule is this.
+
+361
+00:31:20.255 --> 00:31:24.315
+The meaning is I want to update my estimate
+
+362
+00:31:25.015 --> 00:31:26.795
+for this particular state and action.
+
+363
+00:31:27.235 --> 00:31:30.685
+SK A, this is a pair, SK a,
+
+364
+00:31:30.685 --> 00:31:32.505
+this is a pair, okay?
+
+365
+00:31:33.165 --> 00:31:36.465
+For this pair, I want to keep on updating
+
+366
+00:31:37.715 --> 00:31:39.415
+my estimate of Q function.
+
+367
+00:31:41.355 --> 00:31:43.435
+Estimate of Q function will be in two phases.
+
+368
+00:31:43.535 --> 00:31:46.435
+One is a old estimate, other one is a new estimate.
+
+369
+00:31:47.495 --> 00:31:50.315
+So this old estimate is going to be initialized to zero
+
+370
+00:31:50.415 --> 00:31:52.925
+for every state and action.
+
+371
+00:31:53.235 --> 00:31:57.885
+Okay? Then at the first execution of this, what you're going
+
+372
+00:31:57.885 --> 00:32:02.775
+to get ion is the new estimate is going to
+
+373
+00:32:03.395 --> 00:32:07.055
+be assigned with the old estimate value plus a learning rate
+
+374
+00:32:08.375 --> 00:32:12.175
+multiplied by what you do is you take only one action.
+
+375
+00:32:12.875 --> 00:32:17.795
+If you take only one action, you are going to be uh,
+
+376
+00:32:17.925 --> 00:32:19.475
+going to some neighboring state.
+
+377
+00:32:21.945 --> 00:32:23.415
+Under T learning, you assume
+
+378
+00:32:23.415 --> 00:32:25.855
+that your neighboring state might have a better
+
+379
+00:32:25.855 --> 00:32:27.175
+knowledge about the environment.
+
+380
+00:32:28.325 --> 00:32:30.385
+So the neighboring state is SK plus
+
+381
+00:32:30.405 --> 00:32:33.935
+one, SK plus one.
+
+382
+00:32:34.355 --> 00:32:36.455
+You have to use the old estimate of that
+
+383
+00:32:38.815 --> 00:32:42.505
+and find out all possible action for the new state
+
+384
+00:32:42.505 --> 00:32:45.425
+of SK plus one take out only
+
+385
+00:32:45.455 --> 00:32:48.105
+that particular action which is produced in the maximum
+
+386
+00:32:48.755 --> 00:32:50.345
+among all of the, so you,
+
+387
+00:32:50.395 --> 00:32:53.945
+let's say you are at this state now you take a,
+
+388
+00:32:54.645 --> 00:32:57.225
+you are considering SK comma, right?
+
+389
+00:32:57.615 --> 00:33:02.505
+Okay, let's say you are going to compute this Q function
+
+390
+00:33:02.565 --> 00:33:05.375
+for sk, right?
+
+391
+00:33:06.745 --> 00:33:07.815
+Right is your action.
+
+392
+00:33:10.255 --> 00:33:13.515
+So you are going to be updating this Q new.
+
+393
+00:33:14.485 --> 00:33:18.415
+You have to use the old value plus this alpha multiplied by,
+
+394
+00:33:18.415 --> 00:33:20.815
+so this one will remain as it is plus
+
+395
+00:33:22.575 --> 00:33:26.685
+alpha multiplied by rk, her intermediate step,
+
+396
+00:33:26.685 --> 00:33:27.765
+we don't receive any reward.
+
+397
+00:33:27.815 --> 00:33:31.585
+It'll be zero plus the maximization over
+
+398
+00:33:33.015 --> 00:33:34.795
+all possible action under the next date.
+
+399
+00:33:35.215 --> 00:33:39.185
+So maximization for all possible action under the
+
+400
+00:33:40.005 --> 00:33:41.865
+old estimate of next date.
+
+401
+00:33:41.865 --> 00:33:45.865
+Your next date is this particular cell.
+
+402
+00:33:46.405 --> 00:33:47.705
+So the cell number of this,
+
+403
+00:33:47.875 --> 00:33:51.465
+let's say it is 0, 1, 2, 3, 4, 5, 6, 7.
+
+404
+00:33:52.375 --> 00:33:56.305
+So at this consider
+
+405
+00:33:56.325 --> 00:33:57.425
+all possible action here.
+
+406
+00:33:57.485 --> 00:34:01.905
+So here you are having lay up, right, left all this
+
+407
+00:34:02.075 --> 00:34:04.065
+among this, whichever is producing the highest.
+
+408
+00:34:04.725 --> 00:34:07.665
+You take up that value, okay?
+
+409
+00:34:08.005 --> 00:34:11.425
+You take up that value subtract with the old estimate
+
+410
+00:34:12.585 --> 00:34:13.725
+of the same.
+
+411
+00:34:15.615 --> 00:34:16.345
+That is right.
+
+412
+00:34:23.075 --> 00:34:24.805
+This is called TD error.
+
+413
+00:34:25.845 --> 00:34:29.625
+TDR means this is what you are expecting.
+
+414
+00:34:30.635 --> 00:34:32.805
+This is your target. This part is called target
+
+415
+00:34:33.105 --> 00:34:35.045
+and the subtraction part is called error
+
+416
+00:34:35.605 --> 00:34:39.465
+target means you want, suppose your estimation is correct.
+
+417
+00:34:41.805 --> 00:34:43.505
+If your estimation is correct, then
+
+418
+00:34:44.425 --> 00:34:46.955
+this is your current estimation that is key old
+
+419
+00:34:47.455 --> 00:34:50.125
+and this is your target estimation.
+
+420
+00:34:50.265 --> 00:34:54.335
+If they are equal, then the error will be zero. Okay?
+
+421
+00:34:55.265 --> 00:34:57.685
+So we want to reach to this target.
+
+422
+00:35:00.015 --> 00:35:02.795
+So we are taking the difference from a target
+
+423
+00:35:03.215 --> 00:35:04.795
+to your current position.
+
+424
+00:35:05.725 --> 00:35:08.775
+That difference is your error by which you are updating your
+
+425
+00:35:09.375 --> 00:35:10.385
+current testament.
+
+426
+00:35:10.385 --> 00:35:13.545
+This is just like your gradient descent algorithm in your
+
+427
+00:35:13.545 --> 00:35:15.775
+machine learning cases, right?
+
+428
+00:35:18.265 --> 00:35:19.585
+Actually TD learning, they have been
+
+429
+00:35:22.315 --> 00:35:24.565
+this thing have been in hundred much earlier than this
+
+430
+00:35:24.565 --> 00:35:28.585
+machine learning usage of in case
+
+431
+00:35:28.665 --> 00:35:30.065
+of machine learning, what do you do?
+
+432
+00:35:30.685 --> 00:35:33.385
+You are going to update your W parameter is a
+
+433
+00:35:33.385 --> 00:35:34.465
+weight of your neural network.
+
+434
+00:35:34.655 --> 00:35:38.605
+Okay? So W at the iation I plus one
+
+435
+00:35:41.585 --> 00:35:46.575
+W is a vector vector of your neural network weights
+
+436
+00:35:47.585 --> 00:35:49.325
+at the iation of I plus one.
+
+437
+00:35:49.705 --> 00:35:54.075
+If you want to update, you have to use the weight of the
+
+438
+00:35:54.935 --> 00:35:56.715
+IH iation, okay?
+
+439
+00:35:57.445 --> 00:36:00.275
+Minus alpha is a learning rate alpha.
+
+440
+00:36:01.005 --> 00:36:03.415
+Then you have a gradient on your loss function.
+
+441
+00:36:05.035 --> 00:36:07.465
+Delta J, delta W, you write it like this.
+
+442
+00:36:07.825 --> 00:36:09.105
+J is a loss function.
+
+443
+00:36:10.345 --> 00:36:12.065
+Normally it is expressed in the term of
+
+444
+00:36:15.285 --> 00:36:16.605
+JI write it J here.
+
+445
+00:36:17.325 --> 00:36:18.925
+J is the number of sample one, two,
+
+446
+00:36:19.575 --> 00:36:22.245
+let's see you have capital in in number of sample
+
+447
+00:36:23.555 --> 00:36:25.775
+and you have a
+
+448
+00:36:27.065 --> 00:36:30.965
+target target value of your sample, right?
+
+449
+00:36:31.935 --> 00:36:33.115
+So it is like
+
+450
+00:36:36.735 --> 00:36:40.155
+your XJJ sample
+
+451
+00:36:40.835 --> 00:36:42.955
+X minus your X hat.
+
+452
+00:36:43.275 --> 00:36:44.075
+X hat is your
+
+453
+00:36:47.275 --> 00:36:48.715
+hypothesis or your estimation.
+
+454
+00:36:48.825 --> 00:36:50.555
+This is the real value that is given
+
+455
+00:36:50.615 --> 00:36:54.885
+to you from your dataset xj minus of XJ minus
+
+456
+00:36:54.945 --> 00:36:58.905
+of X hat J for all the sample this divided
+
+457
+00:36:59.005 --> 00:37:02.655
+by in this is your loss function whole squad.
+
+458
+00:37:02.925 --> 00:37:04.015
+This is your loss function.
+
+459
+00:37:04.885 --> 00:37:07.495
+Take gradient of this with respect to W.
+
+460
+00:37:09.255 --> 00:37:13.585
+So this gradient means your adjustment rate of adjustment
+
+461
+00:37:13.585 --> 00:37:14.825
+that you are doing your rate
+
+462
+00:37:14.825 --> 00:37:16.745
+of adjustment in most other cases.
+
+463
+00:37:16.815 --> 00:37:21.385
+What we get this, this one,
+
+464
+00:37:22.185 --> 00:37:26.285
+if J is that submission I is equal
+
+465
+00:37:26.285 --> 00:37:27.485
+to one two N.
+
+466
+00:37:28.825 --> 00:37:30.955
+What is it? Xj? XJ is basically
+
+467
+00:37:35.095 --> 00:37:38.485
+tell me something about xj for neural network.
+
+468
+00:37:38.625 --> 00:37:43.255
+Yes, no
+
+469
+00:37:43.955 --> 00:37:45.295
+inputs, inputs,
+
+470
+00:37:45.745 --> 00:37:48.135
+Input, input values.
+
+471
+00:37:48.355 --> 00:37:50.415
+We are updating this with respect to the weight
+
+472
+00:37:50.575 --> 00:37:51.575
+of your neural network.
+
+473
+00:37:52.245 --> 00:37:54.095
+Okay? Then it'll be weight, sir.
+
+474
+00:37:54.585 --> 00:37:57.975
+It'll be predicted value. Yeah, predicted value, right?
+
+475
+00:37:58.795 --> 00:38:02.965
+So predicted value is basically w transpose X
+
+476
+00:38:04.795 --> 00:38:06.125
+five means your activation.
+
+477
+00:38:06.175 --> 00:38:10.325
+Activation applied on W transpose.
+
+478
+00:38:11.835 --> 00:38:13.275
+J is the J sample, okay?
+
+479
+00:38:13.475 --> 00:38:18.345
+W transpose xj fine here J please.
+
+480
+00:38:18.605 --> 00:38:21.465
+You are doing submission for all the sample J is equal
+
+481
+00:38:21.465 --> 00:38:25.295
+to one two N, this minus of your
+
+482
+00:38:28.805 --> 00:38:29.895
+this W transpose.
+
+483
+00:38:30.155 --> 00:38:31.815
+XJ is your prediction
+
+484
+00:38:31.955 --> 00:38:34.855
+and your real value is given to you from your data set.
+
+485
+00:38:34.855 --> 00:38:39.335
+If is xj, so I'm just writing this X hat is this one, okay?
+
+486
+00:38:39.885 --> 00:38:44.315
+This whole square, this, if this is your
+
+487
+00:38:45.115 --> 00:38:47.965
+J, then what is your,
+
+488
+00:38:54.065 --> 00:38:55.235
+what is the faster delivery
+
+489
+00:38:55.295 --> 00:38:56.475
+of this thing that we want to use?
+
+490
+00:38:56.475 --> 00:38:57.875
+This, right? What is that?
+
+491
+00:38:58.705 --> 00:39:00.355
+This divided by capital N,
+
+492
+00:39:01.635 --> 00:39:04.335
+but this will be one by N will remain as it is.
+
+493
+00:39:05.495 --> 00:39:10.275
+Then you do this five means you have five dash
+
+494
+00:39:10.295 --> 00:39:14.315
+to be applied on w transpose X,
+
+495
+00:39:14.995 --> 00:39:18.765
+JJ, Pfizer active
+
+496
+00:39:18.785 --> 00:39:20.085
+and is sigmoid.
+
+497
+00:39:21.305 --> 00:39:24.845
+It may be like that in some cases
+
+498
+00:39:25.675 --> 00:39:27.845
+five may not be applied on the output layer.
+
+499
+00:39:28.855 --> 00:39:31.235
+If it is a normal prediction, five may not be.
+
+500
+00:39:31.235 --> 00:39:35.645
+If it is a um, if it is a binary
+
+501
+00:39:35.945 --> 00:39:38.605
+or multi-class classification case, in
+
+502
+00:39:38.605 --> 00:39:39.965
+that case five will be applied.
+
+503
+00:39:40.425 --> 00:39:44.325
+Normal example of um, common example of five is basically
+
+504
+00:39:45.605 --> 00:39:48.795
+there is a class, one is called sigmoid activation,
+
+505
+00:39:51.745 --> 00:39:53.955
+another one is called activation.
+
+506
+00:39:54.975 --> 00:39:56.705
+Another one is called soft max.
+
+507
+00:39:59.685 --> 00:40:01.705
+All these are example of five. Okay?
+
+508
+00:40:03.085 --> 00:40:05.625
+So five dash of this multiplied
+
+509
+00:40:05.625 --> 00:40:07.745
+by derivative of this quantity.
+
+510
+00:40:08.335 --> 00:40:09.585
+What is the ative of this quantity?
+
+511
+00:40:18.085 --> 00:40:22.965
+S is just x, x, x constant.
+
+512
+00:40:25.675 --> 00:40:28.255
+So this uh, derivative is going to be
+
+513
+00:40:30.465 --> 00:40:34.065
+w transpose X derivative with respect to this,
+
+514
+00:40:40.565 --> 00:40:40.855
+okay?
+
+515
+00:40:41.365 --> 00:40:45.265
+This will turn out to only XJ minus
+
+516
+00:40:45.485 --> 00:40:47.215
+of XJ.
+
+517
+00:40:47.235 --> 00:40:50.255
+So this derivative of this, this is going
+
+518
+00:40:50.255 --> 00:40:51.975
+to be zero, set out to be zero.
+
+519
+00:40:52.005 --> 00:40:53.855
+This part, this part derivative
+
+520
+00:40:53.855 --> 00:40:55.015
+is going to set out to be zero.
+
+521
+00:40:55.355 --> 00:40:58.015
+So what we are remaining here is, this is again,
+
+522
+00:40:58.235 --> 00:40:59.695
+sum, sum is remaining, okay?
+
+523
+00:40:59.695 --> 00:41:02.935
+This sum one by N, this sum will be there
+
+524
+00:41:03.155 --> 00:41:05.495
+and here inside it'll be five dash
+
+525
+00:41:07.325 --> 00:41:10.525
+w transpose XJ multiplied by
+
+526
+00:41:11.525 --> 00:41:13.365
+XXJ.
+
+527
+00:41:15.435 --> 00:41:17.725
+Okay, so this is
+
+528
+00:41:17.725 --> 00:41:20.645
+what is basically your derivative turning out to be Yes.
+
+529
+00:41:21.105 --> 00:41:23.725
+In another way, if you look at if,
+
+530
+00:41:23.825 --> 00:41:25.605
+if you look at this updated question
+
+531
+00:41:27.905 --> 00:41:31.375
+and this updated question,
+
+532
+00:41:32.535 --> 00:41:34.055
+there's a lot of similarity.
+
+533
+00:41:35.395 --> 00:41:36.615
+The similarity is basically
+
+534
+00:41:41.645 --> 00:41:42.335
+look at here.
+
+535
+00:41:43.925 --> 00:41:45.015
+This is what, this is your,
+
+536
+00:41:48.445 --> 00:41:49.775
+this is your prediction
+
+537
+00:41:51.905 --> 00:41:56.765
+and this is your actual that you have been
+
+538
+00:41:57.045 --> 00:41:58.365
+provided from the data set itself.
+
+539
+00:41:59.465 --> 00:42:00.685
+So this is your error.
+
+540
+00:42:00.685 --> 00:42:03.045
+Basically you are trying to minimize your error,
+
+541
+00:42:09.985 --> 00:42:10.275
+okay?
+
+542
+00:42:10.295 --> 00:42:14.065
+One thing is since this is a squared form, okay,
+
+543
+00:42:14.085 --> 00:42:15.345
+so this will be remaining
+
+544
+00:42:16.245 --> 00:42:17.105
+and this uh,
+
+545
+00:42:21.955 --> 00:42:24.575
+so this term is the DER of this alone.
+
+546
+00:42:24.955 --> 00:42:26.335
+So this will be multiplied
+
+547
+00:42:26.335 --> 00:42:28.855
+with this remaining part will remain as it is.
+
+548
+00:42:28.875 --> 00:42:31.215
+So this will, because this is square term, okay?
+
+549
+00:42:31.315 --> 00:42:36.115
+So you have to take derivative with respect to this one time
+
+550
+00:42:36.695 --> 00:42:38.995
+and then this derivative with respect to, with respect
+
+551
+00:42:38.995 --> 00:42:40.675
+to W this one.
+
+552
+00:42:40.675 --> 00:42:43.715
+So this part is that part and this will remain as it is.
+
+553
+00:42:43.735 --> 00:42:48.385
+So here it is five of your W transpose,
+
+554
+00:42:49.045 --> 00:42:51.835
+XJ minus of xj.
+
+555
+00:42:52.065 --> 00:42:53.835
+This will remain as it is, okay?
+
+556
+00:42:55.075 --> 00:42:58.415
+So this is the derivative part and this is the error term.
+
+557
+00:42:59.555 --> 00:43:01.335
+So here in our case
+
+558
+00:43:01.395 --> 00:43:03.415
+of Q learning there is a lot of similarity.
+
+559
+00:43:03.965 --> 00:43:06.415
+That is you are trying to adjust your,
+
+560
+00:43:09.085 --> 00:43:12.065
+you are trying to adjust your estimate of your
+
+561
+00:43:13.845 --> 00:43:17.835
+queue function by the help of old estimate plus a error term
+
+562
+00:43:19.545 --> 00:43:23.405
+and this error will be finishing if your old estimate
+
+563
+00:43:24.465 --> 00:43:29.205
+is exactly equal to the target value.
+
+564
+00:43:29.625 --> 00:43:32.765
+If these are equal, you are not going to have any error,
+
+565
+00:43:32.905 --> 00:43:35.485
+so you're not going to have any new value coming up.
+
+566
+00:43:35.865 --> 00:43:38.325
+So old estimate is going to be final value.
+
+567
+00:43:39.035 --> 00:43:43.525
+However, if there is any error, error means then target
+
+568
+00:43:44.425 --> 00:43:47.365
+is somewhat far away from your current estimate.
+
+569
+00:43:48.365 --> 00:43:50.905
+So whatever is your distance between your target
+
+570
+00:43:50.965 --> 00:43:53.065
+and your current estimate, you take that distance
+
+571
+00:43:53.605 --> 00:43:55.745
+and you update your current estimate.
+
+572
+00:43:56.175 --> 00:43:59.345
+That is the main meaning of Q learning
+
+573
+00:43:59.525 --> 00:44:03.345
+and gradient decent based learning algorithm
+
+574
+00:44:03.345 --> 00:44:04.545
+everywhere it is the same.
+
+575
+00:44:06.795 --> 00:44:07.085
+Okay?
+
+576
+00:44:11.855 --> 00:44:15.025
+Okay, so this is our example of your
+
+577
+00:44:17.515 --> 00:44:20.755
+car taxi and here I have that taxi,
+
+578
+00:44:21.615 --> 00:44:23.795
+uh, the same thing.
+
+579
+00:44:25.605 --> 00:44:26.645
+I have shared it to you
+
+580
+00:44:26.825 --> 00:44:31.825
+for frozen q learning
+
+581
+00:44:33.585 --> 00:44:36.915
+This is for another example of
+
+582
+00:44:37.745 --> 00:44:39.435
+whether it is completed or not.
+
+583
+00:44:41.135 --> 00:44:45.695
+It's still going on 50 minutes, it is still going on.
+
+584
+00:44:47.035 --> 00:44:50.125
+This is for another environment, okay? So don't worry.
+
+585
+00:44:50.705 --> 00:44:52.405
+So last plus I have shown you for
+
+586
+00:44:53.005 --> 00:44:55.565
+q learning in the environment of frozen lake.
+
+587
+00:44:57.525 --> 00:45:00.295
+This class I have shown you only the environment
+
+588
+00:45:00.315 --> 00:45:02.705
+of taxi, okay?
+
+589
+00:45:03.165 --> 00:45:04.225
+In the frozen lake
+
+590
+00:45:04.725 --> 00:45:07.505
+and taxi, we don't have any difference in the programming.
+
+591
+00:45:08.125 --> 00:45:10.615
+This is a Q function update that remains the same
+
+592
+00:45:10.615 --> 00:45:11.815
+for all the environment.
+
+593
+00:45:12.405 --> 00:45:16.375
+This q function update does not make any changes whether you
+
+594
+00:45:16.375 --> 00:45:18.135
+change to a new environment or not.
+
+595
+00:45:18.645 --> 00:45:21.095
+Only thing is the state definition will be changing.
+
+596
+00:45:21.875 --> 00:45:25.015
+So accordingly you have to design your
+
+597
+00:45:25.675 --> 00:45:27.495
+uh, state variable.
+
+598
+00:45:27.495 --> 00:45:31.935
+That's it, okay? In case of frozen lake, we have agreed
+
+599
+00:45:31.955 --> 00:45:33.175
+of eight across eight
+
+600
+00:45:33.945 --> 00:45:37.725
+and in case of taxi we have a G grid
+
+601
+00:45:37.745 --> 00:45:40.925
+of 50 here.
+
+602
+00:45:40.945 --> 00:45:44.955
+Is that right? Our G grid size is going to be
+
+603
+00:45:46.285 --> 00:45:48.895
+basically 50.
+
+604
+00:45:49.725 --> 00:45:54.095
+This is uh, not 5,500. This, this is the value 500, okay?
+
+605
+00:45:55.785 --> 00:46:00.685
+So your state is going to be 500 here in case of greed.
+
+606
+00:46:00.705 --> 00:46:04.045
+Uh, in case of frozen leg it is eight across eight means
+
+607
+00:46:04.055 --> 00:46:05.445
+64 number of states.
+
+608
+00:46:05.515 --> 00:46:10.145
+Here. Here it is going to be 500 number of states, okay?
+
+609
+00:46:10.605 --> 00:46:14.725
+And uh, the main brain
+
+610
+00:46:14.845 --> 00:46:18.685
+behind the Q learning is writing that Q function,
+
+611
+00:46:19.995 --> 00:46:22.945
+which is basically, this is a new estimate q, state action.
+
+612
+00:46:23.805 --> 00:46:27.545
+We don't have to write q and then new variable, okay?
+
+613
+00:46:27.685 --> 00:46:32.445
+It is the same metrics Q metrics.
+
+614
+00:46:32.585 --> 00:46:35.445
+We are updating from the old value of this thing
+
+615
+00:46:36.185 --> 00:46:38.085
+for a particular state and action.
+
+616
+00:46:39.545 --> 00:46:43.715
+This plus of learning rate multiplied by reward
+
+617
+00:46:44.385 --> 00:46:47.565
+plus discount factor multiplied
+
+618
+00:46:47.585 --> 00:46:51.965
+by maximizing overall possible action for the new state.
+
+619
+00:46:53.235 --> 00:46:58.055
+Okay? This part is over here. That is your error part.
+
+620
+00:46:58.405 --> 00:47:01.455
+From here to here, this packet is ending here. Here, okay?
+
+621
+00:47:02.745 --> 00:47:03.875
+Then you are having
+
+622
+00:47:05.655 --> 00:47:07.905
+this old estimate.
+
+623
+00:47:09.325 --> 00:47:12.475
+After you do this ion, you set your state to win new state.
+
+624
+00:47:13.365 --> 00:47:15.115
+Okay? That's it.
+
+625
+00:47:15.575 --> 00:47:19.175
+So this is our queue function updates
+
+626
+00:47:19.175 --> 00:47:22.645
+and for poison
+
+627
+00:47:22.795 --> 00:47:24.285
+lake, same thing.
+
+628
+00:47:24.345 --> 00:47:25.445
+I'm having it for taxi.
+
+629
+00:47:25.675 --> 00:47:28.445
+Look at in taxi all the program,
+
+630
+00:47:28.705 --> 00:47:30.805
+I'm only getting here taxi environment,
+
+631
+00:47:32.525 --> 00:47:34.065
+I'm down using this
+
+632
+00:47:34.485 --> 00:47:39.435
+and here I don't have written, uh, I think, uh,
+
+633
+00:47:39.625 --> 00:47:43.755
+rendering under this argument map name eight, cross eight,
+
+634
+00:47:44.305 --> 00:47:46.035
+this thing, uh, slippery two.
+
+635
+00:47:46.035 --> 00:47:47.995
+These two argument are not required here,
+
+636
+00:47:50.495 --> 00:47:51.495
+Okay? Rendering
+
+637
+00:47:51.495 --> 00:47:52.985
+is said to be false.
+
+638
+00:47:54.325 --> 00:47:58.775
+Rendering means you can see the visualization.
+
+639
+00:48:01.735 --> 00:48:03.445
+Lemme see. Running is
+
+640
+00:48:06.485 --> 00:48:09.845
+okay after it has run for 15,000 report,
+
+641
+00:48:10.675 --> 00:48:12.675
+I am running it for 10 times
+
+642
+00:48:14.055 --> 00:48:15.835
+and uh, training is said to be false.
+
+643
+00:48:15.835 --> 00:48:19.115
+That means I am using the old, uh, values
+
+644
+00:48:19.145 --> 00:48:20.995
+that I have already stored it here, okay?
+
+645
+00:48:22.075 --> 00:48:25.655
+The values are stored into which PL file, uh,
+
+646
+00:48:25.875 --> 00:48:27.175
+the PL file, okay?
+
+647
+00:48:27.175 --> 00:48:29.255
+This is a PNG, this is the pickle file, okay?
+
+648
+00:48:31.705 --> 00:48:34.365
+Inside this P file, it is stored.
+
+649
+00:48:36.775 --> 00:48:41.115
+If the training is true, then I'm going
+
+650
+00:48:41.115 --> 00:48:42.475
+to store it into the P file.
+
+651
+00:48:43.055 --> 00:48:45.675
+If the training is not true, I'm going to load the queue,
+
+652
+00:48:47.035 --> 00:48:50.505
+queue from the this queue table, this queue table.
+
+653
+00:48:51.165 --> 00:48:55.035
+If I'm not doing training, I'll be reusing the old, uh,
+
+654
+00:48:55.295 --> 00:48:58.235
+values of Q from the PL file.
+
+655
+00:48:58.295 --> 00:49:02.905
+So I will be using this P file to load my Q table.
+
+656
+00:49:04.015 --> 00:49:07.905
+Okay? So now look at this program that is taxi
+
+657
+00:49:09.925 --> 00:49:11.305
+and frozen lake.
+
+658
+00:49:11.865 --> 00:49:13.495
+There is no difference at all.
+
+659
+00:49:14.465 --> 00:49:18.285
+You can see all of the things I'm remaining this way,
+
+660
+00:49:21.135 --> 00:49:24.165
+this termination condition here,
+
+661
+00:49:26.105 --> 00:49:30.345
+termination condition here I'm
+
+662
+00:49:31.475 --> 00:49:35.455
+doing a sampling of action by the help of
+
+663
+00:49:39.155 --> 00:49:42.525
+difficult exploration and exportation strategy.
+
+664
+00:49:43.775 --> 00:49:45.835
+If the random number of value is less than,
+
+665
+00:49:47.705 --> 00:49:49.195
+then I'm taking it from the
+
+666
+00:49:51.275 --> 00:49:53.775
+action space arbitrarily.
+
+667
+00:49:54.555 --> 00:49:56.255
+If it is this value is bigger than the,
+
+668
+00:49:56.645 --> 00:50:00.425
+then I'll be using the queue hall.
+
+669
+00:50:00.695 --> 00:50:02.225
+Okay, look at this
+
+670
+00:50:02.245 --> 00:50:06.865
+and frozen leg Having the same thing, no change.
+
+671
+00:50:07.625 --> 00:50:09.315
+Then we can set the value for epsilon.
+
+672
+00:50:09.375 --> 00:50:13.355
+Sir, that threshold we can, yeah, you can change.
+
+673
+00:50:13.895 --> 00:50:16.395
+For epsilon, we are having a schedule to be followed.
+
+674
+00:50:16.625 --> 00:50:19.275
+That is a epsilon is set to be one in the initially,
+
+675
+00:50:19.865 --> 00:50:21.635
+then it is decaying down
+
+676
+00:50:22.165 --> 00:50:24.875
+after 10,000 1, 2, 10 per minus four.
+
+677
+00:50:25.755 --> 00:50:27.725
+So 10 per minus four minus 10,000.
+
+678
+00:50:28.735 --> 00:50:33.365
+After 10,000 deep work this way, Sal will become zero. Okay?
+
+679
+00:50:35.785 --> 00:50:39.965
+Yeah. So as Sal is falling down here,
+
+680
+00:50:41.365 --> 00:50:44.575
+this condition will start failing, but it'll be failing
+
+681
+00:50:44.575 --> 00:50:46.935
+after around 5,000 Oke, I mean
+
+682
+00:50:46.935 --> 00:50:49.095
+after 5,000 schedule is over, okay?
+
+683
+00:50:52.645 --> 00:50:57.205
+So the program remains the same, do not require any change,
+
+684
+00:50:57.315 --> 00:50:58.885
+this and that, and that's
+
+685
+00:50:58.885 --> 00:51:00.325
+what I'm trying to emphasize in you.
+
+686
+00:51:01.745 --> 00:51:03.775
+After that you get these values.
+
+687
+00:51:04.975 --> 00:51:07.075
+So I have run this program for 15,000 Deepak
+
+688
+00:51:07.575 --> 00:51:11.475
+and I'm plotting what I'm plotting how the reward is growing
+
+689
+00:51:12.495 --> 00:51:13.915
+or how the reward is falling down.
+
+690
+00:51:15.655 --> 00:51:18.795
+Reward initially it may fall down in case of taxi,
+
+691
+00:51:19.155 --> 00:51:22.275
+I have forgotten to tell you, go to taxi environment.
+
+692
+00:51:22.425 --> 00:51:23.915
+Here are the taxi environment, okay?
+
+693
+00:51:25.635 --> 00:51:28.685
+So look at what are the action possible here.
+
+694
+00:51:29.915 --> 00:51:31.325
+Down, up left, right?
+
+695
+00:51:33.065 --> 00:51:34.475
+This action is for the taxi
+
+696
+00:51:34.825 --> 00:51:37.315
+because taxi is the subject which is moving
+
+697
+00:51:37.315 --> 00:51:38.715
+around the environment.
+
+698
+00:51:39.295 --> 00:51:41.755
+It can pick up a passenger, it can drop off a passenger.
+
+699
+00:51:41.895 --> 00:51:43.355
+So there are six possible action
+
+700
+00:51:44.895 --> 00:51:46.195
+and how many states are there?
+
+701
+00:51:47.695 --> 00:51:50.535
+500 states are there. Okay?
+
+702
+00:51:52.575 --> 00:51:54.985
+What is the reward? That's what I wanted to tell you here.
+
+703
+00:51:55.005 --> 00:51:59.995
+The reward will be since you are using petrol
+
+704
+00:52:00.015 --> 00:52:01.275
+to run your track C
+
+705
+00:52:01.855 --> 00:52:05.115
+or every time, go back to this diagram.
+
+706
+00:52:05.725 --> 00:52:08.955
+Every time you make a movement by one step,
+
+707
+00:52:09.955 --> 00:52:13.365
+your reward is falling by minus one, okay?
+
+708
+00:52:13.445 --> 00:52:17.905
+Because you're using petrol, so your energy is falling down
+
+709
+00:52:19.045 --> 00:52:21.865
+and if you reach to your particular destination of
+
+710
+00:52:22.035 --> 00:52:24.905
+where the customer wants to get dropped, you are going
+
+711
+00:52:24.905 --> 00:52:26.385
+to get a positive reward of 20.
+
+712
+00:52:27.255 --> 00:52:28.755
+If you have dropped the customer
+
+713
+00:52:30.525 --> 00:52:32.515
+apart from the desired location, you are going
+
+714
+00:52:32.795 --> 00:52:34.555
+to get a negative of minus 10 reward.
+
+715
+00:52:35.025 --> 00:52:38.785
+Okay? That is the reward system here under that situation,
+
+716
+00:52:39.925 --> 00:52:41.815
+this uh, thing
+
+717
+00:52:42.385 --> 00:52:45.515
+after running for 15,000 OC
+
+718
+00:52:46.985 --> 00:52:48.605
+was this is 15,000 oc.
+
+719
+00:52:48.605 --> 00:52:52.485
+Now I'm running from 10 epoc when I, my training is false
+
+720
+00:52:53.185 --> 00:52:54.365
+and my rendering is true.
+
+721
+00:52:54.365 --> 00:52:56.365
+When rendering is true, it'll show you this
+
+722
+00:52:58.475 --> 00:52:59.705
+image of plotting.
+
+723
+00:53:00.305 --> 00:53:02.205
+So look at the reward has fallen down
+
+724
+00:53:02.505 --> 00:53:07.145
+as the epoch card improving slowly, it is
+
+725
+00:53:08.245 --> 00:53:11.785
+at the initial, it is falling down to minus very big number
+
+726
+00:53:12.725 --> 00:53:16.305
+and then it'll start rising as the epoch goes on.
+
+727
+00:53:17.505 --> 00:53:21.565
+As the epoch goes on, it'll start rising almost.
+
+728
+00:53:21.625 --> 00:53:23.845
+It is becoming very less positive value
+
+729
+00:53:25.235 --> 00:53:26.705
+After 15,000 book
+
+730
+00:53:33.695 --> 00:53:35.315
+and for the frozen lake.
+
+731
+00:53:36.205 --> 00:53:37.695
+Have you guys run this uh,
+
+732
+00:53:37.695 --> 00:53:41.115
+frozen lake I have sent you right?
+
+733
+00:53:41.115 --> 00:53:43.875
+Frozen lake for the Q learning.
+
+734
+00:53:48.995 --> 00:53:50.655
+Did I send you by email? Uh,
+
+735
+00:53:50.965 --> 00:53:54.015
+Yeah, yeah, it was there, but uh, today I will do sir.
+
+736
+00:53:54.485 --> 00:53:57.535
+It's taking more time sir. It'll take time for me.
+
+737
+00:53:57.645 --> 00:53:59.215
+Also, it, I have interrupted.
+
+738
+00:53:59.215 --> 00:54:02.535
+After 15 minutes of running, it'll take time
+
+739
+00:54:08.615 --> 00:54:11.225
+like I am running for another thing called cardpool.
+
+740
+00:54:11.225 --> 00:54:13.305
+It is almost 59 minutes. Still going on.
+
+741
+00:54:22.335 --> 00:54:23.505
+It's still going on,
+
+742
+00:54:40.885 --> 00:54:41.885
+Sir. Uh, I
+
+743
+00:54:41.885 --> 00:54:43.425
+have uh, one question, sir.
+
+744
+00:54:43.965 --> 00:54:48.385
+Sir, uh, for uh, grid, uh, frozen lake, 18
+
+745
+00:54:48.485 --> 00:54:52.705
+to eight, we are taking, then we have 64 states, right?
+
+746
+00:54:53.365 --> 00:54:57.105
+So in taxi environment, how we are getting up to 500,
+
+747
+00:54:58.105 --> 00:55:01.425
+although I'm seeing the calculation five into five into four
+
+748
+00:55:01.455 --> 00:55:03.945
+into five, but I'm not much clear on that,
+
+749
+00:55:07.015 --> 00:55:08.015
+Okay?
+
+750
+00:55:19.885 --> 00:55:23.585
+So as I told you, it is basically Cartesian product for uh,
+
+751
+00:55:24.505 --> 00:55:29.425
+x location, y location of the taxi, then the location
+
+752
+00:55:29.565 --> 00:55:34.115
+of your uh, customer, the pickup location
+
+753
+00:55:35.395 --> 00:55:37.455
+and then dropping location, okay?
+
+754
+00:55:37.875 --> 00:55:40.375
+And these values will be flowing for five.
+
+755
+00:55:41.005 --> 00:55:44.405
+This will for five pickup location,
+
+756
+00:55:45.085 --> 00:55:47.205
+I mean customer location, basically not pickup
+
+757
+00:55:53.735 --> 00:55:55.575
+customer can be any one of the four houses
+
+758
+00:55:56.195 --> 00:56:00.695
+or it can be inside taxi also
+
+759
+00:56:00.955 --> 00:56:02.975
+and dropping location is any one of the four.
+
+760
+00:56:03.355 --> 00:56:05.415
+So if you multiply all of them, you get 500.
+
+761
+00:56:05.875 --> 00:56:07.455
+Now how we are going to encode this
+
+762
+00:56:07.455 --> 00:56:08.655
+value, that is very important.
+
+763
+00:56:09.275 --> 00:56:13.225
+Yes, encoding means basically it is like this.
+
+764
+00:56:13.955 --> 00:56:14.465
+Let's say
+
+765
+00:56:21.215 --> 00:56:23.565
+for the frozen lake you can reduce a dimension
+
+766
+00:56:23.625 --> 00:56:24.765
+to four plus four
+
+767
+00:56:24.785 --> 00:56:26.005
+and run it again so
+
+768
+00:56:26.005 --> 00:56:28.485
+that your running time will not be that much high open.
+
+769
+00:56:32.575 --> 00:56:34.395
+So you have, it's a
+
+770
+00:56:34.395 --> 00:56:39.395
+5, 1, 1, 2, 3, 4, 1, 2, 3, 4, 5, 1.
+
+771
+00:56:54.735 --> 00:56:56.485
+Let's say we are at the look, this is
+
+772
+00:56:56.515 --> 00:57:01.515
+0, 0, 1, 2, 3, 4, 1, 2, 3, 4.
+
+773
+00:57:05.775 --> 00:57:09.285
+Let's say we are here. This, our taxi is here, okay?
+
+774
+00:57:10.305 --> 00:57:12.785
+And Encode this state.
+
+775
+00:57:13.875 --> 00:57:18.545
+So this state is going to be your x value is one
+
+776
+00:57:19.305 --> 00:57:20.545
+y access, value is one.
+
+777
+00:57:21.595 --> 00:57:23.105
+Let's see, your customer is at here,
+
+778
+00:57:25.345 --> 00:57:26.345
+Okay? So
+
+779
+00:57:26.345 --> 00:57:28.285
+customer value is Zero
+
+780
+00:57:31.445 --> 00:57:33.025
+And your final destination is here.
+
+781
+00:57:33.055 --> 00:57:34.055
+Okay?
+
+782
+00:57:34.745 --> 00:57:36.725
+So the Dropping location is
+
+783
+00:57:36.725 --> 00:57:39.875
+basically, this is a state,
+
+784
+00:57:40.545 --> 00:57:41.545
+Okay?
+
+785
+00:57:43.955 --> 00:57:46.845
+This is one state. The next state, when the customer, uh,
+
+786
+00:57:47.435 --> 00:57:50.005
+taxi is going to pick up the customer first
+
+787
+00:57:50.025 --> 00:57:52.605
+and then it is going to drop it in this location.
+
+788
+00:57:53.265 --> 00:57:57.125
+So taxi like this, this, this or this.
+
+789
+00:57:58.115 --> 00:57:59.415
+So let's say this action,
+
+790
+00:57:59.475 --> 00:58:02.015
+it has taken left action under left action.
+
+791
+00:58:02.155 --> 00:58:04.695
+So this was his state,
+
+792
+00:58:06.625 --> 00:58:11.535
+So, So this state number
+
+793
+00:58:12.775 --> 00:58:14.555
+we need to ate, right?
+
+794
+00:58:17.025 --> 00:58:20.515
+That number is what is basically flowing from.
+
+795
+00:58:22.515 --> 00:58:24.655
+So this is your configuration.
+
+796
+00:58:25.185 --> 00:58:27.815
+Let's say for this state, this is the new state.
+
+797
+00:58:27.845 --> 00:58:32.615
+What will be its values, your X value is zero,
+
+798
+00:58:34.155 --> 00:58:35.925
+your Y value is one.
+
+799
+00:58:37.835 --> 00:58:39.725
+Your custom is located at zero,
+
+800
+00:58:41.725 --> 00:58:44.495
+your drop location is four.
+
+801
+00:58:44.965 --> 00:58:45.965
+Fine.
+
+802
+00:58:46.495 --> 00:58:50.235
+Yes Sir. Now these two will remain same
+
+803
+00:58:51.135 --> 00:58:53.395
+for all the cases, right?
+
+804
+00:58:53.705 --> 00:58:57.765
+Only X and Y coordinate of your taxi location
+
+805
+00:58:57.765 --> 00:59:00.245
+because the taxi randomly moving.
+
+806
+00:59:00.665 --> 00:59:04.405
+So taxi has to pick up if he is picking up from him from
+
+807
+00:59:04.475 --> 00:59:07.725
+this particular location, he's getting rewarded.
+
+808
+00:59:08.425 --> 00:59:11.085
+If not, if the taxi is moving down here
+
+809
+00:59:12.585 --> 00:59:14.855
+after it goes here, it may go further down,
+
+810
+00:59:14.875 --> 00:59:17.295
+it may further go away for everything it is going
+
+811
+00:59:17.295 --> 00:59:18.815
+to get a negative reward.
+
+812
+00:59:19.675 --> 00:59:22.765
+So for picking up from its own proper location, he's going
+
+813
+00:59:22.765 --> 00:59:24.605
+to get a positive reward.
+
+814
+00:59:25.075 --> 00:59:29.945
+Okay? For that to happen, you need
+
+815
+00:59:29.945 --> 00:59:34.595
+to, first of all, this is your configuration of one state.
+
+816
+00:59:34.665 --> 00:59:36.515
+This is confi, another state.
+
+817
+00:59:36.895 --> 00:59:39.195
+Having said that, there is no change in the last
+
+818
+00:59:39.375 --> 00:59:41.175
+two dimension.
+
+819
+00:59:41.795 --> 00:59:43.695
+So here how many possibility can happen?
+
+820
+00:59:44.125 --> 00:59:45.935
+Your text may be here, it may be here,
+
+821
+00:59:45.935 --> 00:59:47.135
+it may be here anywhere, right?
+
+822
+00:59:47.155 --> 00:59:50.085
+So you have here itself,
+
+823
+00:59:50.085 --> 00:59:53.425
+we have 25 different combination right here itself.
+
+824
+00:59:54.285 --> 00:59:58.145
+Yes sir. If you just keep this three fixed, let's say
+
+825
+00:59:59.995 --> 01:00:02.685
+from here I'm putting a desk line.
+
+826
+01:00:04.705 --> 01:00:09.095
+Let's say this is
+
+827
+01:00:09.095 --> 01:00:10.135
+my Y coordinate.
+
+828
+01:00:10.555 --> 01:00:13.055
+So let's me fix the Y coordinate
+
+829
+01:00:13.755 --> 01:00:15.615
+and my only X values are changing.
+
+830
+01:00:15.875 --> 01:00:18.415
+So this is my Y coordinate remaining the same
+
+831
+01:00:20.385 --> 01:00:23.235
+taxi might be here, it might be here.
+
+832
+01:00:25.765 --> 01:00:29.425
+So let's say this, these, these are fixed.
+
+833
+01:00:30.945 --> 01:00:35.405
+So here your hello can be one, one is already taken up
+
+834
+01:00:35.555 --> 01:00:39.285
+between be two, it can be 3, 4, 5.
+
+835
+01:00:39.675 --> 01:00:42.965
+Okay? Just gimme a second one important call is coming.
+
+836
+01:00:43.265 --> 01:00:45.325
+So like that your values will be keep on changing
+
+837
+01:00:45.425 --> 01:00:46.565
+for one coordinate.
+
+838
+01:00:46.865 --> 01:00:48.685
+You get five different values here,
+
+839
+01:00:49.105 --> 01:00:51.205
+all these five different values you can enum
+
+840
+01:00:51.665 --> 01:00:52.885
+to state number.
+
+841
+01:00:53.075 --> 01:00:55.525
+This is one, I mean this is zero.
+
+842
+01:00:55.635 --> 01:00:58.205
+This is state number one, state number two,
+
+843
+01:00:58.695 --> 01:01:00.685
+state number three like that, it'll go on.
+
+844
+01:01:01.555 --> 01:01:02.695
+Now you keep this fixed
+
+845
+01:01:03.155 --> 01:01:06.215
+to be some particular oop change only this you can enate
+
+846
+01:01:06.215 --> 01:01:07.415
+to some other state number
+
+847
+01:01:08.115 --> 01:01:09.775
+and that is how actually they have done it.
+
+848
+01:01:13.245 --> 01:01:14.815
+Just give me a second. I have a call
+
+849
+01:01:14.815 --> 01:01:16.215
+to pick up just one minute.
+
+850
+01:01:16.955 --> 01:01:17.495
+Yes, sure.
+
+851
+01:01:30.565 --> 01:01:30.915
+Hello.
+
+852
+01:01:35.315 --> 01:01:38.305
+Eight 60 plus for uh, 13 level. Eight 90.
+
+853
+01:01:49.285 --> 01:01:53.395
+Hello. So, uh, that is why
+
+854
+01:01:54.775 --> 01:01:56.745
+this way of writing configuration is a
+
+855
+01:01:56.745 --> 01:01:57.785
+human understandable way.
+
+856
+01:01:58.545 --> 01:02:01.025
+I mean if you make it a affordable foldable,
+
+857
+01:02:01.445 --> 01:02:02.505
+it is human understandable.
+
+858
+01:02:03.135 --> 01:02:04.825
+However, this will be converted
+
+859
+01:02:04.825 --> 01:02:06.905
+to some NU medical fellow 1, 2, 3 for all
+
+860
+01:02:06.905 --> 01:02:08.065
+of them will be converted.
+
+861
+01:02:09.685 --> 01:02:12.495
+This is done by their mechanism,
+
+862
+01:02:16.735 --> 01:02:18.185
+this environment, this,
+
+863
+01:02:18.685 --> 01:02:20.725
+that's why I'm using this environment.
+
+864
+01:02:20.805 --> 01:02:23.325
+I am not handwriting like I have done it before.
+
+865
+01:02:23.905 --> 01:02:27.085
+So whenever you get it from their observation space, right,
+
+866
+01:02:27.715 --> 01:02:31.255
+so they will encode it to this 500 cross six array
+
+867
+01:02:31.905 --> 01:02:32.915
+that we are not doing.
+
+868
+01:02:32.945 --> 01:02:35.575
+They are doing it, okay?
+
+869
+01:02:37.115 --> 01:02:41.005
+However, as I told you, when I get into deep Q learning,
+
+870
+01:02:41.425 --> 01:02:44.365
+we will require this thing we'll be using them.
+
+871
+01:02:52.475 --> 01:02:55.695
+Yeah. Hmm.
+
+872
+01:03:00.055 --> 01:03:02.315
+So any other question
+
+873
+01:03:08.615 --> 01:03:11.675
+for next class I'll be teaching, uh, one more example that's
+
+874
+01:03:11.675 --> 01:03:14.115
+for cardpool is going on this training.
+
+875
+01:03:14.295 --> 01:03:18.905
+One hour, eight minute, whatever happens, I will,
+
+876
+01:03:19.085 --> 01:03:20.145
+um, let me,
+
+877
+01:03:25.365 --> 01:03:27.655
+this card pole is also one interesting game.
+
+878
+01:03:30.555 --> 01:03:33.635
+If it runs, then I can show it to, okay?
+
+879
+01:03:35.055 --> 01:03:37.555
+So all of the environments are available here.
+
+880
+01:03:38.095 --> 01:03:41.635
+You can search it here, card poll,
+
+881
+01:03:44.625 --> 01:03:48.635
+this all we are using, uh, your uh, normal Q learning
+
+882
+01:03:49.055 --> 01:03:50.355
+by the QT update.
+
+883
+01:03:50.655 --> 01:03:54.685
+The same problem. We can solve it using deep Q learning.
+
+884
+01:03:55.275 --> 01:03:56.405
+This is the card poll, okay?
+
+885
+01:03:59.585 --> 01:04:02.485
+The card four is basically an example like
+
+886
+01:04:04.945 --> 01:04:06.325
+you have gone to Sarcas.
+
+887
+01:04:07.695 --> 01:04:09.995
+Has any one of you gone to Sarcas? Yes sir.
+
+888
+01:04:10.455 --> 01:04:13.835
+Yes sir, yes sir. All of you I think which I, mm-hmm
+
+889
+01:04:14.645 --> 01:04:17.545
+So in the sarcas you would be seeing one interesting game
+
+890
+01:04:18.215 --> 01:04:22.505
+that uh, if uh, uh,
+
+891
+01:04:22.955 --> 01:04:26.825
+baldheaded person having a pole on his head
+
+892
+01:04:27.945 --> 01:04:29.645
+and he's trying to walk.
+
+893
+01:04:31.505 --> 01:04:35.905
+He's trying to walk by maintaining the pole on his head
+
+894
+01:04:36.735 --> 01:04:39.675
+in such a manner that the pole should not be
+
+895
+01:04:40.375 --> 01:04:43.635
+beyond 30 degree angle from his vertical position like this.
+
+896
+01:04:43.655 --> 01:04:45.235
+If you draw a perpendicular here
+
+897
+01:04:46.735 --> 01:04:48.555
+and then from this perpendicular position,
+
+898
+01:04:48.555 --> 01:04:50.355
+it should not be falling by 30 degree.
+
+899
+01:04:50.385 --> 01:04:51.995
+This side, 30 degree backside
+
+900
+01:04:52.295 --> 01:04:54.555
+and the person has to walk in the ground.
+
+901
+01:04:55.605 --> 01:04:59.785
+If he is able to maintain that angle degree, he is success.
+
+902
+01:05:00.205 --> 01:05:03.345
+If the pole is going beyond 30 degree angle,
+
+903
+01:05:04.175 --> 01:05:05.385
+then his game is over.
+
+904
+01:05:05.485 --> 01:05:07.185
+He has failed. Okay?
+
+905
+01:05:07.935 --> 01:05:10.545
+This is what is the called carpool environment.
+
+906
+01:05:11.205 --> 01:05:15.165
+So the environment has action, it has space.
+
+907
+01:05:15.455 --> 01:05:18.205
+Space means your state space, okay?
+
+908
+01:05:19.185 --> 01:05:22.845
+So what are the state space?
+
+909
+01:05:22.865 --> 01:05:26.035
+It has been people state space action.
+
+910
+01:05:26.045 --> 01:05:30.435
+Space action is either moving the
+
+911
+01:05:31.085 --> 01:05:32.555
+right side or left side.
+
+912
+01:05:32.655 --> 01:05:34.515
+It is a one dimensional movement.
+
+913
+01:05:34.975 --> 01:05:39.755
+It is not like up right you up down, left, right?
+
+914
+01:05:39.895 --> 01:05:42.795
+We have four actions. It is not the case in case of
+
+915
+01:05:43.455 --> 01:05:44.475
+it has only two action.
+
+916
+01:05:44.475 --> 01:05:48.455
+Either you move forward or move backward, okay?
+
+917
+01:05:49.595 --> 01:05:51.535
+And you keep your pole on your head
+
+918
+01:05:51.555 --> 01:05:54.785
+and you have to walk, okay?
+
+919
+01:05:54.785 --> 01:05:57.225
+You may ask a question, why should if I move,
+
+920
+01:05:57.245 --> 01:05:59.345
+if I can successfully move one step forward,
+
+921
+01:05:59.765 --> 01:06:01.465
+why should I require a step back?
+
+922
+01:06:02.245 --> 01:06:05.625
+So step back is suppose your pole has gone
+
+923
+01:06:05.625 --> 01:06:08.745
+beyond the strategic angle when you are trying
+
+924
+01:06:08.745 --> 01:06:09.945
+to move in the forward side.
+
+925
+01:06:10.485 --> 01:06:12.585
+If you make one more step in the forward side,
+
+926
+01:06:13.125 --> 01:06:16.825
+it is definitely that your pole is going to be falling apart
+
+927
+01:06:16.825 --> 01:06:18.065
+of 30 degree angle.
+
+928
+01:06:19.135 --> 01:06:21.675
+So to balance it, if you make a back step
+
+929
+01:06:22.315 --> 01:06:25.125
+immediately the pole will get a thrust on the backside the
+
+930
+01:06:25.125 --> 01:06:27.605
+pole will come back, okay?
+
+931
+01:06:28.355 --> 01:06:31.765
+That is why we need to have only one direction,
+
+932
+01:06:32.005 --> 01:06:33.685
+movement rather move forward or move backward.
+
+933
+01:06:34.335 --> 01:06:37.145
+That is the action space. What is the state space?
+
+934
+01:06:37.635 --> 01:06:41.865
+State space is basically we have four type
+
+935
+01:06:41.865 --> 01:06:43.025
+of possibility.
+
+936
+01:06:44.055 --> 01:06:44.675
+One is your
+
+937
+01:06:47.365 --> 01:06:49.185
+uh, look at here.
+
+938
+01:06:49.605 --> 01:06:50.625
+1, 2, 3, 4.
+
+939
+01:06:50.845 --> 01:06:55.215
+You can see this three, four, okay?
+
+940
+01:06:56.575 --> 01:06:58.745
+This is basically giving you upper limit
+
+941
+01:06:59.605 --> 01:07:04.515
+and lower limit of your total length of your position.
+
+942
+01:07:05.175 --> 01:07:07.555
+So it'll be somewhere plus four, minus four.
+
+943
+01:07:07.555 --> 01:07:09.115
+Here it is the center position.
+
+944
+01:07:09.985 --> 01:07:11.765
+If you go backside, it is minus four.
+
+945
+01:07:11.765 --> 01:07:14.445
+If you go upside, if you go forward side, it is plus four.
+
+946
+01:07:15.225 --> 01:07:19.535
+So this is the total limit of your movement in the forward
+
+947
+01:07:19.675 --> 01:07:21.895
+or in the backward direction that is standing
+
+948
+01:07:21.955 --> 01:07:23.455
+for this particular position.
+
+949
+01:07:23.995 --> 01:07:25.455
+Second one is this one.
+
+950
+01:07:25.455 --> 01:07:27.655
+This is basically your angle
+
+951
+01:07:28.965 --> 01:07:30.615
+from this right angle.
+
+952
+01:07:31.205 --> 01:07:35.215
+Okay? So it is like this, your cart pole is basically it has
+
+953
+01:07:38.945 --> 01:07:41.505
+4, 3, 1 is
+
+954
+01:07:41.505 --> 01:07:44.305
+your location.
+
+955
+01:07:45.345 --> 01:07:46.105
+Location can be
+
+956
+01:07:50.915 --> 01:07:54.285
+4, 3, 2, all the way up to minus four.
+
+957
+01:07:54.995 --> 01:07:56.885
+Okay? Then you have a angle.
+
+958
+01:07:57.215 --> 01:08:02.195
+Angle is basically any value between 0 2, 30 degree.
+
+959
+01:08:03.905 --> 01:08:05.395
+Then you have a velocity.
+
+960
+01:08:06.625 --> 01:08:09.265
+Velocity is when you are moving onto this straight line.
+
+961
+01:08:09.265 --> 01:08:12.185
+This is the center, this is the positive four.
+
+962
+01:08:13.175 --> 01:08:14.825
+This is the negative four. Okay?
+
+963
+01:08:16.925 --> 01:08:18.635
+Among this, you are allowed to move.
+
+964
+01:08:18.635 --> 01:08:20.075
+If you gone beyond them,
+
+965
+01:08:20.255 --> 01:08:22.355
+you have game is over for you, okay?
+
+966
+01:08:23.755 --> 01:08:28.345
+Angle means this is the right angle, vertical,
+
+967
+01:08:28.975 --> 01:08:32.015
+your pole can be, this is theater,
+
+968
+01:08:36.415 --> 01:08:39.445
+This is Minus, right?
+
+969
+01:08:39.825 --> 01:08:42.445
+So your theater can be between zero to 30 degree.
+
+970
+01:08:42.635 --> 01:08:44.845
+What is a velocity? When you are moving,
+
+971
+01:08:45.145 --> 01:08:46.485
+you will be having a velocity.
+
+972
+01:08:48.795 --> 01:08:50.405
+Okay? So your velocity is
+
+973
+01:08:50.765 --> 01:08:53.885
+provided between some value, permissible value between zero
+
+974
+01:08:54.025 --> 01:08:57.325
+to something like one kilometer,
+
+975
+01:08:57.325 --> 01:08:59.005
+two kilometer power, whatever it is.
+
+976
+01:08:59.165 --> 01:09:01.165
+The values are according to the unit
+
+977
+01:09:01.565 --> 01:09:04.055
+provided by the environment.
+
+978
+01:09:05.945 --> 01:09:07.795
+What is uh, for your pole,
+
+979
+01:09:07.795 --> 01:09:09.515
+pole is basically oscillating like this.
+
+980
+01:09:09.535 --> 01:09:14.365
+So pole also has a angular velocity, angular velocity.
+
+981
+01:09:15.455 --> 01:09:16.815
+Angular velocity basically means
+
+982
+01:09:17.175 --> 01:09:18.255
+rotation and P and all those.
+
+983
+01:09:18.255 --> 01:09:21.475
+There's a unit. So angular ity has a unit
+
+984
+01:09:22.625 --> 01:09:24.325
+and where the permission will lead
+
+985
+01:09:24.325 --> 01:09:27.885
+between zero two something, four, five, whatever it is.
+
+986
+01:09:27.885 --> 01:09:29.925
+Okay? So these are the four possible state.
+
+987
+01:09:30.315 --> 01:09:33.405
+That means at a part, let's say you are here right now.
+
+988
+01:09:33.715 --> 01:09:38.205
+This is a value of two your location, this is uh,
+
+989
+01:09:38.225 --> 01:09:40.525
+so your state is basically de denoted as
+
+990
+01:09:42.745 --> 01:09:44.685
+1, 2, 3, 4 dimension.
+
+991
+01:09:45.355 --> 01:09:47.725
+Your state is basically having four dimension.
+
+992
+01:09:49.635 --> 01:09:51.665
+First one is a location, location is two.
+
+993
+01:09:51.805 --> 01:09:54.985
+At this position, what is your angle When you are here,
+
+994
+01:09:55.015 --> 01:09:58.665
+your angle, let's say somewhere between let's say 20 dingle,
+
+995
+01:10:00.135 --> 01:10:02.625
+your pole angle, 20 ding, what is it?
+
+996
+01:10:02.625 --> 01:10:04.985
+It's velocity. Let's say it is two kilometer power.
+
+997
+01:10:05.415 --> 01:10:07.905
+What is this? Angular velocity. Let's say it is one.
+
+998
+01:10:10.555 --> 01:10:12.645
+Okay? So that is how your state is defined
+
+999
+01:10:14.675 --> 01:10:16.135
+and again, I'm using gym package.
+
+1000
+01:10:16.315 --> 01:10:18.815
+So we are going to making it as a flat ending out.
+
+1001
+01:10:19.245 --> 01:10:22.135
+However, when we get into deep Q learning,
+
+1002
+01:10:22.395 --> 01:10:24.925
+we will require this separately
+
+1003
+01:10:25.155 --> 01:10:27.325
+because we'll be fitting this into a neural
+
+1004
+01:10:27.325 --> 01:10:28.765
+network, a neural network.
+
+1005
+01:10:28.905 --> 01:10:33.125
+We can have this many neurons to store all of these values.
+
+1006
+01:10:36.555 --> 01:10:38.255
+So that is a cardpool environment
+
+1007
+01:10:40.635 --> 01:10:41.635
+Still going on.
+
+1008
+01:10:47.305 --> 01:10:48.075
+Episode number
+
+1009
+01:10:53.535 --> 01:10:57.205
+300 episode I think how many episode I'm reading.
+
+1010
+01:11:18.255 --> 01:11:22.185
+Okay, let us see whether ites up or not.
+
+1011
+01:11:23.815 --> 01:11:26.515
+So this is what is the environment specified here? Okay?
+
+1012
+01:11:30.265 --> 01:11:32.715
+This is the description of your action space.
+
+1013
+01:11:33.345 --> 01:11:35.195
+Left or right, your action space,
+
+1014
+01:11:35.585 --> 01:11:37.355
+your observation space is here.
+
+1015
+01:11:39.465 --> 01:11:42.205
+That is a cart position maximum
+
+1016
+01:11:42.305 --> 01:11:46.165
+and minimum value minus 4.8 maximum is 4.8
+
+1017
+01:11:47.195 --> 01:11:49.165
+card ion means it is here, okay?
+
+1018
+01:11:49.815 --> 01:11:51.985
+Card ion is here or here.
+
+1019
+01:11:52.095 --> 01:11:53.945
+That is a upper limit and lower limit.
+
+1020
+01:11:55.375 --> 01:11:56.465
+What is a card velocity?
+
+1021
+01:11:56.695 --> 01:12:00.145
+Card velocity between minus in 22 positive infinity
+
+1022
+01:12:02.345 --> 01:12:07.325
+and pole angle is minus 24 degree to positive 24 degree.
+
+1023
+01:12:07.595 --> 01:12:09.165
+That is the upper limit and lower limit.
+
+1024
+01:12:10.035 --> 01:12:12.525
+Your angular loc is between minus infinity
+
+1025
+01:12:12.525 --> 01:12:13.565
+to positive infinity.
+
+1026
+01:12:13.955 --> 01:12:17.005
+However, we cannot allow minus infinity positive we can
+
+1027
+01:12:17.145 --> 01:12:20.245
+to have some positive color associated with that.
+
+1028
+01:12:20.835 --> 01:12:22.845
+Okay? Reward now.
+
+1029
+01:12:25.725 --> 01:12:26.945
+So reward is basically
+
+1030
+01:12:32.065 --> 01:12:34.325
+if you have reached to the destination,
+
+1031
+01:12:34.325 --> 01:12:38.195
+like if you have reached to this position, okay?
+
+1032
+01:12:38.655 --> 01:12:42.515
+In that case your game is over
+
+1033
+01:12:43.065 --> 01:12:44.075
+with a positive reward
+
+1034
+01:12:46.545 --> 01:12:51.125
+or if you can maintain I think uh, total
+
+1035
+01:12:51.265 --> 01:12:52.725
+how many steps you can go
+
+1036
+01:12:53.065 --> 01:12:55.925
+by maintaining the angle that is given here.
+
+1037
+01:13:08.095 --> 01:13:12.835
+It is given here a reward positive one is given
+
+1038
+01:13:13.015 --> 01:13:16.795
+for every step taken, including the termination step.
+
+1039
+01:13:17.465 --> 01:13:20.835
+Default reward threshold is 500
+
+1040
+01:13:21.055 --> 01:13:23.195
+for V one version one, 200.
+
+1041
+01:13:23.295 --> 01:13:26.195
+For version P zero due the time limit,
+
+1042
+01:13:28.695 --> 01:13:31.195
+the goal is to keep the pole upright for
+
+1043
+01:13:31.335 --> 01:13:32.355
+as long as possible.
+
+1044
+01:13:34.005 --> 01:13:38.735
+Okay? So if you are able to keep the
+
+1045
+01:13:39.305 --> 01:13:43.535
+angle between 20 degree, 24 degree positive
+
+1046
+01:13:43.535 --> 01:13:47.415
+and minus, you are going to get positive reward
+
+1047
+01:13:47.595 --> 01:13:49.215
+for every step that you are taking up.
+
+1048
+01:13:50.185 --> 01:13:54.545
+So basically how many maximum step you can take
+
+1049
+01:13:55.425 --> 01:13:57.445
+by that, the game will get to her
+
+1050
+01:13:57.745 --> 01:13:59.205
+by the maximum number of steps.
+
+1051
+01:13:59.705 --> 01:14:03.685
+If any one time you, your pole angle has crossed 24 degree,
+
+1052
+01:14:04.265 --> 01:14:07.445
+you are, you are going to get a zero reward.
+
+1053
+01:14:07.475 --> 01:14:10.725
+Otherwise you are going to get plus one reward every time.
+
+1054
+01:14:11.315 --> 01:14:12.885
+That is what is a reward scheme.
+
+1055
+01:14:18.175 --> 01:14:20.755
+If your reward is exceeding the value of 500
+
+1056
+01:14:21.215 --> 01:14:24.835
+for the fortune one, your game is over with a success.
+
+1057
+01:14:25.895 --> 01:14:27.595
+For fortune zero it is 200.
+
+1058
+01:14:37.655 --> 01:14:38.985
+This is how it'll be used.
+
+1059
+01:14:40.135 --> 01:14:44.575
+Uh, tax.
+
+1060
+01:14:59.065 --> 01:15:00.115
+This is the card hole.
+
+1061
+01:15:05.655 --> 01:15:08.865
+Look at I'm getting the gym environment. After that.
+
+1062
+01:15:10.385 --> 01:15:13.635
+This position, I'm making it
+
+1063
+01:15:14.145 --> 01:15:18.555
+from minus 2.4 to 2.4 with a gap of 10
+
+1064
+01:15:20.025 --> 01:15:22.245
+NP link space means it is going
+
+1065
+01:15:22.245 --> 01:15:24.765
+to create a basically arithmetic progression series
+
+1066
+01:15:26.195 --> 01:15:27.995
+starting from minus 2.4.
+
+1067
+01:15:28.445 --> 01:15:29.955
+Upper limit is 2.4
+
+1068
+01:15:30.615 --> 01:15:31.675
+and the distance
+
+1069
+01:15:31.675 --> 01:15:35.675
+between consecutive two point is 10 values like that
+
+1070
+01:15:36.715 --> 01:15:38.155
+velocity is also given.
+
+1071
+01:15:38.705 --> 01:15:42.665
+This is the space for minus four to four angular
+
+1072
+01:15:43.395 --> 01:15:47.665
+space angle is also given from this radian to this radian
+
+1073
+01:15:48.605 --> 01:15:49.655
+between two sample.
+
+1074
+01:15:49.915 --> 01:15:52.055
+The value is the defenses, 10
+
+1075
+01:15:53.035 --> 01:15:55.155
+angular velocity also given from minus four to four.
+
+1076
+01:15:57.225 --> 01:16:00.875
+Then after you create your queue metrics,
+
+1077
+01:16:01.225 --> 01:16:02.595
+your Q metrics is going
+
+1078
+01:16:02.595 --> 01:16:07.035
+to have position space.
+
+1079
+01:16:07.255 --> 01:16:09.915
+Second city is basically a couple of
+
+1080
+01:16:11.025 --> 01:16:13.165
+four entries.
+
+1081
+01:16:13.435 --> 01:16:14.645
+Each entry is basically,
+
+1082
+01:16:14.645 --> 01:16:16.485
+this is first one is position space,
+
+1083
+01:16:16.785 --> 01:16:18.405
+second one is velocity space,
+
+1084
+01:16:19.125 --> 01:16:20.365
+whatever you are using it here, okay?
+
+1085
+01:16:20.395 --> 01:16:22.885
+This position, velocity angle
+
+1086
+01:16:23.185 --> 01:16:26.725
+and angular velocity, all of them, you just specify it here.
+
+1087
+01:16:27.555 --> 01:16:32.125
+Okay? So from here
+
+1088
+01:16:32.145 --> 01:16:36.595
+to here it is basically your look at from here,
+
+1089
+01:16:37.785 --> 01:16:40.675
+from here to here it is basically your state
+
+1090
+01:16:42.395 --> 01:16:47.205
+1, 2, 3, 4, 4 dimension required to define a state.
+
+1091
+01:16:47.635 --> 01:16:50.805
+Okay? And from here it is basically action space,
+
+1092
+01:16:51.815 --> 01:16:53.795
+which is action space.
+
+1093
+01:16:53.945 --> 01:16:57.085
+Okay? So your initial sign of Q table is done.
+
+1094
+01:16:57.145 --> 01:16:59.205
+The Q table is basically this much added
+
+1095
+01:17:00.085 --> 01:17:03.845
+11 cross 11 cross 11, cross 11.
+
+1096
+01:17:05.975 --> 01:17:10.005
+Why it is 11? Because all of these are using
+
+1097
+01:17:10.545 --> 01:17:12.005
+NP link space here, okay?
+
+1098
+01:17:12.585 --> 01:17:14.685
+In NP link space here, you are going
+
+1099
+01:17:14.685 --> 01:17:16.165
+to pick up only 10 elements.
+
+1100
+01:17:16.665 --> 01:17:18.285
+So you get 10 element over there
+
+1101
+01:17:18.825 --> 01:17:22.105
+and one element we are keeping it from here.
+
+1102
+01:17:22.295 --> 01:17:24.865
+Link space plus one link space plus one, okay?
+
+1103
+01:17:25.375 --> 01:17:28.455
+That is how we are getting 11 plus 11 plus 11.
+
+1104
+01:17:29.715 --> 01:17:31.165
+This is if you are using training.
+
+1105
+01:17:31.265 --> 01:17:33.725
+If you are going to train, then you have
+
+1106
+01:17:33.725 --> 01:17:36.005
+to create a new Q table.
+
+1107
+01:17:36.005 --> 01:17:37.565
+Otherwise, if you're not doing training,
+
+1108
+01:17:37.705 --> 01:17:39.925
+you have already made the training, you're going
+
+1109
+01:17:39.925 --> 01:17:42.845
+to reuse the Q table of the previous computation.
+
+1110
+01:17:42.845 --> 01:17:46.125
+So you are going to load the cart, pull pickle file,
+
+1111
+01:17:46.835 --> 01:17:49.325
+load it into qw and start here.
+
+1112
+01:17:54.775 --> 01:17:56.385
+Okay? And here under,
+
+1113
+01:18:05.285 --> 01:18:08.885
+so here you look at the state definition
+
+1114
+01:18:11.735 --> 01:18:14.155
+as I told you here, your state is basically
+
+1115
+01:18:14.305 --> 01:18:15.715
+four double here.
+
+1116
+01:18:16.065 --> 01:18:18.325
+This is your four double. Okay?
+
+1117
+01:18:19.325 --> 01:18:24.195
+So you are reusing the state definition from the environment
+
+1118
+01:18:24.945 --> 01:18:29.135
+file given to you wherein the state zero is basically
+
+1119
+01:18:29.135 --> 01:18:30.695
+your position space.
+
+1120
+01:18:31.585 --> 01:18:33.395
+Your state one is a velocity space.
+
+1121
+01:18:33.395 --> 01:18:35.205
+This one, yes, like that.
+
+1122
+01:18:36.305 --> 01:18:40.135
+Okay, so you have state for position,
+
+1123
+01:18:40.935 --> 01:18:44.375
+velocity angle, angular velocity, okay?
+
+1124
+01:18:45.945 --> 01:18:48.875
+Then you just reuse your Q learning function.
+
+1125
+01:18:51.725 --> 01:18:53.255
+This is a Q learning update,
+
+1126
+01:19:04.075 --> 01:19:04.365
+okay?
+
+1127
+01:19:04.695 --> 01:19:07.765
+There is a uh, function, we are using it here.
+
+1128
+01:19:07.795 --> 01:19:11.635
+Look at NP, digitize. This.
+
+1129
+01:19:11.815 --> 01:19:13.435
+NP digitize is basically nothing
+
+1130
+01:19:13.535 --> 01:19:17.275
+but your position state
+
+1131
+01:19:19.185 --> 01:19:23.635
+and po this position, space, position, velocity,
+
+1132
+01:19:24.335 --> 01:19:27.355
+all of these are coming from where it is coming from
+
+1133
+01:19:28.125 --> 01:19:30.185
+this definition, right?
+
+1134
+01:19:31.275 --> 01:19:34.555
+This is a added, these are all
+
+1135
+01:19:34.615 --> 01:19:36.885
+add under this.
+
+1136
+01:19:40.255 --> 01:19:43.235
+If the area value is matching with the state
+
+1137
+01:19:43.305 --> 01:19:46.315
+that you are getting from the environment, okay?
+
+1138
+01:19:46.615 --> 01:19:48.635
+If that is matching for them, it is going
+
+1139
+01:19:48.635 --> 01:19:50.435
+to return the hello for everything else,
+
+1140
+01:19:50.455 --> 01:19:51.755
+it is going to make it to zero.
+
+1141
+01:19:52.945 --> 01:19:54.755
+That is the main purpose of digitizes.
+
+1142
+01:19:56.605 --> 01:19:58.785
+Uh, again, I tell you why it is required.
+
+1143
+01:19:59.955 --> 01:20:02.735
+She look at this state I'm getting from her state,
+
+1144
+01:20:02.795 --> 01:20:06.005
+I'm getting from the environment variable
+
+1145
+01:20:06.005 --> 01:20:09.605
+that I'm getting from open AI gene package.
+
+1146
+01:20:10.435 --> 01:20:13.525
+This state is encoding all of these thing position,
+
+1147
+01:20:13.925 --> 01:20:15.525
+velocity angle, angular velocity,
+
+1148
+01:20:16.235 --> 01:20:17.235
+Okay?
+
+1149
+01:20:18.495 --> 01:20:22.635
+So at a particular state it is going to return this value,
+
+1150
+01:20:23.575 --> 01:20:25.985
+it's going to return this value at a particular state.
+
+1151
+01:20:26.905 --> 01:20:28.515
+However, these values might change,
+
+1152
+01:20:28.535 --> 01:20:30.715
+but it'll be having a particular value for this
+
+1153
+01:20:31.655 --> 01:20:35.075
+and these values are going to be copied into
+
+1154
+01:20:37.025 --> 01:20:39.285
+it is going to be matching with your ion space.
+
+1155
+01:20:39.715 --> 01:20:42.845
+This ion space is a added if this
+
+1156
+01:20:43.605 --> 01:20:46.485
+position space particular index of ion is matching
+
+1157
+01:20:46.605 --> 01:20:50.205
+with this value for that index, the value will be returning
+
+1158
+01:20:50.585 --> 01:20:52.605
+for every other index of this a a
+
+1159
+01:20:53.375 --> 01:20:55.665
+they will be retained return as zero.
+
+1160
+01:20:55.735 --> 01:20:57.625
+That for that purpose we are using in.
+
+1161
+01:21:00.115 --> 01:21:01.375
+So can we do this
+
+1162
+01:21:01.375 --> 01:21:02.375
+In next cluster? Sir, it is
+
+1163
+01:21:02.375 --> 01:21:03.415
+getting out of ahead sir.
+
+1164
+01:21:04.325 --> 01:21:09.075
+Ah, fine. Actually you
+
+1165
+01:21:09.075 --> 01:21:11.555
+asked, uh, one of you asked me, right?
+
+1166
+01:21:12.805 --> 01:21:17.655
+This encoding of uh, 500 values right here. Yes sir.
+
+1167
+01:21:17.855 --> 01:21:20.055
+I asked that. The same relation. Yeah, same relation.
+
+1168
+01:21:20.055 --> 01:21:23.095
+Basically here I have given me explanation
+
+1169
+01:21:23.095 --> 01:21:24.535
+because we are using gym package.
+
+1170
+01:21:25.405 --> 01:21:29.915
+However, in example this code,
+
+1171
+01:21:30.575 --> 01:21:33.755
+we are not using the state forward one
+
+1172
+01:21:34.265 --> 01:21:36.315
+dimensional information of state
+
+1173
+01:21:36.385 --> 01:21:39.235
+because our state is having far four dimensional
+
+1174
+01:21:39.235 --> 01:21:43.355
+information, position, velocity, angle and angular velocity.
+
+1175
+01:21:43.905 --> 01:21:45.835
+This entirely content here.
+
+1176
+01:21:46.035 --> 01:21:48.435
+State definition, we are doing it separately.
+
+1177
+01:21:48.495 --> 01:21:50.515
+For that you're going to use this digitize.
+
+1178
+01:21:50.515 --> 01:21:51.395
+That is the only thing
+
+1179
+01:21:57.615 --> 01:21:59.065
+good that you have asked that question.
+
+1180
+01:21:59.065 --> 01:22:02.745
+That's why I have opened it up this card for running.
+
+1181
+01:22:03.035 --> 01:22:04.465
+It'll take more time.
+
+1182
+01:22:07.485 --> 01:22:09.135
+Okay? You have any more question?
+
+1183
+01:22:10.675 --> 01:22:12.695
+So how many classes are remaining?
+
+1184
+01:22:16.785 --> 01:22:18.955
+Your course is going to be ending at where?
+
+1185
+01:22:19.255 --> 01:22:21.755
+In the month of February, right?
+
+1186
+01:22:22.655 --> 01:22:25.115
+Yes sir. Yes sir. February 22nd.
+
+1187
+01:22:26.575 --> 01:22:28.995
+22nd of February. Yes sir.
+
+1188
+01:22:30.545 --> 01:22:32.205
+So as Per the academic calendar,
+
+1189
+01:22:33.695 --> 01:22:36.135
+I think there will be some compensatory two
+
+1190
+01:22:36.135 --> 01:22:37.255
+or three classes more, but
+
+1191
+01:22:37.255 --> 01:22:39.735
+however that means we have almost, uh,
+
+1192
+01:22:40.005 --> 01:22:41.135
+this month and next month.
+
+1193
+01:22:41.675 --> 01:22:43.055
+So anyhow, I'll be getting time
+
+1194
+01:22:43.115 --> 01:22:45.055
+to teach you deep learning also.
+
+1195
+01:22:45.055 --> 01:22:46.055
+Okay?
+
+1196
+01:22:48.195 --> 01:22:50.135
+Yes sir. Um,
+
+1197
+01:22:53.265 --> 01:22:55.435
+Okay, so if you don't have any question then we
+
+1198
+01:22:55.435 --> 01:22:56.555
+can wind up who this class.
+
+1199
+01:22:57.525 --> 01:23:00.065
+Thank you, sir. We're not
+
+1200
+01:23:00.065 --> 01:23:01.985
+Using any activation function here, Mr.
+
+1201
+01:23:01.985 --> 01:23:03.785
+Sir? No, no,
+
+1202
+01:23:04.175 --> 01:23:07.605
+because we have not got into neur network.
+
+1203
+01:23:07.855 --> 01:23:08.925
+We'll be getting into that
+
+1204
+01:23:09.055 --> 01:23:10.965
+after we get into deep Q learning.
+
+1205
+01:23:11.905 --> 01:23:12.195
+Okay?
+
+1206
+01:23:17.445 --> 01:23:20.665
+So the segment which you gave on Monte Carlo.
+
+1207
+01:23:21.245 --> 01:23:23.905
+So we need to submit, uh, Python code, correct? Yeah.
+
+1208
+01:23:24.205 --> 01:23:24.625
+Ah, yes,
+
+1209
+01:23:25.885 --> 01:23:30.065
+yes. 18th is your date.
+
+1210
+01:23:30.695 --> 01:23:33.555
+Okay. And the Python code we need
+
+1211
+01:23:33.555 --> 01:23:35.075
+to write in copy and submit, right?
+
+1212
+01:23:37.935 --> 01:23:42.455
+Hmm? Yes. Yes. With the execution of your, uh, output,
+
+1213
+01:23:42.615 --> 01:23:45.815
+I mean your output to be displayed the notebook.
+
+1214
+01:23:47.235 --> 01:23:50.735
+So output will be just the state value estimation,
+
+1215
+01:23:50.735 --> 01:23:52.095
+right? Uh, those values.
+
+1216
+01:23:52.275 --> 01:23:54.215
+So yeah, state value estimation and then,
+
+1217
+01:23:54.755 --> 01:23:58.295
+and then how your state value is rising, falling down
+
+1218
+01:23:58.315 --> 01:23:59.415
+or rising that thing.
+
+1219
+01:24:01.145 --> 01:24:02.665
+Graph. Graph,
+
+1220
+01:24:04.455 --> 01:24:05.455
+Okay, sir?
+
+1221
+01:24:05.895 --> 01:24:09.305
+Yeah. Uh, so only these tools, right, sir?
+
+1222
+01:24:09.305 --> 01:24:11.105
+Mm-hmm. Yes. Yes. Okay, sir.
+
+1223
+01:24:15.675 --> 01:24:18.745
+Thank you sir. Thank You sir. Thank you sir. Thank
+
+1224
+01:24:18.745 --> 01:24:19.545
+You sir. Thank you.
+
+1225
+01:24:19.795 --> 01:24:22.545
+Thank you, sir. Thank you all. Okay, bye.
