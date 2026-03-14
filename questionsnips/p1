@@ -1,0 +1,35 @@
+Section - 1
+Answer the following compulsory questions.
+5*1=5
+1. Write the equation for the discounted return Gt.
+Not Answered
+2. Write the Bellman equation for V(s).
+Not Answered
+3. Write the Bellman expectation equation for Vr(s).
+Not Answered
+4. State whether Q-learning is on-policy or off-policy.
+Not Answered
+5. Baseline subtraction will alter the mean of the expected reward. Is it true or false.
+Not Answered
+Section - 2
+Answer the following compulsory questions. 10*2=20
+6. Differentiate between reward and return.
+Not Answered
+7. Define a Markov Decision Process (MDP) and list its components.
+Not Answered
+Not Answered
+8. Write the Bellman optimality equation for the state-value function V. (s).
+Not Answered
+9. An agent receives rewards [0,1] with discount factor Y = 0.9 Calculate the return GO.
+10. Under what circumstance TD Learning can become similar to Monte Carlo estimate?
+Not Answered
+11. Write the TD(2) update target for updating the value function.
+Not Answered
+12. Which algorithm introduces more biasness Monte Carlo estimate or TD(1) estimate? Justify your answer.
+Not Answered
+13. What is Monte Carlo learning? Mention one limitation.
+Not Answered
+14. Distinguish between policy evaluation and policy improvement.
+Not Answered
+15. What is the role of the critic in the Actor-Critic architecture?
+Not Answered
